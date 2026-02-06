@@ -374,7 +374,7 @@
                         class="flex justify-start md:justify-center items-center gap-2 min-h-[220px] p-6 rounded-2xl border-2 border-dashed border-gray-700 bg-gray-900/20">
                     </div>
                 </div>
-                <button onclick="switchMode('selection')"
+                <button id="btn-back-player" onclick="switchMode('selection')"
                     class="text-texto-gris hover:text-white text-sm font-mono underline decoration-acento">← Volver al
                     menú</button>
             </div>
@@ -413,14 +413,8 @@
     <script type="module">
         document.getElementById('currentYearFooter').textContent = new Date().getFullYear();
 
-        // =========================================================
-        // INICIO: DOMContentLoaded
-        // =========================================================
         // Base de datos de canciones
-
         import { musicDatabase } from './data/canciones.js';
-
-        let currentPendingCard = null;
 
         // Función global para cambiar de vista
         window.switchMode = function (mode) {
@@ -433,13 +427,99 @@
             else if (mode === 'player') document.getElementById('view-player').classList.remove('hidden');
         }
 
+        // =========================================================
+        // INICIO: DOMContentLoaded
+        // =========================================================
         document.addEventListener('DOMContentLoaded', () => {
-            // MODO DJ: SACAR CANCIÓN Y MOSTRAR ID
+            // 1. REFERENCIAS DEL DOM
+            const timeline = document.getElementById('timeline');
+            const newCardArea = document.getElementById('new-card-area');
+            const btnConfirm = document.getElementById('btn-confirm');
+            const btnDrawPlayer = document.getElementById('btn-draw-player');
             const btnDrawDj = document.getElementById('btn-draw-dj');
             const displayIdDj = document.getElementById('display-id-dj');
             const playerDivDj = document.getElementById('spotify-player-dj');
             const playerWrapperDj = document.getElementById('player-wrapper-dj');
+            const btnBackPlayer = document.getElementById('btn-back-player');
+            const clearBtn = document.getElementById('clear-storage-btn');
 
+            let currentPendingCard = null;
+
+
+            // ==========================================
+            // NUEVO: FUNCIONES DE PERSISTENCIA
+            // ==========================================
+            // 2. FUNCIONES DE PERSISTENCIA (LOCALSTORAGE)
+
+            // Guarda el orden de los IDs en el LocalStorage
+            function saveGameState() {
+                const revealedCards = [...timeline.querySelectorAll('.card:not(.pending)')];
+                const state = revealedCards.map(card => card.dataset.songId);
+                localStorage.setItem('cronotunes_save', JSON.stringify(state));
+            }
+
+            // Carga y reconstruye el tablero
+            function loadGameState() {
+                const savedData = localStorage.getItem('cronotunes_save');
+                if (!savedData) return;
+                const ids = JSON.parse(savedData);
+                ids.forEach(id => {
+                    const songData = musicDatabase.find(s => s.id === id);
+                    if (songData) {
+                        timeline.appendChild(createCard(songData, true));
+                    }
+                });
+            }
+
+            clearBtn.addEventListener('click', () => {
+                // Confirmación para evitar accidentes
+                if (confirm("¿Estás seguro de que quieres borrar todo el progreso y las variables guardadas?")) {
+
+                    // 1. Borrar el LocalStorage
+                    localStorage.removeItem('cronotunes_save');
+
+                    // 2. Limpiar el tablero visualmente (opcional si vas a recargar)
+                    const timeline = document.getElementById('timeline');
+                    if (timeline) timeline.innerHTML = '';
+
+                    // 3. Forzar recarga de la página para resetear variables en memoria
+                    window.location.reload();
+                }
+            });
+
+
+            // 3. FUNCIONES DE CARTAS
+            function createCard(song, isRevealed) {
+                const card = document.createElement('div');
+                card.className = 'card shadow-xl';
+                card.dataset.year = song.year;
+                card.dataset.songId = song.id;
+
+                if (isRevealed) {
+                    revealCard(card, song);
+                } else {
+                    card.innerHTML = `<span class="card-unknown">?</span>`;
+                    card.classList.add('pending');
+                    card.draggable = true;
+                    card.addEventListener('dragstart', () => card.classList.add('dragging'));
+                    card.addEventListener('dragend', () => card.classList.remove('dragging'));
+                }
+                return card;
+            }
+
+            function revealCard(card, song) {
+                card.classList.remove('pending');
+                card.draggable = false;
+                card.dataset.songId = song.id;
+                card.innerHTML = `
+            <div class="card-revealed">
+                <span class="card-year">${song.year}</span>
+                <span class="card-title">${song.title}</span>
+                <span class="card-artist">${song.artist}</span>
+            </div>`;
+            }
+
+            // MODO DJ: SACAR CANCIÓN Y MOSTRAR ID
             btnDrawDj.addEventListener('click', () => {
                 // 1. Seleccionar una canción aleatoria completa del archivo importado
                 const randomSong = musicDatabase[Math.floor(Math.random() * musicDatabase.length)];
@@ -465,111 +545,115 @@
                 btnDrawDj.textContent = "Siguiente Canción ⏭️";
             });
 
-            // LÓGICA MODO JUGADOR
-            const timeline = document.getElementById('timeline');
-            const newCardArea = document.getElementById('new-card-area');
-            const btnConfirm = document.getElementById('btn-confirm');
-
-            // MODO JUGADOR: SACAR CARTA "?"
-            document.getElementById('btn-draw-player').addEventListener('click', () => {
+            // 4. LÓGICA MODO JUGADOR
+            btnDrawPlayer.addEventListener('click', () => {
                 if (currentPendingCard) return;
 
                 if (timeline.children.length === 0) {
-                    // Primera carta: Aleatoria y revelada para empezar el eje temporal
                     const firstSong = musicDatabase[Math.floor(Math.random() * musicDatabase.length)];
                     timeline.appendChild(createCard(firstSong, true));
+                    saveGameState();
                 } else {
-                    // Carta incógnita para colocar
-                    const card = document.createElement('div');
-                    card.className = 'card pending shadow-xl cursor-grab active:cursor-grabbing';
-                    card.innerHTML = `<span class="card-unknown">?</span>`;
-                    card.draggable = true;
-
-                    card.addEventListener('dragstart', () => card.classList.add('dragging'));
-                    card.addEventListener('dragend', () => card.classList.remove('dragging'));
-
+                    const card = createCard({}, false);
                     newCardArea.appendChild(card);
                     currentPendingCard = card;
                     btnConfirm.classList.remove('hidden');
                 }
             });
 
-            // MODO JUGADOR: CONFIRMAR E INTRODUCIR ID INTERNO
             btnConfirm.addEventListener('click', () => {
-                const gameId = prompt("Introduce el ID de la canción (el número que te ha dado el DJ):");
-
-                // Buscamos en la base de datos por el ID corto ('1', '2', etc)
+                const gameId = prompt("Introduce el ID de la canción:");
                 const songData = musicDatabase.find(s => s.id === gameId);
 
                 if (!songData) {
-                    alert("Ese ID de juego no existe. Revisa el número.");
+                    alert("ID de juego no encontrado.");
                     return;
                 }
 
-                // Asignamos el año a la carta temporalmente para validar
                 currentPendingCard.dataset.year = songData.year;
+                currentPendingCard.dataset.songId = songData.id;
 
-                // Comprobamos si la posición en el DOM es cronológicamente correcta
-                const allCardsInTimeline = [...timeline.querySelectorAll('.card')];
-                const years = allCardsInTimeline.map(c => parseInt(c.dataset.year));
+                const allCards = [...timeline.querySelectorAll('.card')];
+                const years = allCards.map(c => parseInt(c.dataset.year));
+                const isCorrect = years.every((val, i, arr) => !i || arr[i - 1] <= val);
 
-                // Verificamos si el array de años está ordenado de menor a mayor
-                const isCorrectPosition = years.every((val, i, arr) => !i || arr[i - 1] <= val);
-
-                if (isCorrectPosition) {
-                    // ÉXITO: Revelamos los datos de la canción (Año, Título, Artista)
+                if (isCorrect) {
                     revealCard(currentPendingCard, songData);
-                    alert(`¡Correcto! ${songData.title} es de ${songData.year}.`);
+                    saveGameState();
+                    alert("✅ ¡Correcto!");
                 } else {
-                    // ERROR: Se elimina la carta
-                    alert(`¡Error! La canción era de ${songData.year} y no va ahí.`);
+                    alert(`❌ ¡Error! La canción era de ${songData.year}.`);
                     currentPendingCard.remove();
                 }
 
-                // Limpiar estado para el siguiente turno
                 currentPendingCard = null;
                 btnConfirm.classList.add('hidden');
             });
 
-            function createCard(song, isRevealed) {
-                const card = document.createElement('div');
-                card.className = 'card shadow-xl';
-                card.dataset.year = song.year;
-                if (isRevealed) revealCard(card, song);
-                return card;
-            }
+            btnBackPlayer.addEventListener('click', () => {
+                // 1. Mostrar alerta de confirmación
+                const confirmExit = confirm("¿Estás seguro de que quieres volver al menú? Se borrará todo el progreso de tu tablero actual.");
 
-            function revealCard(card, song) {
-                card.classList.remove('pending');
-                card.draggable = false;
-                card.innerHTML = `
-            <div class="card-revealed">
-                <span class="card-year">${song.year}</span>
-                <span class="card-title">${song.title}</span>
-                <span class="card-artist">${song.artist}</span>
-            </div>`;
-            }
+                if (confirmExit) {
+                    // 2. Borrar el progreso en LocalStorage
+                    localStorage.removeItem('cronotunes_save');
 
-            // Lógica Drag & Drop (Mismo sistema de detección de posición)
+                    // 3. Limpiar el tablero visualmente
+                    const timeline = document.getElementById('timeline');
+                    const newCardArea = document.getElementById('new-card-area');
+                    const btnConfirm = document.getElementById('btn-confirm');
+
+                    timeline.innerHTML = '';
+                    newCardArea.innerHTML = '';
+
+                    // 4. Resetear variables de estado
+                    currentPendingCard = null;
+                    btnConfirm.classList.add('hidden');
+
+                    // 5. Volver a la pantalla de selección (Llamamos a tu función de cambio de modo)
+                    switchMode('selection');
+                }
+            });
+
+            // 5. LÓGICA MODO DJ
+            btnDrawDj.addEventListener('click', () => {
+                const randomSong = musicDatabase[Math.floor(Math.random() * musicDatabase.length)];
+                displayIdDj.textContent = randomSong.id;
+                playerDivDj.innerHTML = `
+            <iframe src="https://open.spotify.com/embed/track/${randomSong.spotifyId}?utm_source=generator&theme=0" 
+                width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                style="border-radius: 18px;"></iframe>`;
+                playerWrapperDj.classList.remove('opacity-0', 'translate-y-4');
+                playerWrapperDj.classList.add('opacity-100', 'translate-y-0');
+                btnDrawDj.textContent = "Siguiente Canción ⏭️";
+            });
+
+
+
+            // 6. DRAG & DROP Y CARGA INICIAL
             timeline.addEventListener('dragover', e => {
                 e.preventDefault();
                 const dragging = document.querySelector('.dragging');
                 if (!dragging) return;
-                const afterElement = getDragAfterElement(timeline, e.clientX);
+                const draggableElements = [...timeline.querySelectorAll('.card:not(.dragging)')];
+                const afterElement = draggableElements.reduce((closest, child) => {
+                    const box = child.getBoundingClientRect();
+                    const offset = e.clientX - box.left - box.width / 2;
+                    if (offset < 0 && offset > closest.offset) return { offset, element: child };
+                    return closest;
+                }, { offset: Number.NEGATIVE_INFINITY }).element;
+
                 if (!afterElement) timeline.appendChild(dragging);
                 else timeline.insertBefore(dragging, afterElement);
             });
-        });
 
-        function getDragAfterElement(container, x) {
-            const draggableElements = [...container.querySelectorAll('.card:not(.dragging)')];
-            return draggableElements.reduce((closest, child) => {
-                const box = child.getBoundingClientRect();
-                const offset = x - box.left - box.width / 2;
-                if (offset < 0 && offset > closest.offset) return { offset, element: child };
-                return closest;
-            }, { offset: Number.NEGATIVE_INFINITY }).element;
-        }
+            timeline.addEventListener('drop', () => {
+                setTimeout(saveGameState, 50);
+            });
+
+            // EJECUCIÓN INICIAL
+            loadGameState();
+        });
     </script>
 
 
