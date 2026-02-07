@@ -50,6 +50,7 @@
             word-wrap: break-word;
             overflow-wrap: break-word;
             max-width: 100%;
+            text-shadow: 0 0 3px #e8e063;
         }
 
         /* Sobrescribir las clases de Tailwind con las variables (para el color de acento) */
@@ -175,7 +176,7 @@
         <div class="max-w-7xl mx-auto flex justify-between items-center py-0">
             <div class="flex items-center space-x-2">
                 <img src="img/favicon.png" alt="Icono Cronotunes" class="h-8 w-8">
-                <h1 class="text-3xl font-extrabold text-acento font-cronotunes">
+                <h1 class="text-3xl font-extrabold text-acento font-cronotunes animate-pulse">
                     Cronotunes
                 </h1>
             </div>
@@ -192,7 +193,7 @@
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
                 <h1 class="text-5xl md:text-6xl font-extrabold mb-4">
-                    ¿Confías en tu <span class="font-cronotunes text-acento">oído?</span>
+                    ¿Confías en tu <span class="font-cronotunes text-acento animate-pulse">oído?</span>
                 </h1>
                 <p class="text-xl text-tarjeta mb-12 max-w-2xl mx-auto">
                     Arrastra los éxitos a su lugar en la historia y domina la línea del tiempo musical.
@@ -335,16 +336,24 @@
             </div>
             -->
             <div id="view-dj" class="hidden w-full max-w-2xl flex flex-col items-center space-y-10">
-                <button id="btn-draw-dj"
-                    class="bg-acento text-white font-bold py-5 px-12 rounded-2xl shadow-xl hover:opacity-90 transition-all font-code text-xl uppercase">
-                    🎵 LANZAR HIT ALEATORIO
-                </button>
-                <div class="flex justify-center mb-4">
-                    <div class="bg-acento/20 border border-acento px-4 py-2 rounded-full">
-                        <span class="text-texto-gris text-xs uppercase tracking-widest">ID de la canción:</span>
-                        <span id="display-id-dj" class="text-white font-bold ml-2 text-lg">--</span>
+                <div class="flex items-center justify-center gap-4 mb-8">
+                    <div
+                        class="bg-tarjeta border-2 border-acento/50 px-6 py-3 rounded-xl min-w-[100px] shadow-[0_0_15px_rgba(184,63,192,0.2)] flex flex-col items-center">
+                        <span class="text-[10px] uppercase tracking-widest text-texto-gris mb-1">ID de la
+                            canción:</span>
+                        <span id="display-id-dj"
+                            class="text-2xl font-black text-acento leading-none font-mono">--</span>
                     </div>
+
+                    <button id="btn-draw-dj"
+                        class="bg-acento text-white font-bold py-5 px-12 rounded-2xl shadow-xl hover:opacity-90 transition-all font-code text-xl uppercase">
+                        🎵 LANZAR HIT ALEATORIO
+                    </button>
                 </div>
+
+
+
+
                 <div id="player-wrapper-dj"
                     class="w-full opacity-0 transform translate-y-4 transition-all duration-500">
                     <div class="bg-tarjeta p-1 rounded-[20px] shadow-2xl border border-white/5" id="spotify-player-dj">
@@ -371,13 +380,14 @@
                 </div>
                 <div class="w-full overflow-x-auto pb-8">
                     <div id="timeline"
-                        class="flex justify-start md:justify-center items-center gap-2 min-h-[220px] p-6 rounded-2xl border-2 border-dashed border-gray-700 bg-gray-900/20">
+                        class="flex justify-start justify-center items-center gap-2 min-h-[220px] p-6 rounded-2xl border-2 border-dashed border-gray-700 bg-gray-900/20">
                     </div>
                 </div>
                 <button id="btn-back-player" onclick="switchMode('selection')"
                     class="text-texto-gris hover:text-white text-sm font-mono underline decoration-acento">← Volver al
                     menú</button>
             </div>
+
         </div>
 
         </div>
@@ -476,7 +486,8 @@
                 if (confirm("¿Estás seguro de que quieres borrar todo el progreso y las variables guardadas?")) {
 
                     // 1. Borrar el LocalStorage
-                    localStorage.removeItem('cronotunes_save');
+                    localStorage.removeItem('cronotunes_gameState'); // Tablero del Jugador
+                    localStorage.removeItem('cronotunes_used_songs'); // Historial DJ
 
                     // 2. Limpiar el tablero visualmente (opcional si vas a recargar)
                     const timeline = document.getElementById('timeline');
@@ -519,32 +530,6 @@
             </div>`;
             }
 
-            // MODO DJ: SACAR CANCIÓN Y MOSTRAR ID
-            btnDrawDj.addEventListener('click', () => {
-                // 1. Seleccionar una canción aleatoria completa del archivo importado
-                const randomSong = musicDatabase[Math.floor(Math.random() * musicDatabase.length)];
-
-                // 2. Mostrar el ID interno del juego
-                displayIdDj.textContent = randomSong.id;
-
-                // 3. Inyectar el reproductor de Spotify usando su spotifyId
-                playerDivDj.innerHTML = `
-        <iframe 
-            src="https://open.spotify.com/embed/track/${randomSong.spotifyId}?utm_source=generator&theme=0" 
-            width="100%" 
-            height="152" 
-            frameBorder="0" 
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-            style="border-radius: 18px;">
-        </iframe>`;
-
-                // 4. Mostrar el contenedor con efecto
-                playerWrapperDj.classList.remove('opacity-0', 'translate-y-4');
-                playerWrapperDj.classList.add('opacity-100', 'translate-y-0');
-
-                btnDrawDj.textContent = "Siguiente Canción ⏭️";
-            });
-
             // 4. LÓGICA MODO JUGADOR
             btnDrawPlayer.addEventListener('click', () => {
                 if (currentPendingCard) return;
@@ -562,6 +547,13 @@
             });
 
             btnConfirm.addEventListener('click', () => {
+                // VALIDACIÓN: ¿Está la tarjeta dentro del timeline?
+                // Comprobamos si el padre de la tarjeta pendiente es el elemento 'timeline'
+                if (currentPendingCard.parentElement !== timeline) {
+                    alert("Primero debes arrastrar la tarjeta a una posición en la línea de tiempo.");
+                    return; // Detiene la ejecución si no está en el timeline
+                }
+
                 const gameId = prompt("Introduce el ID de la canción:");
                 const songData = musicDatabase.find(s => s.id === gameId);
 
@@ -617,14 +609,43 @@
 
             // 5. LÓGICA MODO DJ
             btnDrawDj.addEventListener('click', () => {
-                const randomSong = musicDatabase[Math.floor(Math.random() * musicDatabase.length)];
+                // 1. Obtener la lista de IDs ya usados del localStorage
+                let usedIds = JSON.parse(localStorage.getItem('cronotunes_used_songs')) || [];
+
+                // 2. Filtrar la base de datos para obtener SOLO las que no se han usado
+                const availableSongs = musicDatabase.filter(song => !usedIds.includes(song.id));
+
+                // 3. Si no quedan canciones, avisar y resetear
+                if (availableSongs.length === 0) {
+                    alert("¡Se han terminado las canciones! Reiniciando historial...");
+                    usedIds = [];
+                    localStorage.setItem('cronotunes_used_songs', JSON.stringify([]));
+                    // Recargamos las disponibles con toda la base de datos
+                    availableSongs.push(...musicDatabase);
+                }
+
+                // 4. Elegir una canción aleatoria de las DISPONIBLES
+                const randomSong = availableSongs[Math.floor(Math.random() * availableSongs.length)];
+
+                console.log(randomSong)
+
+                // 5. REGISTRAR EL ID: Guardamos el ID de la canción que acabamos de elegir
+                usedIds.push(randomSong.id);
+                localStorage.setItem('cronotunes_used_songs', JSON.stringify(usedIds));
+
+                // 6. ACTUALIZAR LA INTERFAZ
+                // Mostramos el ID de juego (ej: "A1")
                 displayIdDj.textContent = randomSong.id;
+
+                // Inyectamos el reproductor de la misma canción (usando su spotifyId)
                 playerDivDj.innerHTML = `
-            <iframe src="https://open.spotify.com/embed/track/${randomSong.spotifyId}?utm_source=generator&theme=0" 
-                width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                style="border-radius: 18px;"></iframe>`;
+        <iframe src="https://open.spotify.com/embed/track/${randomSong.spotifyId}?utm_source=generator&theme=0" 
+            width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            style="border-radius: 18px;"></iframe>`;
+
                 playerWrapperDj.classList.remove('opacity-0', 'translate-y-4');
                 playerWrapperDj.classList.add('opacity-100', 'translate-y-0');
+
                 btnDrawDj.textContent = "Siguiente Canción ⏭️";
             });
 
