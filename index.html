@@ -336,16 +336,24 @@
             </div>
             -->
             <div id="view-dj" class="hidden w-full max-w-2xl flex flex-col items-center space-y-10">
-                <button id="btn-draw-dj"
-                    class="bg-acento text-white font-bold py-5 px-12 rounded-2xl shadow-xl hover:opacity-90 transition-all font-code text-xl uppercase">
-                    🎵 LANZAR HIT ALEATORIO
-                </button>
-                <div class="flex justify-center mb-4">
-                    <div class="bg-acento/20 border border-acento px-4 py-2 rounded-full">
-                        <span class="text-texto-gris text-xs uppercase tracking-widest">ID de la canción:</span>
-                        <span id="display-id-dj" class="text-white font-bold ml-2 text-lg">--</span>
+                <div class="flex items-center justify-center gap-4 mb-8">
+                    <div
+                        class="bg-tarjeta border-2 border-acento/50 px-6 py-3 rounded-xl min-w-[100px] shadow-[0_0_15px_rgba(184,63,192,0.2)] flex flex-col items-center">
+                        <span class="text-[10px] uppercase tracking-widest text-texto-gris mb-1">ID de la
+                            canción:</span>
+                        <span id="display-id-dj"
+                            class="text-2xl font-black text-acento leading-none font-mono">--</span>
                     </div>
+
+                    <button id="btn-draw-dj"
+                        class="bg-acento text-white font-bold py-5 px-12 rounded-2xl shadow-xl hover:opacity-90 transition-all font-code text-xl uppercase">
+                        🎵 LANZAR HIT ALEATORIO
+                    </button>
                 </div>
+
+
+
+
                 <div id="player-wrapper-dj"
                     class="w-full opacity-0 transform translate-y-4 transition-all duration-500">
                     <div class="bg-tarjeta p-1 rounded-[20px] shadow-2xl border border-white/5" id="spotify-player-dj">
@@ -372,13 +380,14 @@
                 </div>
                 <div class="w-full overflow-x-auto pb-8">
                     <div id="timeline"
-                        class="flex justify-start md:justify-center items-center gap-2 min-h-[220px] p-6 rounded-2xl border-2 border-dashed border-gray-700 bg-gray-900/20">
+                        class="flex justify-start justify-center items-center gap-2 min-h-[220px] p-6 rounded-2xl border-2 border-dashed border-gray-700 bg-gray-900/20">
                     </div>
                 </div>
                 <button id="btn-back-player" onclick="switchMode('selection')"
                     class="text-texto-gris hover:text-white text-sm font-mono underline decoration-acento">← Volver al
                     menú</button>
             </div>
+
         </div>
 
         </div>
@@ -538,6 +547,13 @@
             });
 
             btnConfirm.addEventListener('click', () => {
+                // VALIDACIÓN: ¿Está la tarjeta dentro del timeline?
+                // Comprobamos si el padre de la tarjeta pendiente es el elemento 'timeline'
+                if (currentPendingCard.parentElement !== timeline) {
+                    alert("Primero debes arrastrar la tarjeta a una posición en la línea de tiempo.");
+                    return; // Detiene la ejecución si no está en el timeline
+                }
+
                 const gameId = prompt("Introduce el ID de la canción:");
                 const songData = musicDatabase.find(s => s.id === gameId);
 
