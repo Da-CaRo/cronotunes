@@ -345,9 +345,16 @@
                 <div class="flex items-center justify-center gap-4 mb-8">
                     <div
                         class="bg-tarjeta border-2 border-acento/50 px-6 py-3 rounded-xl min-w-[100px] shadow-[0_0_15px_rgba(184,63,192,0.2)] flex flex-col items-center">
-                        <span class="text-[10px] uppercase tracking-widest text-texto-gris mb-1">ID de la
+                        <span class="text-[10px] uppercase text-texto-gris mb-1">ID de la
                             canción:</span>
                         <span id="display-id-dj"
+                            class="text-2xl font-black text-acento leading-none font-mono">--</span>
+                    </div>
+                    <div
+                        class="bg-tarjeta border-2 border-acento/50 px-6 py-3 rounded-xl min-w-[100px] shadow-[0_0_15px_rgba(184,63,192,0.2)] flex flex-col items-center">
+                        <span class="text-[10px] uppercase text-texto-gris mb-1">Año de la
+                            canción:</span>
+                        <span id="display-year-dj"
                             class="text-2xl font-black text-acento leading-none font-mono">--</span>
                     </div>
 
@@ -442,18 +449,21 @@
             const playerWrapperDj = document.getElementById('player-wrapper-dj');
             const playerDivDj = document.getElementById('spotify-player-dj');
             const displayIdDj = document.getElementById('display-id-dj');
+            const displayYearDj = document.getElementById('display-year-dj');
 
             if (mode === 'selection') {
                 document.getElementById('start-buttons').classList.remove('hidden');
                 // Al volver al menú, eliminamos el iframe para que pare la música
                 playerDivDj.innerHTML = '';
                 displayIdDj.textContent = '--';
+                displayYearDj.textContent = '--';
             }
             else if (mode === 'dj') {
                 document.getElementById('view-dj').classList.remove('hidden');
                 // Al entrar al modo DJ, nos aseguramos de que el reproductor esté vacío hasta pulsar el botón
                 playerDivDj.innerHTML = '';
                 displayIdDj.textContent = '--';
+                displayYearDj.textContent = '--';
             }
             else if (mode === 'player') {
                 document.getElementById('view-player').classList.remove('hidden');
@@ -471,6 +481,7 @@
             const btnDrawPlayer = document.getElementById('btn-draw-player');
             const btnDrawDj = document.getElementById('btn-draw-dj');
             const displayIdDj = document.getElementById('display-id-dj');
+            const displayYearDj = document.getElementById('display-year-dj');
             const playerDivDj = document.getElementById('spotify-player-dj');
             const playerWrapperDj = document.getElementById('player-wrapper-dj');
             const btnBackPlayer = document.getElementById('btn-back-player');
@@ -679,6 +690,7 @@
                 // 6. ACTUALIZAR LA INTERFAZ
                 // Mostramos el ID de juego (ej: "A1")
                 displayIdDj.textContent = randomSong.id;
+                displayYearDj.textContent = randomSong.year;
 
                 // Inyectamos el reproductor de la misma canción (usando su spotifyId)
                 playerDivDj.innerHTML = `
