@@ -590,7 +590,7 @@
                 }
 
                 const gameId = prompt("Introduce el ID de la canción:");
-                const songData = musicDatabase.find(s => s.id === gameId);
+                const songData = musicDatabase.find(s => s.id == gameId);
 
                 if (!songData) {
                     alert("ID de juego no encontrado.");
