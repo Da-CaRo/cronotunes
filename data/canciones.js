@@ -45,7 +45,7 @@ export const musicDatabase = [
         spotifyId: "01LHmbTALqwnoGWT3gZPYH",
         title: "Echame A Mi La Culpa",
         artist: "Albert Hammond",
-        year: "1994",
+        year: "1976",
         playlists: [
             "espanol100"
         ]
@@ -75,7 +75,7 @@ export const musicDatabase = [
         spotifyId: "020aPMXlwYFpPB7cI8Kuc1",
         title: "El ritmo del garaje",
         artist: "Loquillo",
-        year: "1989",
+        year: "1983",
         playlists: [
             "espanol100"
         ]
@@ -85,7 +85,7 @@ export const musicDatabase = [
         spotifyId: "02V2iJhKyNp1ZpvTPPZTHY",
         title: "Soy lo Que Me Das",
         artist: "Chenoa",
-        year: "2004",
+        year: "2003",
         playlists: [
             "summer"
         ]
@@ -105,7 +105,7 @@ export const musicDatabase = [
         spotifyId: "02r3OWNv825qav8P7UKpES",
         title: "Precisamente ahora",
         artist: "David DeMaría",
-        year: "2004",
+        year: "2003",
         playlists: [
             "espanol100"
         ]
@@ -145,7 +145,7 @@ export const musicDatabase = [
         spotifyId: "04Xdk7F9HgyHBcAwO7KE3F",
         title: "Sera Porque Te Amo",
         artist: "Ricchi E Poveri",
-        year: "2010",
+        year: "1981",
         playlists: [
             "espanol100"
         ]
@@ -185,7 +185,7 @@ export const musicDatabase = [
         spotifyId: "059G9tpE3kl6wz3kiddaN0",
         title: "Vivo Cantando",
         artist: "Salomé",
-        year: "2003",
+        year: "1969",
         playlists: [
             "original"
         ]
@@ -285,7 +285,7 @@ export const musicDatabase = [
         spotifyId: "07nrFSbS6ht0jMNpTpMfsg",
         title: "Soy un Truhán, Soy un Señor",
         artist: "Julio Iglesias",
-        year: "1998",
+        year: "1977",
         playlists: [
             "original"
         ]
@@ -325,7 +325,7 @@ export const musicDatabase = [
         spotifyId: "08HeIb9BidFjKROf9ptln0",
         title: "Eres Tú",
         artist: "Mocedades",
-        year: "1994",
+        year: "1973",
         playlists: [
             "original"
         ]
@@ -355,7 +355,7 @@ export const musicDatabase = [
         spotifyId: "09lZ2Mx2NSpzy6KBpX2kDq",
         title: "Gimme Hope Jo'Anna",
         artist: "Eddy Grant",
-        year: "2010",
+        year: "1988",
         playlists: [
             "original"
         ]
@@ -425,7 +425,7 @@ export const musicDatabase = [
         spotifyId: "0ByMNEPAPpOR5H69DVrTNy",
         title: "Don't Stop The Music",
         artist: "Rihanna",
-        year: "2008",
+        year: "2007",
         playlists: [
             "summer"
         ]
@@ -445,7 +445,7 @@ export const musicDatabase = [
         spotifyId: "0CcK0UAwjHSPOGWjupepRF",
         title: "Agustito",
         artist: "Ketama",
-        year: "1999",
+        year: "1995",
         playlists: [
             "espanol100"
         ]
@@ -515,7 +515,7 @@ export const musicDatabase = [
         spotifyId: "0Fyj9w0HVfjoxm9S8nGClt",
         title: "Orinoco Flow",
         artist: "Enya",
-        year: "2001",
+        year: "1988",
         playlists: [
             "original"
         ]
@@ -545,7 +545,7 @@ export const musicDatabase = [
         spotifyId: "0GVQMLYWayDvznAkyz4esU",
         title: "Tres Veces Guapa",
         artist: "Jorge Sepúlveda",
-        year: "2015",
+        year: "1947",
         playlists: [
             "original"
         ]
@@ -575,7 +575,7 @@ export const musicDatabase = [
         spotifyId: "0Gx4VrHzS7pZOEAGrmXXBH",
         title: "La Bicicleta",
         artist: "Carlos Vives;Shakira",
-        year: "2017",
+        year: "2016",
         playlists: [
             "original"
         ]
@@ -585,7 +585,7 @@ export const musicDatabase = [
         spotifyId: "0GzQB5WXavUEU8tfTCAd8m",
         title: "Cuando zarpa el amor",
         artist: "Camela",
-        year: "2004",
+        year: "2001",
         playlists: [
             "temazos"
         ]
@@ -625,7 +625,7 @@ export const musicDatabase = [
         spotifyId: "0I4yYE831a8SW8QIx6bz4x",
         title: "Crimson & Clover",
         artist: "Tommy James & The Shondells",
-        year: "1989",
+        year: "1968",
         playlists: [
             "rock"
         ]
@@ -635,7 +635,7 @@ export const musicDatabase = [
         spotifyId: "0IUFjvwlh18TWiTi6kO5pP",
         title: "Como un burro amarrado en la puerta del baile",
         artist: "El Último De La Fila",
-        year: "2014",
+        year: "1993",
         playlists: [
             "summer"
         ]
@@ -705,7 +705,7 @@ export const musicDatabase = [
         spotifyId: "0KMGf0ebdR8aazf1PoHEdb",
         title: "Guajira Guantanamera",
         artist: "Joseito Fernández",
-        year: "2012",
+        year: "1929",
         playlists: [
             "original"
         ]
@@ -795,7 +795,7 @@ export const musicDatabase = [
         spotifyId: "0OMRAvrtLWE2TvcXorRiB9",
         title: "La Gozadera (feat. Marc Anthony)",
         artist: "Gente De Zona;Marc Anthony",
-        year: "2016",
+        year: "2015",
         playlists: [
             "original"
         ]
@@ -835,7 +835,7 @@ export const musicDatabase = [
         spotifyId: "0PCGfA36HrVPmsBZJ57zOU",
         title: "Love Is All Around - From \"Four Weddings And A Funeral\"",
         artist: "Wet Wet Wet",
-        year: "1995",
+        year: "1994",
         playlists: [
             "original"
         ]
@@ -865,7 +865,7 @@ export const musicDatabase = [
         spotifyId: "0PoUyBBEghT7ufac3soDiB",
         title: "Una Lagrima",
         artist: "Peret",
-        year: "2015",
+        year: "1968",
         playlists: [
             "espanol100"
         ]
@@ -925,7 +925,7 @@ export const musicDatabase = [
         spotifyId: "0TDLuuLlV54CkRRUOahJb4",
         title: "Titanium (feat. Sia)",
         artist: "David Guetta;Sia",
-        year: "2012",
+        year: "2011",
         playlists: [
             "temazos"
         ]
@@ -945,7 +945,7 @@ export const musicDatabase = [
         spotifyId: "0TWaqxvioVlbLIa1mGIN1z",
         title: "Quien Maneja Mi Barca",
         artist: "Remedios Amaya",
-        year: "2001",
+        year: "1983",
         playlists: [
             "espanol100"
         ]
@@ -1005,7 +1005,7 @@ export const musicDatabase = [
         spotifyId: "0UkXFKXVHe5YG7lke77CI1",
         title: "Asi Me Gusta a Mi",
         artist: "Chimo Bayo",
-        year: "2009",
+        year: "1991",
         playlists: [
             "espanol100"
         ]
@@ -1015,7 +1015,7 @@ export const musicDatabase = [
         spotifyId: "0Uzf6J45f8K4qaVppjVb6N",
         title: "Mi Carro",
         artist: "Manolo Escobar",
-        year: "1991",
+        year: "1969",
         playlists: [
             "original"
         ]
@@ -1025,7 +1025,7 @@ export const musicDatabase = [
         spotifyId: "0VWHxNBAiMfZB9fUDlAwwI",
         title: "Bajo la Luz de la Luna - Remasterizado",
         artist: "Los Rebeldes",
-        year: "2019",
+        year: "1988",
         playlists: [
             "espanol100"
         ]
@@ -1035,7 +1035,7 @@ export const musicDatabase = [
         spotifyId: "0VjIjW4GlUZAMYd2vXMi3b",
         title: "Blinding Lights",
         artist: "The Weeknd",
-        year: "2020",
+        year: "2019",
         playlists: [
             "original"
         ]
@@ -1055,7 +1055,7 @@ export const musicDatabase = [
         spotifyId: "0WK8NzEKfSZ9mqOlaBpdfm",
         title: "Ritmo de la Noche (Classic Version)",
         artist: "The Sacados",
-        year: "2018",
+        year: "1990",
         playlists: [
             "summer"
         ]
@@ -1075,7 +1075,7 @@ export const musicDatabase = [
         spotifyId: "0X1XgxtHG9hULAw296CCgz",
         title: "El Gato Que Está Triste y Azul - Un Gato Nel Blu",
         artist: "Roberto Carlos",
-        year: "1992",
+        year: "1971",
         playlists: [
             "temazos"
         ]
@@ -1196,7 +1196,7 @@ export const musicDatabase = [
         spotifyId: "0bEA0mMgXheXnahvIbIQfg",
         title: "Bailando - Spanish Version",
         artist: "Enrique Iglesias;Descemer Bueno;Gente De Zona",
-        year: "2015",
+        year: "2014",
         playlists: [
             "original"
         ]
@@ -1416,7 +1416,7 @@ export const musicDatabase = [
         spotifyId: "0incizGIFilFp6soKuyHvZ",
         title: "La Gata Bajo la Lluvia",
         artist: "Rocío Dúrcal",
-        year: "1998",
+        year: "1981",
         playlists: [
             "espanol100"
         ]
@@ -1526,7 +1526,7 @@ export const musicDatabase = [
         spotifyId: "0m7tsUMMRz4hN4LrhkaXFI",
         title: "Los Rockeros Van al Infierno",
         artist: "Barón Rojo",
-        year: "1999",
+        year: "1982",
         playlists: [
             "rock"
         ]
@@ -1566,7 +1566,7 @@ export const musicDatabase = [
         spotifyId: "0mlAOSILGRys2IbvyOT5VJ",
         title: "Échame La Culpa",
         artist: "Luis Fonsi;Demi Lovato",
-        year: "2019",
+        year: "2017",
         playlists: [
             "summer"
         ]
@@ -1576,7 +1576,7 @@ export const musicDatabase = [
         spotifyId: "0mnAmQX1pciMncT2qFCNmK",
         title: "SUBEME LA RADIO",
         artist: "Enrique Iglesias;Descemer Bueno;Zion & Lennox",
-        year: "2021",
+        year: "2017",
         playlists: [
             "summer"
         ]
@@ -1596,7 +1596,7 @@ export const musicDatabase = [
         spotifyId: "0mxOACRTcfoUtCcsbgSw2R",
         title: "Bonito y Sabroso",
         artist: "Beny Moré",
-        year: "2001",
+        year: "1951",
         playlists: [
             "espanol100"
         ]
@@ -1616,7 +1616,7 @@ export const musicDatabase = [
         spotifyId: "0nHdPB5NA4xkoDoSLbREwD",
         title: "Ma quale idea",
         artist: "Pino D'Angiò",
-        year: "2016",
+        year: "1980",
         playlists: [
             "temazos"
         ]
@@ -1676,7 +1676,7 @@ export const musicDatabase = [
         spotifyId: "0oWnVBqLwlDXZcjTsDUowg",
         title: "El Flautista de Hamelín",
         artist: "Ñu",
-        year: "2002",
+        year: "1986",
         playlists: [
             "rock"
         ]
@@ -1686,7 +1686,7 @@ export const musicDatabase = [
         spotifyId: "0pENfDf4UtQF2q2A4xSi27",
         title: "My Heart Goes Boom",
         artist: "French Affair",
-        year: "2010",
+        year: "2000",
         playlists: [
             "summer"
         ]
@@ -1736,7 +1736,7 @@ export const musicDatabase = [
         spotifyId: "0q3A8TufZEh6giFxSMUIsf",
         title: "I Feel Love",
         artist: "Donna Summer",
-        year: "2014",
+        year: "1977",
         playlists: [
             "summer"
         ]
@@ -1776,7 +1776,7 @@ export const musicDatabase = [
         spotifyId: "0qSlVX5N1OCTIjQhI6uc8F",
         title: "Si No Te Hubieras Ido",
         artist: "Tamara",
-        year: "2019",
+        year: "2003",
         playlists: [
             "espanol100"
         ]
@@ -1786,7 +1786,7 @@ export const musicDatabase = [
         spotifyId: "0qe8ejgap3s39vLXc4K4dU",
         title: "Salomé",
         artist: "Chayanne",
-        year: "1990",
+        year: "1998",
         playlists: [
             "summer"
         ]
@@ -1836,7 +1836,7 @@ export const musicDatabase = [
         spotifyId: "0sJubCHX8ltjd9q5kO67Ny",
         title: "La chispa adecuada",
         artist: "Heroes Del Silencio",
-        year: "2020",
+        year: "1995",
         playlists: [
             "rock"
         ]
@@ -1876,7 +1876,7 @@ export const musicDatabase = [
         spotifyId: "0uWLyUK9WECq0nKz0DiA4A",
         title: "El Sitio De Mi Recreo",
         artist: "Antonio Vega",
-        year: "1994",
+        year: "1992",
         playlists: [
             "espanol100"
         ]
@@ -2006,7 +2006,7 @@ export const musicDatabase = [
         spotifyId: "0yUsNnKCxe7r68qzEjbOaB",
         title: "Carolina",
         artist: "M-Clan",
-        year: "2018",
+        year: "2001",
         playlists: [
             "original"
         ]
@@ -2106,7 +2106,7 @@ export const musicDatabase = [
         spotifyId: "11rsK9GDZ9UdWsxtDqnMmN",
         title: "¿Porqué te vas?",
         artist: "Jeanette",
-        year: "2011",
+        year: "1974",
         playlists: [
             "temazos",
             "espanol100"
@@ -2147,7 +2147,7 @@ export const musicDatabase = [
         spotifyId: "12FI23F59xB0DOoZcVKf4J",
         title: "Bienvenidos",
         artist: "Miguel Ríos",
-        year: "1992",
+        year: "1982",
         playlists: [
             "temazos"
         ]
@@ -2157,7 +2157,7 @@ export const musicDatabase = [
         spotifyId: "12HWO1YYMV9HEqQpava5zm",
         title: "Yo Contigo, Tú Conmigo - The Gong Gong Song / El Tema De La Película \"Gru 3 Mi Villano Favorito\"",
         artist: "Morat;Alvaro Soler",
-        year: "2019",
+        year: "2017",
         playlists: [
             "espanol100"
         ]
@@ -2167,7 +2167,7 @@ export const musicDatabase = [
         spotifyId: "12Unlugp6dSFNSRgj3tlAr",
         title: "Manhattan (First We Take Manhattan) - Remastered 2016",
         artist: "Enrique Morente;Lagartija Nick;Estrella Morente;Cañizares",
-        year: "2016",
+        year: "1996",
         playlists: [
             "rock"
         ]
@@ -2197,7 +2197,7 @@ export const musicDatabase = [
         spotifyId: "13crLwJf5aEt3R8MKcisou",
         title: "Tengo Un Trato - Remastered 2015",
         artist: "Mala Rodríguez",
-        year: "2015",
+        year: "2000",
         playlists: [
             "espanol100"
         ]
@@ -2377,7 +2377,7 @@ export const musicDatabase = [
         spotifyId: "1ApXNkjfjxkSDoezO8Kh8g",
         title: "La, La, La",
         artist: "Massiel",
-        year: "1966",
+        year: "1968",
         playlists: [
             "original"
         ]
@@ -2387,7 +2387,7 @@ export const musicDatabase = [
         spotifyId: "1ArfDNJVfisvAaowOCkpVc",
         title: "Supersexy Girl",
         artist: "Fundacion Tony Manero",
-        year: "2013",
+        year: "2001",
         playlists: [
             "summer"
         ]
@@ -2417,7 +2417,7 @@ export const musicDatabase = [
         spotifyId: "1BZAlhBa3vudhlVg4t1DH2",
         title: "El Porompompero",
         artist: "Manolo Escobar",
-        year: "2007",
+        year: "1960",
         playlists: [
             "espanol100"
         ]
@@ -2427,7 +2427,7 @@ export const musicDatabase = [
         spotifyId: "1BkY0N8ChFk2mdLbAUu8ZK",
         title: "Pass The Dutchie",
         artist: "Musical Youth",
-        year: "1994",
+        year: "1982",
         playlists: [
             "summer"
         ]
@@ -2437,7 +2437,7 @@ export const musicDatabase = [
         spotifyId: "1BwrMGGhPA6GarWIYaFrW8",
         title: "La Vida Es Un Carnaval",
         artist: "Celia Cruz",
-        year: "2016",
+        year: "1998",
         playlists: [
             "summer"
         ]
@@ -2457,7 +2457,7 @@ export const musicDatabase = [
         spotifyId: "1DKyFVzIh1oa1fFnEmTkIl",
         title: "Gloria (feat. Van Morrison) - Stereo Version",
         artist: "Them;Van Morrison",
-        year: "2015",
+        year: "1964",
         playlists: [
             "summer"
         ]
@@ -2467,7 +2467,7 @@ export const musicDatabase = [
         spotifyId: "1DQJrupuc1NUOPzIqDWWwz",
         title: "Caramelos",
         artist: "Los Amaya",
-        year: "2000",
+        year: "1973",
         playlists: [
             "espanol100"
         ]
@@ -2487,7 +2487,7 @@ export const musicDatabase = [
         spotifyId: "1EA3Bs174OvPIu49qj14pu",
         title: "El Baile de los Pajaritos",
         artist: "María Jesús y su acordeón",
-        year: "1991",
+        year: "1981",
         playlists: [
             "summer"
         ]
@@ -2507,7 +2507,7 @@ export const musicDatabase = [
         spotifyId: "1EC0JRoSi9YL5zExd3Euc3",
         title: "No Puedo Vivir Sin Ti",
         artist: "Los Ronaldos",
-        year: "2007",
+        year: "1987",
         playlists: [
             "temazos"
         ]
@@ -2567,7 +2567,7 @@ export const musicDatabase = [
         spotifyId: "1Exn1NYlMHkurl4saKtXcb",
         title: "Lola",
         artist: "Los Brincos",
-        year: "2015",
+        year: "1967",
         playlists: [
             "rock"
         ]
@@ -2577,7 +2577,7 @@ export const musicDatabase = [
         spotifyId: "1F43XlPBiwAUUIhrUGzylO",
         title: "Never Ending Story",
         artist: "Limahl",
-        year: "2009",
+        year: "1984",
         playlists: [
             "original"
         ]
@@ -2597,7 +2597,7 @@ export const musicDatabase = [
         spotifyId: "1FjyT8FTmnvelt4dNwp2Jx",
         title: "Chacachá del tren (remastered)",
         artist: "Hermanas Fleta",
-        year: "2005",
+        year: "1951",
         playlists: [
             "original"
         ]
@@ -2627,7 +2627,7 @@ export const musicDatabase = [
         spotifyId: "1GaBkvgCLMbynbBakLq24J",
         title: "Ven Sin Temor - How Do You Do",
         artist: "Bruno Lomas",
-        year: "1994",
+        year: "1972",
         playlists: [
             "espanol100"
         ]
@@ -2677,7 +2677,7 @@ export const musicDatabase = [
         spotifyId: "1Hud0EePGdcqcHIIDksq3R",
         title: "Volando Voy",
         artist: "Kiko Veneno",
-        year: "1992",
+        year: "1977",
         playlists: [
             "original"
         ]
@@ -2717,7 +2717,7 @@ export const musicDatabase = [
         spotifyId: "1IQFvg4IgKwfU9u9tnlF9F",
         title: "Pavo Real",
         artist: "José Luis Rodríguez",
-        year: "2007",
+        year: "1980",
         playlists: [
             "espanol100"
         ]
@@ -2797,7 +2797,7 @@ export const musicDatabase = [
         spotifyId: "1Jwc3ODLQxtbnS8M9TflSP",
         title: "Walk Like an Egyptian",
         artist: "The Bangles",
-        year: "2004",
+        year: "1986",
         playlists: [
             "original"
         ]
@@ -2837,7 +2837,7 @@ export const musicDatabase = [
         spotifyId: "1L2TRAA6QJAZTfjDTNQfrP",
         title: "La Chica Del Bikini Azul",
         artist: "Luis Miguel",
-        year: "2002",
+        year: "1984",
         playlists: [
             "espanol100"
         ]
@@ -2847,7 +2847,7 @@ export const musicDatabase = [
         spotifyId: "1LXgrJqOEyLFTEsEjjfLMF",
         title: "Señora azul",
         artist: "Canovas, Rodrigo, Adolfo Y Guzman",
-        year: "2014",
+        year: "1974",
         playlists: [
             "rock"
         ]
@@ -2887,7 +2887,7 @@ export const musicDatabase = [
         spotifyId: "1NCF4UUsuT6Xzw2Zxd43PJ",
         title: "Chulo pt.2",
         artist: "Bad Gyal;Tokischa;Young Miko",
-        year: "2024",
+        year: "2023",
         playlists: [
             "espanol100"
         ]
@@ -2947,7 +2947,7 @@ export const musicDatabase = [
         spotifyId: "1PdNcmCHxCUHjcAfVcHTY7",
         title: "Mamy blue",
         artist: "Pop Tops",
-        year: "2009",
+        year: "1971",
         playlists: [
             "espanol100"
         ]
@@ -2977,7 +2977,7 @@ export const musicDatabase = [
         spotifyId: "1PpOqYZsUCecuOfLELmgOI",
         title: "Bésame Mucho",
         artist: "Emilio Tuero",
-        year: "2014",
+        year: "1941",
         playlists: [
             "original"
         ]
@@ -2987,7 +2987,7 @@ export const musicDatabase = [
         spotifyId: "1PrlCxehcEi0KvIwKzJuOl",
         title: "Everybody's Free (To Feel Good)",
         artist: "Rozalla",
-        year: "2013",
+        year: "1991",
         playlists: [
             "summer"
         ]
@@ -3017,7 +3017,7 @@ export const musicDatabase = [
         spotifyId: "1QWFEgLerDW7s8N7emXMTS",
         title: "Horror en el hipermercado",
         artist: "Alaska Y Los Pegamoides",
-        year: "1982",
+        year: "1980",
         playlists: [
             "espanol100"
         ]
@@ -3037,7 +3037,7 @@ export const musicDatabase = [
         spotifyId: "1RouRzlg8OKFeqc6LvdxmB",
         title: "Felices los 4",
         artist: "Maluma",
-        year: "2018",
+        year: "2017",
         playlists: [
             "original"
         ]
@@ -3047,7 +3047,7 @@ export const musicDatabase = [
         spotifyId: "1SOAN58QwnQABl2SND1wMh",
         title: "Congratulations - 1998 Remaster",
         artist: "Cliff Richard",
-        year: "2008",
+        year: "1968",
         playlists: [
             "original"
         ]
@@ -3087,7 +3087,7 @@ export const musicDatabase = [
         spotifyId: "1SssFw74DdHVjRa6ADggdD",
         title: "Sweat (A La La La La Long)",
         artist: "Inner Circle",
-        year: "2010",
+        year: "1992",
         playlists: [
             "temazos"
         ]
@@ -3097,7 +3097,7 @@ export const musicDatabase = [
         spotifyId: "1TtteYFQeZfSU8AmfIAOvu",
         title: "Sun Is Up",
         artist: "INNA",
-        year: "2011",
+        year: "2010",
         playlists: [
             "summer"
         ]
@@ -3187,7 +3187,7 @@ export const musicDatabase = [
         spotifyId: "1Y53CXQCPFejUPc0yOOc5f",
         title: "Fumando Espero",
         artist: "Sara Montiel",
-        year: "2001",
+        year: "1957",
         playlists: [
             "espanol100"
         ]
@@ -3197,7 +3197,7 @@ export const musicDatabase = [
         spotifyId: "1YJ4vpxPL6Wgo8gmRnvqSp",
         title: "There Must Be an Angel (Playing With My Heart)",
         artist: "Eurythmics;Annie Lennox;Dave Stewart",
-        year: "1991",
+        year: "1985",
         playlists: [
             "summer"
         ]
@@ -3227,7 +3227,7 @@ export const musicDatabase = [
         spotifyId: "1YwPNemawMgGe6sF4U0FTE",
         title: "Suavemente",
         artist: "Elvis Crespo",
-        year: "2008",
+        year: "1998",
         playlists: [
             "summer"
         ]
@@ -3287,7 +3287,7 @@ export const musicDatabase = [
         spotifyId: "1ckqbT2LtD2K1Mqvlmo21n",
         title: "La vida pasa felizmente (remastered)",
         artist: "Luis Aguile",
-        year: "2002",
+        year: "1970",
         playlists: [
             "temazos"
         ]
@@ -3407,7 +3407,7 @@ export const musicDatabase = [
         spotifyId: "1gNXYvLc14OmqK6gSJKLUM",
         title: "Como una Ola",
         artist: "Rocío Jurado",
-        year: "1999",
+        year: "1981",
         playlists: [
             "original"
         ]
@@ -3517,7 +3517,7 @@ export const musicDatabase = [
         spotifyId: "1iUmIBKBCFaeKkTYWM3Jpt",
         title: "Baila con el hula hop",
         artist: "Enrique Y Ana",
-        year: "2011",
+        year: "1978",
         playlists: [
             "espanol100"
         ]
@@ -3547,7 +3547,7 @@ export const musicDatabase = [
         spotifyId: "1jGnbIE9qWEn0Xi9MFRE74",
         title: "Ya Llega el Verano",
         artist: "Bruno Lomas",
-        year: "2007",
+        year: "1966",
         playlists: [
             "summer"
         ]
@@ -3607,7 +3607,7 @@ export const musicDatabase = [
         spotifyId: "1kXTqAV4IshAbOQpWl9PkE",
         title: "Hay que venir al sur",
         artist: "Raffaela Carrá",
-        year: "2013",
+        year: "1978",
         playlists: [
             "original"
         ]
@@ -3748,7 +3748,7 @@ export const musicDatabase = [
         spotifyId: "1oaPnvUccVzyjsKFkuE7oA",
         title: "Soy rebelde",
         artist: "Jeanette",
-        year: "2011",
+        year: "1971",
         playlists: [
             "original"
         ]
@@ -3758,7 +3758,7 @@ export const musicDatabase = [
         spotifyId: "1okijOTZ1QUEMgBcuZxTR0",
         title: "Caramba, carambita",
         artist: "Los Marismeños",
-        year: "2011",
+        year: "1976",
         playlists: [
             "espanol100"
         ]
@@ -3768,7 +3768,7 @@ export const musicDatabase = [
         spotifyId: "1or7R43FPk2oyNed5oTeOJ",
         title: "Saca el guisky cheli",
         artist: "Desmadre 75",
-        year: "1998",
+        year: "1975",
         playlists: [
             "original"
         ]
@@ -3888,7 +3888,7 @@ export const musicDatabase = [
         spotifyId: "1qriTCY9QIrATYur0FTI7J",
         title: "La Basura",
         artist: "Ultraligera",
-        year: "2025",
+        year: "2024",
         playlists: [
             "rock"
         ]
@@ -3898,7 +3898,7 @@ export const musicDatabase = [
         spotifyId: "1r299qCKBLgUS9XJ9m1kEx",
         title: "Moves Like Jagger",
         artist: "Maroon 5;Christina Aguilera",
-        year: "2015",
+        year: "2011",
         playlists: [
             "original"
         ]
@@ -3908,7 +3908,7 @@ export const musicDatabase = [
         spotifyId: "1rIKgCH4H52lrvDcz50hS8",
         title: "Lush Life",
         artist: "Zara Larsson",
-        year: "2017",
+        year: "2015",
         playlists: [
             "summer"
         ]
@@ -3928,7 +3928,7 @@ export const musicDatabase = [
         spotifyId: "1rfofaqEpACxVEHIZBJe6W",
         title: "Havana (feat. Young Thug)",
         artist: "Camila Cabello;Young Thug",
-        year: "2018",
+        year: "2017",
         playlists: [
             "original"
         ]
@@ -3938,7 +3938,7 @@ export const musicDatabase = [
         spotifyId: "1s4hyUFWmLWiAamsclb4xA",
         title: "See You Later, Alligator",
         artist: "Bill Haley & His Comets",
-        year: "1991",
+        year: "1955",
         playlists: [
             "original"
         ]
@@ -3948,7 +3948,7 @@ export const musicDatabase = [
         spotifyId: "1sMgCr1RH0HfAazVZt9xmZ",
         title: "El Secreto de las Tortugas",
         artist: "Maldita Nerea",
-        year: "2009",
+        year: "2007",
         playlists: [
             "original"
         ]
@@ -3968,7 +3968,7 @@ export const musicDatabase = [
         spotifyId: "1suKCYjsR9rZKnFYM5uK1k",
         title: "No Controles",
         artist: "Ole Ole",
-        year: "2010",
+        year: "1983",
         playlists: [
             "original"
         ]
@@ -4008,7 +4008,7 @@ export const musicDatabase = [
         spotifyId: "1uAjXdRxH2PBCKGSWPagGJ",
         title: "Libre",
         artist: "Nino Bravo",
-        year: "1976",
+        year: "1972",
         playlists: [
             "original"
         ]
@@ -4168,7 +4168,7 @@ export const musicDatabase = [
         spotifyId: "1z3ugFmUKoCzGsI6jdY4Ci",
         title: "Like a Prayer",
         artist: "Madonna",
-        year: "2009",
+        year: "1989",
         playlists: [
             "original"
         ]
@@ -4418,7 +4418,7 @@ export const musicDatabase = [
         spotifyId: "27u17peWruKyUe7RfBglZC",
         title: "El Reloj",
         artist: "Los Tres Caballeros",
-        year: "1994",
+        year: "1957",
         playlists: [
             "original"
         ]
@@ -4458,7 +4458,7 @@ export const musicDatabase = [
         spotifyId: "29opVIw8I1BOZntEn3Un2I",
         title: "La Puerta de Alcalá",
         artist: "Ana Belén;Víctor Manuel",
-        year: "1979",
+        year: "1986",
         playlists: [
             "original"
         ]
@@ -4659,7 +4659,7 @@ export const musicDatabase = [
         spotifyId: "2GbePPrWWSRxcmW6QRSPae",
         title: "Piece of My Heart",
         artist: "Erma Franklin",
-        year: "2009",
+        year: "1967",
         playlists: [
             "original"
         ]
@@ -4719,7 +4719,7 @@ export const musicDatabase = [
         spotifyId: "2Hdf9j4LFuisyOpf9ZjNbC",
         title: "La Felicidad",
         artist: "Palito Ortega",
-        year: "2001",
+        year: "1967",
         playlists: [
             "original"
         ]
@@ -4799,7 +4799,7 @@ export const musicDatabase = [
         spotifyId: "2LScqpywMqGcnum6nNaxXX",
         title: "Yes Sir, I Can Boogie",
         artist: "Baccara",
-        year: "1998",
+        year: "1977",
         playlists: [
             "original"
         ]
@@ -4839,7 +4839,7 @@ export const musicDatabase = [
         spotifyId: "2LpCMTQ8VM1ssTdfLjeyzQ",
         title: "Pena Penita Pena",
         artist: "Lola Flores",
-        year: "1991",
+        year: "1953",
         playlists: [
             "original"
         ]
@@ -5411,7 +5411,7 @@ export const musicDatabase = [
         spotifyId: "2cHbN7OosXb4pA20G9Jcyg",
         title: "Live And Let Die - Main Title",
         artist: "Paul McCartney;Wings",
-        year: "1987",
+        year: "1973",
         playlists: [
             "original"
         ]
@@ -5561,7 +5561,7 @@ export const musicDatabase = [
         spotifyId: "2i7SlECYIAsT72FpLUU1Uj",
         title: "Me Gustas Mucho",
         artist: "Rocío Dúrcal",
-        year: "1992",
+        year: "1978",
         playlists: [
             "original"
         ]
@@ -5781,7 +5781,7 @@ export const musicDatabase = [
         spotifyId: "2pag2vElkdroT8hIO4Gozi",
         title: "It's a Heartache",
         artist: "Bonnie Tyler",
-        year: "2006",
+        year: "1977",
         playlists: [
             "original"
         ]
@@ -5901,7 +5901,7 @@ export const musicDatabase = [
         spotifyId: "2uQPeyP4Y15jrlJbc5SRwm",
         title: "Soy minero",
         artist: "Antonio Molina",
-        year: "1996",
+        year: "1955",
         playlists: [
             "original"
         ]
@@ -6262,7 +6262,7 @@ export const musicDatabase = [
         spotifyId: "35hfuechuOqaW31ogdauO7",
         title: "It's In The Kiss (The Shoop Shoop Song)",
         artist: "Betty Everett",
-        year: "2010",
+        year: "1964",
         playlists: [
             "original"
         ]
@@ -6463,7 +6463,7 @@ export const musicDatabase = [
         spotifyId: "3BdId1EhcMX7yAzwzQJLAD",
         title: "Barcelona",
         artist: "Freddie Mercury;Montserrat Caballé",
-        year: "2016",
+        year: "1987",
         playlists: [
             "original"
         ]
@@ -6523,7 +6523,7 @@ export const musicDatabase = [
         spotifyId: "3Emr4aPhkNoMHPF5N5i6QD",
         title: "Campanera",
         artist: "Ana Maria",
-        year: "1993",
+        year: "1956",
         playlists: [
             "original"
         ]
@@ -6884,7 +6884,7 @@ export const musicDatabase = [
         spotifyId: "3ROd8cCRdRJpeh6P2zTAJk",
         title: "Me Quedo Contigo",
         artist: "Los Chunguitos",
-        year: "1991",
+        year: "1980",
         playlists: [
             "original"
         ]
@@ -7044,7 +7044,7 @@ export const musicDatabase = [
         spotifyId: "3VNxbWlw9oVvxSnSbeiCBb",
         title: "Cadillac solitario",
         artist: "Loquillo",
-        year: "2009",
+        year: "1983",
         playlists: [
             "original"
         ]
@@ -7504,7 +7504,7 @@ export const musicDatabase = [
         spotifyId: "3lpF8AbTteK4bXXZMhm31n",
         title: "Un Ramito de Violetas",
         artist: "Cecilia",
-        year: "2013",
+        year: "1974",
         playlists: [
             "original"
         ]
@@ -7754,7 +7754,7 @@ export const musicDatabase = [
         spotifyId: "3ySFQwBgaHN2mlLxY6A0ic",
         title: "You Can Get It If You Really Want",
         artist: "Jimmy Cliff",
-        year: "1995",
+        year: "1970",
         playlists: [
             "original"
         ]
@@ -8094,7 +8094,7 @@ export const musicDatabase = [
         spotifyId: "48i055G1OT5KxGGftwFxWy",
         title: "Oh, Pretty Woman",
         artist: "Roy Orbison",
-        year: "1962",
+        year: "1964",
         playlists: [
             "original"
         ]
@@ -8174,7 +8174,7 @@ export const musicDatabase = [
         spotifyId: "4BFMQ15vXr626UOoZL8bUI",
         title: "(I've Had) The Time of My Life - From \"Dirty Dancing\" Soundtrack",
         artist: "Bill Medley;Jennifer Warnes",
-        year: "2004",
+        year: "1987",
         playlists: [
             "original"
         ]
@@ -8434,7 +8434,7 @@ export const musicDatabase = [
         spotifyId: "4JOsL8WntMIwDeNQlKAwdA",
         title: "Me Colé en una Fiesta",
         artist: "Mecano",
-        year: "1998",
+        year: "1982",
         playlists: [
             "original"
         ]
@@ -9016,7 +9016,7 @@ export const musicDatabase = [
         spotifyId: "4awJGQ6TIS542X4XS7PWu7",
         title: "A Tu Vera",
         artist: "Lola Flores",
-        year: "1991",
+        year: "1962",
         playlists: [
             "original"
         ]
@@ -9026,7 +9026,7 @@ export const musicDatabase = [
         spotifyId: "4bE1OpWxbtFOdNDF7rJMta",
         title: "En el Amor Todo Es Empezar (A far l'amore comincia tu) - Spanish Version",
         artist: "Raffaella Carrà",
-        year: "2020",
+        year: "1977",
         playlists: [
             "original"
         ]
@@ -9266,7 +9266,7 @@ export const musicDatabase = [
         spotifyId: "4gphxUgq0JSFv2BCLhNDiE",
         title: "Jailhouse Rock",
         artist: "Elvis Presley",
-        year: "1958",
+        year: "1957",
         playlists: [
             "original"
         ]
@@ -9356,7 +9356,7 @@ export const musicDatabase = [
         spotifyId: "4kYdaN5ECfrCPPuUUiCiTr",
         title: "Que Hace una Chica Como Tu en un Sitio Como Este",
         artist: "Burning",
-        year: "1999",
+        year: "1978",
         playlists: [
             "original"
         ]
@@ -9496,7 +9496,7 @@ export const musicDatabase = [
         spotifyId: "4oW1lGOw5Q5OLvoJv92qoE",
         title: "I Can Help",
         artist: "Billy Swan",
-        year: "1998",
+        year: "1974",
         playlists: [
             "original"
         ]
@@ -9806,7 +9806,7 @@ export const musicDatabase = [
         spotifyId: "4xuQ7KieQmHXiYdh965WQR",
         title: "Canta y Sé Feliz",
         artist: "Peret",
-        year: "2001",
+        year: "1974",
         playlists: [
             "original"
         ]
@@ -10277,7 +10277,7 @@ export const musicDatabase = [
         spotifyId: "5DIovqjO8pCMkA6L1FXrXl",
         title: "Estando Contigo",
         artist: "Conchita Bautista",
-        year: "1992",
+        year: "1961",
         playlists: [
             "original"
         ]
@@ -10388,7 +10388,7 @@ export const musicDatabase = [
         spotifyId: "5IKLwqBQG6KU6MP2zP80Nu",
         title: "We Are Family - 1995 Remaster",
         artist: "Sister Sledge",
-        year: "1995",
+        year: "1979",
         playlists: [
             "original"
         ]
@@ -10639,7 +10639,7 @@ export const musicDatabase = [
         spotifyId: "5P1JgHeCLAgZJx9oiDccza",
         title: "Chica YeYe",
         artist: "Conchita Velasco",
-        year: "2009",
+        year: "1965",
         playlists: [
             "original",
             "espanol100"
@@ -10990,7 +10990,7 @@ export const musicDatabase = [
         spotifyId: "5WovBMPS14QCqKgBEM1PaO",
         title: "Sobreviviré",
         artist: "Monica Naranjo",
-        year: "2019",
+        year: "2000",
         playlists: [
             "original",
             "espanol100"
@@ -11131,7 +11131,7 @@ export const musicDatabase = [
         spotifyId: "5adqS3stLaSPAEOszOnpXG",
         title: "DUELE EL CORAZON",
         artist: "Enrique Iglesias;Wisin",
-        year: "2021",
+        year: "2016",
         playlists: [
             "original"
         ]
@@ -11211,7 +11211,7 @@ export const musicDatabase = [
         spotifyId: "5ddFjrPG8NgQQ6xlOQIVd2",
         title: "Tú Me Dejaste De Querer",
         artist: "C. Tangana;Niño de Elche;La Húngara",
-        year: "2021",
+        year: "2020",
         playlists: [
             "original"
         ]
@@ -11221,7 +11221,7 @@ export const musicDatabase = [
         spotifyId: "5dg7OfEwTVvUZfqt24ObwI",
         title: "Sólo Se Vive una Vez",
         artist: "Azucar Moreno",
-        year: "1997",
+        year: "1994",
         playlists: [
             "original"
         ]
@@ -11241,7 +11241,7 @@ export const musicDatabase = [
         spotifyId: "5fc3XWSpJo6jTlbjnhGOJQ",
         title: "Eva Maria",
         artist: "Formula V",
-        year: "1985",
+        year: "1973",
         playlists: [
             "original"
         ]
@@ -11802,7 +11802,7 @@ export const musicDatabase = [
         spotifyId: "5zyrEv4F3FaLECI8TOKpFM",
         title: "Nel Blu Dipinto Di Blu",
         artist: "Domenico Modugno",
-        year: "2008",
+        year: "1958",
         playlists: [
             "original"
         ]
@@ -11842,7 +11842,7 @@ export const musicDatabase = [
         spotifyId: "6120uJUyg6QDzaAJUosTx5",
         title: "Knock On Wood",
         artist: "Amii Stewart",
-        year: "2012",
+        year: "1979",
         playlists: [
             "original"
         ]
@@ -11872,7 +11872,7 @@ export const musicDatabase = [
         spotifyId: "61VeJ59zufLceZXb1SSVKu",
         title: "Help, áyudame",
         artist: "Tony Ronald",
-        year: "2001",
+        year: "1971",
         playlists: [
             "original",
             "espanol100"
@@ -12153,7 +12153,7 @@ export const musicDatabase = [
         spotifyId: "6DSvUZQdqtNfkJI4cAiUsM",
         title: "The Twist",
         artist: "Chubby Checker",
-        year: "1962",
+        year: "1960",
         playlists: [
             "original"
         ]
@@ -12825,7 +12825,7 @@ export const musicDatabase = [
         spotifyId: "6buqYaAyimysMjE8yuiaXy",
         title: "Cuéntame",
         artist: "Formula V",
-        year: "1985",
+        year: "1968",
         playlists: [
             "original"
         ]
@@ -12915,7 +12915,7 @@ export const musicDatabase = [
         spotifyId: "6fw12s3vAJQAt7lbICodwC",
         title: "I Will Survive - Original 7\" Version",
         artist: "Gloria Gaynor",
-        year: "1993",
+        year: "1978",
         playlists: [
             "original"
         ]
@@ -12955,7 +12955,7 @@ export const musicDatabase = [
         spotifyId: "6habFhsOp2NvshLv26DqMb",
         title: "Despacito",
         artist: "Luis Fonsi;Daddy Yankee",
-        year: "2019",
+        year: "2017",
         playlists: [
             "original",
             "espanol100"
@@ -12976,7 +12976,7 @@ export const musicDatabase = [
         spotifyId: "6iNBM60VQtPUUhkKfwa5KV",
         title: "It's My Life",
         artist: "Bon Jovi",
-        year: "2010",
+        year: "2000",
         playlists: [
             "original"
         ]
@@ -13016,7 +13016,7 @@ export const musicDatabase = [
         spotifyId: "6kFowCmp5RNQhsK8LzC0gp",
         title: "Mis Manos en Tu Cintura",
         artist: "Salvatore Adamo",
-        year: "1995",
+        year: "1966",
         playlists: [
             "original"
         ]
@@ -13066,7 +13066,7 @@ export const musicDatabase = [
         spotifyId: "6lGrDctccq26IsZ2MDTxZU",
         title: "Amor, Amor",
         artist: "Lolita",
-        year: "2013",
+        year: "1975",
         playlists: [
             "original"
         ]
@@ -13106,7 +13106,7 @@ export const musicDatabase = [
         spotifyId: "6mOZfn6CVXsX1Tt0l3thm3",
         title: "Sin documentos",
         artist: "Los Rodriguez",
-        year: "1996",
+        year: "1993",
         playlists: [
             "original"
         ]
@@ -13116,7 +13116,7 @@ export const musicDatabase = [
         spotifyId: "6mUQ6NW9WRcCuSsi4kzdlf",
         title: "Un Rayo de Sol",
         artist: "Los Diablos",
-        year: "2002",
+        year: "1970",
         playlists: [
             "original",
             "summer"
@@ -13487,7 +13487,7 @@ export const musicDatabase = [
         spotifyId: "6xunIjRX7KeF4OxFkpPeZO",
         title: "Tombola",
         artist: "Marisol",
-        year: "2013",
+        year: "1962",
         playlists: [
             "original"
         ]
@@ -13668,7 +13668,7 @@ export const musicDatabase = [
         spotifyId: "71yCMlsD6qbD7NmNUEoVNR",
         title: "Ca plane pour moi",
         artist: "Plastic Bertrand",
-        year: "1998",
+        year: "1977",
         playlists: [
             "original"
         ]
@@ -13768,7 +13768,7 @@ export const musicDatabase = [
         spotifyId: "74mVYAylZcHEY4WVFoFplV",
         title: "Space Oddity - 1999 Remaster",
         artist: "David Bowie",
-        year: "2002",
+        year: "1969",
         playlists: [
             "original"
         ]
@@ -14078,7 +14078,7 @@ export const musicDatabase = [
         spotifyId: "7COfe3P7KgfwDwIRB8LIDw",
         title: "Mi Gente",
         artist: "J Balvin;Willy William",
-        year: "2018",
+        year: "2017",
         playlists: [
             "original"
         ]
@@ -14530,7 +14530,7 @@ export const musicDatabase = [
         spotifyId: "7egg6pLQbewWGalcr241Rz",
         title: "Tengo una Debilidad",
         artist: "Antonio Machín",
-        year: "2012",
+        year: "1949",
         playlists: [
             "original"
         ]
@@ -14650,7 +14650,7 @@ export const musicDatabase = [
         spotifyId: "7idTMG6EKZy0531lIx8RJ5",
         title: "Rigoletto: \"La Donna E' Mobile\"",
         artist: "Enrico Caruso",
-        year: "2011",
+        year: "1908",
         playlists: [
             "original"
         ]
@@ -14670,7 +14670,7 @@ export const musicDatabase = [
         spotifyId: "7inx0uAxXtUiyVuvoZRsc7",
         title: "Quisiera ser",
         artist: "Duo Dinamico",
-        year: "1987",
+        year: "1961",
         playlists: [
             "original"
         ]
@@ -14730,7 +14730,7 @@ export const musicDatabase = [
         spotifyId: "7jhKkbM3KZvnuqzMX5fADH",
         title: "In the Summertime",
         artist: "Mungo Jerry",
-        year: "1971",
+        year: "1970",
         playlists: [
             "original"
         ]
@@ -14820,7 +14820,7 @@ export const musicDatabase = [
         spotifyId: "7lnlxvKtaHz3JqGxZDl6Wy",
         title: "Dile - Remastered",
         artist: "Luis Aguile",
-        year: "2008",
+        year: "1963",
         playlists: [
             "original"
         ]
