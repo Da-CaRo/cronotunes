@@ -168,6 +168,10 @@
         #spotify-container:not(.hidden) {
             animation: slideIn 0.4s ease-out;
         }
+
+        #spotify-player-dj:empty {
+            display: none;
+        }
     </style>
 </head>
 
@@ -214,14 +218,16 @@
                             <p class="text-xs mt-2 opacity-70 font-mono">Tú lanzas los hits</p>
                             <p class="text-tarjeta text-base">
                             <div class="flex flex-col space-y-2 mb-4">
-                                <!--
-                                <select id="theme-select"
-                                    class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition duration-150">
-                                    <option value="20">20 Segundos</option>
-                                    <option value="30" selected>30 Segundos</option>
-                                    <option value="40">40 Segundos</option>
+                                <select id="playlist-selector"
+                                    class="w-full bg-tarjeta border-2 border-acento/20 text-white rounded-xl p-3 focus:border-acento outline-none transition-all">
+                                    <option value="all">Todas las canciones</option>
+                                    <option value="original">Original</option>
+                                    <option value="rock">Rock</option>
+                                    <option value="temazos">Temazos</option>
+                                    <option value="summer">Summer Party</option>
+                                    <option value="espanol100">Español 100%</option>
+                                    <option value="test">Test</option>
                                 </select>
-                                -->
                                 <button id="start-btn" onclick="switchMode('dj')"
                                     class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition duration-150">
                                     Empezar
@@ -432,9 +438,26 @@
             document.getElementById('view-dj').classList.add('hidden');
             document.getElementById('view-player').classList.add('hidden');
 
-            if (mode === 'selection') document.getElementById('start-buttons').classList.remove('hidden');
-            else if (mode === 'dj') document.getElementById('view-dj').classList.remove('hidden');
-            else if (mode === 'player') document.getElementById('view-player').classList.remove('hidden');
+            // Referencias para limpiar el reproductor
+            const playerWrapperDj = document.getElementById('player-wrapper-dj');
+            const playerDivDj = document.getElementById('spotify-player-dj');
+            const displayIdDj = document.getElementById('display-id-dj');
+
+            if (mode === 'selection') {
+                document.getElementById('start-buttons').classList.remove('hidden');
+                // Al volver al menú, eliminamos el iframe para que pare la música
+                playerDivDj.innerHTML = '';
+                displayIdDj.textContent = '--';
+            }
+            else if (mode === 'dj') {
+                document.getElementById('view-dj').classList.remove('hidden');
+                // Al entrar al modo DJ, nos aseguramos de que el reproductor esté vacío hasta pulsar el botón
+                playerDivDj.innerHTML = '';
+                displayIdDj.textContent = '--';
+            }
+            else if (mode === 'player') {
+                document.getElementById('view-player').classList.remove('hidden');
+            }
         }
 
         // =========================================================
@@ -486,8 +509,9 @@
                 if (confirm("¿Estás seguro de que quieres borrar todo el progreso y las variables guardadas?")) {
 
                     // 1. Borrar el LocalStorage
-                    localStorage.removeItem('cronotunes_gameState'); // Tablero del Jugador
-                    localStorage.removeItem('cronotunes_used_songs'); // Historial DJ
+                    Object.keys(localStorage).forEach(key => {
+                        if (key.startsWith('cronotunes_')) localStorage.removeItem(key);
+                    });
 
                     // 2. Limpiar el tablero visualmente (opcional si vas a recargar)
                     const timeline = document.getElementById('timeline');
@@ -608,20 +632,39 @@
             });
 
             // 5. LÓGICA MODO DJ
+            const playlistSelector = document.getElementById('playlist-selector');
+            let selectedPlaylist = 'all';
+
+            // Actualizar la playlist cuando el usuario cambie el selector
+            playlistSelector.addEventListener('change', (e) => {
+                selectedPlaylist = e.target.value;
+            });
+
             btnDrawDj.addEventListener('click', () => {
                 // 1. Obtener la lista de IDs ya usados del localStorage
                 let usedIds = JSON.parse(localStorage.getItem('cronotunes_used_songs')) || [];
 
+                // 1. FILTRAR POR PLAYLIST PRIMERO
+                let pool = musicDatabase;
+                if (selectedPlaylist !== 'all') {
+                    pool = musicDatabase.filter(song => song.playlists && song.playlists.includes(selectedPlaylist));
+                }
+
                 // 2. Filtrar la base de datos para obtener SOLO las que no se han usado
-                const availableSongs = musicDatabase.filter(song => !usedIds.includes(song.id));
+                const availableSongs = pool.filter(song => !usedIds.includes(song.id));
 
                 // 3. Si no quedan canciones, avisar y resetear
                 if (availableSongs.length === 0) {
-                    alert("¡Se han terminado las canciones! Reiniciando historial...");
-                    usedIds = [];
-                    localStorage.setItem('cronotunes_used_songs', JSON.stringify([]));
-                    // Recargamos las disponibles con toda la base de datos
-                    availableSongs.push(...musicDatabase);
+                    alert(`¡Se han terminado las canciones de la playlist: ${selectedPlaylist} Reiniciando historial de esta lista...`);
+
+                    // Limpiamos solo los IDs que pertenecen a esta playlist para no borrar el historial de otras
+                    const poolIds = pool.map(s => s.id);
+                    usedIds = usedIds.filter(id => !poolIds.includes(id));
+
+                    localStorage.setItem('cronotunes_used_songs', JSON.stringify(usedIds));
+
+                    // Ahora las disponibles son todas las de la playlist seleccionada
+                    availableSongs = pool;
                 }
 
                 // 4. Elegir una canción aleatoria de las DISPONIBLES
