@@ -83,8 +83,12 @@
         }
 
         .card {
-            width: 120px;
-            height: 160px;
+            /* Usamos variables para que sea fácil de ajustar con Media Queries */
+            --card-w: 110px;
+            --card-h: 150px;
+
+            width: var(--card-w);
+            height: var(--card-h);
             background-color: var(--color-tarjeta);
             border: 2px solid var(--color-borde-tarjeta);
             border-radius: 12px;
@@ -95,6 +99,7 @@
             cursor: grab;
             transition: all 0.2s;
             flex-shrink: 0;
+            /* Evita que se deformen */
         }
 
         .card.dragging {
@@ -171,6 +176,22 @@
 
         #spotify-player-dj:empty {
             display: none;
+        }
+
+        /* Reducimos el tamaño en móviles para que quepan más en pantalla */
+        @media (max-width: 640px) {
+            .card {
+                --card-w: 85px;
+                --card-h: 120px;
+            }
+
+            .card-year {
+                font-size: 1.1rem;
+            }
+
+            .card-title {
+                font-size: 0.6rem;
+            }
         }
     </style>
 </head>
@@ -359,7 +380,7 @@
                     </div>
 
                     <button id="btn-draw-dj"
-                        class="bg-acento text-white font-bold py-5 px-12 rounded-2xl shadow-xl hover:opacity-90 transition-all font-code text-xl uppercase">
+                        class="bg-[--color-acento] text-white font-bold py-5 px-12 rounded-2xl shadow-xl hover:opacity-90 transition-all font-code text-xl uppercase">
                         🎵 LANZAR HIT ALEATORIO
                     </button>
                 </div>
@@ -382,18 +403,20 @@
                 <div
                     class="flex flex-col items-center bg-gray-900/40 p-6 rounded-3xl border border-gray-800 w-full max-w-md">
                     <button id="btn-draw-player"
-                        class="bg-acento text-white font-bold py-3 px-8 rounded-full shadow-lg transition transform hover:scale-105 mb-4 font-code text-sm">
+                        class="bg-[--color-acento] text-white font-bold py-3 px-8 rounded-full shadow-lg transition transform hover:scale-105 mb-0 font-code text-sm">
                         SACAR CARTA PARA ORDENAR
                     </button>
-                    <div id="new-card-area" class="h-44 w-full flex flex-col items-center justify-center"></div>
+
                     <button id="btn-confirm"
-                        class="hidden mt-4 bg-green-600 hover:bg-green-500 text-white font-bold py-2 px-8 rounded-lg transition-all animate-pulse text-sm">
-                        CONFIRMAR POSICIÓN
+                        class="hidden bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all animate-pulse text-sm">
+                        CONFIRMAR POSICIÓN ✅
                     </button>
+
+                    <div id="new-card-area" class="h-44 w-full flex flex-col items-center justify-center"></div>
                 </div>
                 <div class="w-full overflow-x-auto pb-8">
                     <div id="timeline"
-                        class="flex justify-start justify-center items-center gap-2 min-h-[220px] p-6 rounded-2xl border-2 border-dashed border-gray-700 bg-gray-900/20">
+                        class="flex justify-start sm:justify-center items-center gap-3 min-h-[200px] p-6 rounded-2xl border-2 border-dashed border-gray-700 bg-gray-900/20 min-w-max touch-pan-x">
                     </div>
                 </div>
                 <button id="btn-back-player" onclick="switchMode('selection')"
@@ -577,6 +600,9 @@
                     const card = createCard({}, false);
                     newCardArea.appendChild(card);
                     currentPendingCard = card;
+
+                    // INTERCAMBIO DE BOTONES
+                    btnDrawPlayer.classList.add('hidden');
                     btnConfirm.classList.remove('hidden');
                 }
             });
@@ -613,8 +639,10 @@
                     currentPendingCard.remove();
                 }
 
+                // RESET DE ESTADO DE BOTONES
                 currentPendingCard = null;
                 btnConfirm.classList.add('hidden');
+                btnDrawPlayer.classList.remove('hidden');
             });
 
             btnBackPlayer.addEventListener('click', () => {
@@ -636,6 +664,7 @@
                     // 4. Resetear variables de estado
                     currentPendingCard = null;
                     btnConfirm.classList.add('hidden');
+                    btnDrawPlayer.classList.remove('hidden');
 
                     // 5. Volver a la pantalla de selección (Llamamos a tu función de cambio de modo)
                     switchMode('selection');
@@ -711,6 +740,18 @@
                 e.preventDefault();
                 const dragging = document.querySelector('.dragging');
                 if (!dragging) return;
+
+                // AUTO-SCROLL: Si arrastramos cerca de los bordes del timeline, que se mueva solo
+                const scrollThreshold = 100;
+                const scrollSpeed = 10;
+                const rect = timeline.parentElement.getBoundingClientRect();
+
+                if (e.clientX > rect.right - scrollThreshold) {
+                    timeline.parentElement.scrollLeft += scrollSpeed;
+                } else if (e.clientX < rect.left + scrollThreshold) {
+                    timeline.parentElement.scrollLeft -= scrollSpeed;
+                }
+
                 const draggableElements = [...timeline.querySelectorAll('.card:not(.dragging)')];
                 const afterElement = draggableElements.reduce((closest, child) => {
                     const box = child.getBoundingClientRect();
