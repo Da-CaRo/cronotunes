@@ -351,7 +351,7 @@
                         CONFIRMAR POSICIÓN ✅
                     </button>
 
-                    <div id="new-card-area" class="h-40 w-full flex flex-col items-center justify-center"></div>
+                    <div id="new-card-area" class="h-44 w-full flex flex-col items-center justify-center"></div>
                 </div>
                 <div class="w-full overflow-x-auto pb-8">
                     <div id="timeline"
@@ -367,6 +367,24 @@
 
         </div>
     </main>
+
+    <div id="modal-id"
+        class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-start justify-center p-4 pt-16 sm:pt-24">
+        <div
+            class="bg-tarjeta border-2 border-acento p-6 rounded-2xl shadow-2xl w-full max-w-xs flex flex-col items-center">
+            <h3 class="text-white font-bold mb-4 uppercase tracking-widest text-sm">Introduce ID</h3>
+            <input type="number" id="input-game-id"
+                class="w-full bg-gray-900 border-2 border-gray-700 text-acento text-3xl text-center font-mono py-3 rounded-xl mb-6 focus:border-acento outline-none"
+                inputmode="numeric" placeholder="000">
+
+            <div class="flex gap-3 w-full">
+                <button id="btn-cancel-modal"
+                    class="flex-1 py-3 text-texto-tarjeta font-bold uppercase text-xs">Cancelar</button>
+                <button id="btn-confirm-modal"
+                    class="flex-1 py-3 bg-acento text-white font-bold rounded-lg uppercase text-xs">Validar</button>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-gray-900 border-t border-gray-800 mt-16 py-4">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -448,6 +466,11 @@
             const playerWrapperDj = document.getElementById('player-wrapper-dj');
             const btnBackPlayer = document.getElementById('btn-back-player');
             const clearBtn = document.getElementById('clear-storage-btn');
+
+            const modalId = document.getElementById('modal-id');
+            const inputGameId = document.getElementById('input-game-id');
+            const btnConfirmModal = document.getElementById('btn-confirm-modal');
+            const btnCancelModal = document.getElementById('btn-cancel-modal');
 
             let currentPendingCard = null;
 
@@ -548,20 +571,30 @@
 
             btnConfirm.addEventListener('click', () => {
                 // VALIDACIÓN: ¿Está la tarjeta dentro del timeline?
-                // Comprobamos si el padre de la tarjeta pendiente es el elemento 'timeline'
                 if (currentPendingCard.parentElement !== timeline) {
                     alert("Primero debes arrastrar la tarjeta a una posición en la línea de tiempo.");
-                    return; // Detiene la ejecución si no está en el timeline
+                    return;
                 }
+                // Abrir modal y limpiar input
+                inputGameId.value = '';
+                modalId.classList.remove('hidden');
+                inputGameId.focus();
+            });
 
-                const gameId = prompt("Introduce el ID de la canción:");
-                const songData = musicDatabase.find(s => s.id == gameId.toString());
+            // Lógica de confirmación dentro del modal
+            btnConfirmModal.addEventListener('click', () => {
+                const gameId = inputGameId.value.trim();
+                if (!gameId) return;
+
+                const songData = musicDatabase.find(s => s.id.toString() === gameId);
 
                 if (!songData) {
                     alert("ID de juego no encontrado.");
+                    modalId.classList.add('hidden');
                     return;
                 }
 
+                // El resto de tu lógica de validación de años...
                 currentPendingCard.dataset.year = songData.year;
                 currentPendingCard.dataset.songId = songData.id;
 
@@ -578,10 +611,16 @@
                     currentPendingCard.remove();
                 }
 
-                // RESET DE ESTADO DE BOTONES
+                // Reset de estado y cerrar modal
                 currentPendingCard = null;
+                modalId.classList.add('hidden');
                 btnConfirm.classList.add('hidden');
                 btnDrawPlayer.classList.remove('hidden');
+            });
+
+            // Cerrar modal al cancelar
+            btnCancelModal.addEventListener('click', () => {
+                modalId.classList.add('hidden');
             });
 
             btnBackPlayer.addEventListener('click', () => {
