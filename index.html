@@ -216,9 +216,15 @@
         <div class="max-w-7xl mx-auto flex justify-between items-center py-0">
             <div class="flex items-center space-x-2">
                 <img src="img/favicon.png" alt="Icono Cronotunes" class="h-8 w-8">
-                <h1 class="text-3xl font-extrabold text-acento font-cronotunes animate-pulse">
+                <h1 class="text-2xl md:text-3xl font-extrabold text-acento font-cronotunes animate-pulse">
                     Cronotunes
                 </h1>
+            </div>
+
+            <div id="card-counter-container"
+                class="hidden flex items-center bg-tarjeta border border-gray-800 px-3 py-1 rounded-full ml-auto">
+                <span class="text-xs mr-1 opacity-70">🎴</span>
+                <span id="card-count" class="text-acento font-bold font-mono">0</span>
             </div>
 
             <button id="reset-game-btn"
@@ -448,6 +454,11 @@
             else if (mode === 'player') {
                 document.getElementById('view-player').classList.remove('hidden');
             }
+
+            // Llamamos a la función para que actualice la visibilidad del contador
+            if (typeof window.updateCardCounter === 'function') {
+                window.updateCardCounter();
+            }
         }
 
         // =========================================================
@@ -498,6 +509,7 @@
                         timeline.appendChild(createCard(songData, true));
                     }
                 });
+                updateCardCounter()
             }
 
             clearBtn.addEventListener('click', () => {
@@ -550,6 +562,27 @@
             </div>`;
             }
 
+            function updateCardCounter() {
+                const timeline = document.getElementById('timeline');
+                const counterContainer = document.getElementById('card-counter-container');
+                const counterDisplay = document.getElementById('card-count');
+
+                // Contamos solo las cartas que no tienen la clase 'pending'
+                const correctCards = timeline.querySelectorAll('.card:not(.pending)').length;
+
+                counterDisplay.textContent = correctCards;
+
+                // Solo mostramos el contador si estamos en modo jugador y hay cartas
+                const isPlayerView = !document.getElementById('view-player').classList.contains('hidden');
+                if (isPlayerView && correctCards > 0) {
+                    counterContainer.classList.remove('hidden');
+                } else {
+                    counterContainer.classList.add('hidden');
+                }
+            }
+
+            window.updateCardCounter = updateCardCounter;
+
             // 4. LÓGICA MODO JUGADOR
             btnDrawPlayer.addEventListener('click', () => {
                 if (currentPendingCard) return;
@@ -558,6 +591,7 @@
                     const firstSong = musicDatabase[Math.floor(Math.random() * musicDatabase.length)];
                     timeline.appendChild(createCard(firstSong, true));
                     saveGameState();
+                    updateCardCounter()
                 } else {
                     const card = createCard({}, false);
                     newCardArea.appendChild(card);
@@ -605,6 +639,7 @@
                 if (isCorrect) {
                     revealCard(currentPendingCard, songData);
                     saveGameState();
+                    updateCardCounter()
                     alert("✅ ¡Correcto!");
                 } else {
                     alert(`❌ ¡Error! La canción era de ${songData.year}.`);
@@ -616,6 +651,15 @@
                 modalId.classList.add('hidden');
                 btnConfirm.classList.add('hidden');
                 btnDrawPlayer.classList.remove('hidden');
+            });
+
+            // Permitir que la tecla "Enter" valide el formulario dentro del modal
+            inputGameId.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    // Evita el comportamiento por defecto y dispara el clic del botón de confirmar
+                    e.preventDefault();
+                    btnConfirmModal.click();
+                }
             });
 
             // Cerrar modal al cancelar
