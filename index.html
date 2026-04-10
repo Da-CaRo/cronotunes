@@ -83,8 +83,11 @@
         }
 
         .card {
-            width: 120px;
-            height: 160px;
+            --card-w: 110px;
+            --card-h: 150px;
+
+            width: var(--card-w);
+            height: var(--card-h);
             background-color: var(--color-tarjeta);
             border: 2px solid var(--color-borde-tarjeta);
             border-radius: 12px;
@@ -95,6 +98,8 @@
             cursor: grab;
             transition: all 0.2s;
             flex-shrink: 0;
+            overflow: hidden;
+            position: relative;
         }
 
         .card.dragging {
@@ -108,12 +113,15 @@
             align-items: center;
             justify-content: center;
             text-align: center;
+            /* Forzamos a que ocupe todo el ancho y alto del padre */
+            width: 100%;
             height: 100%;
             padding: 8px;
+            box-sizing: border-box;
             background: linear-gradient(145deg, var(--color-tarjeta), #2d3a4f);
-            border-radius: 10px;
+            border-radius: 10.5px;
             border: 1px solid var(--color-acento);
-            box-shadow: 0 0 15px rgba(255, 46, 99, 0.2);
+            box-shadow: inset 0 0 10px rgba(184, 63, 192, 0.1);
         }
 
         .card-year {
@@ -129,13 +137,23 @@
             margin-top: 4px;
             font-weight: bold;
             line-height: 1.1;
+            /* Limitar a 3 líneas máximo para no romper el diseño */
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
         .card-artist {
             font-size: 0.6rem;
-            color: var(--color-texto-gris);
+            color: var(--color-texto-tarjeta);
+            /* Usamos la variable definida en :root */
             text-transform: uppercase;
             margin-top: 2px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
         }
 
         .card-song-info {
@@ -172,6 +190,32 @@
         #spotify-player-dj:empty {
             display: none;
         }
+
+        #display-id-dj,
+        #display-year-dj {
+            display: inline-block;
+            min-height: 1.5rem;
+            /* Reserva espacio para la altura del texto */
+            line-height: 1;
+        }
+
+        /* Reducimos el tamaño en móviles para que quepan más en pantalla */
+        @media (max-width: 640px) {
+            .card {
+                --card-w: 90px;
+                --card-h: 130px;
+            }
+
+            .card-title {
+                font-size: 0.55rem;
+                -webkit-line-clamp: 2;
+            }
+
+            .card-artist {
+                font-size: 0.45rem;
+                -webkit-line-clamp: 2;
+            }
+        }
     </style>
 </head>
 
@@ -180,9 +224,15 @@
         <div class="max-w-7xl mx-auto flex justify-between items-center py-0">
             <div class="flex items-center space-x-2">
                 <img src="img/favicon.png" alt="Icono Cronotunes" class="h-8 w-8">
-                <h1 class="text-3xl font-extrabold text-acento font-cronotunes animate-pulse">
+                <h1 class="text-2xl md:text-3xl font-extrabold text-acento font-cronotunes animate-pulse">
                     Cronotunes
                 </h1>
+            </div>
+
+            <div id="card-counter-container"
+                class="hidden flex items-center bg-tarjeta border border-gray-800 px-3 py-1 rounded-full ml-auto">
+                <span class="text-xs mr-1 opacity-70">🎴</span>
+                <span id="card-count" class="text-acento font-bold font-mono">0</span>
             </div>
 
             <button id="reset-game-btn"
@@ -206,40 +256,6 @@
 
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                    <div
-                        class="bg-tarjeta p-6 rounded-lg shadow-xl border border-tarjeta transition duration-300 h-full flex flex-col justify-between">
-                        <div>
-                            <div class="flex items-center space-x-3 mb-4">
-                                <span class="text-acento text-4xl block">🎧</span>
-                                <h3 class="text-4xl font-bold">Modo DJ</h3>
-
-                            </div>
-                            <p class="text-xs mt-2 opacity-70 font-mono">Tú lanzas los hits</p>
-                            <p class="text-tarjeta text-base">
-                            <div class="flex flex-col space-y-2 mb-4">
-                                <select id="playlist-selector"
-                                    class="w-full bg-tarjeta border-2 border-acento/20 text-white rounded-xl p-3 focus:border-acento outline-none transition-all">
-                                    <option value="all">Todas las canciones</option>
-                                    <option value="original">Original</option>
-                                    <option value="rock">Rock</option>
-                                    <option value="temazos">Temazos</option>
-                                    <option value="summer">Summer Party</option>
-                                    <option value="espanol100">Español 100%</option>
-                                    <option value="test">Test</option>
-                                </select>
-                                <button id="start-btn" onclick="switchMode('dj')"
-                                    class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition duration-150">
-                                    Empezar
-                                </button>
-                            </div>
-                            </p>
-                        </div>
-                        <a href="#" target="_blank" class="block">
-                            <span class="mt-5 inline-block text-sm font-medium text-acento hover:underline">Ver
-                                Instrucciones →</span></a>
-                    </div>
-
                     <div
                         class="bg-tarjeta p-6 rounded-lg shadow-xl border border-tarjeta transition duration-300 h-full flex flex-col justify-between">
                         <div>
@@ -247,7 +263,7 @@
                                 <span class="text-acento text-4xl block">🕹️</span>
                                 <h3 class="text-4xl font-bold">Jugador</h3>
                             </div>
-                            <p class="text-xs mt-2 opacity-70 font-mono">Ordena la historia</p>
+                            <p class="text-s mt-1 mb-1 opacity-70 font-mono">Ordena la historia</p>
                             <p class="text-tarjeta text-base">
                             <div class="flex flex-col space-y-2 mb-4">
                                 <button id="start-btn" onclick="switchMode('player')"
@@ -259,6 +275,41 @@
                         </div>
                     </div>
 
+                    <div
+                        class="bg-tarjeta p-6 rounded-lg shadow-xl border border-tarjeta transition duration-300 h-full flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-4">
+                                <span class="text-acento text-4xl block">🎧</span>
+                                <h3 class="text-4xl font-bold">DJ</h3>
+
+                            </div>
+                            <p class="text-s mt-1 mb-1 opacity-70 font-mono">Tú lanzas los hits</p>
+                            <p class="text-tarjeta text-base">
+                            <div class="flex flex-col space-y-2 mb-4">
+                                <select id="playlist-selector"
+                                    class="w-full bg-tarjeta border-2 border-tarjeta text-white rounded-xl p-3 focus:border-acento outline-none transition-all">
+                                    <option value="all">Todas las canciones</option>
+                                    <option value="original">Original</option>
+                                    <!--
+                                    <option value="rock">Rock</option>
+                                    <option value="temazos">Temazos</option>
+                                    <option value="summer">Summer Party</option>
+                                    <option value="espanol100">Español 100%</option>
+                                    <option value="test">Test</option>
+                                    -->
+                                </select>
+                                <button id="start-btn" onclick="switchMode('dj')"
+                                    class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition duration-150">
+                                    Empezar
+                                </button>
+                            </div>
+                            </p>
+                        </div>
+                        <a href="https://da-caro.github.io/setup-and-play/cronotunes.html" target="_blank" class="block">
+                            <span class="mt-5 inline-block text-sm font-medium text-acento hover:underline">Ver
+                                Instrucciones →</span></a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -266,100 +317,26 @@
     <main class="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-4">
 
         <div id="game-layout" class="flex flex-col lg:flex-row lg:space-x-8 ">
-            <!--
-            <div id="control-bar-wrapper"
-                class="flex flex-col sm:flex-row lg:flex-col justify-between items-center w-full lg:w-64 mb-6 lg:mb-0">
-                <div id="game-stats" class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-1 gap-3 w-full hidden">
+            <div id="view-dj" class="hidden w-full max-w-2xl flex flex-col items-center space-y-6 md:space-y-12">
+                <div class="flex flex-wrap items-center justify-center gap-4 mb-6 md:mb-8">
 
-                    <div id="team1-score"
-                        class="flex flex-col border-2 border-blue-600 rounded-xl bg-tarjeta overflow-hidden">
-                        <div class="bg-blue-600 text-white text-[10px] font-bold py-1 text-center uppercase">🔵 Equipo
-                            Azul</div>
-                        <div class="grid grid-cols-3 text-center border-b border-gray-700">
-                            <div class="p-1 border-r border-gray-700">
-                                <span class="block text-[8px] text-tarjeta uppercase">R1</span>
-                                <span id="t1-r1" class="font-bold text-sm text-white">0</span>
-                            </div>
-                            <div class="p-1 border-r border-gray-700">
-                                <span class="block text-[8px] text-tarjeta uppercase">R2</span>
-                                <span id="t1-r2" class="font-bold text-sm text-white">0</span>
-                            </div>
-                            <div class="p-1">
-                                <span class="block text-[8px] text-tarjeta uppercase">R3</span>
-                                <span id="t1-r3" class="font-bold text-sm text-white">0</span>
-                            </div>
+                    <div class="flex gap-4 w-full justify-center md:w-auto">
+                        <div
+                            class="bg-tarjeta border-2 border-acento/50 px-4 rounded-xl min-w-[110px] h-16 shadow-[0_0_15px_rgba(184,63,192,0.2)] flex flex-col items-center justify-center">
+                            <span class="text-[10px] uppercase text-texto-gris mb-1">ID:</span>
+                            <span id="display-id-dj"
+                                class="text-2xl font-black text-acento leading-none font-mono">--</span>
                         </div>
-                        <div class="p-1 text-center bg-blue-900/20">
-                            <span class="text-[9px] uppercase text-blue-400">Total:</span>
-                            <span id="t1-total" class="font-bold text-xl text-blue-400 ml-1">0</span>
+                        <div
+                            class="bg-tarjeta border-2 border-acento/50 px-4 rounded-xl min-w-[110px] h-16 shadow-[0_0_15px_rgba(184,63,192,0.2)] flex flex-col items-center justify-center">
+                            <span class="text-[10px] uppercase text-texto-gris mb-1">Año:</span>
+                            <span id="display-year-dj"
+                                class="text-2xl font-black text-acento leading-none font-mono">--</span>
                         </div>
-                    </div>
-
-                    <div id="team2-score"
-                        class="flex flex-col border-2 border-red-600 rounded-xl bg-tarjeta overflow-hidden">
-                        <div class="bg-red-600 text-white text-[10px] font-bold py-1 text-center uppercase">🔴 Equipo
-                            Rojo</div>
-                        <div class="grid grid-cols-3 text-center border-b border-gray-700">
-                            <div class="p-1 border-r border-gray-700">
-                                <span class="block text-[8px] text-tarjeta uppercase">R1</span>
-                                <span id="t2-r1" class="font-bold text-sm text-white">0</span>
-                            </div>
-                            <div class="p-1 border-r border-gray-700">
-                                <span class="block text-[8px] text-tarjeta uppercase">R2</span>
-                                <span id="t2-r2" class="font-bold text-sm text-white">0</span>
-                            </div>
-                            <div class="p-1">
-                                <span class="block text-[8px] text-tarjeta uppercase">R3</span>
-                                <span id="t2-r3" class="font-bold text-sm text-white">0</span>
-                            </div>
-                        </div>
-                        <div class="p-1 text-center bg-red-900/20">
-                            <span class="text-[9px] uppercase text-red-400">Total:</span>
-                            <span id="t2-total" class="font-bold text-xl text-red-400 ml-1">0</span>
-                        </div>
-                    </div>
-
-
-                    <div id="timer-container"
-                        class="flex flex-row justify-between items-center text-white border-2 border-gray-600 px-4 rounded-xl bg-tarjeta h-12">
-                        <span class="text-[10px] uppercase font-bold tracking-wider">⏱️ Tiempo</span>
-                        <span id="timer" class="font-bold text-xl text-acento ml-2">-</span>
-                    </div>
-
-                    <div id="turn-container"
-                        class="flex flex-row justify-between items-center text-white border-2 border-gray-600 px-4 rounded-xl bg-tarjeta h-12">
-                        <span class="text-[10px] uppercase font-bold tracking-wider">👤 Turno</span>
-                        <span id="current-turn"
-                            class="font-bold text-[10px] leading-tight text-acento text-right uppercase ml-2">Preparados</span>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div id="game-board"
-                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-5 w-full lg:flex-1">
-            </div>
-            -->
-            <div id="view-dj" class="hidden w-full max-w-2xl flex flex-col items-center space-y-10">
-                <div class="flex items-center justify-center gap-4 mb-8">
-                    <div
-                        class="bg-tarjeta border-2 border-acento/50 px-6 py-3 rounded-xl min-w-[100px] shadow-[0_0_15px_rgba(184,63,192,0.2)] flex flex-col items-center">
-                        <span class="text-[10px] uppercase text-texto-gris mb-1">ID de la
-                            canción:</span>
-                        <span id="display-id-dj"
-                            class="text-2xl font-black text-acento leading-none font-mono">--</span>
-                    </div>
-                    <div
-                        class="bg-tarjeta border-2 border-acento/50 px-6 py-3 rounded-xl min-w-[100px] shadow-[0_0_15px_rgba(184,63,192,0.2)] flex flex-col items-center">
-                        <span class="text-[10px] uppercase text-texto-gris mb-1">Año de la
-                            canción:</span>
-                        <span id="display-year-dj"
-                            class="text-2xl font-black text-acento leading-none font-mono">--</span>
                     </div>
 
                     <button id="btn-draw-dj"
-                        class="bg-acento text-white font-bold py-5 px-12 rounded-2xl shadow-xl hover:opacity-90 transition-all font-code text-xl uppercase">
+                        class="w-full md:w-auto bg-[--color-acento] text-white font-bold py-5 px-8 h-16 rounded-2xl shadow-xl hover:opacity-90 transition-all font-code text-lg uppercase">
                         🎵 LANZAR HIT ALEATORIO
                     </button>
                 </div>
@@ -378,22 +355,24 @@
                     menú</button>
             </div>
 
-            <div id="view-player" class="hidden w-full flex flex-col items-center space-y-12">
+            <div id="view-player" class="hidden w-full flex flex-col items-center space-y-10">
                 <div
-                    class="flex flex-col items-center bg-gray-900/40 p-6 rounded-3xl border border-gray-800 w-full max-w-md">
+                    class="flex flex-col items-center bg-gray-900/40 p-4 pb-2 rounded-3xl border border-gray-800 w-full max-w-md">
                     <button id="btn-draw-player"
-                        class="bg-acento text-white font-bold py-3 px-8 rounded-full shadow-lg transition transform hover:scale-105 mb-4 font-code text-sm">
-                        SACAR CARTA PARA ORDENAR
+                        class="bg-[--color-acento] text-white font-bold py-3 px-8 rounded-full shadow-lg transition transform hover:scale-105 mb-0 font-code text-sm">
+                        SACAR CARTA
                     </button>
-                    <div id="new-card-area" class="h-44 w-full flex flex-col items-center justify-center"></div>
+
                     <button id="btn-confirm"
-                        class="hidden mt-4 bg-green-600 hover:bg-green-500 text-white font-bold py-2 px-8 rounded-lg transition-all animate-pulse text-sm">
-                        CONFIRMAR POSICIÓN
+                        class="hidden bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all animate-pulse text-sm">
+                        CONFIRMAR POSICIÓN ✅
                     </button>
+
+                    <div id="new-card-area" class="h-44 w-full flex flex-col items-center justify-center"></div>
                 </div>
                 <div class="w-full overflow-x-auto pb-8">
                     <div id="timeline"
-                        class="flex justify-start justify-center items-center gap-2 min-h-[220px] p-6 rounded-2xl border-2 border-dashed border-gray-700 bg-gray-900/20">
+                        class="flex justify-center items-center gap-3 min-h-[150px] p-4 rounded-2xl border-2 border-dashed border-gray-700 bg-gray-900/20 min-w-max touch-pan-x">
                     </div>
                 </div>
                 <button id="btn-back-player" onclick="switchMode('selection')"
@@ -405,6 +384,24 @@
 
         </div>
     </main>
+
+    <div id="modal-id"
+        class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-start justify-center p-4 pt-16 sm:pt-24">
+        <div
+            class="bg-tarjeta border-2 border-acento p-6 rounded-2xl shadow-2xl w-full max-w-xs flex flex-col items-center">
+            <h3 class="text-white font-bold mb-4 uppercase tracking-widest text-sm">Introduce ID</h3>
+            <input type="number" id="input-game-id"
+                class="w-full bg-gray-900 border-2 border-gray-700 text-acento text-3xl text-center font-mono py-3 rounded-xl mb-6 focus:border-acento outline-none"
+                inputmode="numeric" placeholder="000">
+
+            <div class="flex gap-3 w-full">
+                <button id="btn-cancel-modal"
+                    class="flex-1 py-3 text-texto-tarjeta font-bold uppercase text-xs">Cancelar</button>
+                <button id="btn-confirm-modal"
+                    class="flex-1 py-3 bg-acento text-white font-bold rounded-lg uppercase text-xs">Validar</button>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-gray-900 border-t border-gray-800 mt-16 py-4">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -468,6 +465,11 @@
             else if (mode === 'player') {
                 document.getElementById('view-player').classList.remove('hidden');
             }
+
+            // Llamamos a la función para que actualice la visibilidad del contador
+            if (typeof window.updateCardCounter === 'function') {
+                window.updateCardCounter();
+            }
         }
 
         // =========================================================
@@ -486,6 +488,11 @@
             const playerWrapperDj = document.getElementById('player-wrapper-dj');
             const btnBackPlayer = document.getElementById('btn-back-player');
             const clearBtn = document.getElementById('clear-storage-btn');
+
+            const modalId = document.getElementById('modal-id');
+            const inputGameId = document.getElementById('input-game-id');
+            const btnConfirmModal = document.getElementById('btn-confirm-modal');
+            const btnCancelModal = document.getElementById('btn-cancel-modal');
 
             let currentPendingCard = null;
 
@@ -508,11 +515,12 @@
                 if (!savedData) return;
                 const ids = JSON.parse(savedData);
                 ids.forEach(id => {
-                    const songData = musicDatabase.find(s => s.id === id);
+                    const songData = musicDatabase.find(s => s.id.toString() === id.toString());
                     if (songData) {
                         timeline.appendChild(createCard(songData, true));
                     }
                 });
+                updateCardCounter()
             }
 
             clearBtn.addEventListener('click', () => {
@@ -565,6 +573,27 @@
             </div>`;
             }
 
+            function updateCardCounter() {
+                const timeline = document.getElementById('timeline');
+                const counterContainer = document.getElementById('card-counter-container');
+                const counterDisplay = document.getElementById('card-count');
+
+                // Contamos solo las cartas que no tienen la clase 'pending'
+                const correctCards = timeline.querySelectorAll('.card:not(.pending)').length;
+
+                counterDisplay.textContent = correctCards;
+
+                // Solo mostramos el contador si estamos en modo jugador y hay cartas
+                const isPlayerView = !document.getElementById('view-player').classList.contains('hidden');
+                if (isPlayerView && correctCards > 0) {
+                    counterContainer.classList.remove('hidden');
+                } else {
+                    counterContainer.classList.add('hidden');
+                }
+            }
+
+            window.updateCardCounter = updateCardCounter;
+
             // 4. LÓGICA MODO JUGADOR
             btnDrawPlayer.addEventListener('click', () => {
                 if (currentPendingCard) return;
@@ -573,30 +602,44 @@
                     const firstSong = musicDatabase[Math.floor(Math.random() * musicDatabase.length)];
                     timeline.appendChild(createCard(firstSong, true));
                     saveGameState();
+                    updateCardCounter()
                 } else {
                     const card = createCard({}, false);
                     newCardArea.appendChild(card);
                     currentPendingCard = card;
+
+                    // INTERCAMBIO DE BOTONES
+                    btnDrawPlayer.classList.add('hidden');
                     btnConfirm.classList.remove('hidden');
                 }
             });
 
             btnConfirm.addEventListener('click', () => {
                 // VALIDACIÓN: ¿Está la tarjeta dentro del timeline?
-                // Comprobamos si el padre de la tarjeta pendiente es el elemento 'timeline'
                 if (currentPendingCard.parentElement !== timeline) {
                     alert("Primero debes arrastrar la tarjeta a una posición en la línea de tiempo.");
-                    return; // Detiene la ejecución si no está en el timeline
+                    return;
                 }
+                // Abrir modal y limpiar input
+                inputGameId.value = '';
+                modalId.classList.remove('hidden');
+                inputGameId.focus();
+            });
 
-                const gameId = prompt("Introduce el ID de la canción:");
-                const songData = musicDatabase.find(s => s.id == gameId.toString());
+            // Lógica de confirmación dentro del modal
+            btnConfirmModal.addEventListener('click', () => {
+                const gameId = inputGameId.value.trim();
+                if (!gameId) return;
+
+                const songData = musicDatabase.find(s => s.id.toString() === gameId);
 
                 if (!songData) {
                     alert("ID de juego no encontrado.");
+                    modalId.classList.add('hidden');
                     return;
                 }
 
+                // El resto de tu lógica de validación de años...
                 currentPendingCard.dataset.year = songData.year;
                 currentPendingCard.dataset.songId = songData.id;
 
@@ -607,14 +650,32 @@
                 if (isCorrect) {
                     revealCard(currentPendingCard, songData);
                     saveGameState();
+                    updateCardCounter()
                     alert("✅ ¡Correcto!");
                 } else {
                     alert(`❌ ¡Error! La canción era de ${songData.year}.`);
                     currentPendingCard.remove();
                 }
 
+                // Reset de estado y cerrar modal
                 currentPendingCard = null;
+                modalId.classList.add('hidden');
                 btnConfirm.classList.add('hidden');
+                btnDrawPlayer.classList.remove('hidden');
+            });
+
+            // Permitir que la tecla "Enter" valide el formulario dentro del modal
+            inputGameId.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    // Evita el comportamiento por defecto y dispara el clic del botón de confirmar
+                    e.preventDefault();
+                    btnConfirmModal.click();
+                }
+            });
+
+            // Cerrar modal al cancelar
+            btnCancelModal.addEventListener('click', () => {
+                modalId.classList.add('hidden');
             });
 
             btnBackPlayer.addEventListener('click', () => {
@@ -636,6 +697,7 @@
                     // 4. Resetear variables de estado
                     currentPendingCard = null;
                     btnConfirm.classList.add('hidden');
+                    btnDrawPlayer.classList.remove('hidden');
 
                     // 5. Volver a la pantalla de selección (Llamamos a tu función de cambio de modo)
                     switchMode('selection');
@@ -711,6 +773,18 @@
                 e.preventDefault();
                 const dragging = document.querySelector('.dragging');
                 if (!dragging) return;
+
+                // AUTO-SCROLL: Si arrastramos cerca de los bordes del timeline, que se mueva solo
+                const scrollThreshold = 100;
+                const scrollSpeed = 2;
+                const rect = timeline.parentElement.getBoundingClientRect();
+
+                if (e.clientX > rect.right - scrollThreshold) {
+                    timeline.parentElement.scrollLeft += scrollSpeed;
+                } else if (e.clientX < rect.left + scrollThreshold) {
+                    timeline.parentElement.scrollLeft -= scrollSpeed;
+                }
+
                 const draggableElements = [...timeline.querySelectorAll('.card:not(.dragging)')];
                 const afterElement = draggableElements.reduce((closest, child) => {
                     const box = child.getBoundingClientRect();
