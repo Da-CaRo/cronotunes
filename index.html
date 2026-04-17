@@ -199,6 +199,29 @@
             line-height: 1;
         }
 
+        .chip {
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 2px solid var(--color-borde-tarjeta);
+            background: transparent;
+            color: var(--color-texto-tarjeta);
+            font-size: 0.75rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .chip:hover {
+            border-color: var(--color-acento);
+        }
+
+        .chip.active {
+            background: var(--color-acento);
+            border-color: var(--color-acento);
+            color: white;
+            box-shadow: 0 0 10px rgba(184, 63, 192, 0.4);
+        }
+
         /* Reducimos el tamaño en móviles para que quepan más en pantalla */
         @media (max-width: 640px) {
             .card {
@@ -286,18 +309,15 @@
                             <p class="text-s mt-1 mb-1 opacity-70 font-mono">Tú lanzas los hits</p>
                             <p class="text-tarjeta text-base">
                             <div class="flex flex-col space-y-2 mb-4">
-                                <select id="playlist-selector"
-                                    class="w-full bg-tarjeta border-2 border-tarjeta text-white rounded-xl p-3 focus:border-acento outline-none transition-all">
-                                    <option value="all">Todas las canciones</option>
-                                    <option value="original">Original</option>
-                                    <!--
-                                    <option value="rock">Rock</option>
-                                    <option value="temazos">Temazos</option>
-                                    <option value="summer">Summer Party</option>
-                                    <option value="espanol100">Español 100%</option>
-                                    <option value="test">Test</option>
-                                    -->
-                                </select>
+                                <div id="playlist-chips" class="flex flex-wrap gap-2">
+                                    <button data-value="original" class="chip active">Original</button>
+                                    <button data-value="bingo" class="chip">Expansion</button>
+                                    <button data-value="temazos" class="chip">Temazos</button>
+                                    <button data-value="summer" class="chip">Summer Party</button>
+                                    <button data-value="rock" class="chip">Rock</button>
+                                    <button data-value="espanol100" class="chip">100% Español</button>
+                                    <button data-value="spotify_spain" class="chip">Spotify Spain</button>
+                                </div>
                                 <button id="start-btn" onclick="switchMode('dj')"
                                     class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition duration-150">
                                     Empezar
@@ -305,7 +325,8 @@
                             </div>
                             </p>
                         </div>
-                        <a href="https://da-caro.github.io/setup-and-play/cronotunes.html" target="_blank" class="block">
+                        <a href="https://da-caro.github.io/setup-and-play/cronotunes.html" target="_blank"
+                            class="block">
                             <span class="mt-5 inline-block text-sm font-medium text-acento hover:underline">Ver
                                 Instrucciones →</span></a>
                     </div>
@@ -705,12 +726,27 @@
             });
 
             // 5. LÓGICA MODO DJ
-            const playlistSelector = document.getElementById('playlist-selector');
-            let selectedPlaylist = 'all';
+            const playlistChips = document.querySelectorAll('#playlist-chips .chip');
+            let selectedPlaylists = Array.from(document.querySelectorAll('#playlist-chips .chip.active'))
+                .map(chip => chip.dataset.value);
 
-            // Actualizar la playlist cuando el usuario cambie el selector
-            playlistSelector.addEventListener('change', (e) => {
-                selectedPlaylist = e.target.value;
+            playlistChips.forEach(chip => {
+                chip.addEventListener('click', () => {
+                    const val = chip.dataset.value;
+
+                    if (chip.classList.contains('active')) {
+                        // Deseleccionar: solo si hay más de una activa para no quedarse con 0
+                        if (selectedPlaylists.length > 1) {
+                            chip.classList.remove('active');
+                            selectedPlaylists = selectedPlaylists.filter(p => p !== val);
+                        }
+                    } else {
+                        // Seleccionar: añadir a la lista
+                        chip.classList.add('active');
+                        selectedPlaylists.push(val);
+                    }
+                    console.log("Playlists activas:", selectedPlaylists); // Para depuración
+                });
             });
 
             btnDrawDj.addEventListener('click', () => {
@@ -718,17 +754,26 @@
                 let usedIds = JSON.parse(localStorage.getItem('cronotunes_used_songs')) || [];
 
                 // 1. FILTRAR POR PLAYLIST PRIMERO
-                let pool = musicDatabase;
-                if (selectedPlaylist !== 'all') {
-                    pool = musicDatabase.filter(song => song.playlists && song.playlists.includes(selectedPlaylist));
-                }
+                let pool = musicDatabase.filter(song => {
+                    // Si la canción no tiene playlists definidas, no entra en el bombo
+                    if (!song.playlists) return false;
+
+                    // Convertimos la propiedad a array si fuera un string por error
+                    const songPlaylists = Array.isArray(song.playlists)
+                        ? song.playlists
+                        : [song.playlists];
+
+                    // Comprobamos si hay INTERSECCIÓN:
+                    // ¿Tiene la canción ALGUNA de las playlists que el DJ tiene activas?
+                    return songPlaylists.some(p => selectedPlaylists.includes(p));
+                });
 
                 // 2. Filtrar la base de datos para obtener SOLO las que no se han usado
                 const availableSongs = pool.filter(song => !usedIds.includes(song.id));
 
                 // 3. Si no quedan canciones, avisar y resetear
                 if (availableSongs.length === 0) {
-                    alert(`¡Se han terminado las canciones de la playlist: ${selectedPlaylist} Reiniciando historial de esta lista...`);
+                    alert(`¡Se han terminado las canciones de la playlist: ${selectedPlaylists} Reiniciando historial de esta lista...`);
 
                     // Limpiamos solo los IDs que pertenecen a esta playlist para no borrar el historial de otras
                     const poolIds = pool.map(s => s.id);
