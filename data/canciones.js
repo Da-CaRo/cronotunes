@@ -37,7 +37,8 @@ export const musicDatabase = [
         artist: "Duo Dinamico",
         year: "1961",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -118,7 +119,8 @@ export const musicDatabase = [
         artist: "Kaoma",
         year: "1989",
         playlists: [
-            "original"
+            "original",
+            "summer"
         ]
     },
     {
@@ -160,7 +162,8 @@ export const musicDatabase = [
         year: "2005",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -263,7 +266,8 @@ export const musicDatabase = [
         artist: "Oasis",
         year: "1995",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -273,7 +277,8 @@ export const musicDatabase = [
         artist: "Sia",
         year: "2016",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -314,7 +319,8 @@ export const musicDatabase = [
         year: "2008",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -324,7 +330,9 @@ export const musicDatabase = [
         artist: "Los Bravos",
         year: "1966",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -490,7 +498,8 @@ export const musicDatabase = [
         artist: "The Verve",
         year: "1997",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -510,7 +519,8 @@ export const musicDatabase = [
         artist: "El Canto Del Loco",
         year: "2005",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -560,7 +570,8 @@ export const musicDatabase = [
         artist: "Palito Ortega",
         year: "1967",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -570,7 +581,8 @@ export const musicDatabase = [
         artist: "Bebe",
         year: "2004",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -590,7 +602,8 @@ export const musicDatabase = [
         artist: "Miley Cyrus",
         year: "2013",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -600,7 +613,8 @@ export const musicDatabase = [
         artist: "Aqua",
         year: "1997",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -610,7 +624,8 @@ export const musicDatabase = [
         artist: "Meghan Trainor",
         year: "2014",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -621,7 +636,9 @@ export const musicDatabase = [
         year: "1970",
         playlists: [
             "original",
-            "summer"
+            "summer",
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -703,7 +720,8 @@ export const musicDatabase = [
         artist: "Céline Dion",
         year: "1997",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -784,7 +802,8 @@ export const musicDatabase = [
         year: "2017",
         playlists: [
             "original",
-            "espanol100"
+            "espanol100",
+            "los40"
         ]
     },
     {
@@ -794,7 +813,8 @@ export const musicDatabase = [
         artist: "Nirvana",
         year: "1991",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -804,7 +824,8 @@ export const musicDatabase = [
         artist: "Rocío Dúrcal",
         year: "1977",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -834,7 +855,8 @@ export const musicDatabase = [
         artist: "Daddy Yankee",
         year: "2004",
         playlists: [
-            "original"
+            "original",
+            "bingo"
         ]
     },
     {
@@ -855,7 +877,8 @@ export const musicDatabase = [
         year: "1984",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -926,7 +949,8 @@ export const musicDatabase = [
         artist: "Tequila",
         year: "1981",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -988,7 +1012,8 @@ export const musicDatabase = [
         artist: "Ace of Base",
         year: "1992",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -1018,7 +1043,8 @@ export const musicDatabase = [
         artist: "Raphael",
         year: "1967",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -1028,7 +1054,8 @@ export const musicDatabase = [
         artist: "La Casa Azul",
         year: "2007",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -1109,7 +1136,8 @@ export const musicDatabase = [
         artist: "Mecano",
         year: "1986",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -1190,7 +1218,8 @@ export const musicDatabase = [
         artist: "Juanes",
         year: "2004",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -1212,7 +1241,8 @@ export const musicDatabase = [
         year: "1968",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -1242,7 +1272,8 @@ export const musicDatabase = [
         artist: "Duffy",
         year: "2008",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -1252,7 +1283,8 @@ export const musicDatabase = [
         artist: "Karina",
         year: "1969",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -1282,7 +1314,8 @@ export const musicDatabase = [
         artist: "Ana Belén;Víctor Manuel",
         year: "1986",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -1322,7 +1355,9 @@ export const musicDatabase = [
         artist: "Tino Casal",
         year: "1987",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -1333,7 +1368,8 @@ export const musicDatabase = [
         year: "1982",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
@@ -1455,7 +1491,8 @@ export const musicDatabase = [
         artist: "Lou Bega",
         year: "1999",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -1515,7 +1552,8 @@ export const musicDatabase = [
         artist: "C. Tangana;Niño de Elche;La Húngara",
         year: "2020",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -1546,7 +1584,8 @@ export const musicDatabase = [
         year: "2000",
         playlists: [
             "original",
-            "espanol100"
+            "espanol100",
+            "los40"
         ]
     },
     {
@@ -1556,7 +1595,8 @@ export const musicDatabase = [
         artist: "M-Clan",
         year: "2001",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -1596,7 +1636,8 @@ export const musicDatabase = [
         artist: "Natalie Imbruglia",
         year: "1997",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -1668,7 +1709,8 @@ export const musicDatabase = [
         artist: "Culture Club",
         year: "1983",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -1688,7 +1730,8 @@ export const musicDatabase = [
         artist: "The Supremes",
         year: "1966",
         playlists: [
-            "original"
+            "original",
+            "bingo"
         ]
     },
     {
@@ -1729,7 +1772,8 @@ export const musicDatabase = [
         artist: "Loreen",
         year: "2012",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -1790,6 +1834,7 @@ export const musicDatabase = [
         year: "1974",
         playlists: [
             "original",
+            "espanol100",
             "spotify_spain"
         ]
     },
@@ -1923,7 +1968,8 @@ export const musicDatabase = [
         year: "1968",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -1974,7 +2020,8 @@ export const musicDatabase = [
         artist: "Gente De Zona;Marc Anthony",
         year: "2015",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -1995,7 +2042,8 @@ export const musicDatabase = [
         year: "2011",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -2026,7 +2074,8 @@ export const musicDatabase = [
         artist: "Mecano",
         year: "1982",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -2066,7 +2115,8 @@ export const musicDatabase = [
         artist: "Taburete",
         year: "2016",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -2116,7 +2166,9 @@ export const musicDatabase = [
         artist: "Jarabe De Palo",
         year: "1996",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -2127,7 +2179,8 @@ export const musicDatabase = [
         year: "1997",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -2169,7 +2222,8 @@ export const musicDatabase = [
         year: "1999",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -2251,7 +2305,8 @@ export const musicDatabase = [
         year: "1984",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -2414,7 +2469,8 @@ export const musicDatabase = [
         artist: "Nacha Pop",
         year: "1980",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -2506,7 +2562,8 @@ export const musicDatabase = [
         artist: "Amy Winehouse",
         year: "2006",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -2557,7 +2614,8 @@ export const musicDatabase = [
         artist: "Manu Chao",
         year: "2001",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -2749,7 +2807,8 @@ export const musicDatabase = [
         artist: "Salvatore Adamo",
         year: "1965",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -2782,7 +2841,8 @@ export const musicDatabase = [
         playlists: [
             "original",
             "espanol100",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -2812,7 +2872,8 @@ export const musicDatabase = [
         artist: "ABBA",
         year: "1974",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -2822,7 +2883,8 @@ export const musicDatabase = [
         artist: "O-Zone",
         year: "2003",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -2852,7 +2914,8 @@ export const musicDatabase = [
         artist: "Barry White",
         year: "1974",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -2873,7 +2936,8 @@ export const musicDatabase = [
         artist: "The Weeknd",
         year: "2019",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -2913,7 +2977,8 @@ export const musicDatabase = [
         artist: "Julio Iglesias",
         year: "1977",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -3015,7 +3080,8 @@ export const musicDatabase = [
         artist: "Nelly Furtado",
         year: "2006",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -3025,7 +3091,8 @@ export const musicDatabase = [
         artist: "Salomé",
         year: "1969",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -3065,7 +3132,8 @@ export const musicDatabase = [
         artist: "Maluma",
         year: "2017",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -3096,7 +3164,8 @@ export const musicDatabase = [
         artist: "Peret",
         year: "1974",
         playlists: [
-            "original"
+            "original",
+            "spotify_spain"
         ]
     },
     {
@@ -3106,7 +3175,8 @@ export const musicDatabase = [
         artist: "Steppenwolf",
         year: "1968",
         playlists: [
-            "original"
+            "original",
+            "rock"
         ]
     },
     {
@@ -3117,7 +3187,8 @@ export const musicDatabase = [
         year: "1973",
         playlists: [
             "original",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -3137,7 +3208,8 @@ export const musicDatabase = [
         artist: "Gotye;Kimbra",
         year: "2011",
         playlists: [
-            "original"
+            "original",
+            "los40"
         ]
     },
     {
@@ -3219,7 +3291,8 @@ export const musicDatabase = [
         artist: "Madcon",
         year: "2007",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
@@ -3239,7 +3312,8 @@ export const musicDatabase = [
         artist: "The Fray",
         year: "2005",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
@@ -3260,7 +3334,9 @@ export const musicDatabase = [
         artist: "Nil Moliner",
         year: "2021",
         playlists: [
-            "bingo"
+            "bingo",
+            "espanol100",
+            "los40"
         ]
     },
     {
@@ -3311,7 +3387,8 @@ export const musicDatabase = [
         year: "1996",
         playlists: [
             "bingo",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -3322,7 +3399,8 @@ export const musicDatabase = [
         year: "1997",
         playlists: [
             "bingo",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -3332,7 +3410,8 @@ export const musicDatabase = [
         artist: "Bruno Mars",
         year: "2012",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
@@ -3726,7 +3805,8 @@ export const musicDatabase = [
         artist: "Alejandro Sanz",
         year: "1997",
         playlists: [
-            "bingo"
+            "bingo",
+            "spotify_spain"
         ]
     },
     {
@@ -3756,7 +3836,8 @@ export const musicDatabase = [
         artist: "KAROL G",
         year: "2022",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
@@ -3786,7 +3867,8 @@ export const musicDatabase = [
         artist: "Hombres G",
         year: "1985",
         playlists: [
-            "bingo"
+            "bingo",
+            "spotify_spain"
         ]
     },
     {
@@ -3945,11 +4027,12 @@ export const musicDatabase = [
     {
         id: 387,
         spotifyId: "6dC0U0ZJrmSw05sdnjDpGJ",
-        title: "Enamorado de la moda juvenil",
+        title: "Enamorado De La Moda Juvenil",
         artist: "Radio Futura",
         year: "1980",
         playlists: [
-            "bingo"
+            "bingo",
+            "spotify_spain"
         ]
     },
     {
@@ -3989,7 +4072,8 @@ export const musicDatabase = [
         artist: "Bustamante;Alex Casademunt",
         year: "2002",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
@@ -4010,7 +4094,8 @@ export const musicDatabase = [
         year: "1972",
         playlists: [
             "bingo",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
@@ -4020,21 +4105,12 @@ export const musicDatabase = [
         artist: "Jonas Brothers",
         year: "2020",
         playlists: [
-            "bingo"
+            "bingo",
+            "batalla"
         ]
     },
     {
         id: 395,
-        spotifyId: "1OppEieGNdItZbE14gLBEv",
-        title: "You Can't Hurry Love",
-        artist: "The Supremes",
-        year: "1966",
-        playlists: [
-            "bingo"
-        ]
-    },
-    {
-        id: 396,
         spotifyId: "2fXKyAyPrEa24c6PJyqznF",
         title: "Common People",
         artist: "Pulp",
@@ -4044,7 +4120,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 397,
+        id: 396,
         spotifyId: "3FAclTFfvUuQYnEsptbK8w",
         title: "Back To Black",
         artist: "Amy Winehouse",
@@ -4054,7 +4130,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 398,
+        id: 397,
         spotifyId: "3QGsuHI8jO1Rx4JWLUh9jd",
         title: "Treat You Better",
         artist: "Shawn Mendes",
@@ -4064,7 +4140,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 399,
+        id: 398,
         spotifyId: "6ZLGthToczpvnL5Eoy6yrY",
         title: "Pure Shores",
         artist: "All Saints",
@@ -4074,27 +4150,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 400,
+        id: 399,
         spotifyId: "2v8B8d17Xxu9uLU5sNiHSL",
         title: "Delilah",
         artist: "Tom Jones",
         year: "1968",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
-        id: 401,
+        id: 400,
         spotifyId: "6qn9YLKt13AGvpq9jfO8py",
         title: "We Found Love",
         artist: "Rihanna;Calvin Harris",
         year: "2011",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
-        id: 402,
+        id: 401,
         spotifyId: "4ZtFanR9U6ndgddUvNcjcG",
         title: "good 4 u",
         artist: "Olivia Rodrigo",
@@ -4104,7 +4182,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 403,
+        id: 402,
         spotifyId: "22sLuJYcvZOSoLLRYev1s5",
         title: "Material Girl",
         artist: "Madonna",
@@ -4114,7 +4192,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 404,
+        id: 403,
         spotifyId: "6hpmTwgNCz81H2bFEREx29",
         title: "Get Up I Feel Like Being Like A Sex Machine, Pts. 1 & 2",
         artist: "James Brown;The Original J.B.s",
@@ -4124,7 +4202,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 405,
+        id: 404,
         spotifyId: "4TIJ7zSBNejpoIPaWpWRKc",
         title: "Rebel Yell",
         artist: "Billy Idol",
@@ -4134,7 +4212,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 406,
+        id: 405,
         spotifyId: "6wpGqhRvJGNNXwWlPmkMyO",
         title: "I Still Haven't Found What I'm Looking For",
         artist: "U2",
@@ -4144,7 +4222,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 407,
+        id: 406,
         spotifyId: "6vqEctRr6hDFEeIkFUNWUf",
         title: "Higher Love",
         artist: "Whitney Houston",
@@ -4154,7 +4232,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 408,
+        id: 407,
         spotifyId: "7kCiAaismDVaCjpyGF3YJB",
         title: "Maneras de Vivir",
         artist: "Leño",
@@ -4164,17 +4242,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 409,
+        id: 408,
         spotifyId: "1wrT33b6HuKlpk9ziscEUY",
         title: "Baby Jane",
         artist: "Rod Stewart",
         year: "1983",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
-        id: 410,
+        id: 409,
         spotifyId: "6FstWkgRdHagqJ6qjDbiK0",
         title: "Insoportable",
         artist: "El Canto Del Loco",
@@ -4185,7 +4264,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 411,
+        id: 410,
         spotifyId: "0QBzMgT7NIeoCYy3sJCof1",
         title: "Bam Bam",
         artist: "Camila Cabello;Ed Sheeran",
@@ -4195,7 +4274,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 412,
+        id: 411,
         spotifyId: "0uppYCG86ajpV2hSR3dJJ0",
         title: "Give It Away",
         artist: "Red Hot Chili Peppers",
@@ -4205,7 +4284,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 413,
+        id: 412,
         spotifyId: "01DBoQsngOhbcVFWKkiFOz",
         title: "Uptown Girl",
         artist: "Billy Joel",
@@ -4215,7 +4294,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 414,
+        id: 413,
         spotifyId: "2LEF1A8DOZ9wRYikWgVlZ8",
         title: "Good Feeling",
         artist: "Flo Rida",
@@ -4225,7 +4304,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 415,
+        id: 414,
         spotifyId: "7i38EXhbFJjF5tGvTsJMmx",
         title: "Otro Día Más Sin Verte",
         artist: "Jon Secada",
@@ -4237,7 +4316,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 416,
+        id: 415,
         spotifyId: "44MuEHdlociG8KjhPhOVw5",
         title: "Padam Padam",
         artist: "Kylie Minogue",
@@ -4247,17 +4326,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 417,
+        id: 416,
         spotifyId: "0QKfiqpEU4h9ycPSzIFwYe",
         title: "Maniac",
         artist: "Michael Sembello",
         year: "1983",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
-        id: 418,
+        id: 417,
         spotifyId: "5laT2a6iEq4IxgEDV9dSCr",
         title: "Cruz de Navajas",
         artist: "Mecano",
@@ -4268,7 +4348,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 419,
+        id: 418,
         spotifyId: "1bCmvezFg5MRcENzCGG1Cy",
         title: "Chelsea Dagger",
         artist: "The Fratellis",
@@ -4278,7 +4358,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 420,
+        id: 419,
         spotifyId: "5CQvKyzkWI7TnUu2oB9QZ0",
         title: "Alright",
         artist: "Supergrass",
@@ -4288,7 +4368,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 421,
+        id: 420,
         spotifyId: "7EQGXaVSyEDsCWKmUcfpLk",
         title: "Die Young",
         artist: "Kesha",
@@ -4298,17 +4378,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 422,
-        spotifyId: "26QKsGW4hMuwiEE1ftUMHe",
-        title: "Lo Que Pasó, Pasó",
-        artist: "Daddy Yankee",
-        year: "2004",
-        playlists: [
-            "bingo"
-        ]
-    },
-    {
-        id: 423,
+        id: 421,
         spotifyId: "3SK45LddxlEkzI8OWO9Eyo",
         title: "Ingobernable",
         artist: "C. Tangana;Gipsy Kings;Nicolas Reyes;Tonino Baliardo",
@@ -4318,7 +4388,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 424,
+        id: 422,
         spotifyId: "4hfIVhq0F0zFUcrbecsYmo",
         title: "Let's Get It Started",
         artist: "Black Eyed Peas",
@@ -4328,7 +4398,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 425,
+        id: 423,
         spotifyId: "59WN2psjkt1tyaxjspN8fp",
         title: "Killing In The Name",
         artist: "Rage Against The Machine",
@@ -4338,7 +4408,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 426,
+        id: 424,
         spotifyId: "7BqHUALzNBTanL6OvsqmC1",
         title: "Happier",
         artist: "Marshmello;Bastille",
@@ -4348,7 +4418,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 427,
+        id: 425,
         spotifyId: "3BovdzfaX4jb5KFQwoPfAw",
         title: "Beat It",
         artist: "Michael Jackson",
@@ -4358,7 +4428,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 428,
+        id: 426,
         spotifyId: "7wMq5n8mYSKlQIGECKUgTX",
         title: "Hall of Fame",
         artist: "The Script;will.i.am",
@@ -4368,7 +4438,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 429,
+        id: 427,
         spotifyId: "71iSmEeF0qRVyULABxP75P",
         title: "Shake It Out",
         artist: "Florence + The Machine",
@@ -4378,7 +4448,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 430,
+        id: 428,
         spotifyId: "0DXI6c9tNWsI4tvUftkQN8",
         title: "Tu Calorro",
         artist: "Estopa",
@@ -4389,7 +4459,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 431,
+        id: 429,
         spotifyId: "4cQJ27R11K634x5qCOwKW5",
         title: "One Way Or Another",
         artist: "Blondie",
@@ -4399,7 +4469,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 432,
+        id: 430,
         spotifyId: "4XE98WRGbBGRZ7jQ9wIwFt",
         title: "Fuck You",
         artist: "Lily Allen",
@@ -4409,7 +4479,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 433,
+        id: 431,
         spotifyId: "5HSpMRUC4m3L3q48to2Kmu",
         title: "So payaso",
         artist: "Extremoduro",
@@ -4420,7 +4490,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 434,
+        id: 432,
         spotifyId: "2fS14uyyUM7jVBXxDlMNJ0",
         title: "Dame Veneno",
         artist: "Los Chunguitos",
@@ -4430,7 +4500,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 435,
+        id: 433,
         spotifyId: "5lWRaa0fBxDE5yU91npPq7",
         title: "Just A Girl",
         artist: "No Doubt",
@@ -4440,7 +4510,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 436,
+        id: 434,
         spotifyId: "21pySLskKIKrhDziCX5ojQ",
         title: "When I Grow Up",
         artist: "The Pussycat Dolls",
@@ -4450,7 +4520,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 437,
+        id: 435,
         spotifyId: "24UStI5AYA7g5ufFDh3LH0",
         title: "Por la boca vive el pez",
         artist: "Fito y Fitipaldis",
@@ -4461,7 +4531,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 438,
+        id: 436,
         spotifyId: "46IZ0fSY2mpAiktS3KOqds",
         title: "Easy On Me",
         artist: "Adele",
@@ -4471,17 +4541,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 439,
+        id: 437,
         spotifyId: "41LiGcvaTkXHyPjfsxKvWv",
         title: "Mi Tierra",
         artist: "Gloria Estefan",
         year: "1993",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
-        id: 440,
+        id: 438,
         spotifyId: "1DapqOfkDAQCiKnvfwKo0g",
         title: "All Around the World",
         artist: "Lisa Stansfield;Ian Devaney;Andy Morris",
@@ -4491,7 +4562,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 441,
+        id: 439,
         spotifyId: "0G21yYKMZoHa30cYVi1iA8",
         title: "Welcome To The Jungle",
         artist: "Guns N' Roses",
@@ -4501,7 +4572,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 442,
+        id: 440,
         spotifyId: "10I09MLZCY4pK37XxAfkw0",
         title: "True",
         artist: "Spandau Ballet",
@@ -4511,7 +4582,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 443,
+        id: 441,
         spotifyId: "1g4cZvi0nLeeIycd0Rkljj",
         title: "La Niña de la Escuela",
         artist: "Lola Indigo;TINI;Belinda",
@@ -4521,7 +4592,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 444,
+        id: 442,
         spotifyId: "6huNf4dutXRjJyGn7f5BPS",
         title: "Pray For Me",
         artist: "The Weeknd;Kendrick Lamar",
@@ -4531,7 +4602,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 445,
+        id: 443,
         spotifyId: "5jkFvD4UJrmdoezzT1FRoP",
         title: "Rasputin",
         artist: "Boney M.",
@@ -4541,7 +4612,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 446,
+        id: 444,
         spotifyId: "5VYTKiOnHw4iTrB9pG3yum",
         title: "Unbelievable",
         artist: "EMF",
@@ -4551,17 +4622,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 447,
+        id: 445,
         spotifyId: "39pJIXIjx9qMkH9LzScpuT",
         title: "Sin miedo a nada",
         artist: "Alex Ubago",
         year: "2001",
         playlists: [
-            "bingo"
+            "bingo",
+            "spotify_spain"
         ]
     },
     {
-        id: 448,
+        id: 446,
         spotifyId: "6y0Etr2KJr0sdcEp7ajoUK",
         title: "Cosmic Girl",
         artist: "Jamiroquai",
@@ -4571,7 +4643,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 449,
+        id: 447,
         spotifyId: "58WOkUl3O9LvLZjdhiQvIX",
         title: "El Mismo Sol",
         artist: "Alvaro Soler",
@@ -4581,7 +4653,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 450,
+        id: 448,
         spotifyId: "0JiY190vktuhSGN6aqJdrt",
         title: "So What",
         artist: "P!nk",
@@ -4591,7 +4663,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 451,
+        id: 449,
         spotifyId: "6OMjtuz1sYVsHpdeZPUR1n",
         title: "Sarà perché ti amo",
         artist: "Ricchi E Poveri",
@@ -4601,7 +4673,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 452,
+        id: 450,
         spotifyId: "3TieIQTlipul7oxGldyX09",
         title: "Big in Japan",
         artist: "Alphaville",
@@ -4611,7 +4683,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 453,
+        id: 451,
         spotifyId: "1vNYb4aLINWNy0plIsLQeX",
         title: "A Un Paso De La Luna",
         artist: "Ana Mena;Rocco Hunt",
@@ -4621,7 +4693,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 454,
+        id: 452,
         spotifyId: "5cF0dROlMOK5uNZtivgu50",
         title: "Attention",
         artist: "Charlie Puth",
@@ -4631,17 +4703,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 455,
+        id: 453,
         spotifyId: "1DOuHBUpfN1GwDsZOZkwgO",
         title: "Ella",
         artist: "Bebe",
         year: "2004",
         playlists: [
-            "bingo"
+            "bingo",
+            "spotify_spain"
         ]
     },
     {
-        id: 456,
+        id: 454,
         spotifyId: "0wokCRaKD0zPNhMRXAgVsr",
         title: "Ordinary World",
         artist: "Duran Duran",
@@ -4651,7 +4724,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 457,
+        id: 455,
         spotifyId: "7etLErRSTb2DoEwg34GOSs",
         title: "El Encuentro",
         artist: "Alizzz;Amaia",
@@ -4661,7 +4734,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 458,
+        id: 456,
         spotifyId: "2rurDawMfoKP4uHyb2kJBt",
         title: "Te Felicito",
         artist: "Shakira;Rauw Alejandro",
@@ -4671,7 +4744,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 459,
+        id: 457,
         spotifyId: "69Ej1xrGjOcHvIMtMKxK0G",
         title: "Dile",
         artist: "Don Omar",
@@ -4681,7 +4754,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 460,
+        id: 458,
         spotifyId: "49skdn8Truaufvcz8BXmtT",
         title: "Lets Go Surfing",
         artist: "The Drums",
@@ -4691,7 +4764,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 461,
+        id: 459,
         spotifyId: "1KsI8NEeAna8ZIdojI3FiT",
         title: "Hungry Heart",
         artist: "Bruce Springsteen",
@@ -4701,7 +4774,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 462,
+        id: 460,
         spotifyId: "3PfIrDoz19wz7qK7tYeu62",
         title: "Don't Start Now",
         artist: "Dua Lipa",
@@ -4711,7 +4784,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 463,
+        id: 461,
         spotifyId: "61S0mEfdRtJ62Fc7fPqx0U",
         title: "Feeling Good",
         artist: "Nina Simone",
@@ -4721,7 +4794,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 464,
+        id: 462,
         spotifyId: "3pgainA2dH9c7e8JVYGRCN",
         title: "Ride on Time",
         artist: "Black Box",
@@ -4731,17 +4804,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 465,
+        id: 463,
         spotifyId: "76D5nfZbYzZYfUZKGy73jy",
         title: "7 Seconds",
         artist: "Youssou N'Dour;Neneh Cherry",
         year: "1994",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
-        id: 466,
+        id: 464,
         spotifyId: "7lQ8MOhq6IN2w8EYcFNSUk",
         title: "Without Me",
         artist: "Eminem",
@@ -4751,7 +4825,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 467,
+        id: 465,
         spotifyId: "2P4OICZRVAQcYAV2JReRfj",
         title: "Waiting For Love",
         artist: "Avicii",
@@ -4761,7 +4835,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 468,
+        id: 466,
         spotifyId: "6L3rEi9FdKAuwCz1DiWkIk",
         title: "Cómo pudiste hacerme esto a mí",
         artist: "Alaska Y Dinarama",
@@ -4771,7 +4845,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 469,
+        id: 467,
         spotifyId: "4pbJqGIASGPr0ZpGpnWkDn",
         title: "We Will Rock You",
         artist: "Queen",
@@ -4781,7 +4855,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 470,
+        id: 468,
         spotifyId: "4I644fN7UCChrmEgJIL4KL",
         title: "No Dudaría",
         artist: "Antonio Flores",
@@ -4791,7 +4865,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 471,
+        id: 469,
         spotifyId: "3spdoTYpuCpmq19tuD0bOe",
         title: "My Way",
         artist: "Frank Sinatra",
@@ -4801,7 +4875,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 472,
+        id: 470,
         spotifyId: "6AxCr5G75R5rqyNCYWVpTo",
         title: "Higher",
         artist: "Taio Cruz;Kylie Minogue",
@@ -4811,7 +4885,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 473,
+        id: 471,
         spotifyId: "7H6ev70Weq6DdpZyyTmUXk",
         title: "Say My Name",
         artist: "Destiny's Child",
@@ -4821,7 +4895,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 474,
+        id: 472,
         spotifyId: "6htAV9HKCmoDdyyvDNX9DQ",
         title: "La lista de la compra",
         artist: "La Cabra Mecanica;María Jiménez",
@@ -4831,7 +4905,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 475,
+        id: 473,
         spotifyId: "3qI94hINNNeb4S7xQi18lS",
         title: "Blame It on the Boogie",
         artist: "The Jacksons",
@@ -4841,7 +4915,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 476,
+        id: 474,
         spotifyId: "7w5AOd6HrDIHewHfpABEss",
         title: "Wicked Game",
         artist: "Chris Isaak",
@@ -4851,7 +4925,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 477,
+        id: 475,
         spotifyId: "3UIENhLRdFIOuRan92cAQu",
         title: "En algún lugar",
         artist: "Duncan Dhu",
@@ -4862,7 +4936,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 478,
+        id: 476,
         spotifyId: "4UCTgh5jvtqoaMX6MAhUNn",
         title: "Personal Jesus",
         artist: "Depeche Mode",
@@ -4872,7 +4946,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 479,
+        id: 477,
         spotifyId: "0CnD7Hiw6pae6rLsZw5q5W",
         title: "Incomplete",
         artist: "Backstreet Boys",
@@ -4882,7 +4956,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 480,
+        id: 478,
         spotifyId: "1CtKHwDqsH3ctcCCI18N0g",
         title: "Everybody Needs Somebody to Love",
         artist: "The Blues Brothers",
@@ -4892,7 +4966,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 481,
+        id: 479,
         spotifyId: "0nLiqZ6A27jJri2VCalIUs",
         title: "Nothing Else Matters",
         artist: "Metallica",
@@ -4902,7 +4976,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 482,
+        id: 480,
         spotifyId: "04u9U3bDD9dVZFDDI8v0ME",
         title: "Paraíso",
         artist: "Dvicio",
@@ -4913,7 +4987,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 483,
+        id: 481,
         spotifyId: "5OQGeJ1ceykovrykZsGhqL",
         title: "Breathless",
         artist: "The Corrs",
@@ -4923,7 +4997,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 484,
+        id: 482,
         spotifyId: "0pkIJFV6mviH9dmBYsFwTM",
         title: "Without You",
         artist: "Mariah Carey",
@@ -4933,7 +5007,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 485,
+        id: 483,
         spotifyId: "0oXLSuno5adlHcPzlzs8l6",
         title: "Duele El Amor",
         artist: "Aleks Syntek;Ana Torroja",
@@ -4943,7 +5017,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 486,
+        id: 484,
         spotifyId: "7huo2wvrCgRucUsjdSDLQV",
         title: "Ain't No Other Man",
         artist: "Christina Aguilera",
@@ -4953,7 +5027,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 487,
+        id: 485,
         spotifyId: "2VmyLy2HQlkevZYboXHM5O",
         title: "If You Tolerate This Your Children Will Be Next",
         artist: "Manic Street Preachers",
@@ -4963,7 +5037,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 488,
+        id: 486,
         spotifyId: "39qYD4J4BKvZMQgxfXl5bv",
         title: "Eye In The Sky",
         artist: "The Alan Parsons Project",
@@ -4973,7 +5047,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 489,
+        id: 487,
         spotifyId: "1oYYd2gnWZYrt89EBXdFiO",
         title: "Message In A Bottle",
         artist: "The Police",
@@ -4983,7 +5057,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 490,
+        id: 488,
         spotifyId: "4jDmJ51x1o9NZB5Nxxc7gY",
         title: "Careless Whisper",
         artist: "George Michael",
@@ -4993,7 +5067,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 491,
+        id: 489,
         spotifyId: "6tDDoYIxWvMLTdKpjFkc1B",
         title: "telepatía",
         artist: "Kali Uchis",
@@ -5003,7 +5077,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 492,
+        id: 490,
         spotifyId: "6tunhVGD8C05MZNjSVIsjw",
         title: "It Never Rains in Southern California",
         artist: "Albert Hammond",
@@ -5013,7 +5087,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 493,
+        id: 491,
         spotifyId: "4TCL0qqKyqsMZml0G3M9IM",
         title: "Telephone",
         artist: "Lady Gaga;Beyoncé",
@@ -5023,7 +5097,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 494,
+        id: 492,
         spotifyId: "07ABETRdek3ACMpRPvQuaT",
         title: "Always on My Mind",
         artist: "Pet Shop Boys",
@@ -5033,7 +5107,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 495,
+        id: 493,
         spotifyId: "0GWGZA5mxo9nHuSyrj70uo",
         title: "When Love Takes Over",
         artist: "David Guetta;Kelly Rowland",
@@ -5043,7 +5117,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 496,
+        id: 494,
         spotifyId: "0y1mX0LxNwSMRPXWutJOJu",
         title: "abcdefu",
         artist: "GAYLE",
@@ -5053,7 +5127,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 497,
+        id: 495,
         spotifyId: "2m1hi0nfMR9vdGC8UcrnwU",
         title: "All The Small Things",
         artist: "blink-182",
@@ -5063,7 +5137,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 498,
+        id: 496,
         spotifyId: "7pKfPomDEeI4TPT6EOYjn9",
         title: "Imagine",
         artist: "John Lennon",
@@ -5073,7 +5147,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 499,
+        id: 497,
         spotifyId: "2Kmosqo7RmbvzziWLoy4gM",
         title: "Devil Came to Me",
         artist: "Dover",
@@ -5083,7 +5157,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 500,
+        id: 498,
         spotifyId: "7M65iLprqQ9UJNqer4g6AM",
         title: "Llamando a la tierra - Serenade From the Stars",
         artist: "M-Clan",
@@ -5095,7 +5169,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 501,
+        id: 499,
         spotifyId: "32Gf5A7Hr8RdgggXG0Fdks",
         title: "Have You Ever Really Loved A Woman? - From \"Don Juan DeMarco\" Soundtrack",
         artist: "Bryan Adams",
@@ -5105,7 +5179,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 502,
+        id: 500,
         spotifyId: "74jTexO94dFGyXGyeu8krd",
         title: "Beautiful Life",
         artist: "Ace of Base",
@@ -5115,7 +5189,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 503,
+        id: 501,
         spotifyId: "6KgBpzTuTRPebChN0VTyzV",
         title: "Good as Hell",
         artist: "Lizzo",
@@ -5125,7 +5199,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 504,
+        id: 502,
         spotifyId: "7FSzJQV6thyoQptFCUTV9c",
         title: "Parklife",
         artist: "Blur",
@@ -5135,7 +5209,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 505,
+        id: 503,
         spotifyId: "7ppPZa3TRUSGKaks9wH7VT",
         title: "Don't Look Back In Anger",
         artist: "Oasis",
@@ -5145,7 +5219,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 506,
+        id: 504,
         spotifyId: "0Ui05Ov0s4PnRc4JI3Pilg",
         title: "My Favourite Game",
         artist: "The Cardigans",
@@ -5155,7 +5229,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 507,
+        id: 505,
         spotifyId: "5Sh9v7RwibuV34tdjscwx5",
         title: "Right Here, Right Now",
         artist: "Fatboy Slim",
@@ -5165,7 +5239,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 508,
+        id: 506,
         spotifyId: "2Pn5gvVioma5LHPxgEBBmD",
         title: "No More \"I Love You's\"",
         artist: "Annie Lennox",
@@ -5175,7 +5249,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 509,
+        id: 507,
         spotifyId: "23ehR4jpFQFMfDADgFdXR7",
         title: "Rise & Fall",
         artist: "Craig David;Sting",
@@ -5185,7 +5259,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 510,
+        id: 508,
         spotifyId: "7lrMkztvl0MnRSB2i3KRRe",
         title: "Los Ángeles",
         artist: "Aitana",
@@ -5195,7 +5269,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 511,
+        id: 509,
         spotifyId: "5NlFXQ0si6U87gXs6hq81B",
         title: "Candy",
         artist: "Robbie Williams",
@@ -5205,7 +5279,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 512,
+        id: 510,
         spotifyId: "2VSGzQqy9nqJefcYGJNWst",
         title: "Tanto la Queria",
         artist: "Andy & Lucas",
@@ -5216,7 +5290,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 513,
+        id: 511,
         spotifyId: "3ErsOxqe2RmXkR65wkygDz",
         title: "What's Love Got to Do with It",
         artist: "Tina Turner",
@@ -5226,7 +5300,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 514,
+        id: 512,
         spotifyId: "2MLHyLy5z5l5YRp7momlgw",
         title: "Island In The Sun",
         artist: "Weezer",
@@ -5236,7 +5310,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 515,
+        id: 513,
         spotifyId: "1ixbwbeBi5ufN4noUKmW5a",
         title: "Paper Planes",
         artist: "M.I.A.",
@@ -5246,7 +5320,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 516,
+        id: 514,
         spotifyId: "129lYDVKnWtlJc2PZJviuA",
         title: "A Dios Le Pido",
         artist: "Juanes",
@@ -5257,7 +5331,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 517,
+        id: 515,
         spotifyId: "37Tmv4NnfQeb0ZgUC4fOJj",
         title: "Sultans Of Swing",
         artist: "Dire Straits",
@@ -5267,7 +5341,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 518,
+        id: 516,
         spotifyId: "50kpGaPAhYJ3sGmk6vplg0",
         title: "Love Yourself",
         artist: "Justin Bieber",
@@ -5277,7 +5351,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 519,
+        id: 517,
         spotifyId: "4UzVcXufOhGUwF56HT7b8M",
         title: "My Immortal",
         artist: "Evanescence",
@@ -5287,7 +5361,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 520,
+        id: 518,
         spotifyId: "2hgzdQdnfWwtdpZbhZlV72",
         title: "Ain't Your Mama",
         artist: "Jennifer Lopez",
@@ -5297,7 +5371,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 521,
+        id: 519,
         spotifyId: "4Ha3yYGXzyBSC7LdxWXDY0",
         title: "Milonga del marinero y el capitán",
         artist: "Los Rodriguez",
@@ -5307,7 +5381,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 522,
+        id: 520,
         spotifyId: "2iXBZ32Fz5VDCLeE0JIdX5",
         title: "Better in Time",
         artist: "Leona Lewis",
@@ -5317,7 +5391,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 523,
+        id: 521,
         spotifyId: "4mjFMScEvHeM72791mXRCW",
         title: "In the Navy",
         artist: "Village People",
@@ -5327,7 +5401,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 524,
+        id: 522,
         spotifyId: "2q4rjDy9WhaN3o9MvDbO21",
         title: "Kiss Me Thru The Phone",
         artist: "Soulja Boy;Sammie",
@@ -5337,7 +5411,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 525,
+        id: 523,
         spotifyId: "6RUKPb4LETWmmr3iAEQktW",
         title: "Something Just Like This",
         artist: "The Chainsmokers;Coldplay",
@@ -5347,17 +5421,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 526,
+        id: 524,
         spotifyId: "6RNDeRnWsRMjPdNVgupZCs",
         title: "I Just Called To Say I Love You",
         artist: "Stevie Wonder",
         year: "1984",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
-        id: 527,
+        id: 525,
         spotifyId: "4JGKZS7h4Qa16gOU3oNETV",
         title: "Dreams",
         artist: "The Cranberries",
@@ -5367,7 +5442,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 528,
+        id: 526,
         spotifyId: "1jJci4qxiYcOHhQR247rEU",
         title: "Kids",
         artist: "MGMT",
@@ -5377,27 +5452,30 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 529,
+        id: 527,
         spotifyId: "709CndJJB3GTUhQD0LLFse",
         title: "Torero",
         artist: "Chayanne",
         year: "2002",
         playlists: [
-            "bingo"
+            "bingo",
+            "los40"
         ]
     },
     {
-        id: 530,
+        id: 528,
         spotifyId: "3ZFYnK3yePXgrGxBTXsPww",
         title: "Perdóname",
         artist: "Camilo Sesto",
         year: "1980",
         playlists: [
-            "bingo"
+            "bingo",
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 531,
+        id: 529,
         spotifyId: "57Xjny5yNzAcsxnusKmAfA",
         title: "Reptilia",
         artist: "The Strokes",
@@ -5407,7 +5485,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 532,
+        id: 530,
         spotifyId: "2K2M0TcglCRLLpFOzKeFZA",
         title: "Sunshine Of Your Love",
         artist: "Cream",
@@ -5417,7 +5495,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 533,
+        id: 531,
         spotifyId: "0pQskrTITgmCMyr85tb9qq",
         title: "Starman",
         artist: "David Bowie",
@@ -5427,7 +5505,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 534,
+        id: 532,
         spotifyId: "5Hu3Y13dE9rEZire0tlAMW",
         title: "Mi Gato",
         artist: "Rosario",
@@ -5437,7 +5515,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 535,
+        id: 533,
         spotifyId: "7iL6o9tox1zgHpKUfh9vuC",
         title: "In Da Club",
         artist: "50 Cent",
@@ -5447,7 +5525,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 536,
+        id: 534,
         spotifyId: "0Ttqiz6DNvPkThvbnr9vYJ",
         title: "Solo Si Es Contigo",
         artist: "Bombai;Bebe",
@@ -5457,7 +5535,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 537,
+        id: 535,
         spotifyId: "4qO03RMQm88DdpTJcxlglY",
         title: "Call Me",
         artist: "Blondie",
@@ -5467,7 +5545,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 538,
+        id: 536,
         spotifyId: "2WfaOiMkCvy7F5fcp2zZ8L",
         title: "Take on Me",
         artist: "a-ha",
@@ -5477,7 +5555,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 539,
+        id: 537,
         spotifyId: "3cfOd4CMv2snFaKAnMdnvK",
         title: "All Star",
         artist: "Smash Mouth",
@@ -5487,7 +5565,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 540,
+        id: 538,
         spotifyId: "44Pv0rinObvVa4nQ4TXLga",
         title: "Hello",
         artist: "Martin Solveig;Dragonette",
@@ -5497,7 +5575,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 541,
+        id: 539,
         spotifyId: "4nVBt6MZDDP6tRVdQTgxJg",
         title: "Story of My Life",
         artist: "One Direction",
@@ -5507,7 +5585,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 542,
+        id: 540,
         spotifyId: "40riOy7x9W7GXjyGp4pjAv",
         title: "Hotel California",
         artist: "Eagles",
@@ -5517,7 +5595,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 543,
+        id: 541,
         spotifyId: "100Tm6z29RfHTdUQ6NIs0s",
         title: "Me Voy",
         artist: "Julieta Venegas",
@@ -5528,7 +5606,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 544,
+        id: 542,
         spotifyId: "5WHTFyqSii0lmT9R21abT8",
         title: "Don't Call Me Up",
         artist: "Mabel",
@@ -5538,7 +5616,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 545,
+        id: 543,
         spotifyId: "6vGW3d8X48CBaLdU0PQbey",
         title: "Moving on Up",
         artist: "M People",
@@ -5548,17 +5626,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 546,
+        id: 544,
         spotifyId: "4Dvkj6JhhA12EX05fT7y2e",
         title: "As It Was",
         artist: "Harry Styles",
         year: "2022",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 547,
+        id: 545,
         spotifyId: "4I3nztDQ3cPajQtzg59tWx",
         title: "Don't Get Me Wrong",
         artist: "Pretenders",
@@ -5568,7 +5647,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 548,
+        id: 546,
         spotifyId: "2kZJ5wrpq1gCdHmVEjahoH",
         title: "Pan y mantequilla",
         artist: "Efecto Pasillo",
@@ -5579,7 +5658,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 549,
+        id: 547,
         spotifyId: "0eVborSuxUeSg0meWYd9dZ",
         title: "Soldadito marinero",
         artist: "Fito y Fitipaldis",
@@ -5590,7 +5669,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 550,
+        id: 548,
         spotifyId: "6J6RWKCPN5RFKHUKEUFjxS",
         title: "Step by Step",
         artist: "New Kids On The Block",
@@ -5600,7 +5679,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 551,
+        id: 549,
         spotifyId: "3MrRksHupTVEQ7YbA0FsZK",
         title: "The Final Countdown",
         artist: "Europe",
@@ -5610,7 +5689,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 552,
+        id: 550,
         spotifyId: "7GrAOZRMBhUPN5PdbJZVO9",
         title: "Europe's Living A Celebration - Versión Gala Eurovisión",
         artist: "Rosa López",
@@ -5620,7 +5699,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 553,
+        id: 551,
         spotifyId: "4esOae7i4rqTbAu9o5Pxco",
         title: "Girl on Fire",
         artist: "Alicia Keys",
@@ -5630,17 +5709,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 554,
+        id: 552,
         spotifyId: "5ildQOEKmJuWGl2vRkFdYc",
         title: "DESPECHÁ",
         artist: "ROSALÍA",
         year: "2022",
         playlists: [
-            "temazos"
+            "temazos",
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 555,
+        id: 553,
         spotifyId: "7kzKAuUzOITUauHAhoMoxA",
         title: "Last Nite",
         artist: "The Strokes",
@@ -5650,7 +5731,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 556,
+        id: 554,
         spotifyId: "6zIfdCmmhPCX0cMquBsC37",
         title: "Sweet Dreams (Are Made of This)",
         artist: "Eurythmics;Annie Lennox;Dave Stewart",
@@ -5660,7 +5741,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 557,
+        id: 555,
         spotifyId: "5BSclXJTa9B0iURhUjZo50",
         title: "La Tortura",
         artist: "Shakira;Alejandro Sanz",
@@ -5670,7 +5751,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 558,
+        id: 556,
         spotifyId: "4ePP9So5xRzspjLFVVbj90",
         title: "Two Princes",
         artist: "Spin Doctors",
@@ -5680,17 +5761,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 559,
+        id: 557,
         spotifyId: "4ICTaUYLT26W3fsMpIX5cq",
         title: "Rufino",
         artist: "Luz Casal",
         year: "1985",
         playlists: [
-            "temazos"
+            "temazos",
+            "spotify_spain"
         ]
     },
     {
-        id: 560,
+        id: 558,
         spotifyId: "29KiGwvYBw6JGQWrAlLhGg",
         title: "Perfect",
         artist: "Fairground Attraction",
@@ -5700,7 +5782,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 561,
+        id: 559,
         spotifyId: "08RVzS1yTy1TsVuRgziTOq",
         title: "Baila (Sexy Thing)",
         artist: "Zucchero",
@@ -5710,17 +5792,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 562,
+        id: 560,
         spotifyId: "1mea3bSkSGXuIRvnydlB5b",
         title: "Viva La Vida",
         artist: "Coldplay",
         year: "2008",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 563,
+        id: 561,
         spotifyId: "6RtPijgfPKROxEzTHNRiDp",
         title: "Rude",
         artist: "MAGIC!",
@@ -5730,7 +5813,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 564,
+        id: 562,
         spotifyId: "5hnyJvgoWiQUYZttV4wXy6",
         title: "Chasing Cars",
         artist: "Snow Patrol",
@@ -5740,7 +5823,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 565,
+        id: 563,
         spotifyId: "3ZpQiJ78LKINrW9SQTgbXd",
         title: "All I Wanna Do",
         artist: "Sheryl Crow",
@@ -5750,7 +5833,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 566,
+        id: 564,
         spotifyId: "5N6M8yDiMV32T6Rkzh8EbW",
         title: "Boom, Boom, Boom, Boom!!",
         artist: "Vengaboys",
@@ -5760,18 +5843,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 567,
+        id: 565,
         spotifyId: "7Eb5AYiiGWItBNddlmxvnh",
         title: "A quién le importa",
         artist: "Alaska Y Dinarama",
         year: "1986",
         playlists: [
             "temazos",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 568,
+        id: 566,
         spotifyId: "0X1XgxtHG9hULAw296CCgz",
         title: "El Gato Que Está Triste y Azul - Un Gato Nel Blu",
         artist: "Roberto Carlos",
@@ -5782,7 +5866,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 569,
+        id: 567,
         spotifyId: "7EI6Iki24tBHAMxtb4xQN2",
         title: "Anywhere",
         artist: "Rita Ora",
@@ -5792,18 +5876,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 570,
+        id: 568,
         spotifyId: "1EZypwk0xcj64ZLAglhLs2",
         title: "La Cosa Mas Bella",
         artist: "Eros Ramazzotti",
         year: "1996",
         playlists: [
             "temazos",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 571,
+        id: 569,
         spotifyId: "1EXrFPfVNVsyb32yapebbM",
         title: "Our House",
         artist: "Madness",
@@ -5813,7 +5898,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 572,
+        id: 570,
         spotifyId: "7fu3Tv5rcoGD1PZV7s57WW",
         title: "Rock the Boat",
         artist: "Hues Corporation",
@@ -5823,7 +5908,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 573,
+        id: 571,
         spotifyId: "5HCyWlXZPP0y6Gqq8TgA20",
         title: "STAY (with Justin Bieber)",
         artist: "The Kid LAROI;Justin Bieber",
@@ -5833,27 +5918,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 574,
+        id: 572,
         spotifyId: "0cqRj7pUJDkTCEsJkx8snD",
         title: "Shake It Off",
         artist: "Taylor Swift",
         year: "2014",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 575,
+        id: 573,
         spotifyId: "7BCer0V0I1CZDI6S6kYD44",
         title: "Son de Amores",
         artist: "Andy & Lucas",
         year: "2003",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 576,
+        id: 574,
         spotifyId: "4Egb5xP6cniUx0kgZd5zLB",
         title: "Soy Yo",
         artist: "Bomba Estéreo",
@@ -5863,7 +5950,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 577,
+        id: 575,
         spotifyId: "3WJg6tafYPq7xVmLXVLI1b",
         title: "Achilipú",
         artist: "Dolores Vargas",
@@ -5873,7 +5960,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 578,
+        id: 576,
         spotifyId: "3GfOAdcoc3X5GPiiXmpBjK",
         title: "Song 2",
         artist: "Blur",
@@ -5883,7 +5970,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 579,
+        id: 577,
         spotifyId: "2bPH3Ph0RHQuugStXcpyRP",
         title: "Cuando Tú Vas",
         artist: "Chenoa",
@@ -5894,7 +5981,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 580,
+        id: 578,
         spotifyId: "1FkoVC85Ds3mFoK0fVqEqP",
         title: "Self Esteem",
         artist: "The Offspring",
@@ -5904,7 +5991,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 581,
+        id: 579,
         spotifyId: "1xQ6trAsedVPCdbtDAmk0c",
         title: "Savage Love (Laxed - Siren Beat)",
         artist: "Jawsh 685;Jason Derulo",
@@ -5914,7 +6001,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 582,
+        id: 580,
         spotifyId: "1gVVSmhWjci8l9Vrsl6HaS",
         title: "Vertigo",
         artist: "U2",
@@ -5924,7 +6011,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 583,
+        id: 581,
         spotifyId: "2M9ro2krNb7nr7HSprkEgo",
         title: "Fast Car",
         artist: "Tracy Chapman",
@@ -5934,7 +6021,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 584,
+        id: 582,
         spotifyId: "0GzQB5WXavUEU8tfTCAd8m",
         title: "Cuando zarpa el amor",
         artist: "Camela",
@@ -5945,7 +6032,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 585,
+        id: 583,
         spotifyId: "623rRTKwGmgjH6sjE9uWLh",
         title: "Scatman (ski-ba-bop-ba-dop-bop)",
         artist: "Scatman John",
@@ -5955,28 +6042,30 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 586,
+        id: 584,
         spotifyId: "3U5JVgI2x4rDyHGObzJfNf",
         title: "Unwritten",
         artist: "Natasha Bedingfield",
         year: "2004",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 587,
+        id: 585,
         spotifyId: "7EWKAYWmUc1cTfEimTKvou",
         title: "Háblame de Ti",
         artist: "Pecos",
         year: "1979",
         playlists: [
             "temazos",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 588,
+        id: 586,
         spotifyId: "521uF3jhz9GIIlLeP9YV7J",
         title: "Sleeping In My Car",
         artist: "Roxette",
@@ -5986,7 +6075,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 589,
+        id: 587,
         spotifyId: "5Ihd9HrPvOADyVoonH9ZjB",
         title: "Un-Break My Heart",
         artist: "Toni Braxton",
@@ -5996,7 +6085,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 590,
+        id: 588,
         spotifyId: "1d5obgzCOtwq9qaxfe4Hpw",
         title: "Rayos de Sol",
         artist: "José de Rico;Henry Mendez",
@@ -6006,17 +6095,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 591,
+        id: 589,
         spotifyId: "5ChkMS8OtdzJeqyybCc9R5",
         title: "Billie Jean",
         artist: "Michael Jackson",
         year: "1982",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 592,
+        id: 590,
         spotifyId: "34js2TOQm9tf6xhefJ97HI",
         title: "Oye",
         artist: "Gloria Estefan",
@@ -6026,17 +6116,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 593,
+        id: 591,
         spotifyId: "0COqiPhxzoWICwFCS4eZcp",
         title: "Bring Me To Life",
         artist: "Evanescence",
         year: "2003",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 594,
+        id: 592,
         spotifyId: "5RC9olve1FVs1bnIneatm8",
         title: "Free",
         artist: "Ultra Naté",
@@ -6046,7 +6137,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 595,
+        id: 593,
         spotifyId: "1ot6jEe4w4hYnsOPjd3xKQ",
         title: "I'm So Excited",
         artist: "The Pointer Sisters",
@@ -6056,7 +6147,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 596,
+        id: 594,
         spotifyId: "6nTiIhLmQ3FWhvrGafw2zj",
         title: "American Idiot",
         artist: "Green Day",
@@ -6066,18 +6157,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 597,
+        id: 595,
         spotifyId: "4Kii4OhkRIezu0KjOiFq0G",
         title: "19 Dias y 500 Noches",
         artist: "Joaquín Sabina",
         year: "1999",
         playlists: [
             "temazos",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 598,
+        id: 596,
         spotifyId: "3u5N55tHf7hXATSQrjBh2q",
         title: "Freed From Desire",
         artist: "Gala;Molella;Phil Jay",
@@ -6087,17 +6179,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 599,
+        id: 597,
         spotifyId: "3A58rEqzY7fwWSOnlB2AxB",
         title: "Las Chicas Son Guerreras",
         artist: "COZ",
         year: "1981",
         playlists: [
-            "temazos"
+            "temazos",
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 600,
+        id: 598,
         spotifyId: "6ASzF6lnAamXQvWLPa3WDi",
         title: "Suéltate el pelo",
         artist: "Hombres G",
@@ -6107,7 +6201,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 601,
+        id: 599,
         spotifyId: "3L7RtEcu1Hw3OXrpnthngx",
         title: "Don't You Want Me",
         artist: "The Human League",
@@ -6117,7 +6211,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 602,
+        id: 600,
         spotifyId: "07q0QVgO56EorrSGHC48y3",
         title: "I Was Made For Lovin' You",
         artist: "KISS",
@@ -6127,7 +6221,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 603,
+        id: 601,
         spotifyId: "2He3NOyqtLNE3RQPpeDdSb",
         title: "Groove Is in the Heart",
         artist: "Deee-Lite",
@@ -6137,27 +6231,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 604,
+        id: 602,
         spotifyId: "2XVQdI3m0giGxNrwUhV3yP",
         title: "Funkytown",
         artist: "Lipps Inc.",
         year: "1979",
         playlists: [
-            "temazos"
+            "temazos",
+            "batalla"
         ]
     },
     {
-        id: 605,
+        id: 603,
         spotifyId: "0nHdPB5NA4xkoDoSLbREwD",
         title: "Ma quale idea",
         artist: "Pino D'Angiò",
         year: "1980",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 606,
+        id: 604,
         spotifyId: "483Mpgv3ri4eUD5mJvHnaI",
         title: "El Canario",
         artist: "No Me Pises Que Llevo Chanclas",
@@ -6167,7 +6263,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 607,
+        id: 605,
         spotifyId: "7pqTE8rWJUZ74M3rpDbLzP",
         title: "Sola (Con un desconocido)",
         artist: "Ole Ole",
@@ -6177,18 +6273,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 608,
+        id: 606,
         spotifyId: "6QBLmxP1tU6lw1dhKQulau",
         title: "Mediterraneo",
         artist: "Los Rebeldes",
         year: "1988",
         playlists: [
             "temazos",
+            "summer",
             "spotify_spain"
         ]
     },
     {
-        id: 609,
+        id: 607,
         spotifyId: "4u7ZqpIkq2sDdQD22JOFLZ",
         title: "ABC",
         artist: "The Jackson 5",
@@ -6198,7 +6295,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 610,
+        id: 608,
         spotifyId: "37ZJ0p5Jm13JPevGcx4SkF",
         title: "Livin' On A Prayer",
         artist: "Bon Jovi",
@@ -6208,7 +6305,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 611,
+        id: 609,
         spotifyId: "2rTYgHxgcndkUrRoU7x0Sv",
         title: "Mr. Vain",
         artist: "Culture Beat",
@@ -6218,7 +6315,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 612,
+        id: 610,
         spotifyId: "1B75hgRqe7A4fwee3g3Wmu",
         title: "U Can't Touch This",
         artist: "MC Hammer",
@@ -6228,7 +6325,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 613,
+        id: 611,
         spotifyId: "4p7XH4NhQ25iGYrrbg93gt",
         title: "Suave",
         artist: "Luis Miguel",
@@ -6238,7 +6335,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 614,
+        id: 612,
         spotifyId: "5fwSHlTEWpluwOM0Sxnh5k",
         title: "Pepas",
         artist: "Farruko",
@@ -6248,7 +6345,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 615,
+        id: 613,
         spotifyId: "1NCuYqMc8hKMb4cpNTcJbD",
         title: "Another Day in Paradise",
         artist: "Phil Collins",
@@ -6258,7 +6355,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 616,
+        id: 614,
         spotifyId: "0AQqrtK1pULuwZUXhwaaDz",
         title: "All By Myself",
         artist: "Eric Carmen",
@@ -6268,7 +6365,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 617,
+        id: 615,
         spotifyId: "4WpmwEdc4RBos8W8icSSxW",
         title: "Moonlight Shadow",
         artist: "Mike Oldfield",
@@ -6278,7 +6375,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 618,
+        id: 616,
         spotifyId: "1jF7IL57ayN4Ity3jQqGu0",
         title: "Try",
         artist: "P!nk",
@@ -6288,7 +6385,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 619,
+        id: 617,
         spotifyId: "3Jwalo4hQy4AHqtnyGUoMk",
         title: "Son Of My Father",
         artist: "Chicory Tip",
@@ -6298,7 +6395,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 620,
+        id: 618,
         spotifyId: "6epn3r7S14KUqlReYr77hA",
         title: "Baby",
         artist: "Justin Bieber;Ludacris",
@@ -6308,7 +6405,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 621,
+        id: 619,
         spotifyId: "4HjzdN3HFW2p52Eey2MumB",
         title: "El Baile del Gorila",
         artist: "Melody",
@@ -6318,17 +6415,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 622,
+        id: 620,
         spotifyId: "1Yk0cQdMLx5RzzFTYwmuld",
         title: "Hello",
         artist: "Adele",
         year: "2015",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 623,
+        id: 621,
         spotifyId: "7iN1s7xHE4ifF5povM6A48",
         title: "Let It Be",
         artist: "The Beatles",
@@ -6338,7 +6436,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 624,
+        id: 622,
         spotifyId: "6FG8TkQCTo5TfOQ6bG5Fxf",
         title: "Se Me Enamora el Alma",
         artist: "Isabel Pantoja",
@@ -6348,7 +6446,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 625,
+        id: 623,
         spotifyId: "0LoQuiekvzqx7n8flgEKzF",
         title: "Get It On",
         artist: "T. Rex",
@@ -6358,17 +6456,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 626,
+        id: 624,
         spotifyId: "4oGTdOClZUxcM2H3UmXlwL",
         title: "Ironic",
         artist: "Alanis Morissette",
         year: "1995",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 627,
+        id: 625,
         spotifyId: "3Ti0O0JrzCJ3Hxdgg6YI1V",
         title: "Fantastic Shine",
         artist: "Love of Lesbian",
@@ -6378,7 +6477,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 628,
+        id: 626,
         spotifyId: "7k4t7uLgtOxPwTpFmtJNTY",
         title: "Tusa",
         artist: "KAROL G;Nicki Minaj",
@@ -6388,7 +6487,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 629,
+        id: 627,
         spotifyId: "3Q8avvsQE7mtTXT2TrDx3I",
         title: "Sincericidio",
         artist: "Leiva",
@@ -6399,7 +6498,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 630,
+        id: 628,
         spotifyId: "20ZP3Om9DvDazXrNUC7WM2",
         title: "These Days",
         artist: "Rudimental;Jess Glynne;Macklemore;Dan Caplen",
@@ -6409,7 +6508,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 631,
+        id: 629,
         spotifyId: "22vgEDb5hykfaTwLuskFGD",
         title: "Sucker",
         artist: "Jonas Brothers",
@@ -6419,17 +6518,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 632,
+        id: 630,
         spotifyId: "08bNPGLD8AhKpnnERrAc6G",
         title: "FRIENDS",
         artist: "Marshmello;Anne-Marie",
         year: "2018",
         playlists: [
-            "temazos"
+            "temazos",
+            "batalla"
         ]
     },
     {
-        id: 633,
+        id: 631,
         spotifyId: "2A2Q4CYBcVvBF2OqgJ3OWX",
         title: "Ya No Quiero Ná",
         artist: "Lola Indigo",
@@ -6439,7 +6539,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 634,
+        id: 632,
         spotifyId: "4YYd1oPidpG7rVu4OLjPG7",
         title: "Viaje con nosotros",
         artist: "Orquesta Mondragon",
@@ -6449,7 +6549,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 635,
+        id: 633,
         spotifyId: "0Dm43YLUlGdePpSbI1ct8h",
         title: "Part-Time Lover",
         artist: "Stevie Wonder",
@@ -6459,7 +6559,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 636,
+        id: 634,
         spotifyId: "1n7omixiROWs5q6xpWiQuL",
         title: "Satisfaction",
         artist: "Benny Benassi;The Biz",
@@ -6469,7 +6569,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 637,
+        id: 635,
         spotifyId: "4bJygwUKrRgq1stlNXcgMg",
         title: "All The Things She Said",
         artist: "t.A.T.u.",
@@ -6479,7 +6579,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 638,
+        id: 636,
         spotifyId: "2Za2mUwmQoSxWPscaY2vxl",
         title: "Murder On The Dancefloor",
         artist: "Sophie Ellis-Bextor",
@@ -6489,28 +6589,31 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 639,
+        id: 637,
         spotifyId: "2yc9sElleYDl3NXMZSgsRv",
         title: "Blanco y Negro",
         artist: "Malú",
         year: "2010",
         playlists: [
             "temazos",
-            "spotify_spain"
+            "spotify_spain",
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 640,
+        id: 638,
         spotifyId: "6JV2JOEocMgcZxYSZelKcc",
         title: "CAN'T STOP THE FEELING! (from DreamWorks Animation's \"TROLLS\")",
         artist: "Justin Timberlake",
         year: "2016",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 641,
+        id: 639,
         spotifyId: "5zNlrLpJFZt3RvRe9A0Hed",
         title: "Mi Religión",
         artist: "Nil Moliner",
@@ -6520,7 +6623,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 642,
+        id: 640,
         spotifyId: "583xVl0Sbj93uU4ceixgU8",
         title: "I'm Outta Love",
         artist: "Anastacia",
@@ -6530,7 +6633,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 643,
+        id: 641,
         spotifyId: "00i0O74dXdaKKdCrqHnfXm",
         title: "La Mordidita",
         artist: "Ricky Martin;Yotuel",
@@ -6540,7 +6643,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 644,
+        id: 642,
         spotifyId: "3PR79C1jVvLLLmgdyHkXl3",
         title: "That's the Way (I Like It)",
         artist: "KC & The Sunshine Band",
@@ -6551,7 +6654,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 645,
+        id: 643,
         spotifyId: "0ire4j2mcGovF5JA1D2cTp",
         title: "Don't Leave Me This Way (with Sarah Jane Morris)",
         artist: "The Communards;Sarah Jane Morris",
@@ -6561,7 +6664,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 646,
+        id: 644,
         spotifyId: "54X78diSLoUDI3joC2bjMz",
         title: "Purple Rain",
         artist: "Prince",
@@ -6571,7 +6674,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 647,
+        id: 645,
         spotifyId: "1ckqbT2LtD2K1Mqvlmo21n",
         title: "La vida pasa felizmente",
         artist: "Luis Aguile",
@@ -6581,7 +6684,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 648,
+        id: 646,
         spotifyId: "2iJuuzV8P9Yz0VSurttIV5",
         title: "Scream & Shout",
         artist: "will.i.am;Britney Spears",
@@ -6591,7 +6694,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 649,
+        id: 647,
         spotifyId: "6AsF1pBjFMIEMXuA8JgRag",
         title: "Dolce Vita",
         artist: "Ryan Paris",
@@ -6601,7 +6704,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 650,
+        id: 648,
         spotifyId: "1DxT6f6mH7kLriOUWbujup",
         title: "All Night Long (All Night)",
         artist: "Lionel Richie",
@@ -6611,7 +6714,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 651,
+        id: 649,
         spotifyId: "2GcjfckZexh9wRRjg9KtQG",
         title: "Tiburon",
         artist: "Proyecto Uno",
@@ -6621,7 +6724,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 652,
+        id: 650,
         spotifyId: "3QiRtWfWlZtLz43VbJRiEm",
         title: "Aire",
         artist: "Pedro Marin",
@@ -6632,7 +6735,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 653,
+        id: 651,
         spotifyId: "3c8iiZGfEammKJuWTErE5x",
         title: "Ain't Nobody (Loves Me Better)",
         artist: "Felix Jaehn;Jasmine Thompson",
@@ -6642,47 +6745,51 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 654,
+        id: 652,
         spotifyId: "4pbyDPjFgfPqFTcIMC8xpK",
         title: "Rock DJ",
         artist: "Robbie Williams",
         year: "2000",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 655,
+        id: 653,
         spotifyId: "0vg4WnUWvze6pBOJDTq99k",
         title: "You're Beautiful",
         artist: "James Blunt",
         year: "2004",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 656,
+        id: 654,
         spotifyId: "4kLLWz7srcuLKA7Et40PQR",
         title: "I Gotta Feeling",
         artist: "Black Eyed Peas",
         year: "2009",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 657,
+        id: 655,
         spotifyId: "54OR1VDpfkBuOY5zZjhZAY",
         title: "YMCA",
         artist: "Village People",
         year: "1978",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 658,
+        id: 656,
         spotifyId: "7jK3BKP4SDY3MGHKgbGcp9",
         title: "Juntos",
         artist: "Paloma San Basilio",
@@ -6692,7 +6799,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 659,
+        id: 657,
         spotifyId: "5rb9QrpfcKFHM1EUbSIurX",
         title: "Yeah!",
         artist: "USHER;Lil Jon;Ludacris",
@@ -6702,7 +6809,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 660,
+        id: 658,
         spotifyId: "4cOdK2wGLETKBW3PvgPWqT",
         title: "Never Gonna Give You Up",
         artist: "Rick Astley",
@@ -6712,7 +6819,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 661,
+        id: 659,
         spotifyId: "3qD3IT0t8QnkD80DEYvRgr",
         title: "Greased Lighten'",
         artist: "John Travolta",
@@ -6722,17 +6829,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 662,
+        id: 660,
         spotifyId: "3I4rCM3LCLIFCNA0iRQ9Qz",
         title: "Bimbó 92",
         artist: "Georgie Dann",
         year: "1975",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 663,
+        id: 661,
         spotifyId: "6b61wUfgkYnP1pmXI6k13J",
         title: "Duro De Pelar",
         artist: "Rebeca",
@@ -6742,7 +6850,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 664,
+        id: 662,
         spotifyId: "6zT8SxeBSGZlMgQM8VvgYZ",
         title: "Enseñame a Cantar",
         artist: "Micky",
@@ -6753,7 +6861,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 665,
+        id: 663,
         spotifyId: "6vXpvdynJIA38p4ffg9buA",
         title: "Una Noche Más",
         artist: "Jennifer Lopez",
@@ -6763,7 +6871,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 666,
+        id: 664,
         spotifyId: "5xEM5hIgJ1jjgcEBfpkt2F",
         title: "Complicated",
         artist: "Avril Lavigne",
@@ -6773,7 +6881,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 667,
+        id: 665,
         spotifyId: "7bJSbd2Upa4iYVHlbRKEJm",
         title: "Enola Gay",
         artist: "Orchestral Manoeuvres In The Dark",
@@ -6783,17 +6891,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 668,
+        id: 666,
         spotifyId: "5a76ewdxMy4WoMuDinapcl",
         title: "Que La Detengan",
         artist: "David Civera",
         year: "2002",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 669,
+        id: 667,
         spotifyId: "3tjFYV6RSFtuktYl3ZtYcq",
         title: "Mood",
         artist: "24kGoldn;iann dior",
@@ -6803,7 +6912,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 670,
+        id: 668,
         spotifyId: "0BxfFnk0YzONqvmrkO0QrB",
         title: "Don't Cha",
         artist: "The Pussycat Dolls;Busta Rhymes",
@@ -6813,7 +6922,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 671,
+        id: 669,
         spotifyId: "7mmhMfqs3knRMMlvnMPTHn",
         title: "Simply Irresistible",
         artist: "Robert Palmer",
@@ -6823,7 +6932,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 672,
+        id: 670,
         spotifyId: "0reKGVcWLVvl1FzjZ6TACy",
         title: "I Like The Way",
         artist: "Bodyrockers",
@@ -6833,7 +6942,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 673,
+        id: 671,
         spotifyId: "020Gj87SqDRvzGHELzcCEc",
         title: "Cien gaviotas",
         artist: "Duncan Dhu",
@@ -6844,27 +6953,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 674,
+        id: 672,
         spotifyId: "2tTmW7RDtMQtBk7m2rYeSw",
         title: "Quevedo: Bzrp Music Sessions, Vol. 52/66",
         artist: "Bizarrap;Quevedo",
         year: "2022",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 675,
+        id: 673,
         spotifyId: "7wZUrN8oemZfsEd1CGkbXE",
         title: "Bleeding Love",
         artist: "Leona Lewis",
         year: "2007",
         playlists: [
-            "temazos"
+            "temazos",
+            "batalla"
         ]
     },
     {
-        id: 676,
+        id: 674,
         spotifyId: "2AY1UAimvTqjJC8vDJsOyy",
         title: "Mayores",
         artist: "Becky G;Bad Bunny",
@@ -6874,7 +6985,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 677,
+        id: 675,
         spotifyId: "10tzk7ZRjwnLKd3gjKLtTA",
         title: "Laura no està",
         artist: "Nek",
@@ -6885,7 +6996,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 678,
+        id: 676,
         spotifyId: "1EhDeCHd34jt7dMDqkGQBC",
         title: "Arrasando",
         artist: "Thalia",
@@ -6895,7 +7006,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 679,
+        id: 677,
         spotifyId: "1SssFw74DdHVjRa6ADggdD",
         title: "Sweat (A La La La La Long)",
         artist: "Inner Circle",
@@ -6905,27 +7016,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 680,
-        spotifyId: "4xzcXQrlMKwvv3kDpvBKWm",
+        id: 678,
+        spotifyId: "6M8horg7h52MPTxY0I3dQJ",
         title: "La Bilirrubina",
         artist: "Juan Luis Guerra 4.40",
         year: "1990",
         playlists: [
-            "temazos"
+            "temazos",
+            "summer"
         ]
     },
     {
-        id: 681,
+        id: 679,
         spotifyId: "4yu6Gh2sTy26PqVtLRmGOn",
         title: "Asi Me Gusta a Mi",
         artist: "Chimo Bayo",
         year: "1991",
         playlists: [
-            "temazos"
+            "temazos",
+            "espanol100"
         ]
     },
     {
-        id: 682,
+        id: 680,
         spotifyId: "6PfQB3xEbIlky1dXOb3Yyh",
         title: "Amigos para Siempre",
         artist: "Los Manolos",
@@ -6937,7 +7050,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 683,
+        id: 681,
         spotifyId: "4z2EeFUp5Lhai9qhHtA6IF",
         title: "Salir",
         artist: "Extremoduro",
@@ -6948,17 +7061,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 684,
+        id: 682,
         spotifyId: "3850dYVgOFIXJh5U4BFEWH",
         title: "Hung Up",
         artist: "Madonna",
         year: "2005",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 685,
+        id: 683,
         spotifyId: "15BQ7vEDv2LJuh8TxWIhtd",
         title: "The Passenger",
         artist: "Iggy Pop",
@@ -6968,7 +7082,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 686,
+        id: 684,
         spotifyId: "4XcNoJ4W4Qa4uuqxa2KRsm",
         title: "The Only Thing That Looks Good On Me Is You",
         artist: "Bryan Adams",
@@ -6978,7 +7092,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 687,
+        id: 685,
         spotifyId: "5YbgcwHjQhdT1BYQ4rxWlD",
         title: "Don't Worry Be Happy",
         artist: "Bobby McFerrin",
@@ -6988,7 +7102,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 688,
+        id: 686,
         spotifyId: "2TxCwUlqaOH3TIyJqGgR91",
         title: "Mamma Mia",
         artist: "ABBA",
@@ -6998,7 +7112,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 689,
+        id: 687,
         spotifyId: "7JJmb5XwzOO8jgpou264Ml",
         title: "There's Nothing Holdin' Me Back",
         artist: "Shawn Mendes",
@@ -7008,17 +7122,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 690,
+        id: 688,
         spotifyId: "1yoMvmasuxZfqHEipJhRbp",
         title: "Hawái",
         artist: "Maluma",
         year: "2020",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 691,
+        id: 689,
         spotifyId: "3i6qNxyVgIdUZTTi5m25EM",
         title: "Bitch",
         artist: "Meredith Brooks",
@@ -7028,7 +7143,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 692,
+        id: 690,
         spotifyId: "5QO79kh1waicV47BqGRL3g",
         title: "Save Your Tears",
         artist: "The Weeknd",
@@ -7038,7 +7153,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 693,
+        id: 691,
         spotifyId: "1uI848raFaNWwe9HjHpjQ5",
         title: "Boys - Summertime Love",
         artist: "Sabrina",
@@ -7048,7 +7163,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 694,
+        id: 692,
         spotifyId: "2hConpLOB6gmyM8vDkVOof",
         title: "Lobo-hombre en París",
         artist: "La Unión",
@@ -7058,7 +7173,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 695,
+        id: 693,
         spotifyId: "4y1LsJpmMti1PfRQV9AWWe",
         title: "Girls Just Want to Have Fun",
         artist: "Cyndi Lauper",
@@ -7068,7 +7183,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 696,
+        id: 694,
         spotifyId: "2d8D7uk3tbAThjRkdfrx9c",
         title: "Voyage voyage",
         artist: "Desireless",
@@ -7078,7 +7193,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 697,
+        id: 695,
         spotifyId: "5jVJAojK3LFKETjI2gYb8O",
         title: "I Promised Myself",
         artist: "Nick Kamen",
@@ -7088,7 +7203,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 698,
+        id: 696,
         spotifyId: "0qPFZh2doqpRirH6JwqiFS",
         title: "Johnny Techno Ska",
         artist: "Paco Pil",
@@ -7098,7 +7213,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 699,
+        id: 697,
         spotifyId: "5iwz1NiezX7WWjnCgY5TH4",
         title: "Calma",
         artist: "Pedro Capó;Farruko",
@@ -7108,7 +7223,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 700,
+        id: 698,
         spotifyId: "5rgy6ghBq1eRApCkeUdJXf",
         title: "We Are Young",
         artist: "fun.;Janelle Monáe",
@@ -7119,7 +7234,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 701,
+        id: 699,
         spotifyId: "3QncI2MDoSto39bT8SJtKK",
         title: "Antes Muerta Que Sencilla",
         artist: "María Isabel",
@@ -7129,27 +7244,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 702,
+        id: 700,
         spotifyId: "1SShxVVBeZBCY7WddnksPz",
         title: "Gypsy Woman (She's Homeless) (La Da Dee La Da Da)",
         artist: "Crystal Waters;The Basement Boys",
         year: "1991",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 703,
+        id: 701,
         spotifyId: "4vfzROmNsxedKICcHod5Rh",
         title: "Here Comes the Hotstepper",
         artist: "iNi Kamoze",
         year: "1994",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 704,
+        id: 702,
         spotifyId: "3FdHgoJbH3DXNtGLh56pFu",
         title: "Conga!",
         artist: "Miami Sound Machine",
@@ -7159,7 +7276,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 705,
+        id: 703,
         spotifyId: "4a9hKPzMzh0vkKOUnz5gSD",
         title: "Ella Elle L A",
         artist: "Kate Ryan",
@@ -7169,7 +7286,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 706,
+        id: 704,
         spotifyId: "5fy4vfEtv6lzqLx2Mt7stF",
         title: "It's a Sin",
         artist: "Pet Shop Boys",
@@ -7179,7 +7296,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 707,
+        id: 705,
         spotifyId: "22D8T98R2LL6PEC0LGrmYt",
         title: "Let Me Out",
         artist: "Dover",
@@ -7189,7 +7306,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 708,
+        id: 706,
         spotifyId: "2hrUO4drrO63i7FYbCLBl2",
         title: "Rockabye",
         artist: "Clean Bandit;Anne-Marie;Sean Paul",
@@ -7199,7 +7316,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 709,
+        id: 707,
         spotifyId: "4rFCPjKfgbEeNvs1Ku4nbd",
         title: "Yo Quiero Bailar",
         artist: "Sonia Y Selena",
@@ -7210,17 +7327,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 710,
+        id: 708,
         spotifyId: "1hGy2eLcmC8eKx7qr1tOqx",
         title: "Beautiful Girls",
         artist: "Sean Kingston",
         year: "2007",
         playlists: [
-            "temazos"
+            "temazos",
+            "batalla"
         ]
     },
     {
-        id: 711,
+        id: 709,
         spotifyId: "2ev0McFPUBFiQ8CAXL2Okw",
         title: "Saturday Night",
         artist: "Whigfield",
@@ -7230,7 +7348,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 712,
+        id: 710,
         spotifyId: "2wlptOJ1g5fvLdu6ruKCKU",
         title: "Madre Tierra (Oye)",
         artist: "Chayanne",
@@ -7241,7 +7359,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 713,
+        id: 711,
         spotifyId: "11rsK9GDZ9UdWsxtDqnMmN",
         title: "¿Porqué te vas?",
         artist: "Jeanette",
@@ -7253,7 +7371,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 714,
+        id: 712,
         spotifyId: "1zi7xx7UVEFkmKfv06H8x0",
         title: "One Dance",
         artist: "Drake;Wizkid;Kyla",
@@ -7263,7 +7381,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 715,
+        id: 713,
         spotifyId: "5TMLavqGRKNxgzMBrVpC9R",
         title: "Mon Amour - Remix",
         artist: "zzoilo;Aitana",
@@ -7273,7 +7391,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 716,
+        id: 714,
         spotifyId: "2ixsaeFioXJmMgkkbd4uj1",
         title: "Budapest",
         artist: "George Ezra",
@@ -7283,7 +7401,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 717,
+        id: 715,
         spotifyId: "1EBYkBMIU9nWRCLsot4DN2",
         title: "Lo echamos a suertes",
         artist: "Ella Baila Sola",
@@ -7294,17 +7412,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 718,
-        spotifyId: "12FI23F59xB0DOoZcVKf4J",
+        id: 716,
+        spotifyId: "4ckZyAOFKfMti3H8aI60f5",
         title: "Bienvenidos",
         artist: "Miguel Ríos",
         year: "1982",
         playlists: [
-            "temazos"
+            "temazos",
+            "spotify_spain"
         ]
     },
     {
-        id: 719,
+        id: 717,
         spotifyId: "32MzNj36hpZLKIvdo80hOO",
         title: "Agapimu",
         artist: "Ana Belén",
@@ -7314,7 +7433,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 720,
+        id: 718,
         spotifyId: "0lIoY4ZQsdn5QzhraM9o9u",
         title: "Because the Night",
         artist: "Patti Smith",
@@ -7324,7 +7443,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 721,
+        id: 719,
         spotifyId: "6L89mwZXSOwYl76YXfX13s",
         title: "Basket Case",
         artist: "Green Day",
@@ -7334,7 +7453,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 722,
+        id: 720,
         spotifyId: "4XHNR6VSE2JLNd65kNkX2L",
         title: "Ai Se Eu Te Pego",
         artist: "Michel Teló",
@@ -7344,7 +7463,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 723,
+        id: 721,
         spotifyId: "1fDsrQ23eTAVFElUMaf38X",
         title: "American Pie",
         artist: "Don McLean",
@@ -7354,7 +7473,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 724,
+        id: 722,
         spotifyId: "3E7ZwUMJFqpsDOJzEkBrQ7",
         title: "Can't Get You out of My Head",
         artist: "Kylie Minogue",
@@ -7364,7 +7483,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 725,
+        id: 723,
         spotifyId: "59BkBWQitTPgS1inzGfyI5",
         title: "Stars On 45",
         artist: "Stars On 45",
@@ -7374,17 +7493,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 726,
+        id: 724,
         spotifyId: "0nrRP2bk19rLc0orkWPQk2",
         title: "Wake Me Up",
         artist: "Avicii",
         year: "2013",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 727,
+        id: 725,
         spotifyId: "2fTsFCKRFQ5M0igJgabnLA",
         title: "Price Tag",
         artist: "Jessie J;B.o.B",
@@ -7394,7 +7514,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 728,
+        id: 726,
         spotifyId: "4W4wYHtsrgDiivRASVOINL",
         title: "Love Shack",
         artist: "The B-52's",
@@ -7404,7 +7524,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 729,
+        id: 727,
         spotifyId: "70LcF31zb1H0PyJoS1Sx1r",
         title: "Creep",
         artist: "Radiohead",
@@ -7414,7 +7534,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 730,
+        id: 728,
         spotifyId: "2YdX7PEziOImkySNDWsaKM",
         title: "Rise Up",
         artist: "Yves Larock",
@@ -7424,7 +7544,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 731,
+        id: 729,
         spotifyId: "22HYEJveCvykVDHDiEEmjZ",
         title: "Tubthumping",
         artist: "Chumbawamba",
@@ -7434,7 +7554,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 732,
+        id: 730,
         spotifyId: "4pt5fDVTg5GhEvEtlz9dKk",
         title: "I WANNA BE YOUR SLAVE",
         artist: "Måneskin",
@@ -7444,17 +7564,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 733,
+        id: 731,
         spotifyId: "4r8lRYnoOGdEi6YyI5OC1o",
         title: "Bye Bye Bye",
         artist: "*NSYNC",
         year: "2000",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 734,
+        id: 732,
         spotifyId: "3dPQuX8Gs42Y7b454ybpMR",
         title: "Seven Nation Army",
         artist: "The White Stripes",
@@ -7464,7 +7585,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 735,
+        id: 733,
         spotifyId: "2WElktskrNJEwgpp5Vouxk",
         title: "I'm Too Sexy",
         artist: "Right Said Fred",
@@ -7474,7 +7595,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 736,
+        id: 734,
         spotifyId: "6WrnSlcN0dzTO80mVVbBto",
         title: "Do You Want To",
         artist: "Franz Ferdinand",
@@ -7484,17 +7605,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 737,
+        id: 735,
         spotifyId: "6vcdzohhBSbNdsZBh5IRpQ",
         title: "Back for Good",
         artist: "Take That",
         year: "1995",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 738,
+        id: 736,
         spotifyId: "5DiXcVovI0FcY2s0icWWUu",
         title: "Mr. Jones",
         artist: "Counting Crows",
@@ -7504,7 +7626,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 739,
+        id: 737,
         spotifyId: "1PckUlxKqWQs3RlWXVBLw3",
         title: "About Damn Time",
         artist: "Lizzo",
@@ -7514,7 +7636,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 740,
+        id: 738,
         spotifyId: "2zMJN9JvDlvGP4jB03l1Bz",
         title: "Hot Stuff",
         artist: "Donna Summer",
@@ -7524,7 +7646,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 741,
+        id: 739,
         spotifyId: "7hhclvecTpNxNNRCk7NUoc",
         title: "Little L",
         artist: "Jamiroquai",
@@ -7534,7 +7656,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 742,
+        id: 740,
         spotifyId: "3Z2tPWiNiIpg8UMMoowHIk",
         title: "We Are The World",
         artist: "U.S.A. For Africa",
@@ -7544,7 +7666,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 743,
+        id: 741,
         spotifyId: "3TZiiTNmVhLRMhPksHqk8M",
         title: "Nunca volverá",
         artist: "El Sueño de Morfeo",
@@ -7555,7 +7677,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 744,
+        id: 742,
         spotifyId: "0ikz6tENMONtK6qGkOrU3c",
         title: "Wake Me Up Before You Go-Go",
         artist: "Wham!",
@@ -7565,7 +7687,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 745,
+        id: 743,
         spotifyId: "5R9a4t5t5O0IsznsrKPVro",
         title: "Single Ladies (Put a Ring on It)",
         artist: "Beyoncé",
@@ -7575,7 +7697,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 746,
+        id: 744,
         spotifyId: "0HPD5WQqrq7wPWR7P7Dw1i",
         title: "TiK ToK",
         artist: "Kesha",
@@ -7585,7 +7707,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 747,
+        id: 745,
         spotifyId: "3NWoyVfSCtJ7CSFQ7rVu05",
         title: "Ni Mas Ni Menos",
         artist: "Los Chichos",
@@ -7595,7 +7717,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 748,
+        id: 746,
         spotifyId: "000u1dTg7y1XCDXi80hbBX",
         title: "I Don't Want A Lover",
         artist: "Texas",
@@ -7605,7 +7727,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 749,
+        id: 747,
         spotifyId: "4Fvnz1ZJ86IdqDAepWYPAh",
         title: "Volver, Volver",
         artist: "Vicente Fernández",
@@ -7615,7 +7737,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 750,
+        id: 748,
         spotifyId: "21qnJAMtzC6S5SESuqQLEK",
         title: "Pump Up The Jam",
         artist: "Technotronic",
@@ -7625,17 +7747,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 751,
+        id: 749,
         spotifyId: "1di1BEgJYzPvXUuinsYJGP",
         title: "Everybody (Backstreet's Back)",
         artist: "Backstreet Boys",
         year: "1997",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 752,
+        id: 750,
         spotifyId: "7a53HqqArd4b9NF4XAmlbI",
         title: "Kings & Queens",
         artist: "Ava Max",
@@ -7645,7 +7768,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 753,
+        id: 751,
         spotifyId: "6N7gPTru90HYLRUIVDQ185",
         title: "More Than This",
         artist: "Roxy Music",
@@ -7655,7 +7778,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 754,
+        id: 752,
         spotifyId: "5ubvP9oKmxLUVq506fgLhk",
         title: "Stayin Alive",
         artist: "Bee Gees",
@@ -7665,7 +7788,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 755,
+        id: 753,
         spotifyId: "0lnxrQAd9ZxbhBBe7d8FO8",
         title: "MMMBop",
         artist: "Hanson",
@@ -7675,7 +7798,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 756,
+        id: 754,
         spotifyId: "7wUKRQMHG0fI3DBzi6Tp29",
         title: "Baila el Chiki Chiki",
         artist: "Rodolfo Chikilicuatre;Tata Golosa",
@@ -7685,7 +7808,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 757,
+        id: 755,
         spotifyId: "6lV2MSQmRIkycDScNtrBXO",
         title: "Airplanes",
         artist: "B.o.B;Hayley Williams",
@@ -7695,7 +7818,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 758,
+        id: 756,
         spotifyId: "748mdHapucXQri7IAO8yFK",
         title: "Kiss Me More",
         artist: "Doja Cat;SZA",
@@ -7705,38 +7828,41 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 759,
+        id: 757,
         spotifyId: "1mJYIA1fwPgw40Kp9KIouE",
         title: "No Rompas Mi Corazón",
         artist: "Coyote Dax",
         year: "2001",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 760,
+        id: 758,
         spotifyId: "0dIj0bpkfkKpcYYa5ehaRS",
         title: "Historias de amor",
         artist: "OBK",
         year: "1991",
         playlists: [
             "temazos",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 761,
-        spotifyId: "64X1Hzn8aqjFpiVfWjCGsp",
+        id: 759,
+        spotifyId: "7uhGDWrWQDFYNLnJlhPt9F",
         title: "Borriquito",
         artist: "Peret",
         year: "1971",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 762,
+        id: 760,
         spotifyId: "4wJNcICQAv1ZNj8tkoMJab",
         title: "Yo no soy esa",
         artist: "Mari Trini",
@@ -7747,7 +7873,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 763,
+        id: 761,
         spotifyId: "6YUTL4dYpB9xZO5qExPf05",
         title: "Summer",
         artist: "Calvin Harris",
@@ -7757,7 +7883,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 764,
+        id: 762,
         spotifyId: "49X0LAl6faAusYq02PRAY6",
         title: "Lady - Hear Me Tonight",
         artist: "Modjo",
@@ -7767,7 +7893,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 765,
+        id: 763,
         spotifyId: "1sTsuZTdANkiFd7T34H3nb",
         title: "Human",
         artist: "The Killers",
@@ -7777,7 +7903,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 766,
+        id: 764,
         spotifyId: "7vu0JkJh0ldukEYbTVcqd0",
         title: "Issues",
         artist: "Julia Michaels",
@@ -7787,7 +7913,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 767,
+        id: 765,
         spotifyId: "294ii3rwz6bTJ2XMn5BDu0",
         title: "Sugar Baby Love",
         artist: "The Rubettes",
@@ -7797,7 +7923,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 768,
+        id: 766,
         spotifyId: "7J0niAY0FLzGiCVJUREl88",
         title: "Escuela de Calor",
         artist: "Radio Futura",
@@ -7808,7 +7934,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 769,
+        id: 767,
         spotifyId: "1Je1IMUlBXcx1Fz0WE7oPT",
         title: "Wannabe",
         artist: "Spice Girls",
@@ -7818,7 +7944,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 770,
+        id: 768,
         spotifyId: "1q9l6c8bAzqWcvO3DM6FsR",
         title: "I Don't Feel Like Dancin'",
         artist: "Scissor Sisters",
@@ -7828,7 +7954,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 771,
+        id: 769,
         spotifyId: "2X1P55Lrz0g5X2OQd8n4c9",
         title: "María Caipirinha (with Dj Dero)",
         artist: "Carlinhos Brown;DJ Dero",
@@ -7839,7 +7965,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 772,
+        id: 770,
         spotifyId: "59eAcAyhYSLi5GKFrgHJzG",
         title: "Faith",
         artist: "George Michael",
@@ -7849,7 +7975,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 773,
+        id: 771,
         spotifyId: "2yAVzRiEQooPEJ9SYx11L3",
         title: "Blue (Da Ba Dee) - Gabry Ponte Ice Pop Radio",
         artist: "Eiffel 65;Gabry Ponte",
@@ -7859,7 +7985,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 774,
+        id: 772,
         spotifyId: "0weAUscowxeqDtpCgtbpgp",
         title: "Gettin' Jiggy Wit It",
         artist: "Will Smith",
@@ -7869,7 +7995,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 775,
+        id: 773,
         spotifyId: "4V4P2sg9GaTttNn3mRnTDB",
         title: "Nada Que Perder",
         artist: "Conchita",
@@ -7879,7 +8005,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 776,
+        id: 774,
         spotifyId: "1GcVa4jFySlun4jLSuMhiq",
         title: "Angie",
         artist: "The Rolling Stones",
@@ -7889,18 +8015,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 777,
+        id: 775,
         spotifyId: "6sHBvzRsuGunQTfCk18KXi",
         title: "Bailando por Ahi",
         artist: "Juan Magán",
         year: "2011",
         playlists: [
             "temazos",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 778,
+        id: 776,
         spotifyId: "5QDLhrAOJJdNAmCTJ8xMyW",
         title: "Dynamite",
         artist: "BTS",
@@ -7910,17 +8037,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 779,
+        id: 777,
         spotifyId: "3xec1BelrzOd6v0o8HRd2l",
         title: "El Jardín Prohibido",
         artist: "Sandro Giacobbe",
         year: "1975",
         playlists: [
-            "temazos"
+            "temazos",
+            "spotify_spain"
         ]
     },
     {
-        id: 780,
+        id: 778,
         spotifyId: "4nTduFjaTmGysc9WKNuCcs",
         title: "Vida de Rico",
         artist: "Camilo",
@@ -7930,7 +8058,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 781,
+        id: 779,
         spotifyId: "0NJC0FDCODpPUntRTTQq97",
         title: "Cryin'",
         artist: "Aerosmith",
@@ -7940,7 +8068,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 782,
+        id: 780,
         spotifyId: "2BTSWfjaTMYWCxhmVRhqLK",
         title: "Mr. Saxobeat",
         artist: "Alexandra Stan",
@@ -7950,7 +8078,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 783,
+        id: 781,
         spotifyId: "3P3pw6C19j31Rnzgo3JG7o",
         title: "Perfect Strangers",
         artist: "Jonas Blue;JP Cooper",
@@ -7960,7 +8088,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 784,
+        id: 782,
         spotifyId: "3rdAz1fbUfZxYgaCviYhRo",
         title: "Todo De Ti",
         artist: "Rauw Alejandro",
@@ -7970,7 +8098,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 785,
+        id: 783,
         spotifyId: "4KcH1ZRV2W1q7Flq0QqC76",
         title: "Blitzkrieg Bop",
         artist: "Ramones",
@@ -7980,17 +8108,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 786,
+        id: 784,
         spotifyId: "2HHtWyy5CgaQbC7XSoOb0e",
         title: "Eye of the Tiger",
         artist: "Survivor",
         year: "1982",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 787,
+        id: 785,
         spotifyId: "4rvT5iZVOCJeXZrDvy6JFK",
         title: "What Can I Do",
         artist: "The Corrs;Tin Tin Out",
@@ -8000,7 +8129,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 788,
+        id: 786,
         spotifyId: "4LD5dhQ3kqpqe14sGPDtBC",
         title: "Scream",
         artist: "Michael Jackson;Janet Jackson",
@@ -8010,7 +8139,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 789,
+        id: 787,
         spotifyId: "3TCauNPqFiniaYHBvEVoHG",
         title: "Beautiful",
         artist: "Christina Aguilera",
@@ -8020,7 +8149,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 790,
+        id: 788,
         spotifyId: "0puf9yIluy9W0vpMEUoAnN",
         title: "Bang Bang",
         artist: "Jessie J;Ariana Grande;Nicki Minaj",
@@ -8030,17 +8159,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 791,
+        id: 789,
         spotifyId: "5vdp5UmvTsnMEMESIF2Ym7",
         title: "Another One Bites The Dust",
         artist: "Queen",
         year: "1980",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 792,
+        id: 790,
         spotifyId: "4VnzKUBMB6cvog8Jvv1few",
         title: "Yellow River",
         artist: "Christie",
@@ -8050,7 +8180,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 793,
+        id: 791,
         spotifyId: "1vxw6aYJls2oq3gW0DujAo",
         title: "Crazy",
         artist: "Gnarls Barkley;CeeLo Green;Danger Mouse",
@@ -8060,7 +8190,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 794,
+        id: 792,
         spotifyId: "5Hyr47BBGpvOfcykSCcaw9",
         title: "Holding Out for a Hero - From \"Footloose\" Soundtrack",
         artist: "Bonnie Tyler",
@@ -8071,7 +8201,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 795,
+        id: 793,
         spotifyId: "3UmaczJpikHgJFyBTAJVoz",
         title: "Stan",
         artist: "Eminem;Dido",
@@ -8081,7 +8211,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 796,
+        id: 794,
         spotifyId: "37dYAkMa4lzRCH6kDbMT1L",
         title: "We No Speak Americano",
         artist: "Yolanda Be Cool;DCup",
@@ -8091,7 +8221,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 797,
+        id: 795,
         spotifyId: "4wDk9P2WSvHOsRW6SDYE7L",
         title: "Que Te Quería",
         artist: "La Quinta Estacion",
@@ -8102,7 +8232,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 798,
+        id: 796,
         spotifyId: "1KGi9sZVMeszgZOWivFpxs",
         title: "No Scrubs",
         artist: "TLC",
@@ -8112,18 +8242,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 799,
+        id: 797,
         spotifyId: "5hyq5k3Do9gW3HGvDg5ZEJ",
         title: "La Lola",
         artist: "Café Quijano",
         year: "1999",
         playlists: [
             "temazos",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 800,
+        id: 798,
         spotifyId: "5RzFJd6W40SDTyZkX6xx45",
         title: "I Know You Want Me (Calle Ocho)",
         artist: "Pitbull",
@@ -8133,7 +8264,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 801,
+        id: 799,
         spotifyId: "0qi4b1l0eT3jpzeNHeFXDT",
         title: "Just Can't Get Enough",
         artist: "Depeche Mode",
@@ -8143,17 +8274,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 802,
+        id: 800,
         spotifyId: "0SiywuOBRcynK0uKGWdCnn",
         title: "Bad Romance",
         artist: "Lady Gaga",
         year: "2009",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 803,
+        id: 801,
         spotifyId: "4VrWlk8IQxevMvERoX08iC",
         title: "Chandelier",
         artist: "Sia",
@@ -8163,7 +8295,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 804,
+        id: 802,
         spotifyId: "0ny5zITdmyNwyTPVzRGscU",
         title: "What You Waiting For?",
         artist: "Gwen Stefani",
@@ -8173,7 +8305,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 805,
+        id: 803,
         spotifyId: "7uou7DWqEQSNfxcfipxyIu",
         title: "Cuéntame un cuento",
         artist: "Celtas Cortos",
@@ -8184,7 +8316,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 806,
+        id: 804,
         spotifyId: "4z7maGZkAonDlXlwo8q69f",
         title: "Da Ya Think I'm Sexy?",
         artist: "Rod Stewart",
@@ -8194,7 +8326,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 807,
+        id: 805,
         spotifyId: "6YYmoV9YbBefsspGmqFHbs",
         title: "Una Vaina Loca",
         artist: "Fuego",
@@ -8204,17 +8336,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 808,
+        id: 806,
         spotifyId: "3zHq9ouUJQFQRf3cm1rRLu",
         title: "Love Me Like You Do",
         artist: "Ellie Goulding",
         year: "2015",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 809,
+        id: 807,
         spotifyId: "0xmjwnQ3FNE6HuWCt2nHdZ",
         title: "Where Is The Love?",
         artist: "Black Eyed Peas",
@@ -8224,7 +8357,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 810,
+        id: 808,
         spotifyId: "5g6nzsOxwxdoj6sqAl0NXB",
         title: "It's Raining Men",
         artist: "The Weather Girls",
@@ -8234,17 +8367,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 811,
-        spotifyId: "6uJrLZzBxS4JewGnihjNzM",
+        id: 809,
+        spotifyId: "5AgCO3dc2kuSicCsw09YCA",
         title: "The Rockafeller Skank",
         artist: "Fatboy Slim",
         year: "1998",
         playlists: [
-            "temazos"
+            "temazos",
+            "batalla"
         ]
     },
     {
-        id: 812,
+        id: 810,
         spotifyId: "2CEgGE6aESpnmtfiZwYlbV",
         title: "Dynamite",
         artist: "Taio Cruz",
@@ -8254,7 +8388,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 813,
+        id: 811,
         spotifyId: "4V9BTST4BSkvOL4xIQNHuS",
         title: "Heaven Is A Place On Earth",
         artist: "Belinda Carlisle",
@@ -8264,7 +8398,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 814,
+        id: 812,
         spotifyId: "7kXmJwrZGIhDaLT9sNo3ut",
         title: "Hey Boy Hey Girl",
         artist: "The Chemical Brothers",
@@ -8274,7 +8408,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 815,
+        id: 813,
         spotifyId: "6ocbgoVGwYJhOv1GgI9NsF",
         title: "7 rings",
         artist: "Ariana Grande",
@@ -8284,7 +8418,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 816,
+        id: 814,
         spotifyId: "6pMHMzwTsWIxLigr54GGVm",
         title: "Rock Your Baby",
         artist: "George McCrae",
@@ -8294,7 +8428,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 817,
+        id: 815,
         spotifyId: "38GqIQ4RVkat91RnQrLJYP",
         title: "Love Is In The Air",
         artist: "John Paul Young",
@@ -8304,7 +8438,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 818,
+        id: 816,
         spotifyId: "5LGqFIVBf3ZUeFBpc87CFS",
         title: "Life",
         artist: "Des'ree",
@@ -8314,18 +8448,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 819,
+        id: 817,
         spotifyId: "4S6gJt4RYR34t4sjW8wEah",
         title: "Lo siento",
         artist: "Beret",
         year: "2018",
         playlists: [
             "temazos",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 820,
+        id: 818,
         spotifyId: "3bC1ahPIYt1btJzSSEyyrF",
         title: "Whistle",
         artist: "Flo Rida",
@@ -8335,7 +8470,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 821,
+        id: 819,
         spotifyId: "5vCgDt0CtheaWVKzMW5KkO",
         title: "Cero",
         artist: "Dani Martín",
@@ -8346,7 +8481,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 822,
+        id: 820,
         spotifyId: "06KyNuuMOX1ROXRhj787tj",
         title: "We Don't Talk Anymore",
         artist: "Charlie Puth;Selena Gomez",
@@ -8356,7 +8491,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 823,
+        id: 821,
         spotifyId: "4S1VYqwfkLit9mKVY3MXoo",
         title: "Forever Young",
         artist: "Alphaville",
@@ -8366,7 +8501,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 824,
+        id: 822,
         spotifyId: "0nQLxiNGbbUoSGrxksETLm",
         title: "The Power",
         artist: "SNAP!",
@@ -8376,27 +8511,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 825,
+        id: 823,
         spotifyId: "7kSclohbIAwXvlN0wU1wks",
         title: "Locomia",
         artist: "Loco Mía",
         year: "1989",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 826,
+        id: 824,
         spotifyId: "0TDLuuLlV54CkRRUOahJb4",
         title: "Titanium",
         artist: "David Guetta;Sia",
         year: "2011",
         playlists: [
-            "temazos"
+            "temazos",
+            "los40"
         ]
     },
     {
-        id: 827,
+        id: 825,
         spotifyId: "6JymsaWDHk2Yj4e0yNBIFH",
         title: "Jump Around",
         artist: "House Of Pain",
@@ -8406,7 +8543,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 828,
+        id: 826,
         spotifyId: "5Qjx4obghhfhsh6DiUwpNM",
         title: "Mayonesa",
         artist: "Chocolate",
@@ -8416,27 +8553,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 829,
+        id: 827,
         spotifyId: "1EC0JRoSi9YL5zExd3Euc3",
         title: "No Puedo Vivir Sin Ti",
         artist: "Los Ronaldos",
         year: "2007",
         playlists: [
-            "temazos"
+            "temazos",
+            "spotify_spain"
         ]
     },
     {
-        id: 830,
+        id: 828,
         spotifyId: "5X9yP4oSAHO8gdN5Zom5of",
         title: "América, América",
         artist: "Nino Bravo",
         year: "1973",
         playlists: [
-            "temazos"
+            "temazos",
+            "spotify_spain"
         ]
     },
     {
-        id: 831,
+        id: 829,
         spotifyId: "5BY0p2EH4EznNZ0MFD9mjt",
         title: "Me Enamora",
         artist: "Juanes",
@@ -8446,7 +8585,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 832,
+        id: 830,
         spotifyId: "0gBfLS4aqbrr1ZvVv8dqWB",
         title: "Stereo Love",
         artist: "Edward Maya;Vika Jigulina",
@@ -8456,7 +8595,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 833,
+        id: 831,
         spotifyId: "7HW5WIw7ZgZORCzUxv5gW5",
         title: "Don't Go Breaking My Heart",
         artist: "Elton John;Kiki Dee",
@@ -8466,7 +8605,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 834,
+        id: 832,
         spotifyId: "49FYlytm3dAAraYgpoJZux",
         title: "Umbrella",
         artist: "Rihanna;JAY-Z",
@@ -8476,7 +8615,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 835,
+        id: 833,
         spotifyId: "31AOj9sFz2gM0O3hMARRBx",
         title: "Losing My Religion",
         artist: "R.E.M.",
@@ -8486,7 +8625,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 836,
+        id: 834,
         spotifyId: "1gkBsKxTpVHIn1nLf05CUo",
         title: "Peter Pan",
         artist: "El Canto Del Loco",
@@ -8496,7 +8635,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 837,
+        id: 835,
         spotifyId: "6QgjcU0zLnzq5OrUoSZ3OK",
         title: "Feel It Still",
         artist: "Portugal. The Man",
@@ -8506,7 +8645,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 838,
+        id: 836,
         spotifyId: "41nv6To7wnoVnFJSb1FF36",
         title: "Escapar (Slipping Away)",
         artist: "Moby;Amaral",
@@ -8516,7 +8655,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 839,
+        id: 837,
         spotifyId: "0pqnGHJpmpxLKifKRmU6WP",
         title: "Believer",
         artist: "Imagine Dragons",
@@ -8526,7 +8665,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 840,
+        id: 838,
         spotifyId: "32OlwWuMpZ6b0aN2RZOeMS",
         title: "Uptown Funk",
         artist: "Mark Ronson;Bruno Mars",
@@ -8536,7 +8675,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 841,
+        id: 839,
         spotifyId: "3sQtyO2P7q9qfkXCGVtAUp",
         title: "Me Vuelvo Loco",
         artist: "Tequila",
@@ -8547,7 +8686,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 842,
+        id: 840,
         spotifyId: "3h9GLvqH55IAqUD0kvGE6X",
         title: "Samba Megamix",
         artist: "Two Man Sound",
@@ -8557,7 +8696,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 843,
+        id: 841,
         spotifyId: "0mF5QmsOJq5w3FqGMjycII",
         title: "Shout To The Top",
         artist: "The Style Council;Jay Mark",
@@ -8567,7 +8706,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 844,
+        id: 842,
         spotifyId: "2a0xS8Vy4k6rXm8qcR3Ljw",
         title: "Mejor",
         artist: "Los Brincos",
@@ -8578,7 +8717,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 845,
+        id: 843,
         spotifyId: "6cRvHL1jwsAktcEcukPYmp",
         title: "Eso Que Tú Me Das",
         artist: "Jarabe De Palo",
@@ -8588,7 +8727,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 846,
+        id: 844,
         spotifyId: "2NF8A7C6tICScdRaZ0BrEe",
         title: "Katchi - Ofenbach vs. Nick Waterhouse",
         artist: "Ofenbach;Nick Waterhouse",
@@ -8598,7 +8737,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 847,
+        id: 845,
         spotifyId: "0gyq9BgV4Veyy06r8cxDII",
         title: "¡No Me Toques Las Palmas Que Me Conozco!",
         artist: "María Isabel",
@@ -8608,7 +8747,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 848,
+        id: 846,
         spotifyId: "5CeL9C3bsoe4yzYS1Qz8cw",
         title: "Girls & Boys",
         artist: "Blur",
@@ -8618,7 +8757,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 849,
+        id: 847,
         spotifyId: "1HOMkjp0nHMaTnfAkslCQj",
         title: "My Sharona",
         artist: "The Knack",
@@ -8628,7 +8767,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 850,
+        id: 848,
         spotifyId: "5p3JunprHCxClJjOmcLV8G",
         title: "Walk On the Wild Side",
         artist: "Lou Reed",
@@ -8638,7 +8777,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 851,
+        id: 849,
         spotifyId: "1nQIr8PP2btqnjSBvHCj8K",
         title: "Bonito Es",
         artist: "Los Sencillos",
@@ -8648,7 +8787,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 852,
+        id: 850,
         spotifyId: "4ZXGwom3XGq29jQmaq0CBb",
         title: "El Chiringuito",
         artist: "Georgie Dann",
@@ -8658,17 +8797,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 853,
+        id: 851,
         spotifyId: "4LZnURUGyflbOMSYG9aW9d",
         title: "Que Difícil es Hacer el Amor en un Simca 1000",
         artist: "Los Inhumanos",
         year: "1988",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain"
         ]
     },
     {
-        id: 854,
+        id: 852,
         spotifyId: "6qD5Tep3hEoRDQUpyrrDLK",
         title: "No Estamos Lokos - Kalikeño",
         artist: "Ketama",
@@ -8678,7 +8818,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 855,
+        id: 853,
         spotifyId: "3S0OXQeoh0w6AY8WQVckRW",
         title: "I'm Yours",
         artist: "Jason Mraz",
@@ -8688,17 +8828,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 856,
+        id: 854,
         spotifyId: "0AFJOoRQFlo10Vm1p6BRjg",
         title: "El calor del amor en un bar",
         artist: "Gabinete Caligari",
         year: "1986",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain"
         ]
     },
     {
-        id: 857,
+        id: 855,
         spotifyId: "1V7FkKnkA3Gq1fkGayioSI",
         title: "Galilea",
         artist: "Sergio Dalma",
@@ -8709,7 +8850,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 858,
+        id: 856,
         spotifyId: "72psvScOYelPAVpe9k1B9y",
         title: "Ay Mamá",
         artist: "Rigoberta Bandini",
@@ -8719,7 +8860,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 859,
+        id: 857,
         spotifyId: "7AzFID6u1b3zIWbd9pb8Dk",
         title: "Summer in the City",
         artist: "The Lovin' Spoonful",
@@ -8729,7 +8870,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 860,
+        id: 858,
         spotifyId: "59iTRaqCVSG6E382GYghBY",
         title: "Agapimú",
         artist: "Ojete Calor;Ana Belén",
@@ -8739,7 +8880,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 861,
+        id: 859,
         spotifyId: "27N8TFqYeZhdrgFITRJncP",
         title: "Mama Africa",
         artist: "Kids United;Angelique Kidjo;Youssou N'Dour",
@@ -8749,7 +8890,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 862,
+        id: 860,
         spotifyId: "7tqhbajSfrz2F7E1Z75ASX",
         title: "Ain't No Mountain High Enough",
         artist: "Marvin Gaye;Tammi Terrell",
@@ -8759,7 +8900,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 863,
+        id: 861,
         spotifyId: "5JdLUE9D743ob2RtgmVpVx",
         title: "Makeba",
         artist: "Jain",
@@ -8769,7 +8910,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 864,
+        id: 862,
         spotifyId: "1YwPNemawMgGe6sF4U0FTE",
         title: "Suavemente",
         artist: "Elvis Crespo",
@@ -8779,7 +8920,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 865,
+        id: 863,
         spotifyId: "3MktEQFErlU3BeJY1pFFU1",
         title: "Follow The Leader",
         artist: "The Soca Boys;Van B. King",
@@ -8789,17 +8930,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 866,
-        spotifyId: "70JnnNNAxPjvZGPwjJfX47",
+        id: 864,
+        spotifyId: "2cQpVtk5MOSLsGQrgMqT9g",
         title: "El Fin del Mundo",
         artist: "La La Love You;Axolotes Mexicanos",
         year: "2019",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 867,
+        id: 865,
         spotifyId: "0DMRKqrpd0QO4RWiEdMib0",
         title: "You Know I'm No Good",
         artist: "Amy Winehouse",
@@ -8809,7 +8951,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 868,
+        id: 866,
         spotifyId: "5OUYVbN1gbxz54XBgA4OID",
         title: "Mueve Tus Caderas",
         artist: "Burning",
@@ -8819,7 +8961,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 869,
+        id: 867,
         spotifyId: "5G1sTBGbZT5o4PNRc75RKI",
         title: "Lonely Boy",
         artist: "The Black Keys",
@@ -8829,7 +8971,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 870,
+        id: 868,
         spotifyId: "1H5IfYyIIAlgDX8zguUzns",
         title: "Suspicious Minds",
         artist: "Elvis Presley",
@@ -8839,7 +8981,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 871,
+        id: 869,
         spotifyId: "6M5CyesxNhZ9p1WWCwoc5a",
         title: "Me Estoy Volviendo Loco",
         artist: "Azul Y Negro",
@@ -8849,7 +8991,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 872,
+        id: 870,
         spotifyId: "7ooheiWgbyNtGOBTPbjNoq",
         title: "I Want Your Love",
         artist: "CHIC",
@@ -8859,7 +9001,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 873,
+        id: 871,
         spotifyId: "4T5Y25pWs2pVZVcFIqFuf8",
         title: "You Should Be Dancing",
         artist: "Bee Gees",
@@ -8869,7 +9011,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 874,
+        id: 872,
         spotifyId: "7p8HVe22aGW1XtO1hoDHGo",
         title: "99 Red Balloons",
         artist: "Nena",
@@ -8879,7 +9021,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 875,
+        id: 873,
         spotifyId: "7eheoW4hxrH51ww2QePVwF",
         title: "Gonna Make You Sweat (Everybody Dance Now)",
         artist: "C & C Music Factory;Freedom Williams",
@@ -8889,7 +9031,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 876,
+        id: 874,
         spotifyId: "6hHc7Pks7wtBIW8Z6A0iFq",
         title: "Blue Monday",
         artist: "New Order",
@@ -8899,7 +9041,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 877,
+        id: 875,
         spotifyId: "03xPLL0XcHnyuKGsTK5uSK",
         title: "Baby I Don't Care",
         artist: "Transvision Vamp",
@@ -8909,7 +9051,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 878,
+        id: 876,
         spotifyId: "5R2hNuiiwnKVAUNktF9j2Y",
         title: "mariposas",
         artist: "sangiovanni;Aitana",
@@ -8919,7 +9061,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 879,
+        id: 877,
         spotifyId: "3xi7tKuBss25X34eNwWac7",
         title: "Bolillón",
         artist: "No Me Pises Que Llevo Chanclas",
@@ -8929,17 +9071,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 880,
+        id: 878,
         spotifyId: "1v2zyAJrChw5JnfafSkwkJ",
         title: "Shiny Happy People",
         artist: "R.E.M.",
         year: "1991",
         playlists: [
-            "summer"
+            "summer",
+            "los40",
+            "batalla"
         ]
     },
     {
-        id: 881,
+        id: 879,
         spotifyId: "2Y90nL1ohB4sgYELDs7uNx",
         title: "Glory Days",
         artist: "Bruce Springsteen",
@@ -8949,7 +9093,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 882,
+        id: 880,
         spotifyId: "7EwISik6EOmK1CZhs68nsg",
         title: "Años 80",
         artist: "Los Piratas",
@@ -8959,7 +9103,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 883,
+        id: 881,
         spotifyId: "5LxvwujISqiB8vpRYv887S",
         title: "I Want You Back",
         artist: "The Jackson 5",
@@ -8969,7 +9113,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 884,
+        id: 882,
         spotifyId: "6j5LtifAnuTjTYvml61yFZ",
         title: "Un Millón de Primaveras",
         artist: "Vicente Fernández",
@@ -8979,7 +9123,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 885,
+        id: 883,
         spotifyId: "68JGom6rnaOviOQ8Ch4JgW",
         title: "Fiesta",
         artist: "Raffaella Carrà",
@@ -8989,7 +9133,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 886,
+        id: 884,
         spotifyId: "0pENfDf4UtQF2q2A4xSi27",
         title: "My Heart Goes Boom",
         artist: "French Affair",
@@ -8999,7 +9143,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 887,
+        id: 885,
         spotifyId: "1wZ7o1mZysv1l26ZWawVfW",
         title: "Freedom! '90",
         artist: "George Michael",
@@ -9009,7 +9153,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 888,
+        id: 886,
         spotifyId: "0GB4zJkbXdXBbdJPgudwDx",
         title: "Baila Mi Corazón",
         artist: "Belanova",
@@ -9019,7 +9163,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 889,
+        id: 887,
         spotifyId: "1uRKT2LRANv4baowBWHfDS",
         title: "(We're Gonna) Rock Around The Clock",
         artist: "Bill Haley & His Comets",
@@ -9029,7 +9173,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 890,
+        id: 888,
         spotifyId: "1qCHidBbWAgv3pn6UbZ4Lg",
         title: "Don't Go Yet",
         artist: "Camila Cabello",
@@ -9039,17 +9183,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 891,
+        id: 889,
         spotifyId: "2Foc5Q5nqNiosCNqttzHof",
         title: "Get Lucky",
         artist: "Daft Punk;Pharrell Williams;Nile Rodgers",
         year: "2013",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 892,
+        id: 890,
         spotifyId: "5rfJ2Bq2PEL8yBjZLzouEu",
         title: "Who Can It Be Now?",
         artist: "Men At Work",
@@ -9059,17 +9204,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 893,
+        id: 891,
         spotifyId: "61UuPxxYUvacEH6SHIK3sU",
         title: "Brown Sugar",
         artist: "The Rolling Stones",
         year: "1971",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 894,
+        id: 892,
         spotifyId: "1msphInQ8bBBQGFZkll7FX",
         title: "En Que Estrella Estara",
         artist: "Nena Daconte",
@@ -9080,7 +9226,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 895,
+        id: 893,
         spotifyId: "0qe8ejgap3s39vLXc4K4dU",
         title: "Salomé",
         artist: "Chayanne",
@@ -9090,7 +9236,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 896,
+        id: 894,
         spotifyId: "76hfruVvmfQbw0eYn1nmeC",
         title: "Cake By The Ocean",
         artist: "DNCE",
@@ -9100,7 +9246,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 897,
+        id: 895,
         spotifyId: "1ArfDNJVfisvAaowOCkpVc",
         title: "Supersexy Girl",
         artist: "Fundacion Tony Manero",
@@ -9110,7 +9256,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 898,
+        id: 896,
         spotifyId: "0mlAOSILGRys2IbvyOT5VJ",
         title: "Échame La Culpa",
         artist: "Luis Fonsi;Demi Lovato",
@@ -9120,7 +9266,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 899,
+        id: 897,
         spotifyId: "6KTv0Z8BmVqM7DPxbGzpVC",
         title: "Rock And Roll All Nite",
         artist: "KISS",
@@ -9130,7 +9276,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 900,
+        id: 898,
         spotifyId: "62AuGbAkt8Ox2IrFFb8GKV",
         title: "Sweet Caroline",
         artist: "Neil Diamond",
@@ -9140,7 +9286,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 901,
+        id: 899,
         spotifyId: "1EA3Bs174OvPIu49qj14pu",
         title: "El Baile de los Pajaritos",
         artist: "María Jesús y su acordeón",
@@ -9150,7 +9296,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 902,
+        id: 900,
         spotifyId: "4TDcFkFdHnROhMYelS3x4G",
         title: "Eres",
         artist: "Massiel",
@@ -9160,7 +9306,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 903,
+        id: 901,
         spotifyId: "0mnAmQX1pciMncT2qFCNmK",
         title: "SUBEME LA RADIO",
         artist: "Enrique Iglesias;Descemer Bueno;Zion & Lennox",
@@ -9170,7 +9316,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 904,
+        id: 902,
         spotifyId: "2EBCVPNAG46nbgs6jXPGvv",
         title: "Starships",
         artist: "Nicki Minaj",
@@ -9181,7 +9327,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 905,
+        id: 903,
         spotifyId: "46LipN9xfr9481vw8gLNRs",
         title: "Y Cuanto Mas Acelero",
         artist: "Javi Cantero",
@@ -9191,7 +9337,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 906,
+        id: 904,
         spotifyId: "4bMZ60QNM6OEehI6b8RtS4",
         title: "Matador",
         artist: "Los Fabulosos Cadillacs",
@@ -9201,7 +9347,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 907,
+        id: 905,
         spotifyId: "4AA1JmBpy3Bx5ZLAnJxOto",
         title: "Me Pongo Colorada",
         artist: "Papá Levante",
@@ -9211,17 +9357,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 908,
+        id: 906,
         spotifyId: "5sMahG7wqFxJFXNaw1BPAf",
         title: "Embrujada",
         artist: "Tino Casal",
         year: "1983",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain"
         ]
     },
     {
-        id: 909,
+        id: 907,
         spotifyId: "0KAiuUOrLTIkzkpfpn9jb9",
         title: "Drive By",
         artist: "Train",
@@ -9231,7 +9378,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 910,
+        id: 908,
         spotifyId: "39shmbIHICJ2Wxnk1fPSdz",
         title: "Should I Stay or Should I Go",
         artist: "The Clash",
@@ -9241,17 +9388,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 911,
+        id: 909,
         spotifyId: "2PzU4IB8Dr6mxV3lHuaG34",
         title: "(I Can't Get No) Satisfaction - Mono",
         artist: "The Rolling Stones",
         year: "1965",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 912,
+        id: 910,
         spotifyId: "6p36K0yKWBWanXfwPuqg8z",
         title: "Bailando sin salir de casa",
         artist: "Ole Ole",
@@ -9261,7 +9409,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 913,
+        id: 911,
         spotifyId: "674PSQ93mhKBnjh9snOMRl",
         title: "It's a Hap-Hap-Happy World",
         artist: "Ambrose & His Orchestra",
@@ -9271,7 +9419,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 914,
+        id: 912,
         spotifyId: "50dFUtKtDS8BAaD7MVeEqI",
         title: "La Canción del Verano",
         artist: "La La Love You",
@@ -9281,7 +9429,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 915,
+        id: 913,
         spotifyId: "15tHagkk8z306XkyOHqiip",
         title: "I'll Be There for You - Theme From \"Friends\"",
         artist: "The Rembrandts",
@@ -9291,7 +9439,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 916,
+        id: 914,
         spotifyId: "34jtsFqKNRSJFa0r6ZRqQh",
         title: "Last Night a D.J. Saved My Life",
         artist: "Indeep",
@@ -9301,7 +9449,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 917,
+        id: 915,
         spotifyId: "3oQhgsBwOGaxr5dWKAim7Y",
         title: "Vamos a la Playa",
         artist: "Righeira",
@@ -9311,7 +9459,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 918,
+        id: 916,
         spotifyId: "714hERk9U1W8FMYkoC83CO",
         title: "You Sexy Thing",
         artist: "Hot Chocolate",
@@ -9321,7 +9469,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 919,
+        id: 917,
         spotifyId: "0aJrYfARfCKzv6gXjhs4SZ",
         title: "Upside Down",
         artist: "Jack Johnson",
@@ -9331,7 +9479,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 920,
+        id: 918,
         spotifyId: "7HgG6kaNPUltGHFP6aIS4L",
         title: "Tu Vuo Fà L'Americano",
         artist: "Renato Carosone",
@@ -9341,7 +9489,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 921,
+        id: 919,
         spotifyId: "2xcrseImDFEf8Urommws03",
         title: "New Sensation",
         artist: "INXS",
@@ -9351,7 +9499,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 922,
+        id: 920,
         spotifyId: "23E53f3C9SJ9MqBh1f6hEw",
         title: "Juramento eterno de sal",
         artist: "Álvaro De Luna",
@@ -9361,9 +9509,9 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 923,
+        id: 921,
         spotifyId: "0ntQJM78wzOLVeCUAW7Y45",
-        title: "Sex on Fire",
+        title: "Sex on Mediterraneo",
         artist: "Kings of Leon",
         year: "2008",
         playlists: [
@@ -9371,7 +9519,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 924,
+        id: 922,
         spotifyId: "144JMbvbR5txNzoZ112wo4",
         title: "Strong Enough",
         artist: "Cher",
@@ -9381,7 +9529,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 925,
+        id: 923,
         spotifyId: "2QOtabBloSf7iti6MndGIs",
         title: "Eterno Verano",
         artist: "Miki Núñez;Adrià Salas;Arnau Griso;Nil Moliner",
@@ -9391,7 +9539,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 926,
+        id: 924,
         spotifyId: "78DVpEWwmJFC25KGz8fJuE",
         title: "Clavado en Un Bar",
         artist: "Maná",
@@ -9402,7 +9550,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 927,
+        id: 925,
         spotifyId: "1zW2csx1vVJrKfvDrFQNVt",
         title: "Jump in the Line",
         artist: "Harry Belafonte",
@@ -9412,7 +9560,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 928,
+        id: 926,
         spotifyId: "2olVm1lHicpveMAo4AUDRB",
         title: "The Power Of Love",
         artist: "Huey Lewis & The News",
@@ -9422,7 +9570,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 929,
+        id: 927,
         spotifyId: "6uojMoKuVkIVEeqH4JCBAr",
         title: "Alba",
         artist: "Antonio Flores",
@@ -9433,7 +9581,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 930,
+        id: 928,
         spotifyId: "0sX3XmiVd8BAIh6kqiCk9Q",
         title: "El rompeolas",
         artist: "Loquillo Y Los Trogloditas",
@@ -9444,17 +9592,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 931,
+        id: 929,
         spotifyId: "1b0zk12cACPIYKV2cC0dNt",
         title: "La Fiesta De Blas",
         artist: "Formula V",
         year: "1974",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain"
         ]
     },
     {
-        id: 932,
+        id: 930,
         spotifyId: "5CmVYFZinikaqh9Mf2J1Xl",
         title: "La Ventanita",
         artist: "Sergio Vargas",
@@ -9464,7 +9613,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 933,
+        id: 931,
         spotifyId: "6ZVz2iEPeySawsWC4pU8yh",
         title: "Muchas Flores",
         artist: "Rosario",
@@ -9474,27 +9623,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 934,
+        id: 932,
         spotifyId: "7qhuaYIafvH285FtQT71oQ",
         title: "Al Amanecer",
         artist: "Los Fresones Rebeldes",
         year: "1997",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain"
         ]
     },
     {
-        id: 935,
+        id: 933,
         spotifyId: "6uzGmmQ4CuG9HvZktEy0LF",
         title: "Qué Bonito Es Querer",
         artist: "Manuel Carrasco",
         year: "2018",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 936,
+        id: 934,
         spotifyId: "3f43MHFXpOqMkdu9gxEaoq",
         title: "Ya No Quiero Tu Querer",
         artist: "José El Francés",
@@ -9504,7 +9655,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 937,
+        id: 935,
         spotifyId: "6DmfWj5kOa1fX8AwN9byOn",
         title: "L.A. Woman",
         artist: "The Doors",
@@ -9514,7 +9665,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 938,
+        id: 936,
         spotifyId: "3B5UbSndRz907IZhhmUfLi",
         title: "Count on Me",
         artist: "Bruno Mars",
@@ -9524,7 +9675,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 939,
+        id: 937,
         spotifyId: "4IHEOKSPSnPzjKxBktZ4J7",
         title: "Pop Goes The World",
         artist: "Men Without Hats",
@@ -9534,7 +9685,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 940,
+        id: 938,
         spotifyId: "7MKO7rUZzjw8p87zdZDgqa",
         title: "Besos",
         artist: "El Canto Del Loco",
@@ -9544,7 +9695,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 941,
+        id: 939,
         spotifyId: "5ZaTqcL7zIreaVNeVy89Iu",
         title: "La Gota Fría",
         artist: "Carlos Vives",
@@ -9554,7 +9705,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 942,
+        id: 940,
         spotifyId: "3v9xlH6BpmRbqL7hgNJhfT",
         title: "I Get Around (Mono)",
         artist: "The Beach Boys",
@@ -9564,7 +9715,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 943,
+        id: 941,
         spotifyId: "42haGkGqdkjRMW4j0TC5Km",
         title: "Reggae Night",
         artist: "Jimmy Cliff",
@@ -9574,7 +9725,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 944,
+        id: 942,
         spotifyId: "6kQz6t5z1FK4uohPh8Kd73",
         title: "Let's Get Loud",
         artist: "Jennifer Lopez",
@@ -9584,17 +9735,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 945,
+        id: 943,
         spotifyId: "0imrhMFOWQ9XYDCnLfecYV",
         title: "Don Diablo",
         artist: "Miguel Bosé",
         year: "1980",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain"
         ]
     },
     {
-        id: 946,
+        id: 944,
         spotifyId: "7vJz53OhSGMIxLlwhfwqzu",
         title: "Leave a Light On",
         artist: "Belinda Carlisle",
@@ -9604,7 +9756,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 947,
+        id: 945,
         spotifyId: "29SyMC0plk6qw8NMF7lfRL",
         title: "You Really Got Me",
         artist: "The Kinks",
@@ -9614,7 +9766,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 948,
+        id: 946,
         spotifyId: "4yQw7FR9lcvL6RHtegbJBh",
         title: "Think",
         artist: "Aretha Franklin",
@@ -9624,7 +9776,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 949,
+        id: 947,
         spotifyId: "1MB8kTH7VKvAMfL9SHgJmG",
         title: "Vagabundo",
         artist: "Sebastian Yatra;Manuel Turizo;Beéle",
@@ -9634,7 +9786,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 950,
+        id: 948,
         spotifyId: "3c7U2Kj8YL8BquVmEhybCR",
         title: "Si por mi fuera",
         artist: "Beret",
@@ -9644,7 +9796,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 951,
+        id: 949,
         spotifyId: "6FT83pFXKhDlXDsNJFAHWz",
         title: "You Never Can Tell",
         artist: "Chuck Berry",
@@ -9654,17 +9806,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 952,
+        id: 950,
         spotifyId: "20CozgjF6bshBw8cLhN23B",
         title: "Nochentera",
         artist: "Vicco",
         year: "2022",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 953,
+        id: 951,
         spotifyId: "6rLqjzGV5VMLDWEnuUqi8q",
         title: "Dancing In The Street",
         artist: "Martha Reeves & The Vandellas",
@@ -9674,7 +9827,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 954,
+        id: 952,
         spotifyId: "2SDx0PooHZI1SQKR0y44bs",
         title: "Grace Kelly",
         artist: "MIKA",
@@ -9684,7 +9837,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 955,
+        id: 953,
         spotifyId: "2z4U9d5OAA4YLNXoCgioxo",
         title: "What the Hell",
         artist: "Avril Lavigne",
@@ -9694,7 +9847,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 956,
+        id: 954,
         spotifyId: "3Vby4nGmtbDo7HDJamOWkT",
         title: "Stuck In The Middle With You",
         artist: "Stealers Wheel",
@@ -9704,7 +9857,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 957,
+        id: 955,
         spotifyId: "6dGnYIeXmHdcikdzNNDMm2",
         title: "Here Comes The Sun",
         artist: "The Beatles",
@@ -9714,7 +9867,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 958,
+        id: 956,
         spotifyId: "2BKy24o7zh4D0oIJmFysCW",
         title: "Dale Vieja",
         artist: "El Combo Dominicano",
@@ -9724,7 +9877,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 959,
+        id: 957,
         spotifyId: "4KOIPoWgg56YkP12E1aFoQ",
         title: "Mari Carmen",
         artist: "La Pegatina",
@@ -9734,7 +9887,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 960,
+        id: 958,
         spotifyId: "70YvYr2hGlS01bKRIho1HM",
         title: "La Grange",
         artist: "ZZ Top",
@@ -9744,17 +9897,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 961,
+        id: 959,
         spotifyId: "4lhqb6JvbHId48OUJGwymk",
         title: "Hey Brother",
         artist: "Avicii",
         year: "2013",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 962,
+        id: 960,
         spotifyId: "3G7tRC24Uh09Hmp1KZ7LQ2",
         title: "I'm a Believer",
         artist: "The Monkees",
@@ -9764,17 +9918,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 963,
-        spotifyId: "6xepovPqjvrkEw9Y5AMmTm",
-        title: "Lambada",
-        artist: "Kaoma",
-        year: "1989",
-        playlists: [
-            "summer"
-        ]
-    },
-    {
-        id: 964,
+        id: 961,
         spotifyId: "3UaQ7rPrZt60bUyegxsedg",
         title: "Que El Ritmo No Pare",
         artist: "Patricia Manterola",
@@ -9784,7 +9928,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 965,
+        id: 962,
         spotifyId: "4JfuiOWlWCkjP6OKurHjSn",
         title: "Walk This Way",
         artist: "Aerosmith",
@@ -9794,7 +9938,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 966,
+        id: 963,
         spotifyId: "0byd9zFQjdxxRdCNpPMFVk",
         title: "Te Quiero Más",
         artist: "Fórmula Abierta",
@@ -9804,7 +9948,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 967,
+        id: 964,
         spotifyId: "451CpDIPCEe6C33BFGL3Kh",
         title: "Ven Devórame Otra Vez",
         artist: "Azucar Moreno",
@@ -9814,7 +9958,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 968,
+        id: 965,
         spotifyId: "6r8k1vznHrzlEKYxL4dZEe",
         title: "La Isla Bonita",
         artist: "Madonna",
@@ -9824,7 +9968,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 969,
+        id: 966,
         spotifyId: "5kEf2tlCPICgdp7HzIpQD2",
         title: "Summerlove",
         artist: "David Tavaré",
@@ -9834,7 +9978,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 970,
+        id: 967,
         spotifyId: "03N0ZpS5QaC9ga9i2xO9Vp",
         title: "Satellites",
         artist: "September",
@@ -9844,7 +9988,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 971,
+        id: 968,
         spotifyId: "4SnU0W6LY2CD4iH5vb4kgQ",
         title: "Voy en un coche",
         artist: "Christina y Los Subterraneos",
@@ -9855,7 +9999,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 972,
+        id: 969,
         spotifyId: "6guf5rr036GUC94cF4725F",
         title: "Atomic",
         artist: "Sleeper;Rapino Brothers",
@@ -9865,7 +10009,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 973,
+        id: 970,
         spotifyId: "2pX4FpOgwItRVPPUFdRcxA",
         title: "Smooth",
         artist: "Santana;Rob Thomas",
@@ -9875,7 +10019,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 974,
+        id: 971,
         spotifyId: "6MsqqWr7iNxIeAdaE1sC3Z",
         title: "Grite Una Noche",
         artist: "Nacha Pop",
@@ -9885,7 +10029,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 975,
+        id: 972,
         spotifyId: "6ebo7CQn4ILLGvXRmXHhQz",
         title: "Miénteme",
         artist: "TINI;Maria Becerra",
@@ -9895,7 +10039,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 976,
+        id: 973,
         spotifyId: "6oyYKWTbYt5Zb8tIiLZbmH",
         title: "Unchain My Heart",
         artist: "Joe Cocker",
@@ -9905,7 +10049,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 977,
+        id: 974,
         spotifyId: "04cdEVbQPb8BJb7593e5fO",
         title: "What a Wonderful World",
         artist: "Joey Ramone",
@@ -9915,17 +10059,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 978,
+        id: 975,
         spotifyId: "65H6t1WQBim6q93yM8fEwn",
         title: "Obsesion",
         artist: "Aventura;Judy Santos",
         year: "2002",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 979,
+        id: 976,
         spotifyId: "1rWVL9jF4t5HK3e02bo0jA",
         title: "Prohibida",
         artist: "Raul",
@@ -9935,7 +10080,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 980,
+        id: 977,
         spotifyId: "2k6qpHJsrKCCyvsHv2cPqR",
         title: "Diana",
         artist: "Paul Anka",
@@ -9945,7 +10090,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 981,
+        id: 978,
         spotifyId: "2xqNBP7kAqeZi96QISEGx4",
         title: "Antes Que Ver El Sol",
         artist: "Coti;Dani Martín",
@@ -9957,7 +10102,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 982,
+        id: 979,
         spotifyId: "2oUBG6Te9PNzEJB17Cbmi3",
         title: "El Muerto Vivo",
         artist: "Peret",
@@ -9967,7 +10112,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 983,
+        id: 980,
         spotifyId: "3TlIt0ReIxPsVZcOEivT5U",
         title: "It's Not Unusual",
         artist: "Tom Jones",
@@ -9977,17 +10122,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 984,
+        id: 981,
         spotifyId: "26V1bLUk0SBYkLEwl4caPR",
         title: "Clavaito",
         artist: "Chanel;Abraham Mateo",
         year: "2023",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 985,
+        id: 982,
         spotifyId: "7kaFsQygyiCqRboWCXztxZ",
         title: "Do It Like That",
         artist: "TOMORROW X TOGETHER;Jonas Brothers",
@@ -9997,7 +10143,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 986,
+        id: 983,
         spotifyId: "1A8j067qyiNwQnZT0bzUpZ",
         title: "This Girl (Kungs Vs. Cookin' On 3 Burners)",
         artist: "Kungs;Cookin' On 3 Burners",
@@ -10007,7 +10153,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 987,
+        id: 984,
         spotifyId: "0vxQz6Rdul1H7rtovvjFNQ",
         title: "Verano del Amor",
         artist: "Sidonie",
@@ -10017,7 +10163,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 988,
+        id: 985,
         spotifyId: "3x6Z690kwrwNJuApTiN2gK",
         title: "Lola",
         artist: "Pastora",
@@ -10027,7 +10173,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 989,
+        id: 986,
         spotifyId: "4MEA23StRB0TUaiVTPkbux",
         title: "Verano Azul - Instrumental",
         artist: "Orquesta RTVE",
@@ -10037,7 +10183,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 990,
+        id: 987,
         spotifyId: "0ZJgIjGJdYzgb03LSH09Gx",
         title: "Amoureux solitaires",
         artist: "Lio",
@@ -10047,17 +10193,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 991,
-        spotifyId: "53tfEupEzQRtVFOeZvk7xq",
-        title: "DESPECHÁ",
-        artist: "ROSALÍA",
-        year: "2022",
-        playlists: [
-            "summer"
-        ]
-    },
-    {
-        id: 992,
+        id: 988,
         spotifyId: "2Ma2f8jV8VKMJoAcnCvZ8h",
         title: "Y Yo Sigo Aqui - Spanglish",
         artist: "Paulina Rubio",
@@ -10067,7 +10203,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 993,
+        id: 989,
         spotifyId: "4V8uHuLaBRxQ02H4YNCOO7",
         title: "Sopa de Caracol",
         artist: "Banda Blanca",
@@ -10077,7 +10213,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 994,
+        id: 990,
         spotifyId: "0q3A8TufZEh6giFxSMUIsf",
         title: "I Feel Love",
         artist: "Donna Summer",
@@ -10087,7 +10223,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 995,
+        id: 991,
         spotifyId: "3mWpUEBYnv9SIFWfixSJFx",
         title: "Can't Get Enough Of Your Love, Babe",
         artist: "Barry White",
@@ -10097,7 +10233,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 996,
+        id: 992,
         spotifyId: "2AVkArcfALVk2X8sfPRzya",
         title: "Summer Nights - From “Grease”",
         artist: "John Travolta;Olivia Newton-John",
@@ -10107,7 +10243,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 997,
+        id: 993,
         spotifyId: "1BkY0N8ChFk2mdLbAUu8ZK",
         title: "Pass The Dutchie",
         artist: "Musical Youth",
@@ -10117,18 +10253,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 998,
+        id: 994,
         spotifyId: "78FJd3BMjDQCA1Hh2QfKqS",
         title: "Voy a pasármelo bien",
         artist: "Hombres G",
         year: "1989",
         playlists: [
             "summer",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 999,
+        id: 995,
         spotifyId: "1uKjQoh8JZj9ryuYRhpd7E",
         title: "Ahora Te Puedes Marchar",
         artist: "Luis Miguel",
@@ -10138,7 +10275,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1000,
+        id: 996,
         spotifyId: "2YC3neZr19WGZ1FbBVd3Uc",
         title: "Los Amigos de Mis Amigas Son Mis Amigos",
         artist: "Objetivo Birmania",
@@ -10149,7 +10286,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1001,
+        id: 997,
         spotifyId: "7xphJeLAdf3LodIwGMtQAc",
         title: "Goodbye Sam Hello Samantha",
         artist: "Cliff Richard",
@@ -10159,7 +10296,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1002,
+        id: 998,
         spotifyId: "70Vdd1gx5tn84jkAU31ASv",
         title: "Sexy And I Know It",
         artist: "LMFAO",
@@ -10169,7 +10306,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1003,
+        id: 999,
         spotifyId: "6tXnRSvuNgOq4QcxpIN54r",
         title: "Weather With You",
         artist: "Crowded House",
@@ -10179,7 +10316,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1004,
+        id: 1000,
         spotifyId: "1BwrMGGhPA6GarWIYaFrW8",
         title: "La Vida Es Un Carnaval",
         artist: "Celia Cruz",
@@ -10189,7 +10326,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1005,
+        id: 1001,
         spotifyId: "5k5fWendNngd89O8JKoE8L",
         title: "Better When I'm Dancin'",
         artist: "Meghan Trainor",
@@ -10199,7 +10336,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1006,
+        id: 1002,
         spotifyId: "51RBDu31r3ynFswDJmidLW",
         title: "Tacatà",
         artist: "Tacabro;Romano;Sapienza;Ruly Rodriguez",
@@ -10209,7 +10346,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1007,
+        id: 1003,
         spotifyId: "1PrlCxehcEi0KvIwKzJuOl",
         title: "Everybody's Free (To Feel Good)",
         artist: "Rozalla",
@@ -10219,27 +10356,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1008,
+        id: 1004,
         spotifyId: "2owC2f9sCVSsd2GAKwAQar",
         title: "Groenlandia",
         artist: "Zombies",
         year: "1980",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain"
         ]
     },
     {
-        id: 1009,
+        id: 1005,
         spotifyId: "0n4bITAu0Y0nigrz3MFJMb",
         title: "Blurred Lines",
         artist: "Robin Thicke;T.I.;Pharrell Williams",
         year: "2013",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 1010,
+        id: 1006,
         spotifyId: "2Pzhx26KqgTTKnko0uC7F7",
         title: "Stumblin' In",
         artist: "Chris Norman;Suzi Quatro",
@@ -10249,7 +10388,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1011,
+        id: 1007,
         spotifyId: "4bEb3KE4mSKlTFjtWJQBqO",
         title: "Don't Stop",
         artist: "Fleetwood Mac",
@@ -10259,7 +10398,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1012,
+        id: 1008,
         spotifyId: "4EQOGfssbSpTlV6EZRtrSv",
         title: "ULALA (OOH LA LA)",
         artist: "Myke Towers;Daddy Yankee",
@@ -10269,7 +10408,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1013,
+        id: 1009,
         spotifyId: "0gzqZ9d1jIKo9psEIthwXe",
         title: "Beautiful Day",
         artist: "U2",
@@ -10279,7 +10418,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1014,
+        id: 1010,
         spotifyId: "4n43gABaScqvSEiM8i0kkW",
         title: "Devuelveme La Vida",
         artist: "Bustamante",
@@ -10289,7 +10428,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1015,
+        id: 1011,
         spotifyId: "1vvNmPOiUuyCbgWmtc6yfm",
         title: "My Way",
         artist: "Calvin Harris",
@@ -10299,18 +10438,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1016,
+        id: 1012,
         spotifyId: "0XPayKZFFZA2PwSRNi1pVU",
         title: "Terriblemente Cruel",
         artist: "Leiva",
         year: "2014",
         playlists: [
             "summer",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1017,
+        id: 1013,
         spotifyId: "6aIOfv9A3FZtQjMjyWNiJJ",
         title: "Levantando las Manos",
         artist: "El Simbolo",
@@ -10320,7 +10460,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1018,
+        id: 1014,
         spotifyId: "0SS7oaDTSlKFiPtzJ2oA26",
         title: "La primavera",
         artist: "Delafé y las flores azules",
@@ -10330,7 +10470,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1019,
+        id: 1015,
         spotifyId: "7j56HrjR9cGzvekvZY3Faz",
         title: "HandClap",
         artist: "Fitz and The Tantrums",
@@ -10340,39 +10480,42 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1020,
+        id: 1016,
         spotifyId: "0IUFjvwlh18TWiTi6kO5pP",
         title: "Como un burro amarrado en la puerta del baile",
         artist: "El Último De La Fila",
         year: "1993",
         playlists: [
             "summer",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1021,
+        id: 1017,
         spotifyId: "3f2k0XTc2ZXG17jEMDu8pp",
         title: "Quiero tener tu presencia",
         artist: "Seguridad Social",
         year: "1993",
         playlists: [
             "summer",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1022,
+        id: 1018,
         spotifyId: "0ByMNEPAPpOR5H69DVrTNy",
         title: "Don't Stop The Music",
         artist: "Rihanna",
         year: "2007",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 1023,
+        id: 1019,
         spotifyId: "02V2iJhKyNp1ZpvTPPZTHY",
         title: "Soy lo Que Me Das",
         artist: "Chenoa",
@@ -10382,7 +10525,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1024,
+        id: 1020,
         spotifyId: "7zMUCLm1TN9o9JlLISztxO",
         title: "Burning Love",
         artist: "Elvis Presley",
@@ -10392,17 +10535,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1025,
+        id: 1021,
         spotifyId: "5ZsIUgA0tvggY0ycOOUDR2",
         title: "El Puente",
         artist: "Los Mismos",
         year: "1968",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain"
         ]
     },
     {
-        id: 1026,
+        id: 1022,
         spotifyId: "3NFixCH2aWtCNbZrJ3OdiB",
         title: "Happy World",
         artist: "Blue 4 U",
@@ -10412,7 +10556,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1027,
+        id: 1023,
         spotifyId: "2SC4TS2QvUcKvXRFGgyyDc",
         title: "Turn On, Tune In, Cop Out",
         artist: "Freak Power",
@@ -10422,7 +10566,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1028,
+        id: 1024,
         spotifyId: "56J9sf5j7T8cPg1fOGmBRs",
         title: "Si No Te Quisiera",
         artist: "Juan Magán;Belinda;Lapiz Conciente",
@@ -10432,7 +10576,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1029,
+        id: 1025,
         spotifyId: "6VUJQqyeQhAZHkQbSDqLtI",
         title: "La Cintura",
         artist: "Alvaro Soler",
@@ -10442,7 +10586,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1030,
+        id: 1026,
         spotifyId: "3ZFTkvIE7kyPt6Nu3PEa7V",
         title: "Hips Don't Lie",
         artist: "Shakira;Wyclef Jean",
@@ -10452,17 +10596,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1031,
+        id: 1027,
         spotifyId: "60nZcImufyMA1MKQY3dcCH",
         title: "Happy - From \"Despicable Me 2\"",
         artist: "Pharrell Williams",
         year: "2013",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 1032,
+        id: 1028,
         spotifyId: "04j67XNNVu1HI7JrIlMM3S",
         title: "Accidentally In Love - From \"Shrek 2\" Soundtrack",
         artist: "Counting Crows",
@@ -10472,7 +10617,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1033,
+        id: 1029,
         spotifyId: "1AODZVWUeYlsKoFTo2iyEA",
         title: "Perdona (Ahora Sí Que Sí)",
         artist: "Carolina Durante;Amaia",
@@ -10482,7 +10627,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1034,
+        id: 1030,
         spotifyId: "62LJFaYihsdVrrkgUOJC05",
         title: "Kiss",
         artist: "Prince",
@@ -10492,7 +10637,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1035,
+        id: 1031,
         spotifyId: "6b6IMqP565TbtFFZg9iFf3",
         title: "I Can't Help Myself (Sugar Pie, Honey Bunch)",
         artist: "Four Tops",
@@ -10502,7 +10647,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1036,
+        id: 1032,
         spotifyId: "1JpZMDDAkfhnrO6nXIQZ2g",
         title: "Noches de bohemia",
         artist: "Navajita Platea",
@@ -10513,7 +10658,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1037,
+        id: 1033,
         spotifyId: "2Mz7HwloqFNdA6iZeZk5PJ",
         title: "Djobi, Djoba",
         artist: "Gipsy Kings",
@@ -10523,7 +10668,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1038,
+        id: 1034,
         spotifyId: "39LLxExYz6ewLAcYrzQQyP",
         title: "Levitating",
         artist: "Dua Lipa",
@@ -10533,7 +10678,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1039,
+        id: 1035,
         spotifyId: "2x3MxkdvKiWvLor7yNeLWB",
         title: "All My Loving",
         artist: "Los Manolos",
@@ -10543,17 +10688,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1040,
-        spotifyId: "6inenm457lcRwlDN7GCPc4",
-        title: "Mediterraneo",
-        artist: "Los Rebeldes",
-        year: "1988",
-        playlists: [
-            "summer"
-        ]
-    },
-    {
-        id: 1041,
+        id: 1036,
         spotifyId: "79qPDRmHmJ5xcU7oyS8CQ1",
         title: "Horny - '98",
         artist: "Mousse T.;Hot 'N' Juicy",
@@ -10563,7 +10698,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1042,
+        id: 1037,
         spotifyId: "3Z4ZuDrY684IFTBz2ze708",
         title: "Gimme Some Lovin'",
         artist: "The Spencer Davis Group",
@@ -10573,7 +10708,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1043,
+        id: 1038,
         spotifyId: "3MjUtNVVq3C8Fn0MP3zhXa",
         title: "...Baby One More Time",
         artist: "Britney Spears",
@@ -10583,7 +10718,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1044,
+        id: 1039,
         spotifyId: "5UmGJS0jd1r52OjnNvVHvU",
         title: "La Bomba",
         artist: "King Africa",
@@ -10593,7 +10728,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1045,
+        id: 1040,
         spotifyId: "1DKyFVzIh1oa1fFnEmTkIl",
         title: "Gloria",
         artist: "Them;Van Morrison",
@@ -10603,7 +10738,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1046,
+        id: 1041,
         spotifyId: "6EBDmMZBQkWrj7jWlGhFU1",
         title: "Doctor Jones",
         artist: "Aqua",
@@ -10613,7 +10748,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1047,
+        id: 1042,
         spotifyId: "7nK3q1GgJDxlWfCwtiLV5a",
         title: "A fuego lento",
         artist: "Rosana",
@@ -10624,7 +10759,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1048,
+        id: 1043,
         spotifyId: "3T07pNAEVr9adeIG9i1ex4",
         title: "Color Esperanza",
         artist: "Diego Torres",
@@ -10634,7 +10769,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1049,
+        id: 1044,
         spotifyId: "7mDCg8XTEyDNPzC5Jdt7mu",
         title: "Break Your Heart",
         artist: "Taio Cruz;Ludacris",
@@ -10644,7 +10779,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1050,
+        id: 1045,
         spotifyId: "228BxWXUYQPJrJYHDLOHkj",
         title: "Gasolina",
         artist: "Daddy Yankee",
@@ -10654,7 +10789,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1051,
+        id: 1046,
         spotifyId: "57bgtoPSgt236HzfBOd8kj",
         title: "Thunderstruck",
         artist: "AC/DC",
@@ -10664,17 +10799,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1052,
-        spotifyId: "6M8horg7h52MPTxY0I3dQJ",
-        title: "La Bilirrubina",
-        artist: "Juan Luis Guerra 4.40",
-        year: "1990",
-        playlists: [
-            "summer"
-        ]
-    },
-    {
-        id: 1053,
+        id: 1047,
         spotifyId: "0Ph6L4l8dYUuXFmb71Ajnd",
         title: "Livin' la Vida Loca",
         artist: "Ricky Martin",
@@ -10684,7 +10809,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1054,
+        id: 1048,
         spotifyId: "5OaqffbeQyVVqtnA71Ci7K",
         title: "Por la Raja de Tu Falda",
         artist: "Estopa",
@@ -10695,7 +10820,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1055,
+        id: 1049,
         spotifyId: "7KkdYJqxvq4ZFq9gvFy06v",
         title: "D.I.S.C.O.",
         artist: "Ottawan",
@@ -10705,7 +10830,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1056,
+        id: 1050,
         spotifyId: "6eN1f9KNmiWEhpE2RhQqB5",
         title: "Paradise City",
         artist: "Guns N' Roses",
@@ -10715,7 +10840,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1057,
+        id: 1051,
         spotifyId: "4cluDES4hQEUhmXj6TXkSo",
         title: "What Makes You Beautiful",
         artist: "One Direction",
@@ -10725,17 +10850,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1058,
+        id: 1052,
         spotifyId: "6J3Cz3Ok2oI7sXebhGNKt3",
         title: "Corazón Contento",
         artist: "Marisol",
         year: "1968",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain"
         ]
     },
     {
-        id: 1059,
+        id: 1053,
         spotifyId: "4I3rLiNr4xgRT5dRpFOltS",
         title: "Me quedaré solo",
         artist: "Amistades Peligrosas",
@@ -10745,7 +10871,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1060,
+        id: 1054,
         spotifyId: "1hbWtHgRDG25DkmxE4I28V",
         title: "Puedes Contar Conmigo",
         artist: "La Oreja de Van Gogh",
@@ -10756,7 +10882,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1061,
+        id: 1055,
         spotifyId: "2oWMI54r0qT4N8Xb4C76vq",
         title: "The Look",
         artist: "Roxette",
@@ -10766,7 +10892,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1062,
+        id: 1056,
         spotifyId: "4Y4Gd3ty8uut6Qw43c7yJc",
         title: "(Sittin' On) the Dock of the Bay",
         artist: "Otis Redding",
@@ -10776,7 +10902,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1063,
+        id: 1057,
         spotifyId: "1IqFh00G2kvvMm8pRMpehA",
         title: "Me and Bobby McGee",
         artist: "Janis Joplin",
@@ -10786,7 +10912,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1064,
+        id: 1058,
         spotifyId: "66VmioeXL4i1TCfHIO8R9t",
         title: "Desde Que Estamos Juntos",
         artist: "Melendi",
@@ -10796,7 +10922,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1065,
+        id: 1059,
         spotifyId: "1JO1xLtVc8mWhIoE3YaCL0",
         title: "Happy Together",
         artist: "The Turtles",
@@ -10806,17 +10932,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1066,
-        spotifyId: "684oh18gBA2WtbQ6nK0tEw",
+        id: 1060,
+        spotifyId: "2a7Ufmq13NRMavrBYUN5Ex",
         title: "Desátame",
         artist: "Monica Naranjo",
         year: "1997",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1067,
+        id: 1061,
         spotifyId: "7vWFaMq63AwkFDhS2OAg5u",
         title: "The Time (Dirty Bit)",
         artist: "Black Eyed Peas",
@@ -10826,7 +10954,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1068,
+        id: 1062,
         spotifyId: "0GONea6G2XdnHWjNZd6zt3",
         title: "Summer Of '69",
         artist: "Bryan Adams",
@@ -10836,7 +10964,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1069,
+        id: 1063,
         spotifyId: "0NZl2KE4mhtjondn0IwJYd",
         title: "Bye Bye",
         artist: "David Civera",
@@ -10846,7 +10974,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1070,
+        id: 1064,
         spotifyId: "0Z9UkcT1pnrmLciUJPcMMS",
         title: "Gold",
         artist: "Spandau Ballet",
@@ -10856,7 +10984,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1071,
+        id: 1065,
         spotifyId: "0XxJX5RIwUkX37UIdGZu9C",
         title: "Dramas y comedias",
         artist: "Fangoria",
@@ -10867,7 +10995,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1072,
+        id: 1066,
         spotifyId: "2vz1CsL5WBsbpBcwgboTAw",
         title: "Footloose - From \"Footloose\" Soundtrack",
         artist: "Kenny Loggins",
@@ -10877,7 +11005,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1073,
+        id: 1067,
         spotifyId: "0GjEhVFGZW8afUYGChu3Rr",
         title: "Dancing Queen",
         artist: "ABBA",
@@ -10887,7 +11015,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1074,
+        id: 1068,
         spotifyId: "2PYJnUWEPPP8C6b79UiwIl",
         title: "Ven Conmigo (Solamente Tú)",
         artist: "Christina Aguilera",
@@ -10897,7 +11025,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1075,
+        id: 1069,
         spotifyId: "1jGnbIE9qWEn0Xi9MFRE74",
         title: "Ya Llega el Verano",
         artist: "Bruno Lomas",
@@ -10907,18 +11035,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1076,
+        id: 1070,
         spotifyId: "06xLo8Oa53wmBMdWcIsqPL",
         title: "Mucho mejor",
         artist: "Los Rodriguez;Coque Malla",
         year: "1995",
         playlists: [
             "summer",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1077,
+        id: 1071,
         spotifyId: "2GYHyAoLWpkxLVa4oYTVko",
         title: "Alors on danse",
         artist: "Stromae",
@@ -10928,7 +11057,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1078,
+        id: 1072,
         spotifyId: "0qxYx4F3vm1AOnfux6dDxP",
         title: "You Can Call Me Al",
         artist: "Paul Simon",
@@ -10938,7 +11067,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1079,
+        id: 1073,
         spotifyId: "4ppxWzgjvst4Mv1Kpwooeh",
         title: "Búscate un hombre que te quiera",
         artist: "El Arrebato",
@@ -10948,7 +11077,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1080,
+        id: 1074,
         spotifyId: "4cnGvmgw4jRnd0rlVqE41b",
         title: "¡Oh! Carol",
         artist: "Duo Dinamico",
@@ -10958,7 +11087,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1081,
+        id: 1075,
         spotifyId: "14iN3o8ptQ8cFVZTEmyQRV",
         title: "I Kissed A Girl",
         artist: "Katy Perry",
@@ -10968,17 +11097,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1082,
+        id: 1076,
         spotifyId: "0yLdNVWF3Srea0uzk55zFn",
         title: "Flowers",
         artist: "Miley Cyrus",
         year: "2023",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 1083,
+        id: 1077,
         spotifyId: "6YTBfxkdGce9pLEy9jG9Jo",
         title: "Mais Que Nada",
         artist: "Sergio Mendes & Brasil '66",
@@ -10988,7 +11118,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1084,
+        id: 1078,
         spotifyId: "352FuGmGJClPjojSYjNrXG",
         title: "Já Sei Namorar",
         artist: "Tribalistas",
@@ -10998,7 +11128,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1085,
+        id: 1079,
         spotifyId: "0WK8NzEKfSZ9mqOlaBpdfm",
         title: "Ritmo de la Noche",
         artist: "The Sacados",
@@ -11008,7 +11138,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1086,
+        id: 1080,
         spotifyId: "5TmFTHZp7HjBXjjsFvCY6h",
         title: "Destination Calabria",
         artist: "Alex Gaudino;Crystal Waters",
@@ -11018,18 +11148,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1087,
+        id: 1081,
         spotifyId: "6Mw8jsLM0z0iBjL5beg2nF",
         title: "Adiós papá",
         artist: "Los Ronaldos",
         year: "1987",
         playlists: [
             "summer",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1088,
+        id: 1082,
         spotifyId: "3yfki4r5cgFA784trLoHnk",
         title: "Living In A Haze",
         artist: "Milky Chance",
@@ -11039,7 +11170,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1089,
+        id: 1083,
         spotifyId: "4hnNgPIIZsTE0F2cpfnL4a",
         title: "Como Tú",
         artist: "Edurne;Efecto Pasillo",
@@ -11049,7 +11180,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1090,
+        id: 1084,
         spotifyId: "1gcESexgftSuLuML57Y69q",
         title: "All Right Now",
         artist: "Free",
@@ -11059,7 +11190,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1091,
+        id: 1085,
         spotifyId: "5aIfLbdgkbH7NbQryd1poB",
         title: "Samba de Janeiro",
         artist: "Bellini",
@@ -11069,7 +11200,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1092,
+        id: 1086,
         spotifyId: "4knc1Fp3kbuq8bH2byOvLu",
         title: "Índigo",
         artist: "Camilo;Evaluna Montaner",
@@ -11079,7 +11210,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1093,
+        id: 1087,
         spotifyId: "1mvZErZBp7WZT3HfGBykao",
         title: "Cry for You",
         artist: "September",
@@ -11089,7 +11220,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1094,
+        id: 1088,
         spotifyId: "5MMnwYs0hIxkENRsbkWJ2G",
         title: "Smoke On The Water",
         artist: "Deep Purple",
@@ -11099,7 +11230,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1095,
+        id: 1089,
         spotifyId: "1WN4uNclrDuczTO3bCr8s1",
         title: "Be My Baby",
         artist: "The Ronettes",
@@ -11109,7 +11240,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1096,
+        id: 1090,
         spotifyId: "6e8Ou0wiqAzIpWb2eSxll8",
         title: "Miami",
         artist: "Will Smith",
@@ -11119,7 +11250,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1097,
+        id: 1091,
         spotifyId: "7LrM28pPWCpJYmbnaxHBmu",
         title: "Pokito a Poko",
         artist: "Chambao",
@@ -11130,7 +11261,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1098,
+        id: 1092,
         spotifyId: "2NX7IEg90aAZ4s3LK0Ebso",
         title: "Oye El Boom",
         artist: "David Bisbal",
@@ -11140,7 +11271,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1099,
+        id: 1093,
         spotifyId: "4POgt5ayni68MeLqclubcC",
         title: "Red Red Wine",
         artist: "UB40",
@@ -11150,7 +11281,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1100,
+        id: 1094,
         spotifyId: "3df4fSoW5zsdNi5Wf3K5RP",
         title: "Tú No Eres Para Mi",
         artist: "Fanny Lu",
@@ -11160,7 +11291,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1101,
+        id: 1095,
         spotifyId: "4qbi9JDziBh3cxi9SFUbeu",
         title: "Baila Morena",
         artist: "Hector & Tito;Luny Tunes;Noriega",
@@ -11170,17 +11301,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1102,
+        id: 1096,
         spotifyId: "5aY2pfyGLxBpuI4TruqmQx",
         title: "LAS 12",
         artist: "Ana Mena;Belinda",
         year: "2022",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 1103,
+        id: 1097,
         spotifyId: "6MTd61g9zq6CB1FnJydjEb",
         title: "Sugar Sugar",
         artist: "The Archies",
@@ -11190,7 +11322,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1104,
+        id: 1098,
         spotifyId: "2LawezPeJhN4AWuSB0GtAU",
         title: "Have You Ever Seen The Rain",
         artist: "Creedence Clearwater Revival",
@@ -11200,7 +11332,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1105,
+        id: 1099,
         spotifyId: "1TtteYFQeZfSU8AmfIAOvu",
         title: "Sun Is Up",
         artist: "INNA",
@@ -11210,7 +11342,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1106,
+        id: 1100,
         spotifyId: "05wIrZSwuaVWhcv5FfqeH0",
         title: "Walking On Sunshine",
         artist: "Katrina & The Waves",
@@ -11220,7 +11352,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1107,
+        id: 1101,
         spotifyId: "6y4FVJwf09ssxuRnlEgXkp",
         title: "Let's Stick Together",
         artist: "Bryan Ferry",
@@ -11230,7 +11362,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1108,
+        id: 1102,
         spotifyId: "0DcrhZ12WcCqruCs8ibXSf",
         title: "I Can See Clearly Now",
         artist: "Johnny Nash",
@@ -11240,7 +11372,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1109,
+        id: 1103,
         spotifyId: "5OiU5DLjmMBF7ELAjIKxCZ",
         title: "Maquillaje",
         artist: "Mecano",
@@ -11250,27 +11382,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1110,
+        id: 1104,
         spotifyId: "78His8pbKjbDQF7aX5asgv",
         title: "Rivers of Babylon",
         artist: "Boney M.",
         year: "1978",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 1111,
+        id: 1105,
         spotifyId: "2sgBTNHz9ckmqj3rx3ez4M",
         title: "Ruby",
         artist: "Kaiser Chiefs",
         year: "2007",
         playlists: [
-            "summer"
+            "summer",
+            "batalla"
         ]
     },
     {
-        id: 1112,
+        id: 1106,
         spotifyId: "1INWPr855fwWdAOeecbu0W",
         title: "Let's Twist Again",
         artist: "Chubby Checker",
@@ -11280,7 +11414,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1113,
+        id: 1107,
         spotifyId: "7Cuk8jsPPoNYQWXK9XRFvG",
         title: "September",
         artist: "Earth, Wind & Fire",
@@ -11290,7 +11424,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1114,
+        id: 1108,
         spotifyId: "5T8EDUDqKcs6OSOwEsfqG7",
         title: "Don't Stop Me Now",
         artist: "Queen",
@@ -11300,7 +11434,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1115,
+        id: 1109,
         spotifyId: "4pNiE4LCVV74vfIBaUHm1b",
         title: "Sir Duke",
         artist: "Stevie Wonder",
@@ -11310,17 +11444,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1116,
+        id: 1110,
         spotifyId: "4nrPB8O7Y7wsOCJdgXkthe",
         title: "Shakira: Bzrp Music Sessions, Vol. 53/66",
         artist: "Bizarrap;Shakira",
         year: "2023",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 1117,
+        id: 1111,
         spotifyId: "1ucAgkQ4EQDCSXQ2kEk99k",
         title: "UNO",
         artist: "Little Big",
@@ -11330,17 +11465,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1118,
+        id: 1112,
         spotifyId: "1rIKgCH4H52lrvDcz50hS8",
         title: "Lush Life",
         artist: "Zara Larsson",
         year: "2015",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 1119,
+        id: 1113,
         spotifyId: "0cGG2EouYCEEC3xfa0tDFV",
         title: "Tainted Love",
         artist: "Soft Cell",
@@ -11350,7 +11486,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1120,
+        id: 1114,
         spotifyId: "7rSBUr661iFb9ndIJS0xUR",
         title: "La quiero a morir",
         artist: "Muchachito Bombo Infierno",
@@ -11360,7 +11496,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1121,
+        id: 1115,
         spotifyId: "66y4liRr8Orq45N0I6VRAP",
         title: "El Venao",
         artist: "Los Cantantes",
@@ -11370,7 +11506,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1122,
+        id: 1116,
         spotifyId: "4EFkvOhgAmlHEfDfvfSoh5",
         title: "Girls on Film",
         artist: "Duran Duran",
@@ -11380,7 +11516,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1123,
+        id: 1117,
         spotifyId: "1IHWl5LamUGEuP4ozKQSXZ",
         title: "Tití Me Preguntó",
         artist: "Bad Bunny",
@@ -11390,7 +11526,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1124,
+        id: 1118,
         spotifyId: "6zSpb8dQRaw0M1dK8PBwQz",
         title: "Cold Heart",
         artist: "Elton John;Dua Lipa;PNAU",
@@ -11400,7 +11536,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1125,
+        id: 1119,
         spotifyId: "6ylDpki1VpIsc525KC1ojF",
         title: "Tacones Rojos",
         artist: "Sebastian Yatra",
@@ -11410,7 +11546,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1126,
+        id: 1120,
         spotifyId: "18mmN3VrFWRi6SsSBJf6WJ",
         title: "Pasos de cero",
         artist: "Pablo Alborán",
@@ -11420,7 +11556,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1127,
+        id: 1121,
         spotifyId: "0bfvHnWWOeU1U5XeKyVLbW",
         title: "Can't Take My Eyes off You",
         artist: "Frankie Valli",
@@ -11430,17 +11566,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1128,
+        id: 1122,
         spotifyId: "7HTX5cE4qzHALfgO2xSvMd",
         title: "Ayo Technology",
         artist: "Milow",
         year: "2008",
         playlists: [
-            "summer"
+            "summer",
+            "los40"
         ]
     },
     {
-        id: 1129,
+        id: 1123,
         spotifyId: "0UOxp1BpnD8uPQMKU4wKjz",
         title: "I Shot The Sheriff",
         artist: "Eric Clapton",
@@ -11450,7 +11587,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1130,
+        id: 1124,
         spotifyId: "5O4erNlJ74PIF6kGol1ZrC",
         title: "Could You Be Loved",
         artist: "Bob Marley & The Wailers",
@@ -11460,7 +11597,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1131,
+        id: 1125,
         spotifyId: "1G5JaDf4CTkyoLRAO0pAYH",
         title: "Summercat",
         artist: "Billie The Vision & The Dancers",
@@ -11470,7 +11607,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1132,
+        id: 1126,
         spotifyId: "6QGI6v91UlqSytTDVKZIUP",
         title: "Ghostbusters",
         artist: "Ray Parker Jr.",
@@ -11480,7 +11617,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1133,
+        id: 1127,
         spotifyId: "4DoEHKWh8k6vYDleECQkJx",
         title: "Los Tontos",
         artist: "C. Tangana;Kiko Veneno",
@@ -11490,7 +11627,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1134,
+        id: 1128,
         spotifyId: "0Z3xhSOhrawLV81YdiDiiJ",
         title: "Venus",
         artist: "Shocking Blue",
@@ -11500,7 +11637,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1135,
+        id: 1129,
         spotifyId: "745H5CctFr12Mo7cqa1BMH",
         title: "My Girl",
         artist: "The Temptations",
@@ -11510,7 +11647,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1136,
+        id: 1130,
         spotifyId: "46eu3SBuFCXWsPT39Yg3tJ",
         title: "Don't Stop 'Til You Get Enough",
         artist: "Michael Jackson",
@@ -11520,7 +11657,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1137,
+        id: 1131,
         spotifyId: "4nXkbcTj3nyww1cHkw5RAP",
         title: "Long Train Runnin'",
         artist: "The Doobie Brothers",
@@ -11530,17 +11667,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1138,
+        id: 1132,
         spotifyId: "08CMK69OwVstuF3u5tNfM6",
         title: "Vete",
         artist: "Los Amaya",
         year: "1977",
         playlists: [
-            "summer"
+            "summer",
+            "spotify_spain"
         ]
     },
     {
-        id: 1139,
+        id: 1133,
         spotifyId: "4VRP8DfxO2qQOZrnbaj324",
         title: "Enamorate",
         artist: "Dvicio",
@@ -11550,7 +11688,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1140,
+        id: 1134,
         spotifyId: "71bkiosdVssjMrVDbdeG7n",
         title: "Volver",
         artist: "Carlos Gardel",
@@ -11560,7 +11698,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1141,
+        id: 1135,
         spotifyId: "3ywM3H11sYTSuJksVH1znQ",
         title: "La bien pagá",
         artist: "Miguel De Molina",
@@ -11570,7 +11708,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1142,
+        id: 1136,
         spotifyId: "3jkVN9ccFjs6HlZD4RtNC8",
         title: "Se Va El Caimán",
         artist: "Billo's Caracas Boys;Los Melódicos",
@@ -11580,7 +11718,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1143,
+        id: 1137,
         spotifyId: "5LNVfm1nSA3hVuhKzoq9ro",
         title: "Piel Canela",
         artist: "Los Panchos",
@@ -11590,7 +11728,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1144,
+        id: 1138,
         spotifyId: "0mxOACRTcfoUtCcsbgSw2R",
         title: "Bonito y Sabroso",
         artist: "Beny Moré",
@@ -11600,7 +11738,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1145,
+        id: 1139,
         spotifyId: "1Y53CXQCPFejUPc0yOOc5f",
         title: "Fumando Espero",
         artist: "Sara Montiel",
@@ -11610,7 +11748,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1146,
+        id: 1140,
         spotifyId: "65QjyQ3aJplXPNoTPDFORm",
         title: "Un telegrama (Fox)",
         artist: "Monna Bell",
@@ -11620,17 +11758,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1147,
+        id: 1141,
         spotifyId: "1BZAlhBa3vudhlVg4t1DH2",
         title: "El Porompompero",
         artist: "Manolo Escobar",
         year: "1960",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1148,
+        id: 1142,
         spotifyId: "5TdRaNXaSGasywwqTWdtKH",
         title: "Quince años tiene mi amor",
         artist: "Duo Dinamico",
@@ -11641,7 +11780,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1149,
+        id: 1143,
         spotifyId: "6EACsCzZPRIsjPJnZPVVb0",
         title: "Aquellos Ojos Verdes",
         artist: "Nat King Cole",
@@ -11651,17 +11790,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1150,
+        id: 1144,
         spotifyId: "26XYlcrqvs2numP1lI29cB",
         title: "Maria de la O",
         artist: "Marife De Triana",
         year: "1961",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1151,
+        id: 1145,
         spotifyId: "176g8fHhvPf47DrEoCjNMx",
         title: "Estando Contigo",
         artist: "Marisol",
@@ -11671,7 +11811,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1152,
+        id: 1146,
         spotifyId: "6J6v7FFj9U5WrGGVqdnHCR",
         title: "Toda una Vida",
         artist: "Antonio Machín",
@@ -11681,17 +11821,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1153,
+        id: 1147,
         spotifyId: "7q6k97oqVeODdukBnz81qF",
         title: "Que Se Mueran los Feos",
         artist: "Los Sirex",
         year: "1965",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1154,
+        id: 1148,
         spotifyId: "2tFw1rpG8RqiWPJJDPikJt",
         title: "Un Sorbito de Champagne",
         artist: "Los Brincos",
@@ -11702,17 +11843,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1155,
+        id: 1149,
         spotifyId: "31zexDaAVmHeuybal0SsxE",
         title: "El Mundo",
         artist: "Jimmy Fontana",
         year: "1965",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1156,
+        id: 1150,
         spotifyId: "2awmHBwb40hEhirpUCqlDy",
         title: "Me Lo Dijo Perez",
         artist: "Los 3 Sudamericanos",
@@ -11722,27 +11864,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1157,
+        id: 1151,
         spotifyId: "4H71d1kJ8DB8J4atO8fbBl",
         title: "Yo soy aquél",
         artist: "Raphael",
         year: "1966",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1158,
+        id: 1152,
         spotifyId: "1SQAgGdfUED8pwpiRvZgU2",
         title: "La Moto",
         artist: "Los Bravos",
         year: "1966",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1159,
+        id: 1153,
         spotifyId: "0PoUyBBEghT7ufac3soDiB",
         title: "Una Lagrima",
         artist: "Peret",
@@ -11752,7 +11896,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1160,
+        id: 1154,
         spotifyId: "2BK1Oat5pDBCqwHi26n2YB",
         title: "La Felicidad",
         artist: "Palito Ortega",
@@ -11762,7 +11906,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1161,
+        id: 1155,
         spotifyId: "4J3WKMplrSg2rM4lEvEBa0",
         title: "Tres Cosas (Salud, Dinero y Amor)",
         artist: "Los Stop",
@@ -11772,7 +11916,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1162,
+        id: 1156,
         spotifyId: "0lJ5GhkXTeVU4RVS81wgn4",
         title: "Cuando Salí De Cuba",
         artist: "Celia Cruz",
@@ -11782,7 +11926,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1163,
+        id: 1157,
         spotifyId: "3z3DtBS12kXOwaWDlYhh6i",
         title: "Tu Nombre Me Sabe a Yerba",
         artist: "Joan Manuel Serrat",
@@ -11793,17 +11937,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1164,
+        id: 1158,
         spotifyId: "3tXs5ostQq2vCqs2vZxRUj",
         title: "Anduriña",
         artist: "Juan Y Junior",
         year: "1968",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1165,
+        id: 1159,
         spotifyId: "5ce0WzJYWHE9DfA7r2MBzr",
         title: "El río",
         artist: "Miguel Ríos",
@@ -11814,7 +11959,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1166,
+        id: 1160,
         spotifyId: "6y1b0YZufCb63Mnv3fnlBY",
         title: "María Isabel",
         artist: "Los Payos",
@@ -11825,18 +11970,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1167,
+        id: 1161,
         spotifyId: "5OUUjcCjgt6RU8oM10raCz",
         title: "Las flechas del amor",
         artist: "Karina",
-        year: "1969",
+        year: "1968",
         playlists: [
             "espanol100",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1168,
+        id: 1162,
         spotifyId: "4dXgF9MnDb7wJvAPrubifq",
         title: "Mamy Panchita",
         artist: "Marisol",
@@ -11846,7 +11992,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1169,
+        id: 1163,
         spotifyId: "1CNqUBpWqnOyyJQwpWkaHk",
         title: "Con las Manos en la Masa",
         artist: "Vainica Doble;Joaquín Sabina",
@@ -11856,17 +12002,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1170,
+        id: 1164,
         spotifyId: "2cEIPhmVR1QcJTdgfm2gWs",
         title: "Fin de semana",
         artist: "Los Diablos",
         year: "1971",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1171,
+        id: 1165,
         spotifyId: "4ihZFukyNotzCUtxI4qpu8",
         title: "El Rey",
         artist: "José Alfredo Jimenez",
@@ -11876,7 +12023,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1172,
+        id: 1166,
         spotifyId: "1DQJrupuc1NUOPzIqDWWwz",
         title: "Caramelos",
         artist: "Los Amaya",
@@ -11886,7 +12033,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1173,
+        id: 1167,
         spotifyId: "6idfK1mtEHiow7mHGnqhAd",
         title: "Qué Será",
         artist: "José Feliciano",
@@ -11896,7 +12043,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1174,
+        id: 1168,
         spotifyId: "1PdNcmCHxCUHjcAfVcHTY7",
         title: "Mamy blue",
         artist: "Pop Tops",
@@ -11906,7 +12053,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1175,
+        id: 1169,
         spotifyId: "59EqreyaIvSC8slPSn5Gl9",
         title: "Vacaciones De Verano",
         artist: "Formula V",
@@ -11917,7 +12064,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1176,
+        id: 1170,
         spotifyId: "1GaBkvgCLMbynbBakLq24J",
         title: "Ven Sin Temor - How Do You Do",
         artist: "Bruno Lomas",
@@ -11927,7 +12074,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1177,
+        id: 1171,
         spotifyId: "6Qhz0gLj2ZOUTVNIExwhUQ",
         title: "Mi Barba Tiene Tres Pelos",
         artist: "MILIKI;GABY;Fofo",
@@ -11937,7 +12084,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1178,
+        id: 1172,
         spotifyId: "1okijOTZ1QUEMgBcuZxTR0",
         title: "Caramba, carambita",
         artist: "Los Marismeños",
@@ -11947,7 +12094,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1179,
+        id: 1173,
         spotifyId: "4WO5q4gmBiPJbv2xqVDADE",
         title: "Entre Dos Aguas",
         artist: "Paco de Lucía",
@@ -11958,27 +12105,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1180,
+        id: 1174,
         spotifyId: "1ZJe2q23LXHnE79UjnJqyx",
         title: "Tómame o Déjame",
         artist: "Mocedades",
         year: "1974",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1181,
-        spotifyId: "1h1tfCL6gA4Z7wQwwrAAIw",
-        title: "Te Estoy Amando Locamente",
-        artist: "Las Grecas",
-        year: "1974",
-        playlists: [
-            "espanol100"
-        ]
-    },
-    {
-        id: 1182,
+        id: 1175,
         spotifyId: "50xMqHj2hhLdgmLh0foksG",
         title: "El Cristo de Palacagüina",
         artist: "Elsa Baeza",
@@ -11988,27 +12126,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1183,
+        id: 1176,
         spotifyId: "4yRhJ1Hz8Flm364Y1WJj5w",
         title: "Mi Querida España",
         artist: "Cecilia",
         year: "1975",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1184,
+        id: 1177,
         spotifyId: "2HOfmdFW6FFHGExNQscFdk",
         title: "Para Que No Me Olvides",
         artist: "Lorenzo Santamaría",
         year: "1975",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1185,
+        id: 1178,
         spotifyId: "01LHmbTALqwnoGWT3gZPYH",
         title: "Echame A Mi La Culpa",
         artist: "Albert Hammond",
@@ -12019,7 +12159,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1186,
+        id: 1179,
         spotifyId: "17oji5hYaIqOFWFnPPWCeJ",
         title: "Hoy tengo ganas de ti",
         artist: "Miguel Gallardo",
@@ -12030,7 +12170,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1187,
+        id: 1180,
         spotifyId: "5RsjTyHXCUPnWE7RyjSiIe",
         title: "Son tus Perjumenes Mujer",
         artist: "Carlos Mejia Godoy",
@@ -12040,7 +12180,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1188,
+        id: 1181,
         spotifyId: "577k3HKgqfjMDntlMwmSeB",
         title: "Son Ilusiones",
         artist: "Los Chichos",
@@ -12050,17 +12190,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1189,
+        id: 1182,
         spotifyId: "43wyXbukLasmkQGkquqMHs",
         title: "Gavilán o Paloma",
         artist: "Pablo Abraira",
         year: "1977",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1190,
+        id: 1183,
         spotifyId: "6RbcxIRsiOdTNhOvdIyX5M",
         title: "Te Amo (Ti Amo)",
         artist: "Umberto Tozzi",
@@ -12070,7 +12211,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1191,
+        id: 1184,
         spotifyId: "2vSP08kmQopI5kcxfcpjbE",
         title: "Ay Que Dolor",
         artist: "Los Chunguitos",
@@ -12080,28 +12221,30 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1192,
+        id: 1185,
         spotifyId: "5ltBmvHslf7tplG5QfLmTt",
         title: "Te Quiero, Te Quiero",
         artist: "Nino Bravo",
         year: "1970",
         playlists: [
             "espanol100",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1193,
+        id: 1186,
         spotifyId: "1m0YSeQlKmkyN9oKZDLIdv",
         title: "Solo Pienso en Ti",
         artist: "Víctor Manuel",
         year: "1978",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1194,
+        id: 1187,
         spotifyId: "7aKs8kWKKau0SDgaeyZMAX",
         title: "Pedro Navaja",
         artist: "Willie Colón;Rubén Blades",
@@ -12111,7 +12254,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1195,
+        id: 1188,
         spotifyId: "7pIfwKV8EOPmJlConSHk2E",
         title: "Se acabó",
         artist: "María Jiménez",
@@ -12122,7 +12265,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1196,
+        id: 1189,
         spotifyId: "1U4oVoYRMZQYLcIxXbPaSL",
         title: "Acordes",
         artist: "Pecos",
@@ -12132,7 +12275,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1197,
+        id: 1190,
         spotifyId: "5fCYRuYxc1ox7yWKcKD6tf",
         title: "Rock And Roll en la Plaza del Pueblo",
         artist: "Tequila",
@@ -12142,7 +12285,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1198,
+        id: 1191,
         spotifyId: "4dRr0TfZQmZF2waLzRzoQo",
         title: "Quererte a Ti",
         artist: "Angela Carrasco",
@@ -12152,7 +12295,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1199,
+        id: 1192,
         spotifyId: "1iUmIBKBCFaeKkTYWM3Jpt",
         title: "Baila con el hula hop",
         artist: "Enrique Y Ana",
@@ -12162,7 +12305,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1200,
+        id: 1193,
         spotifyId: "0J0JR3FdrYsI3ahbIB9eRk",
         title: "Como Yo Te Amo",
         artist: "Rocío Jurado",
@@ -12173,7 +12316,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1201,
+        id: 1194,
         spotifyId: "1IQFvg4IgKwfU9u9tnlF9F",
         title: "Pavo Real",
         artist: "José Luis Rodríguez",
@@ -12183,7 +12326,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1202,
+        id: 1195,
         spotifyId: "0WFatRyMXS4JVP9jSfO1Fe",
         title: "Me Llamas",
         artist: "José Luis Perales",
@@ -12194,7 +12337,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1203,
+        id: 1196,
         spotifyId: "4da3nnmnvOGrAkx5nE4CHs",
         title: "Súper Supermán",
         artist: "Miguel Bosé",
@@ -12204,7 +12347,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1204,
+        id: 1197,
         spotifyId: "3X8buu765D59qlQ6z78I8A",
         title: "Hey - Spanish",
         artist: "Julio Iglesias",
@@ -12215,7 +12358,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1205,
+        id: 1198,
         spotifyId: "5yZO63qKNGKKKV44G5Em2N",
         title: "Mari Pili",
         artist: "Ejecutivos Agresivos",
@@ -12225,7 +12368,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1206,
+        id: 1199,
         spotifyId: "2kdcgSLw6FzxdL0gkhAT16",
         title: "Hormigon, Mujeres y Alcohol - Edición 35 aniversario",
         artist: "Ramoncin",
@@ -12236,7 +12379,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1207,
+        id: 1200,
         spotifyId: "1QWFEgLerDW7s8N7emXMTS",
         title: "Horror en el hipermercado",
         artist: "Alaska Y Los Pegamoides",
@@ -12246,7 +12389,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1208,
+        id: 1201,
         spotifyId: "6XhZIUzlCGABARgSgZby2v",
         title: "Pasaba por Aqui",
         artist: "Luis Eduardo Aute",
@@ -12256,17 +12399,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1209,
+        id: 1202,
         spotifyId: "0incizGIFilFp6soKuyHvZ",
         title: "La Gata Bajo la Lluvia",
         artist: "Rocío Dúrcal",
         year: "1981",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1210,
+        id: 1203,
         spotifyId: "4DorjfHssREi4THq5Aj95h",
         title: "Champú de huevo",
         artist: "Tino Casal",
@@ -12276,7 +12420,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1211,
+        id: 1204,
         spotifyId: "5mCvkhkAvwNnUsIt2PN9Al",
         title: "Abusadora",
         artist: "Wilfrido Vargas",
@@ -12286,7 +12430,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1212,
+        id: 1205,
         spotifyId: "1d9NXqULwsBqqdUx4Nvnl4",
         title: "Y Solo Tú",
         artist: "Bacchelli",
@@ -12296,7 +12440,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1213,
+        id: 1206,
         spotifyId: "4XX9vmya0cwf69jvDDsj9v",
         title: "Latino",
         artist: "Francisco",
@@ -12306,7 +12450,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1214,
+        id: 1207,
         spotifyId: "6xWQTUuC5O6FIMBCZtlCM2",
         title: "Caliente, caliente",
         artist: "Raffaella Carrà",
@@ -12317,17 +12461,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1215,
+        id: 1208,
         spotifyId: "5pMiAg5EAflsdJ6P9yLaCh",
         title: "Sobre Un Vidrio Mojado",
         artist: "Los Secretos",
         year: "1980",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1216,
+        id: 1209,
         spotifyId: "4tkKHSq188RraB1SIeRuyh",
         title: "Cumpleaños Feliz",
         artist: "Parchis",
@@ -12337,7 +12482,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1217,
+        id: 1210,
         spotifyId: "77sm3Hn3NfNkxmFxVzQAgp",
         title: "Veo veo",
         artist: "Teresa Rabal",
@@ -12347,7 +12492,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1218,
+        id: 1211,
         spotifyId: "2nbX9cz1hpsLsi5fqVnlKK",
         title: "Una estrella en mi jardín",
         artist: "Mari Trini",
@@ -12357,7 +12502,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1219,
+        id: 1212,
         spotifyId: "04Xdk7F9HgyHBcAwO7KE3F",
         title: "Sera Porque Te Amo",
         artist: "Ricchi E Poveri",
@@ -12367,17 +12512,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1220,
+        id: 1213,
         spotifyId: "05fIQPYkn7kNqSPu2q9s1Q",
         title: "Felicidad",
         artist: "Al Bano And Romina Power",
         year: "1982",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1221,
+        id: 1214,
         spotifyId: "39PMxsWZ2NtJ8OD9sWv9l6",
         title: "Hola, mamoncete!",
         artist: "Ilegales",
@@ -12387,7 +12533,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1222,
+        id: 1215,
         spotifyId: "30e3XyWpvUbKmHbLcRlsMt",
         title: "Malos Tiempos para la Lírica",
         artist: "Golpes Bajos",
@@ -12397,7 +12543,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1223,
+        id: 1216,
         spotifyId: "0TWaqxvioVlbLIa1mGIN1z",
         title: "Quien Maneja Mi Barca",
         artist: "Remedios Amaya",
@@ -12407,7 +12553,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1224,
+        id: 1217,
         spotifyId: "020aPMXlwYFpPB7cI8Kuc1",
         title: "El ritmo del garaje",
         artist: "Loquillo",
@@ -12418,7 +12564,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1225,
+        id: 1218,
         spotifyId: "3YYaJCzQTkJ56nPO8FSeQP",
         title: "Una Noche Sin Ti",
         artist: "Burning",
@@ -12428,7 +12574,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1226,
+        id: 1219,
         spotifyId: "0zaufnGKwG4McEaEduisji",
         title: "Sildavia",
         artist: "La Unión",
@@ -12438,7 +12584,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1227,
+        id: 1220,
         spotifyId: "4YQ9WEYQG7fq0MAUYeB19Y",
         title: "Vamos Muy Bien",
         artist: "Obus",
@@ -12449,17 +12595,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1228,
+        id: 1221,
         spotifyId: "2qlmlFRhYMgaekmCuxxK0o",
         title: "Esta Cobardía",
         artist: "Chiquetete",
         year: "1984",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1229,
+        id: 1222,
         spotifyId: "2LGNlsFbufs6T6no1w8kfZ",
         title: "Corazón mágico",
         artist: "Dyango",
@@ -12469,7 +12616,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1230,
+        id: 1223,
         spotifyId: "1L2TRAA6QJAZTfjDTNQfrP",
         title: "La Chica Del Bikini Azul",
         artist: "Luis Miguel",
@@ -12479,7 +12626,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1231,
+        id: 1224,
         spotifyId: "6D3YqQ9dUA9LBOLw4CEUj1",
         title: "El Toro Guapo",
         artist: "El Fary",
@@ -12489,7 +12636,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1232,
+        id: 1225,
         spotifyId: "36PL1fiYUnX7pJQRY1qwVw",
         title: "Bailaré sobre tu tumba",
         artist: "Siniestro Total",
@@ -12500,7 +12647,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1233,
+        id: 1226,
         spotifyId: "7F5AYZAPcNE9rIpCCHFEeh",
         title: "Agradecido",
         artist: "Rosendo",
@@ -12511,7 +12658,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1234,
+        id: 1227,
         spotifyId: "0loxOLrtuQBxkqdoTKTIj2",
         title: "La Quiero A Morir",
         artist: "Manzanita",
@@ -12521,7 +12668,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1235,
+        id: 1228,
         spotifyId: "437MUs4kWnpM79CIwCHiRP",
         title: "Fotonovela",
         artist: "Ivan",
@@ -12531,7 +12678,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1236,
+        id: 1229,
         spotifyId: "2Tif74q2v2BExCKlBdt1Cm",
         title: "Una Dos Y Tres",
         artist: "Patxi Andion",
@@ -12541,7 +12688,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1237,
+        id: 1230,
         spotifyId: "0J1kzvBMKLUEsiF3Yx9nch",
         title: "Una paloma blanca",
         artist: "Los Calis (F)",
@@ -12551,7 +12698,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1238,
+        id: 1231,
         spotifyId: "5cKEvdBdF0l7qxcP5G5ZzR",
         title: "Gracias por venir",
         artist: "Lina Morgan",
@@ -12561,7 +12708,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1239,
+        id: 1232,
         spotifyId: "3quyxN3SapEsojxk1Uw10K",
         title: "El ataque de las chicas cocodrilo",
         artist: "Hombres G",
@@ -12572,7 +12719,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1240,
+        id: 1233,
         spotifyId: "0EzVGEyUB9HAXT1cQHwhqf",
         title: "El imperio contraataca",
         artist: "LOS NIKIS",
@@ -12583,7 +12730,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1241,
+        id: 1234,
         spotifyId: "7803rmspVDTFR78bj5KLPk",
         title: "Insurrección",
         artist: "El Último De La Fila",
@@ -12593,7 +12740,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1242,
+        id: 1235,
         spotifyId: "13MV4IsrVMUmGzuqz0T6oK",
         title: "Esos ojos negros",
         artist: "Duncan Dhu",
@@ -12604,7 +12751,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1243,
+        id: 1236,
         spotifyId: "7g3g2sqevicvurLTZ75JTA",
         title: "Hijo de la Luna",
         artist: "Mecano",
@@ -12614,7 +12761,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1244,
+        id: 1237,
         spotifyId: "3jAgeQ5AmuV7UWhdvP651Y",
         title: "Sin aliento",
         artist: "Danza Invisible",
@@ -12624,7 +12771,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1245,
+        id: 1238,
         spotifyId: "4nheObMzE4K8AIxIICoLgd",
         title: "Lucha De Gigantes",
         artist: "Nacha Pop",
@@ -12635,7 +12782,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1246,
+        id: 1239,
         spotifyId: "1XOqhF3MIzz6pzJzRpZo29",
         title: "Espiando a mi vecina",
         artist: "UN PINGUINO EN MI ASCENSOR",
@@ -12646,7 +12793,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1247,
+        id: 1240,
         spotifyId: "2fYRXoal0ysbJJBUddCGDb",
         title: "Mi Agüita Amarilla",
         artist: "Los Toreros Muertos",
@@ -12656,17 +12803,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1248,
+        id: 1241,
         spotifyId: "2FvPv24lY3WamOKeGM6jEQ",
         title: "Camino Soria",
         artist: "Gabinete Caligari",
         year: "1987",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1249,
+        id: 1242,
         spotifyId: "5zAnoLd8d4ssifVCnSDrwG",
         title: "Corazón de neón",
         artist: "Orquesta Mondragon",
@@ -12677,7 +12826,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1250,
+        id: 1243,
         spotifyId: "38qdh1Nb0DVjEDLrL3pHyT",
         title: "María la portuguesa",
         artist: "Carlos Cano",
@@ -12687,17 +12836,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1251,
+        id: 1244,
         spotifyId: "0VWHxNBAiMfZB9fUDlAwwI",
         title: "Bajo la Luz de la Luna",
         artist: "Los Rebeldes",
         year: "1988",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1252,
+        id: 1245,
         spotifyId: "4FKX19Zq0tP8ksVy0wpwj5",
         title: "¡Hola, Mi Amor!",
         artist: "Junco",
@@ -12707,7 +12857,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1253,
+        id: 1246,
         spotifyId: "7BtkQSPamCwesQN1mBBUFd",
         title: "Por las noches",
         artist: "Los Ronaldos",
@@ -12718,7 +12868,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1254,
+        id: 1247,
         spotifyId: "40yczJ7VRenkAPVctWQfqp",
         title: "Cántame",
         artist: "Maria Del Monte",
@@ -12728,7 +12878,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1255,
+        id: 1248,
         spotifyId: "3zYohktAenCUDxxdPtFU6M",
         title: "Entre Tu y Yo",
         artist: "El Norte",
@@ -12739,7 +12889,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1256,
+        id: 1249,
         spotifyId: "1dfyGDe87lHmmN8OMASyVa",
         title: "Pandilleros",
         artist: "Dinamita Pa Los Pollos",
@@ -12750,7 +12900,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1257,
+        id: 1250,
         spotifyId: "7AdFxpPaZckmsSrQSjnmDq",
         title: "Soy Gitano - Tangos",
         artist: "Camaron De La Isla;Royal Philharmonic Orchestra;Tomatito",
@@ -12760,7 +12910,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1258,
+        id: 1251,
         spotifyId: "0NFcUhw2uKzX0zqH81tWOu",
         title: "El Limite",
         artist: "La Frontera",
@@ -12771,7 +12921,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1259,
+        id: 1252,
         spotifyId: "4OjJAGDDZTLlTNeOMBl7UM",
         title: "Volare (Nel Blu di Pinto di Blu)",
         artist: "Gipsy Kings",
@@ -12782,7 +12932,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1260,
+        id: 1253,
         spotifyId: "3jepmVUMdx94GXirWw3cAZ",
         title: "Corazón de Tiza",
         artist: "Radio Futura",
@@ -12792,7 +12942,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1261,
+        id: 1254,
         spotifyId: "3NP8zp1RvnblXNsYiZrjd9",
         title: "Es por Ti",
         artist: "Cómplices",
@@ -12803,7 +12953,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1262,
+        id: 1255,
         spotifyId: "2rHhKu1hW8uqyr7LSrRn8E",
         title: "Bandido",
         artist: "Azucar Moreno",
@@ -12813,7 +12963,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1263,
+        id: 1256,
         spotifyId: "0wkQHjULGZeZC15hOl9jl4",
         title: "Cosas de la Edad",
         artist: "Modestia Aparte",
@@ -12824,7 +12974,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1264,
+        id: 1257,
         spotifyId: "3BNy8c9gYaL63nL5DKHFMU",
         title: "Cuando Brille el Sol",
         artist: "La Guardia",
@@ -12835,7 +12985,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1265,
+        id: 1258,
         spotifyId: "0POxwfqUM5qR8TC6apYYEf",
         title: "Con sólo una mirada",
         artist: "Ole Ole",
@@ -12845,7 +12995,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1266,
+        id: 1259,
         spotifyId: "5DxWT0fsJiySSxJdRm4Ih1",
         title: "Acércate y Bésame",
         artist: "La Trampa",
@@ -12855,7 +13005,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1267,
+        id: 1260,
         spotifyId: "2NCw456Y6nu6RgPotF5tDG",
         title: "Estoy por ti",
         artist: "Amistades Peligrosas",
@@ -12866,7 +13016,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1268,
+        id: 1261,
         spotifyId: "5SbszeOFbn3KXYxwOUSce5",
         title: "A bailar, a bailar",
         artist: "Cantores De Hispalis",
@@ -12876,17 +13026,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1269,
-        spotifyId: "0UkXFKXVHe5YG7lke77CI1",
-        title: "Asi Me Gusta a Mi",
-        artist: "Chimo Bayo",
-        year: "1991",
-        playlists: [
-            "espanol100"
-        ]
-    },
-    {
-        id: 1270,
+        id: 1262,
         spotifyId: "1klC2q2EQnrDFabMd2iHsS",
         title: "Como hemos cambiado",
         artist: "Presuntos Implicados",
@@ -12896,7 +13036,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1271,
+        id: 1263,
         spotifyId: "0XRCnku7VZhVWHSktqpnWh",
         title: "En Blanco Y Negro",
         artist: "Barricada",
@@ -12907,7 +13047,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1272,
+        id: 1264,
         spotifyId: "4XIy5VoEpeC9CCJQFP17Y6",
         title: "Echo de Menos",
         artist: "Kiko Veneno",
@@ -12917,7 +13057,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1273,
+        id: 1265,
         spotifyId: "1gsPpI8D9cHgW94UoQb2YH",
         title: "Sangre Española",
         artist: "Manolo Tena",
@@ -12927,7 +13067,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1274,
+        id: 1266,
         spotifyId: "7HlULtRMJSTzorUMebka0f",
         title: "A un minuto de ti",
         artist: "Mikel Erentxun",
@@ -12938,7 +13078,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1275,
+        id: 1267,
         spotifyId: "3EPd9riN2R8Zjl6GkrxxGl",
         title: "El roce de tu cuerpo",
         artist: "Platero Y Tu",
@@ -12949,7 +13089,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1276,
+        id: 1268,
         spotifyId: "128iWD7Q1rVvItX8HSdmLw",
         title: "Tractor Amarillo",
         artist: "Zapato Veloz",
@@ -12959,7 +13099,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1277,
+        id: 1269,
         spotifyId: "2zIdoxae9OIPbVXoJf4n34",
         title: "Mi rumba tarumba",
         artist: "Seguridad Social",
@@ -12969,7 +13109,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1278,
+        id: 1270,
         spotifyId: "5SqRXRIG9xgixPAkqBgGs0",
         title: "El roce de tu piel",
         artist: "Revolver",
@@ -12980,7 +13120,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1279,
+        id: 1271,
         spotifyId: "0z3Voyxi0FH0SQBc7c4wri",
         title: "Cosas De La Vida",
         artist: "Eros Ramazzotti",
@@ -12990,7 +13130,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1280,
+        id: 1272,
         spotifyId: "73Bs0g0AbbUeQczbeUkyb0",
         title: "Derroche",
         artist: "Ana Belén",
@@ -13000,7 +13140,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1281,
+        id: 1273,
         spotifyId: "5UPd6Gyj4aoaTUTlpWSak5",
         title: "Con los Años Que Me Quedan",
         artist: "Gloria Estefan",
@@ -13010,7 +13150,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1282,
+        id: 1274,
         spotifyId: "5VowIMoPgubOw5Cidyfe2X",
         title: "Viva la Fiesta",
         artist: "Paco Pil",
@@ -13020,7 +13160,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1283,
+        id: 1275,
         spotifyId: "39yn0nh7hF4gAsOfHc6TGx",
         title: "Cuerpo de Mujer",
         artist: "Antonio Flores",
@@ -13031,7 +13171,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1284,
+        id: 1276,
         spotifyId: "32SaRYYxS7SXjNNvIY9VBE",
         title: "Alegría de Vivir",
         artist: "Ray Heredia",
@@ -13042,7 +13182,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1285,
+        id: 1277,
         spotifyId: "7KcFlbQmzhVczGMor3Fhr9",
         title: "Por el Bulevar de los Sueños Rotos",
         artist: "Joaquín Sabina",
@@ -13053,7 +13193,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1286,
+        id: 1278,
         spotifyId: "61fbKInmWBIJQyUexcogQC",
         title: "La Barbacoa",
         artist: "Georgie Dann",
@@ -13063,7 +13203,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1287,
+        id: 1279,
         spotifyId: "7wjQF9XTCrjvQZLeZBGMWs",
         title: "Lagrimas De Amor",
         artist: "Camela",
@@ -13074,7 +13214,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1288,
+        id: 1280,
         spotifyId: "2PKhVCRILDBc7HYSIT9v0u",
         title: "Iberia sumergida",
         artist: "Heroes Del Silencio",
@@ -13084,7 +13224,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1289,
+        id: 1281,
         spotifyId: "1ZGs4W7LBJy68hRPTsvMFc",
         title: "Para no olvidar",
         artist: "Los Rodriguez",
@@ -13094,7 +13234,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1290,
+        id: 1282,
         spotifyId: "6Z8Q8zSG6xpIKAyH0Z77wb",
         title: "Entre mis recuerdos",
         artist: "Luz Casal",
@@ -13104,7 +13244,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1291,
+        id: 1283,
         spotifyId: "37f6dBsGwi5V9OOXI1KYe7",
         title: "Promesas que no valen nada",
         artist: "Los Piratas",
@@ -13114,7 +13254,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1292,
+        id: 1284,
         spotifyId: "6olopCEGYHL8U7jMRWBnJJ",
         title: "Ay Que Gustito Pa' Mis Orejas",
         artist: "Raimundo Amador",
@@ -13124,17 +13264,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1293,
+        id: 1285,
         spotifyId: "5jRnc4JGkzWbBm7RzgFjJX",
         title: "Esa Chica Es Mía",
         artist: "Sergio Dalma",
         year: "1989",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1294,
+        id: 1286,
         spotifyId: "6L9NMwK94nyeFFJnpHAsqC",
         title: "Cuando los sapos bailen flamenco",
         artist: "Ella Baila Sola",
@@ -13145,17 +13286,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1295,
+        id: 1287,
         spotifyId: "0uWLyUK9WECq0nKz0DiA4A",
         title: "El Sitio De Mi Recreo",
         artist: "Antonio Vega",
         year: "1992",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1296,
+        id: 1288,
         spotifyId: "7yuTvocZwclFVYlEgrkjaA",
         title: "¿Y Tú de Quién Eres?",
         artist: "No Me Pises Que Llevo Chanclas",
@@ -13165,7 +13307,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1297,
+        id: 1289,
         spotifyId: "1MO5KuLnSaY1dlkWGDjHkT",
         title: "¡Que Bonito!",
         artist: "Rosario",
@@ -13176,7 +13318,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1298,
+        id: 1290,
         spotifyId: "7CX6W4Mf98wMgX0izqRpAl",
         title: "Si tú no estas",
         artist: "Rosana",
@@ -13187,18 +13329,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1299,
+        id: 1291,
         spotifyId: "7ifOnwJC0oH7cfbJQbUye1",
         title: "20 de abril",
         artist: "Celtas Cortos",
         year: "1991",
         playlists: [
             "espanol100",
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1300,
+        id: 1292,
         spotifyId: "6FY8Imjs6YSglIAqnbU9mM",
         title: "Gimme Tha Power",
         artist: "Molotov",
@@ -13208,7 +13351,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1301,
+        id: 1293,
         spotifyId: "6kQYMqjobmB8MkWwa9OUyA",
         title: "Amiga mía",
         artist: "Alejandro Sanz",
@@ -13219,7 +13362,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1302,
+        id: 1294,
         spotifyId: "5lg2cApHn9zCVkJcwou0iN",
         title: "Papá Cuéntame Otra Vez",
         artist: "Ismael Serrano",
@@ -13230,7 +13373,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1303,
+        id: 1295,
         spotifyId: "0mvocLIWUnT10znvIXwHGr",
         title: "En El Muelle de San Blas",
         artist: "Maná",
@@ -13241,7 +13384,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1304,
+        id: 1296,
         spotifyId: "5PrGG8gAKXl4bi1odVla7l",
         title: "La Copa de la Vida",
         artist: "Ricky Martin",
@@ -13251,7 +13394,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1305,
+        id: 1297,
         spotifyId: "7AmpNowv5SOQpbZ6mdo4bL",
         title: "Cartita de Amor",
         artist: "Niña Pastori",
@@ -13261,7 +13404,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1306,
+        id: 1298,
         spotifyId: "419FFiitGchOUaIMEY7Dqi",
         title: "Asi Fue",
         artist: "Isabel Pantoja",
@@ -13271,7 +13414,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1307,
+        id: 1299,
         spotifyId: "4w9o81y0dXFKgraEwfEgTz",
         title: "Vida Loca",
         artist: "Francisco Céspedes",
@@ -13281,7 +13424,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1308,
+        id: 1300,
         spotifyId: "51R2M1JgyFfRS3e6v5wCt3",
         title: "Clandestino",
         artist: "Manu Chao",
@@ -13291,7 +13434,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1309,
+        id: 1301,
         spotifyId: "7bN4voS3PSX9kAJxZS0h0m",
         title: "Chow Chow",
         artist: "Mojinos Escozios",
@@ -13301,7 +13444,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1310,
+        id: 1302,
         spotifyId: "1SkrlJrTEbMP0UF1zBMZ1J",
         title: "Candela",
         artist: "Noelia",
@@ -13311,7 +13454,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1311,
+        id: 1303,
         spotifyId: "7qIw4D1PcDHigDohKkLB0W",
         title: "Te quiero igual",
         artist: "Andrés Calamaro",
@@ -13321,17 +13464,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1312,
+        id: 1304,
         spotifyId: "6mcpkw1sqCQWbTjDBCLj26",
         title: "Atrapados en la red",
         artist: "Tam Tam Go!",
         year: "1999",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1313,
+        id: 1305,
         spotifyId: "13crLwJf5aEt3R8MKcisou",
         title: "Tengo Un Trato",
         artist: "Mala Rodríguez",
@@ -13341,7 +13485,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1314,
+        id: 1306,
         spotifyId: "16ZSrvnyA13Cm55Ab9WkJP",
         title: "El Pozo De Aran",
         artist: "Carlos Núñez",
@@ -13351,7 +13495,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1315,
+        id: 1307,
         spotifyId: "0CcK0UAwjHSPOGWjupepRF",
         title: "Agustito",
         artist: "Ketama",
@@ -13361,7 +13505,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1316,
+        id: 1308,
         spotifyId: "34tfb6Oatn9ztHZ0xz1AEF",
         title: "No cambié",
         artist: "Yurena",
@@ -13371,7 +13515,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1317,
+        id: 1309,
         spotifyId: "0hNj5RLRbNjIwDW68VERrK",
         title: "Nunca el Tiempo Es Perdido",
         artist: "Manolo Garcia",
@@ -13381,7 +13525,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1318,
+        id: 1310,
         spotifyId: "3IxzZi359EegU7F27msD34",
         title: "Devuélveme La Vida",
         artist: "Antonio Orozco",
@@ -13391,7 +13535,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1319,
+        id: 1311,
         spotifyId: "7vafezC0u0nftVpGF6jftk",
         title: "Delgadito",
         artist: "La Rabia Del Milenio",
@@ -13402,7 +13546,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1320,
+        id: 1312,
         spotifyId: "5nenV4D7Yw2efQxItXOasH",
         title: "En la Casa de Inés",
         artist: "Guaraná",
@@ -13412,7 +13556,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1321,
+        id: 1313,
         spotifyId: "6pHCJmx9FXnMwEqB0LWUEH",
         title: "Azul",
         artist: "Cristian Castro",
@@ -13423,7 +13567,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1322,
+        id: 1314,
         spotifyId: "40A11dg6RXzfDrwMrw5sED",
         title: "La taberna del Buda",
         artist: "Café Quijano",
@@ -13434,17 +13578,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1323,
+        id: 1315,
         spotifyId: "7CJtrxRGcxxgUxqI7C7RO2",
         title: "Poquito a poco",
         artist: "El Arrebato",
         year: "2001",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "batalla"
         ]
     },
     {
-        id: 1324,
+        id: 1316,
         spotifyId: "4kJP8Z888wREJ8bRMWNMuk",
         title: "La vereda de la puerta de atrás",
         artist: "Extremoduro",
@@ -13454,7 +13599,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1325,
+        id: 1317,
         spotifyId: "4v6yUkJSlED5Ollt6tFiQG",
         title: "Soy Yo",
         artist: "Marta Sánchez",
@@ -13464,7 +13609,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1326,
+        id: 1318,
         spotifyId: "7j8Wo5QDosh9vMgUGEC32q",
         title: "Dile Que La Quiero",
         artist: "David Civera",
@@ -13474,7 +13619,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1327,
+        id: 1319,
         spotifyId: "1xobZzJ5b478hISL3oKskp",
         title: "No me llames iluso",
         artist: "La Cabra Mecanica",
@@ -13484,7 +13629,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1328,
+        id: 1320,
         spotifyId: "1wV4Iied30083fVXBMJpJV",
         title: "La Canción Del Velero",
         artist: "La Fiesta",
@@ -13494,7 +13639,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1329,
+        id: 1321,
         spotifyId: "5FiB1uNoGZE4PenzZd7Imu",
         title: "Bonito",
         artist: "Jarabe De Palo",
@@ -13504,7 +13649,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1330,
+        id: 1322,
         spotifyId: "3l8Ennt1PqShViwh0tkWuc",
         title: "La Madre de Jose",
         artist: "El Canto Del Loco",
@@ -13514,7 +13659,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1331,
+        id: 1323,
         spotifyId: "3Af6XfS90PAZaC4Q2AjPtg",
         title: "Uno más uno son 7",
         artist: "Fran Perea",
@@ -13525,7 +13670,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1332,
+        id: 1324,
         spotifyId: "05iMQqncVBIm4AE26EvaTL",
         title: "Andar Conmigo",
         artist: "Julieta Venegas",
@@ -13535,7 +13680,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1333,
+        id: 1325,
         spotifyId: "4cfNvjgwt3NdDZpgt1H30H",
         title: "Loca",
         artist: "Malena Gracia",
@@ -13545,7 +13690,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1334,
+        id: 1326,
         spotifyId: "1NxFzOsXF3DXLH1xyon6vH",
         title: "Quiereme",
         artist: "El Barrio",
@@ -13555,7 +13700,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1335,
+        id: 1327,
         spotifyId: "2s7WJ9IRON5zalNbfFY1xa",
         title: "Bulería",
         artist: "David Bisbal",
@@ -13565,7 +13710,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1336,
+        id: 1328,
         spotifyId: "2425UlXvkIkAEJAtAd8ROm",
         title: "Aunque no te pueda ver",
         artist: "Alex Ubago",
@@ -13575,7 +13720,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1337,
+        id: 1329,
         spotifyId: "3iHJm7dUroZYvbqrhobLZs",
         title: "Siempre me quedará",
         artist: "Bebe",
@@ -13585,7 +13730,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1338,
+        id: 1330,
         spotifyId: "1PgMmLl8C6O1a5c6oMV2Fo",
         title: "Abre Tu Mente",
         artist: "Merche",
@@ -13595,7 +13740,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1339,
+        id: 1331,
         spotifyId: "02r3OWNv825qav8P7UKpES",
         title: "Precisamente ahora",
         artist: "David DeMaría",
@@ -13605,7 +13750,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1340,
+        id: 1332,
         spotifyId: "2awKQgW88iq9jFM54VaCAp",
         title: "El Sol No Regresa",
         artist: "La Quinta Estacion",
@@ -13615,7 +13760,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1341,
+        id: 1333,
         spotifyId: "2UfRBpW3CoCeO3fr339xNz",
         title: "Nací Orishas",
         artist: "Orishas",
@@ -13625,7 +13770,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1342,
+        id: 1334,
         spotifyId: "1jJn6iK6o2Vg7iUKHztRTk",
         title: "El universo sobre mí",
         artist: "Amaral",
@@ -13636,7 +13781,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1343,
+        id: 1335,
         spotifyId: "4djZPmkSgKugFofkBVrAia",
         title: "Eres un enfermo",
         artist: "Las Supremas De Mostoles",
@@ -13646,7 +13791,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1344,
+        id: 1336,
         spotifyId: "0fmgOwkb9AwgzXhYVSZRDs",
         title: "Te regalo",
         artist: "Carlos Baute",
@@ -13657,7 +13802,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1345,
+        id: 1337,
         spotifyId: "541hgOF71B92Jpg4IU6kyx",
         title: "Turnedo",
         artist: "Ivan Ferreiro",
@@ -13669,7 +13814,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1346,
+        id: 1338,
         spotifyId: "7mpZY3qVNv9ePmyMxTIDOn",
         title: "A toda mecha",
         artist: "S.J.K.",
@@ -13679,7 +13824,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1347,
+        id: 1339,
         spotifyId: "0NQTn4F3kBJNOt3gwzoN9M",
         title: "Pa´ mi guerrera",
         artist: "Huecco",
@@ -13689,7 +13834,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1348,
+        id: 1340,
         spotifyId: "3XFaHgb1qsyUcQZrqBup0I",
         title: "No me crees",
         artist: "Efecto Mariposa;Javier Ojeda",
@@ -13699,7 +13844,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1349,
+        id: 1341,
         spotifyId: "3wp08WucxF6qX77ONqflOX",
         title: "Con la mano levantá",
         artist: "Macaco",
@@ -13709,7 +13854,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1350,
+        id: 1342,
         spotifyId: "0YSaKC66FGCWLxM9SoQA1f",
         title: "Nada que perder",
         artist: "Pignoise",
@@ -13720,7 +13865,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1351,
+        id: 1343,
         spotifyId: "29xwXTI483gmpvr6pKSag0",
         title: "Opa Yo Viaze Un Corra",
         artist: "El Koala",
@@ -13730,7 +13875,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1352,
+        id: 1344,
         spotifyId: "16FBzzwggGrMRVKab9dcDc",
         title: "Todo Irá Bien",
         artist: "Chenoa",
@@ -13740,7 +13885,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1353,
+        id: 1345,
         spotifyId: "2wXyF3apEwRcwBMJkndksV",
         title: "Puede Ser",
         artist: "Conchita",
@@ -13750,7 +13895,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1354,
+        id: 1346,
         spotifyId: "5NV19rJlAYrAAFXQTZVC55",
         title: "Estrella Polar (with Juan Aguirre)",
         artist: "Pereza;Juan Aguirre",
@@ -13761,7 +13906,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1355,
+        id: 1347,
         spotifyId: "5jHcV8qCAFmKwtycSDrAas",
         title: "Killing Me Softly With His Song - Mátame Suavemente Con Tu Canción",
         artist: "Pitingo",
@@ -13771,7 +13916,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1356,
+        id: 1348,
         spotifyId: "79eUc9cUUoUOO1b5znphiU",
         title: "Física o química",
         artist: "Despistaos",
@@ -13782,7 +13927,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1357,
+        id: 1349,
         spotifyId: "62sv8pbKqGwVeN4F20DSXM",
         title: "Un violinista en tu tejado",
         artist: "Melendi",
@@ -13793,7 +13938,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1358,
+        id: 1350,
         spotifyId: "6aPdho2NUngeICVQdPCidk",
         title: "El Run Run",
         artist: "Estopa",
@@ -13803,7 +13948,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1359,
+        id: 1351,
         spotifyId: "0HTyWmZkeC8nlGsPhmYt3I",
         title: "Solo quiero bailar",
         artist: "Zenttric",
@@ -13813,7 +13958,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1360,
+        id: 1352,
         spotifyId: "0gdt218D74akk9AqMlbc45",
         title: "Causa Y Efecto",
         artist: "Paulina Rubio",
@@ -13823,37 +13968,41 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1361,
+        id: 1353,
         spotifyId: "0jbTQHCipYmz6ZDugxdy6g",
         title: "Cuatro elementos",
         artist: "La Musicalité",
         year: "2009",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1362,
+        id: 1354,
         spotifyId: "3RFbAyuoyMu8ErN9PVspER",
         title: "Buscando El Sol",
         artist: "David Otero",
         year: "2010",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1363,
+        id: 1355,
         spotifyId: "75hfPTtNhiqUglKXIVOaju",
         title: "Sonrisa",
         artist: "Ana Torroja",
         year: "2010",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "spotify_spain"
         ]
     },
     {
-        id: 1364,
+        id: 1356,
         spotifyId: "0lTKqVmGitaJGRf1DzhaFV",
         title: "La Niña Que Llora en Tus Fiestas",
         artist: "La Oreja de Van Gogh",
@@ -13864,7 +14013,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1365,
+        id: 1357,
         spotifyId: "0qSlVX5N1OCTIjQhI6uc8F",
         title: "Si No Te Hubieras Ido",
         artist: "Tamara",
@@ -13874,7 +14023,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1366,
+        id: 1358,
         spotifyId: "1ZfTpp1U3oyarjE6BJRWqm",
         title: "Ley De Newton",
         artist: "Beatriz Luengo;Jesús Navarro",
@@ -13884,7 +14033,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1367,
+        id: 1359,
         spotifyId: "7sRXhReWmJF5pqyg3uUTES",
         title: "Solamente tú",
         artist: "Pablo Alborán",
@@ -13895,7 +14044,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1368,
+        id: 1360,
         spotifyId: "4EWqV27TwLuPIMCOtheMIs",
         title: "Loca People",
         artist: "Sak Noel",
@@ -13905,7 +14054,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1369,
+        id: 1361,
         spotifyId: "0fjRYHFz9ealui1lfnN8it",
         title: "Echa Pa'lla (Manos Pa'rriba)",
         artist: "Pitbull;Papayo",
@@ -13915,7 +14064,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1370,
+        id: 1362,
         spotifyId: "4jY5SnGbpH6FdGCqVbhOD4",
         title: "Te Pintaron Pajaritos",
         artist: "Yandar & Yostin;Andy Rivera",
@@ -13925,7 +14074,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1371,
+        id: 1363,
         spotifyId: "6cJLfIqwh0tCKRjYM3WpZ5",
         title: "Darte un Beso",
         artist: "Prince Royce",
@@ -13935,7 +14084,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1372,
+        id: 1364,
         spotifyId: "2fF6Kma5cZBvDCyEKq30tb",
         title: "A Prueba de Ti",
         artist: "Malú",
@@ -13946,7 +14095,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1373,
+        id: 1365,
         spotifyId: "67DveIUUjToBiKJwMnFZiJ",
         title: "Emborracharme",
         artist: "Lori Meyers",
@@ -13957,7 +14106,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1374,
+        id: 1366,
         spotifyId: "4mXfHJAMHBFwq4MdQxne2L",
         title: "Canela en Rama",
         artist: "El Kanka",
@@ -13967,7 +14116,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1375,
+        id: 1367,
         spotifyId: "1suTz9wOBk6pF2OAAgKFve",
         title: "No importa que llueva",
         artist: "Efecto Pasillo",
@@ -13978,7 +14127,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1376,
+        id: 1368,
         spotifyId: "6i2kn3iS5WKzsaYBdeHLIQ",
         title: "La La La",
         artist: "Shakira;Carlinhos Brown",
@@ -13988,7 +14137,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1377,
+        id: 1369,
         spotifyId: "1qpbJ8GiPc706AfGqZAIei",
         title: "El Taxi",
         artist: "Osmani Garcia \"La Voz\";DJ Unic;Pitbull;Sensato;Dayami La Musa",
@@ -13998,7 +14147,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1378,
+        id: 1370,
         spotifyId: "7lOzUJzsELALh5FQsPKTEn",
         title: "Humanos a Marte",
         artist: "Chayanne",
@@ -14009,7 +14158,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1379,
+        id: 1371,
         spotifyId: "5PycBIeabfvX3n9ILG7Vrv",
         title: "Propuesta Indecente",
         artist: "Romeo Santos",
@@ -14019,7 +14168,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1380,
+        id: 1372,
         spotifyId: "4twEyA6ivTMkCChphUztxX",
         title: "Feliz",
         artist: "Bustamante",
@@ -14030,7 +14179,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1381,
+        id: 1373,
         spotifyId: "7qCAVkHWZkF44OzOUKf8Cr",
         title: "El Perdón (with Enrique Iglesias)",
         artist: "Nicky Jam;Enrique Iglesias",
@@ -14040,7 +14189,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1382,
+        id: 1374,
         spotifyId: "4tPL9PeVZY4c0jUPtSD5nx",
         title: "Picky",
         artist: "Joey Montana",
@@ -14050,7 +14199,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1383,
+        id: 1375,
         spotifyId: "6z1VtU0MCGo666iKiajfhp",
         title: "To My Love",
         artist: "Bomba Estéreo",
@@ -14060,7 +14209,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1384,
+        id: 1376,
         spotifyId: "1iRvhKiXRElIH2Uf4gd95P",
         title: "Dueles",
         artist: "Jesse & Joy",
@@ -14070,7 +14219,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1385,
+        id: 1377,
         spotifyId: "6lah9kMrDgQDcPLgmJfRdG",
         title: "Complicidad",
         artist: "Vanesa Martín;Manuel Medrano",
@@ -14080,7 +14229,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1386,
+        id: 1378,
         spotifyId: "2Q6qD1YTFn7NHuy2WmMGPG",
         title: "Carreteras Infinitas",
         artist: "Sidonie",
@@ -14090,7 +14239,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1387,
+        id: 1379,
         spotifyId: "12HWO1YYMV9HEqQpava5zm",
         title: "Yo Contigo, Tú Conmigo - The Gong Gong Song / El Tema De La Película \"Gru 3 Mi Villano Favorito\"",
         artist: "Morat;Alvaro Soler",
@@ -14101,7 +14250,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1388,
+        id: 1380,
         spotifyId: "6Za3190Sbw39BBC77WSS1C",
         title: "Criminal",
         artist: "NATTI NATASHA;Ozuna",
@@ -14111,7 +14260,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1389,
+        id: 1381,
         spotifyId: "0Y0T4EjRnR7sM2fTTygp2Y",
         title: "5 Sentidos",
         artist: "Dvicio;Taburete",
@@ -14121,7 +14270,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1390,
+        id: 1382,
         spotifyId: "42ZASSKlh3UtYCgwZb8lBS",
         title: "La Puerta Violeta",
         artist: "Rozalén",
@@ -14131,7 +14280,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1391,
+        id: 1383,
         spotifyId: "2SpfMQ5TuKsMj1trNwrLVA",
         title: "El Anillo",
         artist: "Jennifer Lopez",
@@ -14141,7 +14290,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1392,
+        id: 1384,
         spotifyId: "0vabIwEiZDGml2CyVmGNBX",
         title: "Y volar (con los Caligaris)",
         artist: "La Pegatina;Los Caligaris",
@@ -14151,7 +14300,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1393,
+        id: 1385,
         spotifyId: "2ijef6ni2amuunRoKTlgww",
         title: "Sin Pijama",
         artist: "Becky G;NATTI NATASHA",
@@ -14161,7 +14310,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1394,
+        id: 1386,
         spotifyId: "38mCl4EuWhML4eaZPdNQ3a",
         title: "Él no soy yo",
         artist: "Blas Cantó",
@@ -14171,17 +14320,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1395,
+        id: 1387,
         spotifyId: "7aJP1XcWcSU9w0eqSvaeZR",
         title: "Lo Malo - Operación Triunfo 2017",
         artist: "Aitana;Ana Guerra",
         year: "2018",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "los40"
         ]
     },
     {
-        id: 1396,
+        id: 1388,
         spotifyId: "1fxZQ0PPz6IOQEYfXojAfK",
         title: "Cayetano",
         artist: "Carolina Durante",
@@ -14191,7 +14341,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1397,
+        id: 1389,
         spotifyId: "6KuqAtoeVzxAYOaMveLNpH",
         title: "Dura",
         artist: "Daddy Yankee",
@@ -14201,7 +14351,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1398,
+        id: 1390,
         spotifyId: "4FpRhJ7lOtetHL1zwZSYuP",
         title: "Mocatriz",
         artist: "Ojete Calor",
@@ -14211,7 +14361,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1399,
+        id: 1391,
         spotifyId: "0fea68AdmYNygeTGI4RC18",
         title: "LA CANCIÓN",
         artist: "J Balvin;Bad Bunny",
@@ -14221,7 +14371,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1400,
+        id: 1392,
         spotifyId: "3xiNRrrVROKlHrflHGNTfG",
         title: "Antes de que cuente diez",
         artist: "Fito y Fitipaldis",
@@ -14232,7 +14382,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1401,
+        id: 1393,
         spotifyId: "7Eh2mdfhNMLRm7BFSS4uWU",
         title: "Podría Ser Peor",
         artist: "La Casa Azul",
@@ -14242,7 +14392,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1402,
+        id: 1394,
         spotifyId: "671sG3ETDxC3L6qcGIrHRM",
         title: "A Dónde Vamos",
         artist: "Morat",
@@ -14252,7 +14402,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1403,
+        id: 1395,
         spotifyId: "60TClTKDePeUjKyfotkLEg",
         title: "Celébrate",
         artist: "Miki Núñez",
@@ -14262,7 +14412,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1404,
+        id: 1396,
         spotifyId: "78SeXVRJ7KCqVmOwTiFjnI",
         title: "Nathy Peluso: Bzrp Music Sessions, Vol. 36/66",
         artist: "Bizarrap;NATHY PELUSO",
@@ -14272,7 +14422,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1405,
+        id: 1397,
         spotifyId: "6Xk2u0r27AztzglwVUvohC",
         title: "Eres un Temazo",
         artist: "Suu",
@@ -14282,7 +14432,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1406,
+        id: 1398,
         spotifyId: "0qRE2t4scDRFsBgBXsQIH9",
         title: "Todo Estaba Bien",
         artist: "Carlos Sadness;Manuel Medrano",
@@ -14292,7 +14442,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1407,
+        id: 1399,
         spotifyId: "2KDNePHNaahkf8okcATp51",
         title: "Volveré a Empezar",
         artist: "Stay Homas;Nil Moliner",
@@ -14302,7 +14452,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1408,
+        id: 1400,
         spotifyId: "1eWWdO6oIBdJT8SCXaYCYV",
         title: "Tu Foto Del DNI",
         artist: "Marmi;Aitana",
@@ -14312,7 +14462,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1409,
+        id: 1401,
         spotifyId: "5WxYU8RRzy5X0kC6Fx9SpI",
         title: "Ateo",
         artist: "C. Tangana;NATHY PELUSO",
@@ -14322,7 +14472,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1410,
+        id: 1402,
         spotifyId: "42lpuSQmnLUM1ZXJVzIVOi",
         title: "KESI",
         artist: "Camilo",
@@ -14332,7 +14482,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1411,
+        id: 1403,
         spotifyId: "4OwhwvKESFtuu06dTgct7i",
         title: "Tiroteo - Remix",
         artist: "Marc Seguí;Rauw Alejandro;Pol Granch",
@@ -14342,7 +14492,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1412,
+        id: 1404,
         spotifyId: "2rCbl9naJYhaxjLsfx88uM",
         title: "Pareja Del Año",
         artist: "Sebastian Yatra;Myke Towers",
@@ -14352,17 +14502,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1413,
-        spotifyId: "1kG7gfH4HDUlDht0VZYkiP",
-        title: "Libertad",
-        artist: "Nil Moliner",
-        year: "2021",
-        playlists: [
-            "espanol100"
-        ]
-    },
-    {
-        id: 1414,
+        id: 1405,
         spotifyId: "1lMuQJHBznRfq7GdQrIQN4",
         title: "Música Ligera",
         artist: "Ana Mena",
@@ -14372,7 +14512,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1415,
+        id: 1406,
         spotifyId: "2FYGZDfsAnNsrm1gVbyKnG",
         title: "SAOKO",
         artist: "ROSALÍA",
@@ -14382,7 +14522,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1416,
+        id: 1407,
         spotifyId: "72JgJxo8yuHhcu2Yi1aKt5",
         title: "Canción Bonita",
         artist: "Carlos Vives;Ricky Martin",
@@ -14392,7 +14532,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1417,
+        id: 1408,
         spotifyId: "0Fd3900xH77g0ARXQjtYvV",
         title: "Quién Diría",
         artist: "DePol",
@@ -14402,7 +14542,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1418,
+        id: 1409,
         spotifyId: "7FlQk2gJ6TBrHHiidvdR2O",
         title: "MAMIII",
         artist: "Becky G;KAROL G",
@@ -14412,7 +14552,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1419,
+        id: 1410,
         spotifyId: "2XA5q5FBwqrlkGBzzOOVeK",
         title: "Porfa no te vayas",
         artist: "Beret;Morat",
@@ -14422,7 +14562,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1420,
+        id: 1411,
         spotifyId: "7EJ2c1JMy4knv1wK6bazy0",
         title: "LAS BABYS",
         artist: "Aitana",
@@ -14432,7 +14572,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1421,
+        id: 1412,
         spotifyId: "6Es8Sk3xe1HiJ2MXCfHHwR",
         title: "La_Original.mp3",
         artist: "Emilia;TINI",
@@ -14442,7 +14582,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1422,
+        id: 1413,
         spotifyId: "6XbtvPmIpyCbjuT0e8cQtp",
         title: "Columbia",
         artist: "Quevedo",
@@ -14452,7 +14592,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1423,
+        id: 1414,
         spotifyId: "1NCF4UUsuT6Xzw2Zxd43PJ",
         title: "Chulo pt.2",
         artist: "Bad Gyal;Tokischa;Young Miko",
@@ -14462,7 +14602,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1424,
+        id: 1415,
         spotifyId: "04ndZkbKGthTgYSv3xS7en",
         title: "Cupido",
         artist: "TINI",
@@ -14472,17 +14612,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1425,
+        id: 1416,
         spotifyId: "3tt9i3Hhzq84dPS8H7iSiJ",
         title: "La Bachata",
         artist: "Manuel Turizo",
         year: "2022",
         playlists: [
-            "espanol100"
+            "espanol100",
+            "los40"
         ]
     },
     {
-        id: 1426,
+        id: 1417,
         spotifyId: "6uCrzctj8QzB2StREV1IOg",
         title: "Olvidé Olvidarte",
         artist: "Marlon;Álvaro De Luna",
@@ -14492,7 +14633,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1427,
+        id: 1418,
         spotifyId: "4Oc1qHsjM4kM0AARvlwSs3",
         title: "Quiero Decirte",
         artist: "Abraham Mateo;Ana Mena",
@@ -14502,7 +14643,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1428,
+        id: 1419,
         spotifyId: "2HafqoJbgXdtjwCOvNEF14",
         title: "Si No Estás",
         artist: "Íñigo Quintero",
@@ -14512,7 +14653,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1429,
+        id: 1420,
         spotifyId: "0uOxKY91hTmnJOxGPGpJtd",
         title: "Todo cambia",
         artist: "Dani Fernández",
@@ -14522,7 +14663,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1430,
+        id: 1421,
         spotifyId: "6xqQDwzjswlToEEHgvA3KM",
         title: "1000COSAS",
         artist: "Lola Indigo;Manuel Turizo",
@@ -14532,7 +14673,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1431,
+        id: 1422,
         spotifyId: "4UkUxO2WlKLc0Q1iEutGGh",
         title: "CONTIGO (with Tiësto)",
         artist: "KAROL G;Tiësto",
@@ -14542,7 +14683,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1432,
+        id: 1423,
         spotifyId: "75sxQYwDZGDrw9o3hsWTMd",
         title: "Vas A Volverme Loca",
         artist: "Natalia",
@@ -14552,7 +14693,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1433,
+        id: 1424,
         spotifyId: "5d0M8iFSNn4fonHyRT8yeq",
         title: "El Pistolero",
         artist: "Pistones",
@@ -14562,7 +14703,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1434,
+        id: 1425,
         spotifyId: "5Hep3JI0YhpNNpbcurrvSS",
         title: "Corazon de Tango",
         artist: "Doctor Deseo",
@@ -14572,7 +14713,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1435,
+        id: 1426,
         spotifyId: "5Ud6sHEEbJtH3IlAg5LjTz",
         title: "La tierra de los sueños",
         artist: "La Dama Se Esconde",
@@ -14582,7 +14723,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1436,
+        id: 1427,
         spotifyId: "1Q5kgpp4pmyGqPwNBzkSrw",
         title: "Roadhouse Blues",
         artist: "The Doors",
@@ -14592,7 +14733,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1437,
+        id: 1428,
         spotifyId: "4aAfLSx9IthpC3Pw5pNk3E",
         title: "Como Si Fueras a Morir Mañana",
         artist: "Leiva",
@@ -14602,7 +14743,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1438,
+        id: 1429,
         spotifyId: "06TMI3QGaUZbcAzKWQLnXm",
         title: "Héroes Del Sábado",
         artist: "La Maravillosa Orquesta del Alcohol",
@@ -14612,7 +14753,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1439,
+        id: 1430,
         spotifyId: "4fPBB44eDH71YohayI4eKV",
         title: "You Only Live Once",
         artist: "The Strokes",
@@ -14622,7 +14763,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1440,
+        id: 1431,
         spotifyId: "2a1iMaoWQ5MnvLFBDv4qkf",
         title: "High and Dry",
         artist: "Radiohead",
@@ -14632,7 +14773,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1441,
+        id: 1432,
         spotifyId: "5KjdQIrQD3UBJNZfx5Qp1v",
         title: "Weak",
         artist: "Skunk Anansie",
@@ -14642,7 +14783,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1442,
+        id: 1433,
         spotifyId: "6JXiqA1DhwFkgg9EpToPlw",
         title: "Me Gusta Ser una Zorra",
         artist: "Vulpes",
@@ -14652,7 +14793,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1443,
+        id: 1434,
         spotifyId: "1PnxVEVli3KpG23XDdyJrf",
         title: "Necesito un Trago",
         artist: "Tequila",
@@ -14662,7 +14803,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1444,
+        id: 1435,
         spotifyId: "2uR6DAqwZCfDeD6jFrD5zA",
         title: "Senor Matanza",
         artist: "Mano Negra",
@@ -14672,7 +14813,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1445,
+        id: 1436,
         spotifyId: "6bsiPYRqISKkHN9FpgffKP",
         title: "Ellos Dicen Mierda",
         artist: "La Polla Records",
@@ -14682,7 +14823,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1446,
+        id: 1437,
         spotifyId: "01p94C4kzguGzPbfU1XEpb",
         title: "Acción",
         artist: "Seguridad Social",
@@ -14692,7 +14833,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1447,
+        id: 1438,
         spotifyId: "3YjhWiGHlxelJM6Lv28IBm",
         title: "Cuando Nada, Vale Nada",
         artist: "Soziedad Alkoholika",
@@ -14702,7 +14843,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1448,
+        id: 1439,
         spotifyId: "1jq28NGw6wdtFKx8MBPy6C",
         title: "Burn It to the Ground",
         artist: "Nickelback",
@@ -14712,7 +14853,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1449,
+        id: 1440,
         spotifyId: "4D01oA1mGouaAT7fubvKRT",
         title: "Desire",
         artist: "U2",
@@ -14722,7 +14863,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1450,
+        id: 1441,
         spotifyId: "53eJFr4Mfbw5PXJ01K6cFw",
         title: "Daughter",
         artist: "Pearl Jam",
@@ -14732,7 +14873,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1451,
+        id: 1442,
         spotifyId: "54rmOG56q3iMXK8dSbTwoH",
         title: "Las Leyes De La Frontera",
         artist: "Derby Motoreta’s Burrito Kachimba",
@@ -14742,7 +14883,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1452,
+        id: 1443,
         spotifyId: "4bjvLvKovcWqZwDbXT5QQX",
         title: "Carry On",
         artist: "Crosby, Stills, Nash & Young",
@@ -14752,7 +14893,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1453,
+        id: 1444,
         spotifyId: "7wLwcV2J0gp7AGXHjQ1QKL",
         title: "Nena",
         artist: "Sexy Zebras",
@@ -14762,7 +14903,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1454,
+        id: 1445,
         spotifyId: "3Wrjm47oTz2sjIgck11l5e",
         title: "Beggin'",
         artist: "Måneskin",
@@ -14772,7 +14913,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1455,
+        id: 1446,
         spotifyId: "7cDxjUnMitNKQC5c8RQUko",
         title: "Black Magic Woman / Gypsy Queen",
         artist: "Santana",
@@ -14782,7 +14923,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1456,
+        id: 1447,
         spotifyId: "3FVGNCVHynlBTqizeinqQS",
         title: "Noviembre",
         artist: "Rulo y la contrabanda",
@@ -14792,7 +14933,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1457,
+        id: 1448,
         spotifyId: "5cZqsjVs6MevCnAkasbEOX",
         title: "Break Stuff",
         artist: "Limp Bizkit",
@@ -14802,7 +14943,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1458,
+        id: 1449,
         spotifyId: "2sUsyTWx6HeRxrnPpNL1gJ",
         title: "El Caballo De Troya",
         artist: "Tierra Santa",
@@ -14812,7 +14953,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1459,
+        id: 1450,
         spotifyId: "6yGP9c0OkKZgdqBjec9HMu",
         title: "La Típica Canción",
         artist: "Ginebras",
@@ -14822,7 +14963,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1460,
+        id: 1451,
         spotifyId: "2oSpQ7QtIKTNFfA08Cy0ku",
         title: "It's The End Of The World As We Know It (And I Feel Fine)",
         artist: "R.E.M.",
@@ -14832,7 +14973,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1461,
+        id: 1452,
         spotifyId: "6GyDY0yE47rfk8pcuKhioh",
         title: "Make It Wit Chu",
         artist: "Queens of the Stone Age",
@@ -14842,7 +14983,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1462,
+        id: 1453,
         spotifyId: "3mJJmtgrQBLI7bztFUICp8",
         title: "Huesos",
         artist: "Los Burros",
@@ -14852,7 +14993,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1463,
+        id: 1454,
         spotifyId: "54bO2CHOgGN44oWmAqib0I",
         title: "Gold on the Ceiling",
         artist: "The Black Keys",
@@ -14862,7 +15003,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1464,
+        id: 1455,
         spotifyId: "3SsaNW2MWyNtUIMe8mveOW",
         title: "Dinos Lo Que Va a Pasar",
         artist: "Camilo Sesto",
@@ -14872,7 +15013,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1465,
+        id: 1456,
         spotifyId: "3dCAPcivYmkQpXW2IhnGmB",
         title: "Galicia caníbal - Fai un sol de carallo",
         artist: "Os Resentidos",
@@ -14882,7 +15023,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1466,
+        id: 1457,
         spotifyId: "4cMHCRLPNoEbpnl2rz6GS9",
         title: "Back on the Chain Gang",
         artist: "Pretenders",
@@ -14892,7 +15033,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1467,
+        id: 1458,
         spotifyId: "4kPSjEg8u1U4pg2dHHMmtf",
         title: "Dancing Barefoot",
         artist: "Patti Smith",
@@ -14902,7 +15043,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1468,
+        id: 1459,
         spotifyId: "71x4gNENgUGyiuzYlndxfx",
         title: "Los Toreros Muertos",
         artist: "Los Toreros Muertos",
@@ -14912,7 +15053,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1469,
+        id: 1460,
         spotifyId: "61X9MrPozPv0V0WbX9ACUX",
         title: "Dulce condena",
         artist: "Los Rodriguez",
@@ -14922,7 +15063,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1470,
+        id: 1461,
         spotifyId: "5qxChyzKLEyoPJ5qGrdurN",
         title: "No Sleep Till Brooklyn",
         artist: "Beastie Boys",
@@ -14932,7 +15073,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1471,
+        id: 1462,
         spotifyId: "5LbvrdmU9ivLVjz1dwiYSy",
         title: "Tocaré",
         artist: "Tahúres Zúrdos",
@@ -14942,7 +15083,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1472,
+        id: 1463,
         spotifyId: "6tZI1nTl6m40HG5Rs7QuHL",
         title: "El Principio de algo",
         artist: "La La Love You;Samuraï",
@@ -14952,7 +15093,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1473,
+        id: 1464,
         spotifyId: "4OHVCeQYPncEwZOtNAJZZx",
         title: "Beetlebum",
         artist: "Blur",
@@ -14962,7 +15103,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1474,
+        id: 1465,
         spotifyId: "57evRdtJWiQQjbo6ox0qpx",
         title: "Jugando al amor",
         artist: "Ángeles Del Infierno",
@@ -14972,7 +15113,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1475,
+        id: 1466,
         spotifyId: "41JrRedwrJxbBPwI8Qku04",
         title: "Pacto Entre Caballeros",
         artist: "Joaquín Sabina",
@@ -14983,7 +15124,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1476,
+        id: 1467,
         spotifyId: "24OflD9GhkXDN6Tj2BUMg3",
         title: "Que No",
         artist: "Deluxe",
@@ -14993,7 +15134,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1477,
+        id: 1468,
         spotifyId: "73TxYZd0lBCVRrHawrAglA",
         title: "Sweet Emotion",
         artist: "Aerosmith",
@@ -15003,7 +15144,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1478,
+        id: 1469,
         spotifyId: "5jIdduasQsfSPQgfTHH9FB",
         title: "Como el viento",
         artist: "Depedro",
@@ -15013,7 +15154,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1479,
+        id: 1470,
         spotifyId: "4e9hUiLsN4mx61ARosFi7p",
         title: "The Spirit Of Radio",
         artist: "Rush",
@@ -15023,7 +15164,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1480,
+        id: 1471,
         spotifyId: "3UmPmOnwIlGM6MtlY7s4dz",
         title: "Toda la noche en la calle",
         artist: "Amaral",
@@ -15033,7 +15174,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1481,
+        id: 1472,
         spotifyId: "4q56jV2dmzw9TRQ3CyzmPJ",
         title: "Oveja Negra",
         artist: "Barricada",
@@ -15043,7 +15184,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1482,
+        id: 1473,
         spotifyId: "6TfBA04WJ3X1d1wXhaCFVT",
         title: "You're Gonna Go Far, Kid",
         artist: "The Offspring",
@@ -15053,7 +15194,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1483,
+        id: 1474,
         spotifyId: "63T7DJ1AFDD6Bn8VzG6JE8",
         title: "Paint It, Black",
         artist: "The Rolling Stones",
@@ -15063,7 +15204,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1484,
+        id: 1475,
         spotifyId: "54ipXppHLA8U4yqpOFTUhr",
         title: "Bones",
         artist: "Imagine Dragons",
@@ -15073,7 +15214,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1485,
+        id: 1476,
         spotifyId: "5sKdpvvNyRJifUmYLNiYys",
         title: "Viento de Cara",
         artist: "Supersubmarina",
@@ -15083,7 +15224,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1486,
+        id: 1477,
         spotifyId: "4j7GkwzZTidryYlrgvzY6u",
         title: "Big City Nights",
         artist: "Scorpions",
@@ -15093,7 +15234,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1487,
+        id: 1478,
         spotifyId: "4KfSdst7rW39C0sfhArdrz",
         title: "Barracuda",
         artist: "Heart",
@@ -15103,7 +15244,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1488,
+        id: 1479,
         spotifyId: "3Zwu2K0Qa5sT6teCCHPShP",
         title: "Thnks fr th Mmrs",
         artist: "Fall Out Boy",
@@ -15113,7 +15254,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1489,
+        id: 1480,
         spotifyId: "2gDwJLEw8MTn0AoJzdpBWQ",
         title: "¡Ay! Dolores",
         artist: "Reincidentes",
@@ -15123,7 +15264,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1490,
+        id: 1481,
         spotifyId: "43OTZI00GPAY6yiIpTShsR",
         title: "Duele",
         artist: "Elefantes;Bunbury",
@@ -15133,7 +15274,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1491,
+        id: 1482,
         spotifyId: "0gWN2QWbV32sS2W6j4FD4r",
         title: "Limítate",
         artist: "Hamlet",
@@ -15143,7 +15284,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1492,
+        id: 1483,
         spotifyId: "0AJhcuRl3i1FfPNr88ZScv",
         title: "You're in Love with a Psycho",
         artist: "Kasabian",
@@ -15153,7 +15294,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1493,
+        id: 1484,
         spotifyId: "2pZrDatIa0N8PmZmjJ1J7N",
         title: "I'm The Man",
         artist: "Joe Jackson",
@@ -15163,7 +15304,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1494,
+        id: 1485,
         spotifyId: "6CGwCT63BvZpHJu4gjpZlo",
         title: "Abre la puerta",
         artist: "Triana",
@@ -15174,7 +15315,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1495,
+        id: 1486,
         spotifyId: "1qfdguvTk1xa0GgODi37yJ",
         title: "Killed by Death",
         artist: "Motörhead",
@@ -15184,7 +15325,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1496,
+        id: 1487,
         spotifyId: "1FEpuF07tj10wlmYXhrDAY",
         title: "Soy un macarra",
         artist: "Ilegales",
@@ -15194,7 +15335,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1497,
+        id: 1488,
         spotifyId: "7KsZHCfOitA5V9oQYVdltG",
         title: "Everything Now",
         artist: "Arcade Fire",
@@ -15204,7 +15345,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1498,
+        id: 1489,
         spotifyId: "5RMerBH1XbePkmMt4pDVKZ",
         title: "Ser Brigada",
         artist: "León Benavente",
@@ -15214,7 +15355,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1499,
+        id: 1490,
         spotifyId: "6kdCN6gTWLcLxmLXoUcwuI",
         title: "Eres",
         artist: "Café Tacvba",
@@ -15224,7 +15365,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1500,
+        id: 1491,
         spotifyId: "0sJubCHX8ltjd9q5kO67Ny",
         title: "La chispa adecuada",
         artist: "Heroes Del Silencio",
@@ -15234,17 +15375,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1501,
+        id: 1492,
         spotifyId: "3ZOEytgrvLwQaqXreDs2Jx",
         title: "Can't Stop",
         artist: "Red Hot Chili Peppers",
         year: "2002",
         playlists: [
-            "rock"
+            "rock",
+            "batalla"
         ]
     },
     {
-        id: 1502,
+        id: 1493,
         spotifyId: "5fuiYDXvDMVqsa3o8B8KLR",
         title: "No Hay Tregua",
         artist: "Barricada",
@@ -15254,7 +15396,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1503,
+        id: 1494,
         spotifyId: "0nTdFdc20CnqpVnLcrHOUH",
         title: "A la sombra de la sierra",
         artist: "La Raíz",
@@ -15264,7 +15406,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1504,
+        id: 1495,
         spotifyId: "086myS9r57YsLbJpU0TgK9",
         title: "Why'd You Only Call Me When You're High?",
         artist: "Arctic Monkeys",
@@ -15274,7 +15416,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1505,
+        id: 1496,
         spotifyId: "38PND08KPvzwA1EUPQ1FoK",
         title: "Sarri Sarri",
         artist: "Kortatu",
@@ -15284,7 +15426,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1506,
+        id: 1497,
         spotifyId: "2MfrET7Nc3StKQcGoZKqr9",
         title: "21st Century Schizoid Man - Including \"Mirrors\"",
         artist: "King Crimson",
@@ -15294,7 +15436,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1507,
+        id: 1498,
         spotifyId: "2oa2oDRwEOpnpqAiKr5uPu",
         title: "Que Fue del Siglo XX",
         artist: "091",
@@ -15304,7 +15446,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1508,
+        id: 1499,
         spotifyId: "7tJQ4Ekp2vN3NlI3vJJW3v",
         title: "I Want You",
         artist: "Bob Dylan",
@@ -15314,7 +15456,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1509,
+        id: 1500,
         spotifyId: "54jvLVojOWiQRubRfKmZ2k",
         title: ".intoodeep.",
         artist: "Dead Poet Society",
@@ -15324,7 +15466,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1510,
+        id: 1501,
         spotifyId: "4UjqoyfmarLo3Ub3LE19eC",
         title: "El Vals del Obrero",
         artist: "Ska-P",
@@ -15334,7 +15476,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1511,
+        id: 1502,
         spotifyId: "4B26yDnZ6BC8XpCvp9usmH",
         title: "Judas el Miserable",
         artist: "La Frontera",
@@ -15344,7 +15486,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1512,
+        id: 1503,
         spotifyId: "5QIbR39hAEDIOkr4ggh4xc",
         title: "Atomic",
         artist: "Blondie",
@@ -15354,7 +15496,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1513,
+        id: 1504,
         spotifyId: "1JtGwgU9nwSyVUjXDO6Ecy",
         title: "Do It",
         artist: "The Sunday Drivers",
@@ -15364,7 +15506,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1514,
+        id: 1505,
         spotifyId: "1Exn1NYlMHkurl4saKtXcb",
         title: "Lola",
         artist: "Los Brincos",
@@ -15375,7 +15517,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1515,
+        id: 1506,
         spotifyId: "4nJlfdLIucLBkXEJPsSCSp",
         title: "Twice As Hard",
         artist: "The Black Crowes",
@@ -15385,7 +15527,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1516,
+        id: 1507,
         spotifyId: "6E4Z9YuZz9VA7NxXxshXQx",
         title: "Te debo una canción",
         artist: "Shinova",
@@ -15395,7 +15537,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1517,
+        id: 1508,
         spotifyId: "1KhqSLS8YafrUCbjrn8WxZ",
         title: "Club de fans de John Boy",
         artist: "Love of Lesbian",
@@ -15405,7 +15547,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1518,
+        id: 1509,
         spotifyId: "2Gt5oL4aEufZvJy9KjEkxi",
         title: "Cigarrito",
         artist: "Platero Y Tu",
@@ -15415,7 +15557,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1519,
+        id: 1510,
         spotifyId: "6spaGIZEfeDYlgAupMI34k",
         title: "Body Talks",
         artist: "The Struts",
@@ -15425,7 +15567,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1520,
+        id: 1511,
         spotifyId: "2ahUf9ZMcCqgswU7oFZIeB",
         title: "Naces, Creces, Te Jodes y Mueres",
         artist: "Mama Ladilla",
@@ -15435,7 +15577,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1521,
+        id: 1512,
         spotifyId: "2xFrnL8BYleBuxCQQCuho7",
         title: "Mi calle",
         artist: "Lone Star",
@@ -15446,7 +15588,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1522,
+        id: 1513,
         spotifyId: "1teL5em5cNGwVS4l5f8wjg",
         title: "Mystify",
         artist: "INXS",
@@ -15456,7 +15598,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1523,
+        id: 1514,
         spotifyId: "12Unlugp6dSFNSRgj3tlAr",
         title: "Manhattan (First We Take Manhattan)",
         artist: "Enrique Morente;Lagartija Nick;Estrella Morente;Cañizares",
@@ -15466,7 +15608,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1524,
+        id: 1515,
         spotifyId: "371BSqxk1jXtam5Q2OTaHG",
         title: "Mi vida rosa",
         artist: "Los Romeos",
@@ -15476,7 +15618,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1525,
+        id: 1516,
         spotifyId: "7HjipY3Vy2HAN11D2juKHT",
         title: "Next To You",
         artist: "The Police",
@@ -15486,7 +15628,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1526,
+        id: 1517,
         spotifyId: "1wrhhPzd2ncJPNgUcGgBGg",
         title: "Machinehead",
         artist: "Bush",
@@ -15496,7 +15638,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1527,
+        id: 1518,
         spotifyId: "428cFrawSqeLoyooQjAW9d",
         title: "La casa por el tejado",
         artist: "Fito y Fitipaldis",
@@ -15507,7 +15649,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1528,
+        id: 1519,
         spotifyId: "19vhfSUgVJO2enJ6XidUGO",
         title: "Molinos De Viento",
         artist: "Mägo de Oz",
@@ -15517,7 +15659,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1529,
+        id: 1520,
         spotifyId: "7ADBL3WZ9Oyj7zgkg7ODT8",
         title: "You Worry Me",
         artist: "Nathaniel Rateliff & The Night Sweats",
@@ -15527,7 +15669,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1530,
+        id: 1521,
         spotifyId: "3gVhsZtseYtY1fMuyYq06F",
         title: "Sonne",
         artist: "Rammstein",
@@ -15537,7 +15679,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1531,
+        id: 1522,
         spotifyId: "61MZN0yyMWSEwrLPUUGfgJ",
         title: "Sheena Is a Punk Rocker",
         artist: "Ramones",
@@ -15547,7 +15689,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1532,
+        id: 1523,
         spotifyId: "3GkCKAw2LPirMgiUJMAEMY",
         title: "Errante (Canción Mutante)",
         artist: "Niños Mutantes",
@@ -15557,7 +15699,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1533,
+        id: 1524,
         spotifyId: "3BqcGnyunq1hwQWy8vddSi",
         title: "Loca",
         artist: "Luz Casal",
@@ -15568,7 +15710,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1534,
+        id: 1525,
         spotifyId: "1lATXTBJDHwawvT1UfxWu3",
         title: "The Pot",
         artist: "TOOL",
@@ -15578,7 +15720,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1535,
+        id: 1526,
         spotifyId: "4l7YIni9bAiGwWMqK5wvgV",
         title: "You Learn",
         artist: "Alanis Morissette",
@@ -15588,7 +15730,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1536,
+        id: 1527,
         spotifyId: "0Bs0hUYxz7REyIHH7tRhL2",
         title: "Helter Skelter",
         artist: "The Beatles",
@@ -15598,7 +15740,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1537,
+        id: 1528,
         spotifyId: "0OvZ39UskFDLzbeatm0rbh",
         title: "Grita",
         artist: "Melon Diesel",
@@ -15608,7 +15750,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1538,
+        id: 1529,
         spotifyId: "5Ilb5x703muHwYfrL8bIT3",
         title: "Yo Tenía Un Novio (Que Tocaba En Un Conjunto Beat)",
         artist: "Rubi",
@@ -15618,7 +15760,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1539,
+        id: 1530,
         spotifyId: "5lqyqPU3JkpCbUbLmTVQPW",
         title: "The Unforgiven",
         artist: "Metallica",
@@ -15628,7 +15770,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1540,
+        id: 1531,
         spotifyId: "0QwZfbw26QeUoIy82Z2jYp",
         title: "Good Times Bad Times",
         artist: "Led Zeppelin",
@@ -15638,7 +15780,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1541,
+        id: 1532,
         spotifyId: "0HOrDVS349XFcpCYsO2hAP",
         title: "You Ain't Seen Nothing Yet",
         artist: "Bachman-Turner Overdrive",
@@ -15648,7 +15790,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1542,
+        id: 1533,
         spotifyId: "3oag6xsH3APi2oHU8hVp8E",
         title: "Normal",
         artist: "Carolina Durante",
@@ -15658,7 +15800,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1543,
+        id: 1534,
         spotifyId: "2ZMI0QNoqU9fQZFirR9WpK",
         title: "When The Curtain Falls",
         artist: "Greta Van Fleet",
@@ -15668,7 +15810,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1544,
+        id: 1535,
         spotifyId: "76ksg9R3gQjJNlyhxyJlLI",
         title: "Si te acuerdas de mí",
         artist: "Los Mitos",
@@ -15678,7 +15820,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1545,
+        id: 1536,
         spotifyId: "0txzIz1WcoAn6m07xypcD5",
         title: "La Salvación",
         artist: "Arde Bogotá",
@@ -15688,7 +15830,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1546,
+        id: 1537,
         spotifyId: "6TYQRlRci6AkVrN9a5C7ne",
         title: "War Pigs",
         artist: "Black Sabbath",
@@ -15698,7 +15840,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1547,
+        id: 1538,
         spotifyId: "4RKKPr34uSKaihFjHEh3mf",
         title: "Piratas del bar Caribe",
         artist: "Melendi",
@@ -15708,7 +15850,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1548,
+        id: 1539,
         spotifyId: "3zzZVLdBKRW8JH7GhFPyvu",
         title: "Hold On",
         artist: "Alabama Shakes",
@@ -15718,7 +15860,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1549,
+        id: 1540,
         spotifyId: "250dZY8xYbhHGQpM6bgL52",
         title: "In The City",
         artist: "The Jam",
@@ -15728,7 +15870,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1550,
+        id: 1541,
         spotifyId: "1LXgrJqOEyLFTEsEjjfLMF",
         title: "Señora azul",
         artist: "Canovas, Rodrigo, Adolfo Y Guzman",
@@ -15739,7 +15881,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1551,
+        id: 1542,
         spotifyId: "7zuJvHt7SN7YVjjC5qvgoY",
         title: "Ahora y en la hora",
         artist: "Tarque",
@@ -15749,7 +15891,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1552,
+        id: 1543,
         spotifyId: "4UrmmXStaqiT5sSC7QO6HK",
         title: "Called Out In The Dark",
         artist: "Snow Patrol",
@@ -15759,7 +15901,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1553,
+        id: 1544,
         spotifyId: "7hVhRCDV100Jq26NGR7adw",
         title: "Good Times Roll",
         artist: "The Cars",
@@ -15769,7 +15911,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1554,
+        id: 1545,
         spotifyId: "3MjrueDQKVr6xDDseZwhEd",
         title: "Figure It Out",
         artist: "Royal Blood",
@@ -15779,7 +15921,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1555,
+        id: 1546,
         spotifyId: "4GAqWEmxzMZDZ1T0NFHqKG",
         title: "Let's Work Together",
         artist: "Canned Heat",
@@ -15789,7 +15931,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1556,
+        id: 1547,
         spotifyId: "2YsHVqWfrH9T0qlmAjzJSM",
         title: "Voy a acabar borracho",
         artist: "Platero Y Tu",
@@ -15799,17 +15941,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1557,
+        id: 1548,
         spotifyId: "6PwjJ58I4t7Mae9xfZ9l9v",
         title: "Somebody Told Me",
         artist: "The Killers",
         year: "2004",
         playlists: [
-            "rock"
+            "rock",
+            "batalla"
         ]
     },
     {
-        id: 1558,
+        id: 1549,
         spotifyId: "5HNCy40Ni5BZJFw1TKzRsC",
         title: "Comfortably Numb",
         artist: "Pink Floyd",
@@ -15819,7 +15962,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1559,
+        id: 1550,
         spotifyId: "1zLJEnxuZBgPbwMrDMiZAf",
         title: "Sopa fría",
         artist: "M-Clan",
@@ -15829,7 +15972,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1560,
+        id: 1551,
         spotifyId: "1XTGyfJeMiZXrZ1W3NolcB",
         title: "Know Your Enemy",
         artist: "Rage Against The Machine",
@@ -15839,7 +15982,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1561,
+        id: 1552,
         spotifyId: "3dTijAzl6Fg9gqJtCeh6H1",
         title: "Si tú no estás aquí",
         artist: "Ángeles Del Infierno",
@@ -15849,7 +15992,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1562,
+        id: 1553,
         spotifyId: "7cDbqFvw45zdLHGltdb1g9",
         title: "The Underdog",
         artist: "Spoon",
@@ -15859,7 +16002,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1563,
+        id: 1554,
         spotifyId: "2Rz0jBU0jEuyJvruHlfdpA",
         title: "El carro de la vida",
         artist: "Sinkope",
@@ -15869,7 +16012,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1564,
+        id: 1555,
         spotifyId: "3pJfnBjO3kjudEchcPEDxS",
         title: "Afuera",
         artist: "Caifanes",
@@ -15879,7 +16022,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1565,
+        id: 1556,
         spotifyId: "5WTPhYmwwojFP73O7p3Izi",
         title: "Stand By Me",
         artist: "Oasis",
@@ -15889,7 +16032,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1566,
+        id: 1557,
         spotifyId: "24w139jhWNnuQjnlhlzLvi",
         title: "Feo Fuerte y Formal",
         artist: "Loquillo Y Los Trogloditas",
@@ -15899,7 +16042,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1567,
+        id: 1558,
         spotifyId: "5kQb5n1sMy5CmYTSoB5p6M",
         title: "Dolores se llamaba Lola",
         artist: "Los Suaves",
@@ -15910,7 +16053,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1568,
+        id: 1559,
         spotifyId: "09ttHg3ZNVgDlYBZa1ZBw0",
         title: "Starburster",
         artist: "Fontaines D.C.",
@@ -15920,7 +16063,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1569,
+        id: 1560,
         spotifyId: "4fjsOdrWMaKf70x21h5XbX",
         title: "Vasoline",
         artist: "Stone Temple Pilots",
@@ -15930,7 +16073,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1570,
+        id: 1561,
         spotifyId: "2SHTKB8YYlawTGIuJ2b2ok",
         title: "About A Girl",
         artist: "Nirvana",
@@ -15940,7 +16083,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1571,
+        id: 1562,
         spotifyId: "0wESZs7gN7TvfDbVP0w3Aw",
         title: "Cold Hard Bitch",
         artist: "Jet",
@@ -15950,7 +16093,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1572,
+        id: 1563,
         spotifyId: "3Obu3jvFSfgLF3pSbi64Vj",
         title: "This Fire",
         artist: "Franz Ferdinand",
@@ -15960,7 +16103,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1573,
+        id: 1564,
         spotifyId: "4Uol76QkvTUx1yIMbjwdQq",
         title: "Mescalina",
         artist: "Los Rebeldes;Carlos Jarque",
@@ -15970,7 +16113,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1574,
+        id: 1565,
         spotifyId: "5A7LhS1DALEOHMtLPupxOz",
         title: "La Caza",
         artist: "Juan Y Junior",
@@ -15981,7 +16124,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1575,
+        id: 1566,
         spotifyId: "0knbMPVHpFbsx38pLoYSRs",
         title: "Hysteria",
         artist: "Muse",
@@ -15991,7 +16134,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1576,
+        id: 1567,
         spotifyId: "5Z8EDau8uNcP1E8JvmfkZe",
         title: "School's Out",
         artist: "Alice Cooper",
@@ -16001,17 +16144,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1577,
+        id: 1568,
         spotifyId: "0I4yYE831a8SW8QIx6bz4x",
         title: "Crimson & Clover",
         artist: "Tommy James & The Shondells",
         year: "1968",
         playlists: [
-            "rock"
+            "rock",
+            "batalla"
         ]
     },
     {
-        id: 1578,
+        id: 1569,
         spotifyId: "6ou443eT6aXOCxcX9Jrnee",
         title: "La Vida Cañón",
         artist: "Alcalá Norte",
@@ -16021,7 +16165,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1579,
+        id: 1570,
         spotifyId: "1qriTCY9QIrATYur0FTI7J",
         title: "La Basura",
         artist: "Ultraligera",
@@ -16031,7 +16175,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1580,
+        id: 1571,
         spotifyId: "5ykbOijJEfRhuo2Td1m0Qd",
         title: "7",
         artist: "Catfish and the Bottlemen",
@@ -16041,7 +16185,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1581,
+        id: 1572,
         spotifyId: "2jlNuMHyRRVygPTyd2Clau",
         title: "Las Canciones De Juanita",
         artist: "Carolina Durante",
@@ -16051,7 +16195,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1582,
+        id: 1573,
         spotifyId: "75D3n6wnFQmu1HVmLAlWM4",
         title: "I Predict A Riot",
         artist: "Kaiser Chiefs",
@@ -16061,7 +16205,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1583,
+        id: 1574,
         spotifyId: "5FZxsHWIvUsmSK1IAvm2pp",
         title: "Best of You",
         artist: "Foo Fighters",
@@ -16071,7 +16215,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1584,
+        id: 1575,
         spotifyId: "1qKjodZnOQwLM9s1LwoUxo",
         title: "Esto Es un Atraco",
         artist: "Burning",
@@ -16081,7 +16225,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1585,
+        id: 1576,
         spotifyId: "3t4nhRh7Pra9ELbFcMzWm9",
         title: "Nada que perder",
         artist: "Robe",
@@ -16091,7 +16235,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1586,
+        id: 1577,
         spotifyId: "6BxCmy6vGbuOckxg6YfQOW",
         title: "Stand By",
         artist: "Extremoduro",
@@ -16101,7 +16245,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1587,
+        id: 1578,
         spotifyId: "5TZn3LQSWwVPnBlPgFKb54",
         title: "American Jesus",
         artist: "Bad Religion",
@@ -16111,7 +16255,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1588,
+        id: 1579,
         spotifyId: "0IXpUl1fn2QZcBavfuq0H4",
         title: "Living After Midnight",
         artist: "Judas Priest",
@@ -16121,7 +16265,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1589,
+        id: 1580,
         spotifyId: "0oWnVBqLwlDXZcjTsDUowg",
         title: "El Flautista de Hamelín",
         artist: "Ñu",
@@ -16131,7 +16275,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1590,
+        id: 1581,
         spotifyId: "6Xueg8DmwhkU4xf0Q3xlWN",
         title: "Sorprendente",
         artist: "Leño",
@@ -16142,17 +16286,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1591,
+        id: 1582,
         spotifyId: "4ZzZh1P4r1ItHMwJzD96e3",
         title: "Querida Milagros",
         artist: "El Último De La Fila",
         year: "1985",
         playlists: [
-            "rock"
+            "rock",
+            "spotify_spain"
         ]
     },
     {
-        id: 1592,
+        id: 1583,
         spotifyId: "5WPQVIZCPZkctCQgsG5Qcg",
         title: "La cuenta atrás",
         artist: "Los Enemigos",
@@ -16162,7 +16307,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1593,
+        id: 1584,
         spotifyId: "4H1EvPTY2I3xlFaw5VOe4S",
         title: "Por el interés te quiero Andrés",
         artist: "LOS NIKIS",
@@ -16172,7 +16317,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1594,
+        id: 1585,
         spotifyId: "0dlTGl67UFWcKupzkxZYOn",
         title: "You Could Be Mine",
         artist: "Guns N' Roses",
@@ -16182,7 +16327,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1595,
+        id: 1586,
         spotifyId: "55WrYzR1SHfXeeU6DJbk3Y",
         title: "Tush",
         artist: "ZZ Top",
@@ -16192,7 +16337,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1596,
+        id: 1587,
         spotifyId: "0knEa04nhL7NMaLwo0F5Mc",
         title: "Indestructibles",
         artist: "La Habitación Roja",
@@ -16202,7 +16347,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1597,
+        id: 1588,
         spotifyId: "1jMaB19DiVR8OihLSuYFOt",
         title: "Spoonman",
         artist: "Soundgarden",
@@ -16212,7 +16357,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1598,
+        id: 1589,
         spotifyId: "5Q2uU5NGcS0mKwmgF28kRZ",
         title: "Haste Que El Cuerpo Aguante",
         artist: "Mägo de Oz",
@@ -16222,7 +16367,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1599,
+        id: 1590,
         spotifyId: "3WIqOmbVEbDEtyoj4MFiXK",
         title: "Charo",
         artist: "Quique González;Los Detectives",
@@ -16232,7 +16377,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1600,
+        id: 1591,
         spotifyId: "3XFlY1MtjI8uI7HnsQG1Nx",
         title: "Come On!",
         artist: "The Hives",
@@ -16242,7 +16387,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1601,
+        id: 1592,
         spotifyId: "6YIggUJW3ttAAPRdnki8RM",
         title: "Disarm",
         artist: "The Smashing Pumpkins",
@@ -16252,7 +16397,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1602,
+        id: 1593,
         spotifyId: "1KH2PcBCAaHRL6F5ZZgY1S",
         title: "No Mires a los Ojos de la Gente",
         artist: "Golpes Bajos",
@@ -16262,7 +16407,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1603,
+        id: 1594,
         spotifyId: "0WSa1sucoNRcEeULlZVQXj",
         title: "Can You Feel My Heart",
         artist: "Bring Me The Horizon",
@@ -16272,7 +16417,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1604,
+        id: 1595,
         spotifyId: "4YeY6OW0j92lnikmKltSa7",
         title: "Princess of the Dawn",
         artist: "Accept",
@@ -16282,7 +16427,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1605,
+        id: 1596,
         spotifyId: "2dHjSNCw10clC9oOld8tPn",
         title: "I Surrender",
         artist: "Rainbow",
@@ -16292,7 +16437,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1606,
+        id: 1597,
         spotifyId: "2vc7Aeg4XeSjqTinfjjKj6",
         title: "No Seré Yo",
         artist: "Saurom;Isra Ramos;RAMÓN LAGE",
@@ -16302,7 +16447,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1607,
+        id: 1598,
         spotifyId: "7qTr6NXpNeVriU1jCbXqCg",
         title: "Jesus, Etc.",
         artist: "Wilco",
@@ -16312,7 +16457,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1608,
+        id: 1599,
         spotifyId: "72S6UNewVaLv3XqdcZ5J4L",
         title: "Amasijo de huesos",
         artist: "Sidecars",
@@ -16322,7 +16467,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1609,
+        id: 1600,
         spotifyId: "6K4t31amVTZDgR3sKmwUJJ",
         title: "The Less I Know The Better",
         artist: "Tame Impala",
@@ -16332,7 +16477,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1610,
+        id: 1601,
         spotifyId: "60oECELY4ArS95M8IUUNT7",
         title: "Qué güeno que estoy",
         artist: "Mojinos Escozios",
@@ -16342,7 +16487,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1611,
+        id: 1602,
         spotifyId: "63PNHwm8hgpkPeUFfUa4dk",
         title: "La cabecita loca",
         artist: "Rulo y la contrabanda",
@@ -16352,7 +16497,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1612,
+        id: 1603,
         spotifyId: "5KsZGdaJugVnu1Faccq22D",
         title: "Parecemos tontos",
         artist: "Bunbury",
@@ -16362,7 +16507,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1613,
+        id: 1604,
         spotifyId: "4dC0fWZm8tU5dNdVutSMVP",
         title: "Stupid Girl",
         artist: "Garbage",
@@ -16372,7 +16517,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1614,
+        id: 1605,
         spotifyId: "5z4bBpoquaB0xHvXZH9L2w",
         title: "Eldorado",
         artist: "Revolver",
@@ -16383,7 +16528,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1615,
+        id: 1606,
         spotifyId: "077xWZZIJMDRl1fLZSnwEB",
         title: "Octubres rotos",
         artist: "Desakato",
@@ -16393,7 +16538,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1616,
+        id: 1607,
         spotifyId: "46Yp4JsZIh8ceg5WBqW1ZB",
         title: "Buscando en la basura",
         artist: "La Fuga",
@@ -16403,7 +16548,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1617,
+        id: 1608,
         spotifyId: "5RysTXaBv4Fm6Rhue9hW6i",
         title: "Días de Escuela",
         artist: "Asfalto",
@@ -16413,7 +16558,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1618,
+        id: 1609,
         spotifyId: "6TSBIfIbxuPDi1uqMqy1iV",
         title: "Wishing Well",
         artist: "Free",
@@ -16423,7 +16568,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1619,
+        id: 1610,
         spotifyId: "3K4HG9evC7dg3N0R9cYqk4",
         title: "One Step Closer",
         artist: "Linkin Park",
@@ -16433,17 +16578,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1620,
+        id: 1611,
         spotifyId: "4tzi4VV1vCTZsT4SEKQIKJ",
         title: "Serenade",
         artist: "Dover",
         year: "1997",
         playlists: [
-            "rock"
+            "rock",
+            "spotify_spain"
         ]
     },
     {
-        id: 1621,
+        id: 1612,
         spotifyId: "0zKM3JJ98FTPbMIl9lyuxQ",
         title: "Lo hago por ti",
         artist: "Coque Malla",
@@ -16453,7 +16599,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1622,
+        id: 1613,
         spotifyId: "46zO1Ym5n5R0bcizsOk02v",
         title: "Todo Lo Que Importa",
         artist: "ELYELLA;Viva Suecia",
@@ -16463,7 +16609,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1623,
+        id: 1614,
         spotifyId: "6bBJsEcjShIA93TUzxGoxU",
         title: "Corrientes Demolientes",
         artist: "Poncho K",
@@ -16473,7 +16619,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1624,
+        id: 1615,
         spotifyId: "2naBVHNHinneXOYmczG7xE",
         title: "Killing Strangers",
         artist: "Marilyn Manson",
@@ -16483,7 +16629,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1625,
+        id: 1616,
         spotifyId: "6uSIn5SVmUwile8TXoYMe6",
         title: "Te entiendo",
         artist: "Pignoise",
@@ -16494,7 +16640,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1626,
+        id: 1617,
         spotifyId: "1pv5scBTTQyqN2NOiEj8oe",
         title: "Sargento de Hierro",
         artist: "Morgan",
@@ -16504,7 +16650,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1627,
+        id: 1618,
         spotifyId: "42MqvIlwwUMTUQR6GqP9HU",
         title: "Mil y una noches",
         artist: "Sangre Azul",
@@ -16514,7 +16660,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1628,
+        id: 1619,
         spotifyId: "3cw3Z7mS55gd3NUjh4k0bL",
         title: "Sweet Jane",
         artist: "The Velvet Underground",
@@ -16524,7 +16670,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1629,
+        id: 1620,
         spotifyId: "53AdGgVPCP8P4CutTFKJ1V",
         title: "Un Buen Dia",
         artist: "Los Planetas",
@@ -16534,7 +16680,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1630,
+        id: 1621,
         spotifyId: "4IvZLDtwBHmBmwgDIUbuwa",
         title: "Here Comes Your Man",
         artist: "Pixies",
@@ -16544,7 +16690,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1631,
+        id: 1622,
         spotifyId: "5u9kvg25OPkDp7MoO9yM0x",
         title: "Dónde Estabas Tú",
         artist: "Vega;Ivan Ferreiro",
@@ -16554,7 +16700,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1632,
+        id: 1623,
         spotifyId: "7cpAYJoFE49VFuftoQ0M2P",
         title: "Acción mutante",
         artist: "Def Con Dos",
@@ -16564,7 +16710,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1633,
+        id: 1624,
         spotifyId: "2SgbR6ttzoNlCRGQOKjrop",
         title: "Cowboys from Hell",
         artist: "Pantera",
@@ -16574,7 +16720,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1634,
+        id: 1625,
         spotifyId: "0qPLNGJhvrhuuayoKhTR3B",
         title: "Black Holes (Solid Ground)",
         artist: "The Blue Stones",
@@ -16584,7 +16730,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1635,
+        id: 1626,
         spotifyId: "7fLTytvnvxy653VWxflTRf",
         title: "Stay with Me",
         artist: "Faces",
@@ -16594,7 +16740,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1636,
+        id: 1627,
         spotifyId: "0rCWIsEuZlwgpIOWLfZEAA",
         title: "El equilibrio es imposible",
         artist: "Los Piratas",
@@ -16604,7 +16750,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1637,
+        id: 1628,
         spotifyId: "6BXPkjwrf58KHUwGdtG66w",
         title: "¿Dónde estás?",
         artist: "Jaime Urrutia",
@@ -16614,7 +16760,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1638,
+        id: 1629,
         spotifyId: "5Su0gsK3nkTGEkN5Dq5QUT",
         title: "Todo tiene su fin",
         artist: "Módulos",
@@ -16625,7 +16771,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1639,
+        id: 1630,
         spotifyId: "6VVBXRsXAuN5UvqKNw7j0l",
         title: "Cacho a Cacho",
         artist: "Estopa",
@@ -16635,7 +16781,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1640,
+        id: 1631,
         spotifyId: "11l11iiThxwH7UJ3Wbl68Q",
         title: "Marihuana",
         artist: "Porretas",
@@ -16645,7 +16791,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1641,
+        id: 1632,
         spotifyId: "1LuW4h5s9ZumBbMh7qhDDj",
         title: "Una Foto en Blanco y Negro",
         artist: "El Canto Del Loco",
@@ -16656,7 +16802,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1642,
+        id: 1633,
         spotifyId: "4BBC0JXqqZbQH5rQwjiUkp",
         title: "Todo Me Da Igual",
         artist: "Pignoise",
@@ -16667,7 +16813,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1643,
+        id: 1634,
         spotifyId: "5cY8y2XgOfkAh4kSWLFKkz",
         title: "I Write Sins Not Tragedies",
         artist: "Panic! At The Disco",
@@ -16677,7 +16823,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1644,
+        id: 1635,
         spotifyId: "7c9sDyogsPK8XUAubCK69Y",
         title: "Vicio",
         artist: "Reincidentes",
@@ -16687,7 +16833,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1645,
+        id: 1636,
         spotifyId: "6uK6H8xkSQRA4Y2TfczXs0",
         title: "Necesito Respirar",
         artist: "Medina Azahara",
@@ -16697,7 +16843,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1646,
+        id: 1637,
         spotifyId: "1AJAYZ8jVzeBMjXM0Ze8u1",
         title: "Corazón de Mimbre",
         artist: "Marea;Ángel Rodríguez",
@@ -16707,7 +16853,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1647,
+        id: 1638,
         spotifyId: "7JaD4wn9s5zEaSyw3KtNxZ",
         title: "Camins",
         artist: "Sopa De Cabra",
@@ -16717,7 +16863,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1648,
+        id: 1639,
         spotifyId: "3ckd4YA4LcD3j50rfIVwUe",
         title: "Head Like A Hole",
         artist: "Nine Inch Nails",
@@ -16727,7 +16873,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1649,
+        id: 1640,
         spotifyId: "6Ca3uEAuun3HusTUiIXKs1",
         title: "If You Wanna",
         artist: "The Vaccines",
@@ -16737,7 +16883,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1650,
+        id: 1641,
         spotifyId: "4A48NL57P16zSRaq3yoYry",
         title: "Vicious",
         artist: "Lou Reed",
@@ -16747,7 +16893,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1651,
+        id: 1642,
         spotifyId: "5aKKj4RgxT0a9k1FF7ZDnD",
         title: "Llueve Sobre Mojado",
         artist: "Fito Paez;Joaquín Sabina",
@@ -16757,7 +16903,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1652,
+        id: 1643,
         spotifyId: "1XbkYc0szlepSM3Na5EcG5",
         title: "Kualqiier Dia",
         artist: "Boikot",
@@ -16767,7 +16913,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1653,
+        id: 1644,
         spotifyId: "7w6PJe5KBPyvuRYxFkPssC",
         title: "No More Tears",
         artist: "Ozzy Osbourne",
@@ -16777,7 +16923,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1654,
+        id: 1645,
         spotifyId: "4D40ZlFAWsvX7lua1Kablh",
         title: "Jet",
         artist: "Paul McCartney;Wings",
@@ -16787,7 +16933,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1655,
+        id: 1646,
         spotifyId: "4qbiCq2xkNPyojuZFeNeqx",
         title: "Jailbreak",
         artist: "Thin Lizzy",
@@ -16797,7 +16943,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1656,
+        id: 1647,
         spotifyId: "5LlsD7LdSMkGV4Iu0a2Zq0",
         title: "Waste A Moment",
         artist: "Kings of Leon",
@@ -16807,7 +16953,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1657,
+        id: 1648,
         spotifyId: "3L60Vu9qmY6fg2QroRIxgi",
         title: "Cry Baby",
         artist: "Janis Joplin",
@@ -16817,7 +16963,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1658,
+        id: 1649,
         spotifyId: "1Ym3JWJG8HFJU2NbXavZ6a",
         title: "Sugar",
         artist: "System Of A Down",
@@ -16827,7 +16973,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1659,
+        id: 1650,
         spotifyId: "3QFIltIaPuhwwJh7LsnoJF",
         title: "Tommy-Gun",
         artist: "Royal Republic",
@@ -16837,7 +16983,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1660,
+        id: 1651,
         spotifyId: "5ZrtHP3Kzdgw8tzELrmKqA",
         title: "Vístete",
         artist: "Nacha Pop",
@@ -16847,7 +16993,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1661,
+        id: 1652,
         spotifyId: "4QBrx05HrLnohYaS1cPGHO",
         title: "Volvera",
         artist: "El Canto Del Loco",
@@ -16858,7 +17004,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1662,
+        id: 1653,
         spotifyId: "52m7IQitPjIy1PrULHhS9F",
         title: "Wanted Dead Or Alive",
         artist: "Bon Jovi",
@@ -16868,7 +17014,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1663,
+        id: 1654,
         spotifyId: "0IxoSZOjG7bCye3OWEbLQU",
         title: "Chispazo",
         artist: "Narco",
@@ -16878,7 +17024,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1664,
+        id: 1655,
         spotifyId: "2TNyavQEF3T1UnI1kNBOiv",
         title: "Guardalo",
         artist: "Los Ronaldos",
@@ -16888,7 +17034,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1665,
+        id: 1656,
         spotifyId: "5bEUjcvngj0oiNY2u9MaHl",
         title: "Más Sexy",
         artist: "COZ",
@@ -16898,7 +17044,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1666,
+        id: 1657,
         spotifyId: "5DAX7TY0jsAQQHJZf9gDWn",
         title: "Diez Años",
         artist: "Sôber",
@@ -16908,17 +17054,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1667,
+        id: 1658,
         spotifyId: "2LXISHBkx8FyoxCBkckh19",
         title: "Do It Again",
         artist: "Steely Dan",
         year: "1972",
         playlists: [
-            "rock"
+            "rock",
+            "batalla"
         ]
     },
     {
-        id: 1668,
+        id: 1659,
         spotifyId: "55XrKecG9mBBLI3PL3KzXU",
         title: "Alta suciedad",
         artist: "Andrés Calamaro",
@@ -16928,7 +17075,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1669,
+        id: 1660,
         spotifyId: "0Ln5tJyLX5qusquBOtq7wf",
         title: "Fire",
         artist: "Kasabian",
@@ -16938,7 +17085,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1670,
+        id: 1661,
         spotifyId: "6pAvXn45z0sktftypuEEzt",
         title: "Héroe de leyenda",
         artist: "Heroes Del Silencio",
@@ -16948,7 +17095,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1671,
+        id: 1662,
         spotifyId: "7M9atfLnxgO5ybzMoXZMdq",
         title: "Labios Compartidos",
         artist: "Maná",
@@ -16958,17 +17105,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1672,
-        spotifyId: "2VPGmrcBw5X4yAu3B8UZNE",
-        title: "Born To Be Wild",
-        artist: "Steppenwolf",
-        year: "1968",
-        playlists: [
-            "rock"
-        ]
-    },
-    {
-        id: 1673,
+        id: 1663,
         spotifyId: "7BsjcnzjkVLUv3IQh00OzB",
         title: "El Incendio",
         artist: "Sidonie",
@@ -16978,7 +17115,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1674,
+        id: 1664,
         spotifyId: "6XIerJ9V7H9byQFRZiqyCv",
         title: "11:11",
         artist: "Megara",
@@ -16988,7 +17125,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1675,
+        id: 1665,
         spotifyId: "0vi1LCyMhulllfyErMSvfI",
         title: "El Garrotin",
         artist: "Smash",
@@ -16998,7 +17135,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1676,
+        id: 1666,
         spotifyId: "35RZlC2of95tgErjy8BtVx",
         title: "Que se joda el viento",
         artist: "Marea",
@@ -17008,7 +17145,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1677,
+        id: 1667,
         spotifyId: "40WYGxtCpSMJUhetMgdb9F",
         title: "1.000 pedazos",
         artist: "Christina y Los Subterraneos",
@@ -17018,7 +17155,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1678,
+        id: 1668,
         spotifyId: "5LyRtsQLhcXmy50VXhQXXS",
         title: "Holy Wars...The Punishment Due",
         artist: "Megadeth",
@@ -17028,7 +17165,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1679,
+        id: 1669,
         spotifyId: "5yPiHX1ph8maeqvsolo2AV",
         title: "Me Vuelves Puto Loco",
         artist: "Dani Martín",
@@ -17038,7 +17175,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1680,
+        id: 1670,
         spotifyId: "2vSJKKmOEJQA5tr082p5XX",
         title: "Todos los Besos",
         artist: "Siloé",
@@ -17048,17 +17185,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1681,
+        id: 1671,
         spotifyId: "07GvNcU1WdyZJq3XxP0kZa",
         title: "Go Your Own Way",
         artist: "Fleetwood Mac",
         year: "1977",
         playlists: [
-            "rock"
+            "rock",
+            "batalla"
         ]
     },
     {
-        id: 1682,
+        id: 1672,
         spotifyId: "5zmaypMaWb21FUGBxbw8hT",
         title: "Black Balloon",
         artist: "The Goo Goo Dolls",
@@ -17068,7 +17206,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1683,
+        id: 1673,
         spotifyId: "0MN2EfM4BDyFaLgSWbf1Fq",
         title: "Matar la Pena",
         artist: "Besmaya;Malmö 040",
@@ -17078,7 +17216,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1684,
+        id: 1674,
         spotifyId: "5xEQItoulehU1apBfxqkM1",
         title: "Flojos de pantalón",
         artist: "Rosendo",
@@ -17089,7 +17227,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1685,
+        id: 1675,
         spotifyId: "13LjEr0wdYnbVllOPqR8WV",
         title: "En Noches Como Esta",
         artist: "Skunk D.F.",
@@ -17099,7 +17237,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1686,
+        id: 1676,
         spotifyId: "77oU2rjC5XbjQfNe3bD6so",
         title: "Beast Of Burden",
         artist: "The Rolling Stones",
@@ -17109,7 +17247,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1687,
+        id: 1677,
         spotifyId: "3Xls4cNOwy01dtrNXb1inG",
         title: "White Room",
         artist: "Cream",
@@ -17119,7 +17257,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1688,
+        id: 1678,
         spotifyId: "6tGUkobti5ztrb9aQ0UDEx",
         title: "Por verte sonreír",
         artist: "La Fuga",
@@ -17130,7 +17268,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1689,
+        id: 1679,
         spotifyId: "6wqJeItl3Vc3az4ZicSQAB",
         title: "Before I Forget",
         artist: "Slipknot",
@@ -17140,7 +17278,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1690,
+        id: 1680,
         spotifyId: "7BHPGtpuuWWsvE7cCaMuEU",
         title: "Naive",
         artist: "The Kooks",
@@ -17150,17 +17288,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1691,
+        id: 1681,
         spotifyId: "4Y7fEQ4PAzhlLnLviRw2P4",
         title: "Rockin' in the Free World",
         artist: "Neil Young",
         year: "1989",
         playlists: [
-            "rock"
+            "rock",
+            "batalla"
         ]
     },
     {
-        id: 1692,
+        id: 1682,
         spotifyId: "5NQw5WJwKRPaaSDHXD04Fs",
         title: "Lady Madrid",
         artist: "Pereza",
@@ -17171,7 +17310,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1693,
+        id: 1683,
         spotifyId: "7j31rVgGX9Q2blT92VBEA0",
         title: "Teenagers",
         artist: "My Chemical Romance",
@@ -17181,7 +17320,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1694,
+        id: 1684,
         spotifyId: "7h8WGetcKI4Dbmj6axXHb8",
         title: "Mucho tiempo contigo",
         artist: "Niña Polaca",
@@ -17191,7 +17330,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1695,
+        id: 1685,
         spotifyId: "2EC9IJj7g0mN1Q5VrZkiYY",
         title: "Rebel Rebel",
         artist: "David Bowie",
@@ -17201,7 +17340,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1696,
+        id: 1686,
         spotifyId: "7xmol0xrFgs89hVySMf9u9",
         title: "Thunder Road",
         artist: "Bruce Springsteen",
@@ -17211,7 +17350,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1697,
+        id: 1687,
         spotifyId: "0m0HaxmlOkzi0Yby75t2o7",
         title: "Mi Realidad",
         artist: "Lori Meyers",
@@ -17221,7 +17360,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1698,
+        id: 1688,
         spotifyId: "2PFIZFcGry0po3ZfRZkzKc",
         title: "Hysteria",
         artist: "Def Leppard",
@@ -17231,7 +17370,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1699,
+        id: 1689,
         spotifyId: "6lgZD6qGSg59cNHZMtIPv2",
         title: "Caperucita feroz",
         artist: "Orquesta Mondragon",
@@ -17241,7 +17380,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1700,
+        id: 1690,
         spotifyId: "4e3TIXJcX3oQJnLup57I0r",
         title: "Holidays In The Sun",
         artist: "Sex Pistols",
@@ -17251,7 +17390,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1701,
+        id: 1691,
         spotifyId: "1H7wgZSw3DhEAZMsy7L498",
         title: "Frio",
         artist: "Alarma",
@@ -17261,7 +17400,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1702,
+        id: 1692,
         spotifyId: "5p4QGTJiTFStnddffBS4bK",
         title: "Autosuficiencia",
         artist: "Paralisis Permanente",
@@ -17271,7 +17410,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1703,
+        id: 1693,
         spotifyId: "0pyT9W877RcYtVdl1ZmlvQ",
         title: "Valiente",
         artist: "Vetusta Morla",
@@ -17281,7 +17420,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1704,
+        id: 1694,
         spotifyId: "0wJoRiX5K5BxlqZTolB2LD",
         title: "Purple Haze",
         artist: "Jimi Hendrix",
@@ -17291,7 +17430,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1705,
+        id: 1695,
         spotifyId: "0m7tsUMMRz4hN4LrhkaXFI",
         title: "Los Rockeros Van al Infierno",
         artist: "Barón Rojo",
@@ -17301,7 +17440,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1706,
+        id: 1696,
         spotifyId: "4Zc7TCHzuNwL0AFBlyLdyr",
         title: "Run to the Hills",
         artist: "Iron Maiden",
@@ -17311,7 +17450,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1707,
+        id: 1697,
         spotifyId: "43Q1u4FS0b4DzMefTXNUCj",
         title: "Chicas Del Colegio",
         artist: "Mamá",
@@ -17321,7 +17460,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1708,
+        id: 1698,
         spotifyId: "10nuAvGnApitxCpNgodmv8",
         title: "haz lo que quieras conmigo",
         artist: "Walls",
@@ -17331,7 +17470,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1709,
+        id: 1699,
         spotifyId: "0eio5OdLUeo5kN4TBwejf7",
         title: "Al Aire",
         artist: "Morat",
@@ -17341,7 +17480,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1710,
+        id: 1700,
         spotifyId: "7lSDCrF11sdTVfjbAQVZE8",
         title: "I Fought the Law",
         artist: "The Clash",
@@ -17351,7 +17490,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1711,
+        id: 1701,
         spotifyId: "78Tr4OatbnIyx9cwGp5vp1",
         title: "Lo difícil",
         artist: "Arco",
@@ -17361,17 +17500,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1712,
+        id: 1702,
         spotifyId: "665Jxlgi1HamPKbW1vwzx4",
         title: "We Belong",
         artist: "Pat Benatar",
         year: "1984",
         playlists: [
-            "rock"
+            "rock",
+            "batalla"
         ]
     },
     {
-        id: 1713,
+        id: 1703,
         spotifyId: "2x59pa3xDf8hHZ4N3f5fGQ",
         title: "Si te vas...",
         artist: "Extremoduro",
@@ -17381,7 +17521,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1714,
+        id: 1704,
         spotifyId: "2QxZd0Hud7GDrFSWyz5l9o",
         title: "Voto Latino",
         artist: "Molotov",
@@ -17391,7 +17531,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1715,
+        id: 1705,
         spotifyId: "2VnXWH2apfJHjNkQavoNoW",
         title: "Hammer To Fall",
         artist: "Queen",
@@ -17401,7 +17541,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1716,
+        id: 1706,
         spotifyId: "1eivMnftGIAIeTDUfTssVX",
         title: "Welcome to the DCC",
         artist: "Nothing But Thieves",
@@ -17411,7 +17551,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1717,
+        id: 1707,
         spotifyId: "0mJ2qmDI2X4wrSIIBrvvpN",
         title: "Sin Vergüenza",
         artist: "Arde Bogotá;Dani Fernández",
@@ -17421,7 +17561,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1718,
+        id: 1708,
         spotifyId: "0TlVTrOwRNH8YGvBDHqPCo",
         title: "Quiero volar",
         artist: "Natos y Waor;Kutxi Romero",
@@ -17431,7 +17571,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1719,
+        id: 1709,
         spotifyId: "6t6knHmmUVGnYHqQy7lTij",
         title: "El Tiempo Pasará",
         artist: "Lori Meyers",
@@ -17441,7 +17581,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1720,
+        id: 1710,
         spotifyId: "3f7OyfSoDbQC0LRDQiytPp",
         title: "Mountain at My Gates",
         artist: "Foals",
@@ -17451,7 +17591,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1721,
+        id: 1711,
         spotifyId: "0cJPLFrlV7TTCyPLupHzcH",
         title: "Won't Get Fooled Again",
         artist: "The Who",
@@ -17461,7 +17601,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1722,
+        id: 1712,
         spotifyId: "2UfGBO7lPSc9JUDV4BpwAu",
         title: "Rincón Exquisito",
         artist: "Second",
@@ -17471,7 +17611,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1723,
+        id: 1713,
         spotifyId: "6TSX4t93Mhh6djhKftWSrk",
         title: "Mis Amigos Donde Estaran",
         artist: "Topo",
@@ -17481,7 +17621,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1724,
+        id: 1714,
         spotifyId: "3cXiUuiGpFmZ8OdAWKk8Ck",
         title: "Lick It Up",
         artist: "KISS",
@@ -17491,7 +17631,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1725,
+        id: 1715,
         spotifyId: "4jU7NPkz4HVnM4hweqNhI1",
         title: "Blue Orchid",
         artist: "The White Stripes",
@@ -17501,7 +17641,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1726,
+        id: 1716,
         spotifyId: "6ZAwEE4kTdtvyE66iRhFxR",
         title: "Real Wild Child (Wild One)",
         artist: "Iggy Pop",
@@ -17511,7 +17651,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1727,
+        id: 1717,
         spotifyId: "6IuZFiKCeyQINqL0Id3xF2",
         title: "El Bien",
         artist: "Viva Suecia",
@@ -17521,7 +17661,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1728,
+        id: 1718,
         spotifyId: "1iW2ktyrQHNKZwFTvgP0Ta",
         title: "Burn",
         artist: "Deep Purple",
@@ -17531,7 +17671,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1729,
+        id: 1719,
         spotifyId: "56dtB7EzO7EneUgYwX8krC",
         title: "Up Around The Bend",
         artist: "Creedence Clearwater Revival",
@@ -17541,7 +17681,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1730,
+        id: 1720,
         spotifyId: "24fnQ5xNMZGqCH8109YRA3",
         title: "El Rock De Una Noche De Verano",
         artist: "Miguel Ríos",
@@ -17551,7 +17691,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1731,
+        id: 1721,
         spotifyId: "1qGSVguZIYE6ezDm8ytnl9",
         title: "Sábado Noche",
         artist: "Moris",
@@ -17561,18 +17701,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1732,
+        id: 1722,
         spotifyId: "2MPWdzsLs7owJCpNS1Eq8Y",
         title: "Rock and Roll Star",
         artist: "Loquillo",
         year: "1981",
         playlists: [
             "rock",
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1733,
+        id: 1723,
         spotifyId: "2d4e45fmUnguxh6yqC7gNT",
         title: "Dirty Deeds Done Dirt Cheap",
         artist: "AC/DC",
@@ -17582,7 +17723,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1734,
+        id: 1724,
         spotifyId: "4ujkBkcrqG4LmhJCR0bNdc",
         title: "Blancanieve",
         artist: "Sôber",
@@ -17592,27 +17733,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1735,
-        spotifyId: "7MFVLZMlSjQilhkNK34aPg",
-        title: "Estando Contigo",
-        artist: "Marisol",
-        year: "1961",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1736,
-        spotifyId: "6b3ub116kE1T15h1yzaiTy",
-        title: "Yo soy aquél",
-        artist: "Raphael",
-        year: "1966",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1737,
+        id: 1725,
         spotifyId: "3xlqFyHKPTsne8Q9oBqUoS",
         title: "Como ayer",
         artist: "Duo Dinamico",
@@ -17622,7 +17743,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1738,
+        id: 1726,
         spotifyId: "5hv3nMY3NKyDL7cSsrSYog",
         title: "Chica Ye Ye",
         artist: "Concha Velasco",
@@ -17632,47 +17753,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1739,
-        spotifyId: "39seQKr8NvpAU4gIg6mrew",
-        title: "Corazón Contento",
-        artist: "Marisol",
-        year: "1968",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1740,
-        spotifyId: "0csENJioyGcnIChZJymTDE",
-        title: "Mi gran noche",
-        artist: "Raphael",
-        year: "1967",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1741,
-        spotifyId: "2QxMa6aWPahTquFtjPewdF",
-        title: "Mis manos en tu cintura",
-        artist: "Salvatore Adamo",
-        year: "1966",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1742,
-        spotifyId: "2HCN2W2Y6GAfct0NWEtsk0",
-        title: "El Mundo",
-        artist: "Jimmy Fontana",
-        year: "1965",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1743,
+        id: 1727,
         spotifyId: "13xuOvnB43D5dzBlKUjNMo",
         title: "Tómbola",
         artist: "Marisol",
@@ -17682,27 +17763,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1744,
-        spotifyId: "3hWwAz95hKY6isP8eUKmS9",
-        title: "El Porompompero",
-        artist: "Manolo Escobar",
-        year: "1960",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1745,
-        spotifyId: "6OAQAWNyPCg46XxdBzP3qT",
-        title: "El Puente",
-        artist: "Los Mismos",
-        year: "1968",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1746,
+        id: 1728,
         spotifyId: "7JBJ96bvR2jcROcxLx9Lcc",
         title: "La Vida Sigue Igual",
         artist: "Julio Iglesias",
@@ -17712,17 +17773,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1747,
-        spotifyId: "62hSknYccwR0ZakYd6NMJg",
-        title: "Quisiera ser",
-        artist: "Duo Dinamico",
-        year: "1961",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1748,
+        id: 1729,
         spotifyId: "681PSdoWFqrkLTul7Gxxrv",
         title: "La zarzamora",
         artist: "Lola Flores",
@@ -17732,7 +17783,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1749,
+        id: 1730,
         spotifyId: "5mSaItSsruXfxT7xW2h087",
         title: "En un mundo nuevo",
         artist: "Karina",
@@ -17742,18 +17793,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1750,
-        spotifyId: "7w9XCYCA5U74FHeP7kMcNQ",
+        id: 1731,
+        spotifyId: "50hQeXHWeC3Mjllpa6JBKr",
         title: "Acalorado",
         artist: "Los Diablos",
         year: "1974",
         playlists: [
             "spotify_spain",
-            "spotify_spain"
+            "batalla"
         ]
     },
     {
-        id: 1751,
+        id: 1732,
         spotifyId: "6fiV7GIQ2q7wkZZp6dEbkO",
         title: "Amor de verano",
         artist: "Duo Dinamico",
@@ -17763,7 +17814,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1752,
+        id: 1733,
         spotifyId: "5sfy5t9U4Uhp6jPKvq2muQ",
         title: "Penelope",
         artist: "Joan Manuel Serrat",
@@ -17773,18 +17824,17 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1753,
+        id: 1734,
         spotifyId: "5lOCkGJeSqXM3zK6vCmmhK",
         title: "Gwendolyne",
         artist: "Julio Iglesias",
         year: "1970",
         playlists: [
-            "spotify_spain",
             "spotify_spain"
         ]
     },
     {
-        id: 1754,
+        id: 1735,
         spotifyId: "1WeW6OZssOSRI77C1WWyKY",
         title: "La Pared",
         artist: "Bambino",
@@ -17794,7 +17844,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1755,
+        id: 1736,
         spotifyId: "7cUnyk04C2cC1z3pT73Dok",
         title: "Tengo Tu Amor",
         artist: "Formula V",
@@ -17804,17 +17854,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1756,
-        spotifyId: "0GS0PoeH5OU8kZTgyWI3UJ",
-        title: "La Moto",
-        artist: "Los Bravos",
-        year: "1966",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1757,
+        id: 1737,
         spotifyId: "3sbFL6MOViiY2cmVeRLTWY",
         title: "Ara Que Tinc Vint Anys",
         artist: "Joan Manuel Serrat",
@@ -17824,7 +17864,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1758,
+        id: 1738,
         spotifyId: "5wIed8KichtTw7rdFpjYNI",
         title: "Si yo tuviera una escoba",
         artist: "Los Sirex",
@@ -17834,7 +17874,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1759,
+        id: 1739,
         spotifyId: "2q79RDt3v75tlpng7U44ba",
         title: "Tres cosas - Salud, dinero y amor",
         artist: "Los Stop",
@@ -17844,7 +17884,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1760,
+        id: 1740,
         spotifyId: "2Cx7DB7prlvMv8J4Cko4ls",
         title: "Romeo y Julieta",
         artist: "Karina",
@@ -17854,7 +17894,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1761,
+        id: 1741,
         spotifyId: "6aDPcoNe7kC7RphWWqf6fB",
         title: "Rosas en el Mar",
         artist: "Luis Eduardo Aute",
@@ -17864,7 +17904,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1762,
+        id: 1742,
         spotifyId: "5M32xiMzttf3siyy2zrAPv",
         title: "Amarraditos",
         artist: "Maria Dolores Pradera",
@@ -17874,37 +17914,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1763,
-        spotifyId: "2FC1bF4YVgZYgQkKOsF1VR",
-        title: "El Baúl de los Recuerdos",
-        artist: "Karina",
-        year: "1969",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1764,
-        spotifyId: "6lazLV13sV8VNGJTjL4Zeu",
-        title: "Black Is Black",
-        artist: "Los Bravos",
-        year: "1966",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1765,
-        spotifyId: "5Yyfn55vZBQlC2j1GuYWIM",
-        title: "Anduriña",
-        artist: "Juan Y Junior",
-        year: "1968",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1766,
+        id: 1743,
         spotifyId: "288dmRRy1hsu8U0Z35jgo4",
         title: "Aleluya No. 1",
         artist: "Massiel",
@@ -17914,17 +17924,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1767,
-        spotifyId: "55AGzMDWD4ENRG2MRP7BAC",
-        title: "Fin de semana",
-        artist: "Los Diablos",
-        year: "1971",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1768,
+        id: 1744,
         spotifyId: "3rBHWQP2TFFz5NChVtVvB0",
         title: "La Chevecha",
         artist: "Palito Ortega",
@@ -17934,7 +17934,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1769,
+        id: 1745,
         spotifyId: "6Oy6SS5k3C3jrid5EGLiqW",
         title: "Tú Serás Mi Baby",
         artist: "Les Surfs",
@@ -17944,7 +17944,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1770,
+        id: 1746,
         spotifyId: "3hBR2cVTblqkLe0OGoTkua",
         title: "Perdóname",
         artist: "Duo Dinamico",
@@ -17954,17 +17954,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1771,
-        spotifyId: "2b86JimepLVr509zIdO64Q",
-        title: "Que Se Mueran los Feos",
-        artist: "Los Sirex",
-        year: "1965",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1772,
+        id: 1747,
         spotifyId: "2f17KX8dxfyxIOVV4PP6RA",
         title: "Juanita Banana",
         artist: "Luis Aguile",
@@ -17974,7 +17964,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1773,
+        id: 1748,
         spotifyId: "1XUWIXyO4QfsKVcJN9DLSb",
         title: "La Charanga",
         artist: "Juan Pardo",
@@ -17984,18 +17974,17 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1774,
+        id: 1749,
         spotifyId: "1CjSIPZjN6fL9XBSqPwsyK",
         title: "Himno a la alegría",
         artist: "Ludwig van Beethoven;Miguel Ríos;Orquesta Manuel de Falla",
         year: "1969",
         playlists: [
-            "spotify_spain",
             "spotify_spain"
         ]
     },
     {
-        id: 1775,
+        id: 1750,
         spotifyId: "5ZyTnXdkZxbCbXiuv3lHpD",
         title: "Tú me Dijiste Adiós",
         artist: "Los Brincos",
@@ -18005,7 +17994,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1776,
+        id: 1751,
         spotifyId: "1ytoSYFCjpCGXstodDe1gB",
         title: "La Chatunga",
         artist: "Luis Aguile",
@@ -18015,7 +18004,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1777,
+        id: 1752,
         spotifyId: "0892MYRDFg66CnBfjyYQ4t",
         title: "Oh Lord, Why Lord",
         artist: "Pop Tops",
@@ -18025,7 +18014,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1778,
+        id: 1753,
         spotifyId: "1CzxmV2RMlY7RoYN6Jd85S",
         title: "Rosas en el Mar",
         artist: "Massiel",
@@ -18035,7 +18024,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1779,
+        id: 1754,
         spotifyId: "1nd3HB1SLJ0GVErL1SzBLC",
         title: "Nos Falta Fe",
         artist: "Juan Y Junior",
@@ -18045,7 +18034,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1780,
+        id: 1755,
         spotifyId: "7McDXMQk4I4TadbIxl5LrB",
         title: "Una Lágrima",
         artist: "Peret",
@@ -18055,7 +18044,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1781,
+        id: 1756,
         spotifyId: "6ULqQCJtvRnOlvWqiAOV4P",
         title: "Vuelvo a Granada",
         artist: "Miguel Ríos",
@@ -18065,7 +18054,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1782,
+        id: 1757,
         spotifyId: "5HJH2g64JGQsgQxF0cXapg",
         title: "Hilo de seda",
         artist: "Los Pekenikes",
@@ -18075,17 +18064,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1783,
+        id: 1758,
         spotifyId: "0kbMe9tZ1vOJGBqdmSFBe8",
         title: "Get on Your Knees",
         artist: "Los Canarios",
         year: "1968",
         playlists: [
+            "spotify_spain",
             "spotify_spain"
         ]
     },
     {
-        id: 1784,
+        id: 1759,
         spotifyId: "0Yg1hSAUgd2AAneReFOVzS",
         title: "Tous les garçons et les filles",
         artist: "Françoise Hardy",
@@ -18095,7 +18085,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1785,
+        id: 1760,
         spotifyId: "4L8GDSoenvJfucgpcJt6iT",
         title: "El partido de fútbol",
         artist: "Gelu",
@@ -18105,7 +18095,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1786,
+        id: 1761,
         spotifyId: "0lx3EhfBObTbZ0fCPd1yjz",
         title: "Rosa Rosa",
         artist: "Sandro;Cristian Castro",
@@ -18115,7 +18105,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1787,
+        id: 1762,
         spotifyId: "3Qxjp9VezWHrsTENOjZ4Gt",
         title: "Los dos tan felices \" Happy Together\" ",
         artist: "Los Angeles",
@@ -18125,7 +18115,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1788,
+        id: 1763,
         spotifyId: "2RB9jaGMu5IXhZeAAXrbNG",
         title: "Quizas Quizas Quizas",
         artist: "Los Panchos;Gigliola Cinquetti",
@@ -18135,17 +18125,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1789,
-        spotifyId: "5juAYZUZPMEWJlzwoa9nOO",
-        title: "Un rayo de sol",
-        artist: "Los Diablos",
-        year: "1970",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1790,
+        id: 1764,
         spotifyId: "0TsImIcYtrKXs3oiDdAlnj",
         title: "Help, Get me Some Help",
         artist: "Tony Ronald",
@@ -18155,7 +18135,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1791,
+        id: 1765,
         spotifyId: "5HmYuJIqLEXOa9i4YQJWoQ",
         title: "Cantares",
         artist: "Joan Manuel Serrat",
@@ -18165,7 +18145,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1792,
+        id: 1766,
         spotifyId: "4YWgwVIEoHhPyBCGlzT1Bo",
         title: "Comunicando",
         artist: "Arturo Millan",
@@ -18175,7 +18155,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1793,
+        id: 1767,
         spotifyId: "3hyKFrYUGinQHjDEdLuLkU",
         title: "Cuando un amigo se va",
         artist: "Alberto Cortez",
@@ -18185,7 +18165,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1794,
+        id: 1768,
         spotifyId: "17BHYiXu6QhnAGM5sFNl5i",
         title: "El Ritmo Del Silencio",
         artist: "Los Mustang",
@@ -18195,17 +18175,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1795,
-        spotifyId: "6x9Mulnyxql67XLa2xcf6q",
-        title: "La Fiesta De Blas",
-        artist: "Formula V",
-        year: "1974",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1796,
+        id: 1769,
         spotifyId: "44uHq7Uy7dCZPMZSsi3z5I",
         title: "Los Dos tan Felices",
         artist: "Tony Ronald",
@@ -18215,7 +18185,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1797,
+        id: 1770,
         spotifyId: "2xHos7ABl3w3JZ9PhSCle6",
         title: "Estremecete",
         artist: "Los Llopis",
@@ -18225,7 +18195,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1798,
+        id: 1771,
         spotifyId: "3Ngw3BlNhCAhjLUN6w0j45",
         title: "Momentos",
         artist: "Los Angeles",
@@ -18235,7 +18205,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1799,
+        id: 1772,
         spotifyId: "4tko6GvGRI2Ege56DN9QNa",
         title: "Tu Seras Mi Baby",
         artist: "Les Surfs",
@@ -18245,7 +18215,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1800,
+        id: 1773,
         spotifyId: "1uuhkP9iEVR7SLrtn1Vj1B",
         title: "Dieciseis toneladas",
         artist: "José Guardiola",
@@ -18255,7 +18225,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1801,
+        id: 1774,
         spotifyId: "7nRbvkokbGoklmK255bVuY",
         title: "La yenka",
         artist: "Johnny & Charley",
@@ -18265,7 +18235,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1802,
+        id: 1775,
         spotifyId: "7JISOClAqbu80iApVpsnwC",
         title: "Cuando calienta el Sol",
         artist: "Hermanos Rigual",
@@ -18275,7 +18245,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1803,
+        id: 1776,
         spotifyId: "7eX20ho2ba8yNxKQAaddFM",
         title: "No sabes cómo sufrí",
         artist: "Maria Ostiz",
@@ -18285,7 +18255,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1804,
+        id: 1777,
         spotifyId: "7s2ZSFHdtbkpRV7sqvbv5H",
         title: "Cállate niña",
         artist: "Picnic",
@@ -18295,7 +18265,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1805,
+        id: 1778,
         spotifyId: "7zjTAiB6MXXE2o9xuQSXkr",
         title: "Mañana, mañana \"Tomorrow, manyana\"",
         artist: "Los Angeles",
@@ -18305,7 +18275,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1806,
+        id: 1779,
         spotifyId: "54vgIR3osHwRywPcBxVrv3",
         title: "No soy de aquí",
         artist: "Alberto Cortez",
@@ -18315,7 +18285,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1807,
+        id: 1780,
         spotifyId: "4HiWZMvaKxbodac1h1skiY",
         title: "No tengo edad",
         artist: "Gigliola Cinquetti",
@@ -18325,7 +18295,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1808,
+        id: 1781,
         spotifyId: "4vooK26uP6VkKL1NrpyEDQ",
         title: "Poco Antes de Que Den las Diez",
         artist: "Joan Manuel Serrat",
@@ -18335,7 +18305,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1809,
+        id: 1782,
         spotifyId: "0lLRZ9xjulmzO3U9ktnXE1",
         title: "Tiempo de Amor",
         artist: "Juan Y Junior",
@@ -18345,7 +18315,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1810,
+        id: 1783,
         spotifyId: "1S10nsFpnG4xDHA361V3Hc",
         title: "98.6",
         artist: "Los Angeles",
@@ -18355,7 +18325,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1811,
+        id: 1784,
         spotifyId: "3St46svnRZZpz2nltbAbLy",
         title: "Cerce de las estrellas",
         artist: "Los Pekenikes",
@@ -18365,17 +18335,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1812,
-        spotifyId: "5sMWF0OHwbxJOKCas52GEX",
-        title: "La Felicidad",
-        artist: "Palito Ortega",
-        year: "1967",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1813,
+        id: 1785,
         spotifyId: "51ooS17GvfKAvkBo2ZP18Z",
         title: "Nit de Llampecs",
         artist: "Los Relámpagos",
@@ -18385,7 +18345,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1814,
+        id: 1786,
         spotifyId: "3jffYLKxsEoZRGFZjApNUu",
         title: "Nada",
         artist: "Juan Y Junior",
@@ -18395,7 +18355,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1815,
+        id: 1787,
         spotifyId: "0JyL6nklvYdBAxpfLmvZBp",
         title: "Siempre es domingo",
         artist: "Gelu",
@@ -18405,7 +18365,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1816,
+        id: 1788,
         spotifyId: "3ixTSol3t2wQZOty2t3k3S",
         title: "Embustero y bailarín",
         artist: "Los Pekenikes",
@@ -18415,7 +18375,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1817,
+        id: 1789,
         spotifyId: "7EnlaiXPnuFStTGh5gJnhM",
         title: "Hay Que Venir Al Sur (Tanti Auguri)",
         artist: "Raffaella Carrà",
@@ -18425,7 +18385,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1818,
+        id: 1790,
         spotifyId: "7HKvbzKAD3C8RjUCdxTytl",
         title: "Señora",
         artist: "Joan Manuel Serrat",
@@ -18435,47 +18395,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1819,
-        spotifyId: "3njkspki7xtsJZbIC2TYMJ",
-        title: "Solo Pienso en Ti",
-        artist: "Víctor Manuel",
-        year: "1978",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1820,
-        spotifyId: "2XDrvJ6uhiwVLNj25eDCLW",
-        title: "Soy un Truhán, Soy un Señor",
-        artist: "Julio Iglesias",
-        year: "1977",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1821,
-        spotifyId: "0i1GezGryGjdsyPovCkctk",
-        title: "Vete",
-        artist: "Los Amaya",
-        year: "1977",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1822,
-        spotifyId: "1cZojvvKcil9SzpSeI7XsM",
-        title: "Gavilán o Paloma",
-        artist: "Pablo Abraira",
-        year: "1977",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1823,
+        id: 1791,
         spotifyId: "5ofoJtNO9tlJDPfI7j1Eth",
         title: "Y Viva España",
         artist: "Manolo Escobar",
@@ -18485,17 +18405,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1824,
+        id: 1792,
         spotifyId: "4yi6RAIiBPo7BhP5ViA3tl",
         title: "Mammy Blue",
         artist: "Pop Tops",
         year: "1971",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1825,
+        id: 1793,
         spotifyId: "39iIK9J8XCY80EMmY8eX6Z",
         title: "Quisiera Decir Tu Nombre",
         artist: "José Luis Perales",
@@ -18505,17 +18426,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1826,
-        spotifyId: "1NtHLlhiV667Pg9avZ41rC",
-        title: "El Jardín Prohibido",
-        artist: "Sandro Giacobbe",
-        year: "1975",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1827,
+        id: 1794,
         spotifyId: "33ztBCzJNrfd4mb1Wo1Bza",
         title: "Nada de Nada",
         artist: "Cecilia",
@@ -18525,47 +18436,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1828,
-        spotifyId: "63ZPDjygXPMtqmpcoJUVk5",
+        id: 1795,
+        spotifyId: "5WpP4Mbh0C5agPEhXfWNlH",
         title: "Libertad Sin Ira",
         artist: "Jarcha",
         year: "1976",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1829,
-        spotifyId: "4xOwXgFblfFi56IVkAdmdg",
-        title: "Me Gustas Mucho",
-        artist: "Rocío Dúrcal",
-        year: "1977",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1830,
+        id: 1796,
         spotifyId: "47WTpJKUjZ4hxNECGMAVhS",
         title: "Ese Hombre",
         artist: "Rocío Jurado",
         year: "1979",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1831,
-        spotifyId: "11mGw5MQE05Gkb3tbtzgC2",
-        title: "Mi Querida España",
-        artist: "Cecilia",
-        year: "1975",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1832,
+        id: 1797,
         spotifyId: "5XCqWbWvAMB1VPljRlBazd",
         title: "La Leyenda Del Tiempo - Jaleos",
         artist: "Camaron De La Isla",
@@ -18575,7 +18468,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1833,
+        id: 1798,
         spotifyId: "2H6pXO5yKat03sbr1ERzZv",
         title: "Noelia",
         artist: "Nino Bravo",
@@ -18585,7 +18478,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1834,
+        id: 1799,
         spotifyId: "2UHSCO9RWw4vli8QOdL3vL",
         title: "Habla, pueblo",
         artist: "Vino Tinto",
@@ -18595,7 +18488,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1835,
+        id: 1800,
         spotifyId: "4e5F7dcEcaDwAFjECFvErJ",
         title: "Llorando Por Granada",
         artist: "Los Puntos",
@@ -18605,7 +18498,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1836,
+        id: 1801,
         spotifyId: "6VNvc8ov48wQyWkGpMk9CW",
         title: "Ven Sin Temor",
         artist: "Bruno Lomas",
@@ -18615,37 +18508,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1837,
-        spotifyId: "6A8Ey8qoxERmXfHJlYy1of",
-        title: "América, América",
-        artist: "Nino Bravo",
-        year: "1973",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1838,
+        id: 1802,
         spotifyId: "34i37JPD4IbkNL1zQUlnZK",
         title: "Un pueblo es",
         artist: "Maria Ostiz",
         year: "1976",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1839,
-        spotifyId: "6kfWt3Yse0mEMxU0Dek7D0",
+        id: 1803,
+        spotifyId: "6SerGmTEZrl5XoVdYV4QKG",
         title: "Volando Voy - Rumba",
         artist: "Camaron De La Isla",
         year: "1979",
         playlists: [
+            "spotify_spain",
             "spotify_spain"
         ]
     },
     {
-        id: 1840,
+        id: 1804,
         spotifyId: "4lg0XPbzx04pU1T5yvQHBg",
         title: "O Tren",
         artist: "Andrés Do Barro",
@@ -18655,17 +18540,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1841,
-        spotifyId: "3N7YXdOTk5WgSgnkR5ShUI",
+        id: 1805,
+        spotifyId: "6J7T2E6yHN2d2SUB1SNDvR",
         title: "Carmen",
         artist: "Los Chunguitos",
         year: "1986",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1842,
+        id: 1806,
         spotifyId: "7rXIZ4HSQP2lCCkcA3SMXg",
         title: "Gloria - Spanish Version",
         artist: "Umberto Tozzi",
@@ -18675,7 +18561,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1843,
+        id: 1807,
         spotifyId: "5zftYFI80oeA7UKfisvRUt",
         title: "Al Alba",
         artist: "Luis Eduardo Aute",
@@ -18685,7 +18571,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1844,
+        id: 1808,
         spotifyId: "0AYP9qfJJumsxSOZF3MndI",
         title: "Aquellas Pequeñas Cosas",
         artist: "Joan Manuel Serrat",
@@ -18695,27 +18581,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1845,
-        spotifyId: "4ShNJcB8RxN255QQyLQUck",
-        title: "La Fiesta De Blas",
-        artist: "Formula V",
-        year: "1974",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1846,
+        id: 1809,
         spotifyId: "1iqvqGmshoZdb6zF4bOMvX",
         title: "Quiero Besarte",
         artist: "Tequila",
         year: "1979",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1847,
+        id: 1810,
         spotifyId: "2wMFmpW94vIeMx5ULVcip2",
         title: "En el lago",
         artist: "Triana",
@@ -18725,7 +18602,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1848,
+        id: 1811,
         spotifyId: "0dgZLEDhMzu0IDoFBjueq6",
         title: "Ni Más Ni Menos",
         artist: "Los Chichos",
@@ -18735,17 +18612,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1849,
-        spotifyId: "3I4rThw57SsVWFhZ81BwZv",
-        title: "Tómame o Déjame",
-        artist: "Mocedades",
-        year: "1974",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1850,
+        id: 1812,
         spotifyId: "1yhdRrgE0E8f4gs0wQKu60",
         title: "Que Va a Ser de Ti",
         artist: "Joan Manuel Serrat",
@@ -18755,7 +18622,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1851,
+        id: 1813,
         spotifyId: "2JKKyvXX7yQ6N3HsWNFmmC",
         title: "Solo pienso en ti",
         artist: "Canovas, Rodrigo, Adolfo Y Guzman",
@@ -18765,7 +18632,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1852,
+        id: 1814,
         spotifyId: "7AEfPUY8gHoEzQja4OOO49",
         title: "Pedro",
         artist: "Raffaella Carrà",
@@ -18775,17 +18642,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1853,
-        spotifyId: "6SerGmTEZrl5XoVdYV4QKG",
-        title: "Volando Voy - Rumba",
-        artist: "Camaron De La Isla",
-        year: "1979",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1854,
+        id: 1815,
         spotifyId: "0GGfi2fmC3CUNuFhRqAhHk",
         title: "Soy un Corazón Tendido al Sol",
         artist: "Víctor Manuel",
@@ -18795,7 +18652,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1855,
+        id: 1816,
         spotifyId: "50tK3gc47HHVffxRehbRuC",
         title: "Dama Dama",
         artist: "Cecilia",
@@ -18805,27 +18662,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1856,
-        spotifyId: "5hhfm9pW7uJXsFx3mjkMHY",
-        title: "Canta y Sé Feliz",
-        artist: "Peret",
-        year: "1974",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1857,
-        spotifyId: "2XOuNjvWYgPmdtTwjQTd23",
+        id: 1817,
+        spotifyId: "1JEnxYEvJCkcLTGqyGudvR",
         title: "Amor de Hombre (De \"La Leyenda del Beso\")",
         artist: "Mocedades",
         year: "1982",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1858,
+        id: 1818,
         spotifyId: "2MbBeecWBAEHAYEC37Gk6s",
         title: "Para la Libertad",
         artist: "Joan Manuel Serrat",
@@ -18835,7 +18683,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1859,
+        id: 1819,
         spotifyId: "774jlqXMzJLypN0BqxARRs",
         title: "Credo",
         artist: "Elsa Baeza",
@@ -18845,7 +18693,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1860,
+        id: 1820,
         spotifyId: "2aD9665755JRR3MCWADKo9",
         title: "Un Ramito de Violetas (with Julio Iglesias)",
         artist: "Cecilia;Julio Iglesias",
@@ -18855,7 +18703,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1861,
+        id: 1821,
         spotifyId: "26dqf483YXpMeVQuXUBT06",
         title: "Por el Amor de una Mujer",
         artist: "Julio Iglesias",
@@ -18865,7 +18713,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1862,
+        id: 1822,
         spotifyId: "1aDJJlly9N7X3ssIxw21RX",
         title: "Secretaria",
         artist: "Mocedades",
@@ -18875,7 +18723,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1863,
+        id: 1823,
         spotifyId: "5xUq5PLTPA7CTlAXihrxSD",
         title: "Linda",
         artist: "Miguel Bosé",
@@ -18885,7 +18733,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1864,
+        id: 1824,
         spotifyId: "1dqvIwVT0mDJmHZkYTqCQw",
         title: "Señora",
         artist: "Rocío Jurado",
@@ -18895,7 +18743,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1865,
+        id: 1825,
         spotifyId: "2ZZ7RjQOIkQQM3Wd4tXaZe",
         title: "Algo de Mí",
         artist: "Camilo Sesto",
@@ -18905,7 +18753,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1866,
+        id: 1826,
         spotifyId: "2d1jMqd8d3AroNSeh46DHF",
         title: "Es una Lata el Trabajar (La Vida Pasa Felizmente)",
         artist: "Luis Aguile",
@@ -18915,7 +18763,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1867,
+        id: 1827,
         spotifyId: "1w37sZxqKCOpbOxwAJ5YpR",
         title: "Son Tus Perjúmenes Mujer",
         artist: "Carlos Mejia Godoy;Los De Palacagüina",
@@ -18925,7 +18773,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1868,
+        id: 1828,
         spotifyId: "3Pr70knS8uTSiKbwf4rGav",
         title: "Amiga",
         artist: "Miguel Bosé",
@@ -18935,7 +18783,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1869,
+        id: 1829,
         spotifyId: "3utK0tH0YhlB5fIjdy3em7",
         title: "Melina",
         artist: "Camilo Sesto",
@@ -18945,7 +18793,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1870,
+        id: 1830,
         spotifyId: "3Xxpf1achNUtlkN6a5alZN",
         title: "El abuelo Vitor",
         artist: "Víctor Manuel",
@@ -18955,7 +18803,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1871,
+        id: 1831,
         spotifyId: "3IAHn4wh7TjQR4WTb9RNJo",
         title: "Señora Mía",
         artist: "Sandro Giacobbe",
@@ -18965,7 +18813,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1872,
+        id: 1832,
         spotifyId: "1uVoCGSBeYboMj2pWFda3K",
         title: "Andaluces de Jaén",
         artist: "Jarcha",
@@ -18975,7 +18823,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1873,
+        id: 1833,
         spotifyId: "0CUdrIZauextVse2hjLCH3",
         title: "Quién Te Cantará?",
         artist: "Mocedades",
@@ -18985,7 +18833,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1874,
+        id: 1834,
         spotifyId: "49Ved7nBuSy0wafl49g2f5",
         title: "Getsemani (Oración del Huerto) - [Musical \"Jesucristo Superstar\"]",
         artist: "Camilo Sesto",
@@ -18995,7 +18843,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1875,
+        id: 1835,
         spotifyId: "4adKnwB68uLpzRXQAxobwy",
         title: "Enséñame a Cantar",
         artist: "Micky",
@@ -19005,7 +18853,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1876,
+        id: 1836,
         spotifyId: "2Zw9pEQe8e9fFtP7Lggfis",
         title: "Amores",
         artist: "Mari Trini",
@@ -19015,27 +18863,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1877,
-        spotifyId: "3gO8mvkxIcyF9N7Vd1WM2i",
-        title: "Perdóname",
-        artist: "Camilo Sesto",
-        year: "1980",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1878,
-        spotifyId: "05EWd987JwAidavzN7ZRyc",
-        title: "Get on Your Knees",
-        artist: "Canarios",
-        year: "1968",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1879,
+        id: 1837,
         spotifyId: "62jCTfsRtOmuuUY3HiZiRJ",
         title: "Lady Laura",
         artist: "Roberto Carlos",
@@ -19045,7 +18873,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1880,
+        id: 1838,
         spotifyId: "0BGDAQTx3ziiJVjqGYYlzT",
         title: "¿Que Hace Una Chica Como Tu En Un Sitio Como Este?",
         artist: "Burning",
@@ -19055,17 +18883,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1881,
-        spotifyId: "1fwje0UqSdExloCmr8z1Dj",
-        title: "Para Que No Me Olvides",
-        artist: "Lorenzo Santamaría",
-        year: "1975",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1882,
+        id: 1839,
         spotifyId: "3KOTtBsb5zxkeMVAzxMgmu",
         title: "Palomitas de maíz",
         artist: "Los Pekenikes",
@@ -19075,7 +18893,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1883,
+        id: 1840,
         spotifyId: "3RNMe0cduJzFxGOEV330CH",
         title: "El Chico de la Armónica",
         artist: "Micky",
@@ -19085,7 +18903,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1884,
+        id: 1841,
         spotifyId: "6RI0lO4nFDtOMq51erim3j",
         title: "A Veces Tú, a Veces Yo",
         artist: "Julio Iglesias",
@@ -19095,7 +18913,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1885,
+        id: 1842,
         spotifyId: "3ODPdQXcva57Kx0P60ECps",
         title: "Charly",
         artist: "Santabarbara",
@@ -19105,7 +18923,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1886,
+        id: 1843,
         spotifyId: "1seCZJ3pEVjghbzZ2mV4Xl",
         title: "Un Año Mas",
         artist: "Mecano",
@@ -19115,37 +18933,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1887,
-        spotifyId: "2eRLU7iAtraMJCLXaiAnUx",
-        title: "Chica De Ayer",
-        artist: "Nacha Pop",
-        year: "1980",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1888,
-        spotifyId: "5xsY1Bm1FItKFFoJ3b964t",
-        title: "Me Cuesta Tanto Olvidarte",
-        artist: "Mecano",
-        year: "1986",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1889,
-        spotifyId: "1VHM7HjNxtZkApy2EabI4e",
+        id: 1844,
+        spotifyId: "21gEdIRnNJ6fdrAPbMglTx",
         title: "El Mundo Tras el Cristal",
         artist: "La Guardia",
         year: "1988",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1890,
+        id: 1845,
         spotifyId: "2UC0OxMpQeSYft4pRswyEX",
         title: "Sabor de amor",
         artist: "Danza Invisible",
@@ -19155,37 +18954,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1891,
-        spotifyId: "00o2gSF6lqv3XjRZyjROW5",
-        title: "Salta!!!",
-        artist: "Tequila",
-        year: "1981",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1892,
+        id: 1846,
         spotifyId: "6djqlcjQPGhxuZ6HERSgWw",
         title: "No Dudaria",
         artist: "Antonio Flores",
         year: "1980",
         playlists: [
+            "spotify_spain",
             "spotify_spain"
         ]
     },
     {
-        id: 1893,
-        spotifyId: "7b55CJjPfvHBkNCqEv52lT",
-        title: "Me Colé en una Fiesta",
-        artist: "Mecano",
-        year: "1982",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1894,
+        id: 1847,
         spotifyId: "2c4lkvFscid22nr32FByC4",
         title: "Mil Calles Llevan Hacia Ti",
         artist: "La Guardia",
@@ -19195,27 +18975,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1895,
+        id: 1848,
         spotifyId: "3JdRjSY0KcTbFD6fHIu0Qc",
         title: "Mujer Contra Mujer",
         artist: "Mecano",
         year: "1988",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1896,
-        spotifyId: "7j9KvkECxdsQQesY1GktXj",
-        title: "Venezia",
-        artist: "Hombres G",
-        year: "1985",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1897,
+        id: 1849,
         spotifyId: "059MeGrjckx2jFjw7jkBgt",
         title: "El Hombre del Piano",
         artist: "Ana Belén",
@@ -19225,47 +18996,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1898,
-        spotifyId: "43d4GHeS2lfZOdgGE49NPA",
-        title: "Enamorado De La Moda Juvenil",
-        artist: "Radio Futura",
-        year: "1980",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1899,
-        spotifyId: "6M6UYA5dPuu4kcOb7Y9x3q",
-        title: "Eloise",
-        artist: "Tino Casal",
-        year: "1987",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1900,
-        spotifyId: "6udZus2RwDVhD3zateRfFy",
-        title: "Embrujada",
-        artist: "Tino Casal",
-        year: "1983",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1901,
-        spotifyId: "2kfSFdq2h0xLXq01em1zc7",
-        title: "La Gata Bajo la Lluvia",
-        artist: "Rocío Dúrcal",
-        year: "1981",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1902,
+        id: 1850,
         spotifyId: "1nLOdVT581H7SA0ttCZRF9",
         title: "Una calle de París",
         artist: "Duncan Dhu",
@@ -19275,17 +19006,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1903,
+        id: 1851,
         spotifyId: "107S7ETljEbvsoLV9Tb92a",
         title: "Te dejé marchar",
         artist: "Luz Casal",
         year: "1989",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1904,
+        id: 1852,
         spotifyId: "3MvbFAlNARGUpMPEkn88Ho",
         title: "Jardín de rosas",
         artist: "Duncan Dhu",
@@ -19295,7 +19027,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1905,
+        id: 1853,
         spotifyId: "0C1OcBOsuFmFFGkh3FWIGG",
         title: "Princesa",
         artist: "Joaquín Sabina;Viceversa",
@@ -19305,17 +19037,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1906,
-        spotifyId: "2tsdjiIi3h7ywJh9SNsPlY",
-        title: "Sobre Un Vidrio Mojado",
-        artist: "Los Secretos",
-        year: "1980",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1907,
+        id: 1854,
         spotifyId: "0ro22vd79Gj7N2WJrmqz8X",
         title: "Te vi correr",
         artist: "Tennessee",
@@ -19325,7 +19047,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1908,
+        id: 1855,
         spotifyId: "1HX9kKDz6dG4fmLBuKVzOF",
         title: "Quién Me Ha Robado el Mes de Abril",
         artist: "Joaquín Sabina",
@@ -19335,37 +19057,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1909,
-        spotifyId: "7xT0YNKaOkvntYehrbRWen",
-        title: "Esta Cobardía",
-        artist: "Chiquetete",
-        year: "1984",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1910,
-        spotifyId: "3SLUE95oXSmqsxlcOcIdvO",
-        title: "Felicidad",
-        artist: "Al Bano And Romina Power",
-        year: "1982",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1911,
-        spotifyId: "4fecwWpiLBXPEt4h5g0M0n",
-        title: "Groenlandia",
-        artist: "Zombies",
-        year: "1980",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1912,
+        id: 1856,
         spotifyId: "13X40KgfNROu25kD9nXc7s",
         title: "Como un lobo",
         artist: "Miguel Bosé",
@@ -19375,47 +19067,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1913,
-        spotifyId: "2yNkRWz9x7x3halzGPnYqn",
-        title: "Don Diablo",
-        artist: "Miguel Bosé",
-        year: "1980",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1914,
-        spotifyId: "0N7kDo3Uoy2301nCVcBZvx",
-        title: "Querida Milagros",
-        artist: "El Último De La Fila",
-        year: "1985",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1915,
+        id: 1857,
         spotifyId: "4rOf6mtF2MpDwWipaila0L",
         title: "Santa Lucia",
         artist: "Miguel Ríos",
         year: "1980",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1916,
-        spotifyId: "7l99nQ2BERsSvHD1q5TEzV",
-        title: "Las Chicas Son Guerreras",
-        artist: "COZ",
-        year: "1981",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1917,
+        id: 1858,
         spotifyId: "3kE2IGGGIGpqcIMZqjCbgo",
         title: "La fiesta terminó",
         artist: "Paloma San Basilio",
@@ -19425,7 +19088,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1918,
+        id: 1859,
         spotifyId: "0ZwG6ttqzRJpThmgW6IDCZ",
         title: "Abracadabra",
         artist: "Alaska",
@@ -19435,27 +19098,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1919,
-        spotifyId: "3IMsJ1gdiNT4FfoPI1Lhpv",
-        title: "Esa Chica Es Mía",
-        artist: "Sergio Dalma",
-        year: "1989",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1920,
-        spotifyId: "3PFyeq4aBtLfShPJ9oiK4p",
+        id: 1860,
+        spotifyId: "4nUGdDdFaBS6SYBOgtVIVr",
         title: "Te Amaré",
         artist: "Miguel Bosé",
         year: "1980",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1921,
+        id: 1861,
         spotifyId: "4FxS4HWg7T9ek7drGGu2Ys",
         title: "Qué Hace una Chica Como Tú en un Sitio Como Este",
         artist: "Burning",
@@ -19465,17 +19119,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1922,
-        spotifyId: "2hfv8QRES8BwT49kO0Hhmd",
-        title: "Bajo la Luz de la Luna",
-        artist: "Los Rebeldes",
-        year: "1988",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1923,
+        id: 1862,
         spotifyId: "0aIO4vndXigQGEo3hbIkhq",
         title: "Me Duele La Cara De Ser Tan Guapo",
         artist: "Los Inhumanos",
@@ -19485,17 +19129,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1924,
-        spotifyId: "6QiLjKjMtPqoNdIlbqiIqv",
-        title: "La Puerta de Alcalá",
-        artist: "Ana Belén;Víctor Manuel",
-        year: "1986",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1925,
+        id: 1863,
         spotifyId: "2954edpplwlieVsvYayZZh",
         title: "Bourbon",
         artist: "Dinamita Pa Los Pollos",
@@ -19505,17 +19139,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1926,
-        spotifyId: "7hiREmwFzwoVYOqjxDBhKj",
-        title: "Camino Soria",
-        artist: "Gabinete Caligari",
-        year: "1987",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1927,
+        id: 1864,
         spotifyId: "345wiXlfRlPPmZE9qOLpcq",
         title: "Asi Estoy Yo Sin Ti",
         artist: "Joaquín Sabina",
@@ -19525,37 +19149,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1928,
-        spotifyId: "5sh52OSkS9OoEBJSI2CVxr",
-        title: "Que Difícil Es Hacer El Amor En Un Simca 1000",
-        artist: "Los Inhumanos",
-        year: "1988",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1929,
-        spotifyId: "4ckZyAOFKfMti3H8aI60f5",
-        title: "Bienvenidos",
-        artist: "Miguel Ríos",
-        year: "1982",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1930,
-        spotifyId: "4EGEeuaeyL4JK6N6EOb4vf",
-        title: "El calor del amor en un bar",
-        artist: "Gabinete Caligari",
-        year: "1986",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1931,
+        id: 1865,
         spotifyId: "2Y4AtGY7hakhkyOZ53CaSZ",
         title: "Calle Melancolia",
         artist: "Joaquín Sabina",
@@ -19565,17 +19159,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1932,
-        spotifyId: "1uaJUd68rBoPYNvafL8ymh",
-        title: "Rufino",
-        artist: "Luz Casal",
-        year: "1985",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1933,
+        id: 1866,
         spotifyId: "2yIA0L0drNsmtvHIx4WjyO",
         title: "Tu frialdad",
         artist: "Triana",
@@ -19585,7 +19169,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1934,
+        id: 1867,
         spotifyId: "24UBqV1xJwNUns7nJVIbDu",
         title: "Marinero de Luces",
         artist: "Isabel Pantoja",
@@ -19595,7 +19179,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1935,
+        id: 1868,
         spotifyId: "06qAJO3kjSyFzPS2gTcLEc",
         title: "Miña terra galega (Sweet Home Alabama)",
         artist: "Siniestro Total",
@@ -19605,7 +19189,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1936,
+        id: 1869,
         spotifyId: "4aNYsOVFqueCQrDeluqp0H",
         title: "El 28",
         artist: "La Oreja de Van Gogh",
@@ -19615,37 +19199,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1937,
+        id: 1870,
         spotifyId: "7jxHeJLVpnP7S08JFF4GBi",
         title: "Ciega, Sordomuda",
         artist: "Shakira",
         year: "1998",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1938,
-        spotifyId: "1MrZ8hGkUWMmT816wPaMgE",
-        title: "La flaca",
-        artist: "Jarabe De Palo",
-        year: "1996",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1939,
+        id: 1871,
         spotifyId: "7v2xvireH6Ba3FREa5wsRP",
         title: "Y Sin Embargo",
         artist: "Joaquín Sabina",
         year: "1996",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1940,
+        id: 1872,
         spotifyId: "2VybHZvsshGs8GpOaB0wS1",
         title: "Aunque tú no lo sepas",
         artist: "Enrique Urquijo y Los problemas",
@@ -19655,17 +19231,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1941,
-        spotifyId: "2tkMVjFwDzUCG3ulmz3fCb",
-        title: "El sitio de mi recreo",
-        artist: "Antonio Vega",
-        year: "1992",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1942,
+        id: 1873,
         spotifyId: "740Rh302Wm6uHRsYTa4KDQ",
         title: "A San Fernando un Ratito a Pie y Otro Caminando",
         artist: "Manolo Garcia",
@@ -19675,7 +19241,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1943,
+        id: 1874,
         spotifyId: "6IDgYT1p1n0M5kQVjLQozC",
         title: "Aprendiz",
         artist: "Malú",
@@ -19685,7 +19251,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1944,
+        id: 1875,
         spotifyId: "1gh0aMZmO6o30LS12lEJWQ",
         title: "Siete Vidas",
         artist: "Antonio Flores",
@@ -19695,7 +19261,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1945,
+        id: 1876,
         spotifyId: "4M1lEbqPzlEw1JYWB6aE7K",
         title: "Estoy Aquí",
         artist: "Shakira",
@@ -19705,17 +19271,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1946,
-        spotifyId: "7gD2QkknRa4ZvlRVyU6ZO0",
-        title: "No Dudaria",
-        artist: "Antonio Flores",
-        year: "1980",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1947,
+        id: 1877,
         spotifyId: "3tiEqRIKJxAxCqGFQt8k4r",
         title: "Todas las flores",
         artist: "Presuntos Implicados",
@@ -19725,7 +19281,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1948,
+        id: 1878,
         spotifyId: "633Z9EGuNeZ6fXvjD1gnN6",
         title: "Por el bulevar de los sueños rotos",
         artist: "Los Secretos",
@@ -19735,7 +19291,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1949,
+        id: 1879,
         spotifyId: "6BEhC3j62wIpe9m7zPL4Tx",
         title: "Pantera en Libertad",
         artist: "Monica Naranjo",
@@ -19745,17 +19301,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1950,
+        id: 1880,
         spotifyId: "6dMKB6nyxcg8hllDzPCvRc",
         title: "La senda del tiempo",
         artist: "Celtas Cortos",
         year: "1990",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1951,
+        id: 1881,
         spotifyId: "3eSxyGVZawSoh1JUEEoVDD",
         title: "Como Te Mueves",
         artist: "Modestia Aparte",
@@ -19765,27 +19322,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1952,
-        spotifyId: "2a7Ufmq13NRMavrBYUN5Ex",
-        title: "Desátame",
-        artist: "Monica Naranjo",
-        year: "1997",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1953,
+        id: 1882,
         spotifyId: "0wmYFlVkmGVUtfcY1r0SrP",
         title: "Grita",
         artist: "Jarabe De Palo",
         year: "1996",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1954,
+        id: 1883,
         spotifyId: "42R5irny7qThOYUThAL7VW",
         title: "Rojitas las orejas",
         artist: "Fito y Fitipaldis",
@@ -19795,7 +19343,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1955,
+        id: 1884,
         spotifyId: "4t4JJ0RG2KWhrTVdSrp7O9",
         title: "Una Rosa Es una Rosa",
         artist: "Mecano",
@@ -19805,7 +19353,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1956,
+        id: 1885,
         spotifyId: "0UQitarNPDgB7ObJCj47kn",
         title: "Quedate a dormir",
         artist: "M-Clan",
@@ -19815,27 +19363,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1957,
-        spotifyId: "0xnTICdCDK4PD2ZPZ6Xeu7",
-        title: "Serenade",
-        artist: "Dover",
-        year: "1997",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1958,
-        spotifyId: "0mL5t2lk3Wo9SZanWGVrKx",
-        title: "Y, ¿Si fuera ella?",
-        artist: "Alejandro Sanz",
-        year: "1997",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1959,
+        id: 1886,
         spotifyId: "5pLo70Z00GMGDyjwso6LyK",
         title: "Dámelo ya",
         artist: "Pastora Soler",
@@ -19845,7 +19373,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1960,
+        id: 1887,
         spotifyId: "5yIVcrwQXdIlDgTMc8pa6z",
         title: "Contigo",
         artist: "Joaquín Sabina",
@@ -19855,7 +19383,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1961,
+        id: 1888,
         spotifyId: "5f2IRWXoaygkQkTr3yyS3Y",
         title: "Quiero Verte",
         artist: "Los Sobraos",
@@ -19865,7 +19393,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1962,
+        id: 1889,
         spotifyId: "2vT5bweFphLcVvpmZR5PEv",
         title: "Amores extraños",
         artist: "Laura Pausini",
@@ -19875,7 +19403,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1963,
+        id: 1890,
         spotifyId: "1zcShIooeB6BZ3pZsiXCDu",
         title: "La princesa de mis sueños",
         artist: "OBK",
@@ -19885,17 +19413,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1964,
+        id: 1891,
         spotifyId: "4Ofg5uuH7qqDIXpAJMpXZV",
         title: "Rayando el Sol",
         artist: "Maná",
         year: "1990",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1965,
+        id: 1892,
         spotifyId: "5omgFpiMt1CGHjQGfkwzvz",
         title: "Agua",
         artist: "Jarabe De Palo",
@@ -19905,27 +19434,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1966,
-        spotifyId: "6qItZri8lMKeIbBUuSV3Ea",
-        title: "Atrapados en la red",
-        artist: "Tam Tam Go!",
-        year: "1999",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1967,
-        spotifyId: "0hrJTCCS7VL9BEXLXbSKPf",
-        title: "Al Amanecer",
-        artist: "Los Fresones Rebeldes",
-        year: "1997",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1968,
+        id: 1893,
         spotifyId: "6dF2SE1eyGOaXX2pNQn22h",
         title: "Tu noche y la mía",
         artist: "Revolver",
@@ -19935,7 +19444,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1969,
+        id: 1894,
         spotifyId: "0tgjnOlps2Hc798rOYGpvi",
         title: "Experiencia Religiosa",
         artist: "Enrique Iglesias",
@@ -19945,7 +19454,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1970,
+        id: 1895,
         spotifyId: "6NfxNXuOFEGVz0hr8qnlEj",
         title: "Prefiero el Trapecio",
         artist: "Manolo Garcia",
@@ -19955,7 +19464,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1971,
+        id: 1896,
         spotifyId: "4UMCpYrmgZv9CsyLvrws4F",
         title: "El del Medio de los Chichos",
         artist: "Estopa",
@@ -19965,17 +19474,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1972,
-        spotifyId: "1gk9JC7BNghzS3PcPu6bmr",
+        id: 1897,
+        spotifyId: "2fECkGQuw6xt5ObElhbiC1",
         title: "El 7 de Septiembre",
         artist: "Mecano",
         year: "1991",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1973,
+        id: 1898,
         spotifyId: "02MahX3ZEDqQI8akhisqOc",
         title: "Si es tan solo amor",
         artist: "Revolver",
@@ -19985,7 +19495,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1974,
+        id: 1899,
         spotifyId: "3zwTjNO3wlSsLuXqIha8Sf",
         title: "Corazón Salvaje",
         artist: "Marcela Morelo",
@@ -19995,17 +19505,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1975,
+        id: 1900,
         spotifyId: "0snvfum1KpU3X8DdAvV9bo",
         title: "La Ultima Carta",
         artist: "Los Cucas",
         year: "1999",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1976,
+        id: 1901,
         spotifyId: "0nLeNYebvsmLRDbFlgioSb",
         title: "Se Dejaba Llevar Por Ti",
         artist: "Antonio Vega",
@@ -20015,7 +19526,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1977,
+        id: 1902,
         spotifyId: "3AWefROgvMxXeT7nS1g94l",
         title: "Ojos de gata",
         artist: "Los Secretos",
@@ -20025,58 +19536,39 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1978,
+        id: 1903,
         spotifyId: "1YFBO31kSEYo1DVkjSj8LG",
         title: "Si tú no vuelves",
         artist: "Miguel Bosé",
         year: "1993",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1979,
+        id: 1904,
         spotifyId: "5iy9gDeRoFcVENkX56xoHJ",
         title: "Espaldas mojadas",
         artist: "Tam Tam Go!",
         year: "1990",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1980,
-        spotifyId: "01GOfcFj720XJOKwnpv6I9",
-        title: "Blanco y Negro",
-        artist: "Malú",
-        year: "2010",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1981,
+        id: 1905,
         spotifyId: "6jVCPLg3AZaM7tXAzpXBcG",
         title: "La promesa",
         artist: "Melendi",
         year: "2014",
         playlists: [
-            "spotify_spain",
             "spotify_spain"
         ]
     },
     {
-        id: 1982,
-        spotifyId: "2LUP49H9wb6nw2Y5oQzUpZ",
-        title: "No Puedo Vivir Sin Ti",
-        artist: "Los Ronaldos",
-        year: "2007",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 1983,
+        id: 1906,
         spotifyId: "2kaHorrtVLo9brE37NQvGa",
         title: "Esta soy yo",
         artist: "El Sueño de Morfeo",
@@ -20086,17 +19578,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1984,
+        id: 1907,
         spotifyId: "4XdePl1vOF1cYjTBYeYU9j",
         title: "20 de Enero",
         artist: "La Oreja de Van Gogh",
         year: "2003",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1985,
+        id: 1908,
         spotifyId: "62dPw5rmYSugTu9BhCIfLH",
         title: "Para toda la vida",
         artist: "El Sueño de Morfeo",
@@ -20106,28 +19599,28 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1986,
+        id: 1909,
         spotifyId: "6yCjU5j6YHbux2VQCBTTE1",
         title: "Tu jardín con enanitos",
         artist: "Melendi",
         year: "2012",
         playlists: [
-            "spotify_spain",
             "spotify_spain"
         ]
     },
     {
-        id: 1987,
+        id: 1910,
         spotifyId: "35rm7tY2YiGG2H4yDbqj87",
         title: "Por quererte",
         artist: "Efecto Mariposa",
         year: "2009",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1988,
+        id: 1911,
         spotifyId: "3t7xKj2YWeiFm92ApJ2FAt",
         title: "La Suerte de Mi Vida",
         artist: "El Canto Del Loco",
@@ -20137,7 +19630,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1989,
+        id: 1912,
         spotifyId: "1w56puP15nqOK4yr8776dY",
         title: "Tocado y hundido",
         artist: "Melendi",
@@ -20147,48 +19640,50 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1990,
+        id: 1913,
         spotifyId: "3DYm7Lp7Fc3xf6WSCq5ntE",
         title: "Cómo hablar",
         artist: "Amaral",
         year: "2000",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1991,
+        id: 1914,
         spotifyId: "3TY1PFZXmYeiLcXygB74My",
         title: "Suerte (Whenever, Wherever)",
         artist: "Shakira",
         year: "2001",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1992,
+        id: 1915,
         spotifyId: "7gqIqyeCaV2xNtfZWxEphD",
         title: "Cuídate",
         artist: "La Oreja de Van Gogh",
         year: "2000",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 1993,
+        id: 1916,
         spotifyId: "0iASz3FoYYtX1SL1iQra8r",
         title: "Aunque Tu No Lo Sepas",
         artist: "El Canto Del Loco",
         year: "2009",
         playlists: [
-            "spotify_spain",
             "spotify_spain"
         ]
     },
     {
-        id: 1994,
+        id: 1917,
         spotifyId: "1FEhEiCisIdf3u6Bmsvt4c",
         title: "Cuando Me Vaya",
         artist: "Melocos;Natalia Jiménez",
@@ -20198,7 +19693,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1995,
+        id: 1918,
         spotifyId: "2Ec0VmnItt52GPU6A9Vya3",
         title: "Moriría por vos",
         artist: "Amaral",
@@ -20208,17 +19703,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1996,
+        id: 1919,
         spotifyId: "3JhllUTyXy2ceSTzNSErBC",
         title: "Días de verano",
         artist: "Amaral",
         year: "2005",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 1997,
+        id: 1920,
         spotifyId: "2SxtZcr9RPVvKnVPqUmiPe",
         title: "Quiero Ser",
         artist: "Amaia Montero",
@@ -20228,7 +19724,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1998,
+        id: 1921,
         spotifyId: "2DNyZP4Py6f4zMASLBnIu6",
         title: "La Playa",
         artist: "La Oreja de Van Gogh",
@@ -20238,7 +19734,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 1999,
+        id: 1922,
         spotifyId: "3ri9fLG89OdSpjxheYxU7S",
         title: "Me Muero",
         artist: "La Quinta Estacion",
@@ -20248,7 +19744,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2000,
+        id: 1923,
         spotifyId: "4RQjgQaT9mJpMNoxqoGdAh",
         title: "Cada dos minutos (con Rulo y la Contrabanda y Kutxi Romero)",
         artist: "Despistaos;Kutxi Romero;Rulo y la contrabanda",
@@ -20258,37 +19754,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2001,
+        id: 1924,
         spotifyId: "7Cf4bpnB164MgYLCPWd88h",
         title: "Dime",
         artist: "Beth",
         year: "2003",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40",
+            "batalla"
         ]
     },
     {
-        id: 2002,
-        spotifyId: "0EA40dd5ghMqemzoqWvo3E",
-        title: "Sin miedo a nada",
-        artist: "Alex Ubago;Amaia Montero",
-        year: "2001",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 2003,
-        spotifyId: "5XxcwLvZXDLGbwBK4G0ovH",
-        title: "Ella",
-        artist: "Bebe",
-        year: "2004",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 2004,
+        id: 1925,
         spotifyId: "5LlXYUfSei584BdUJ05Lo3",
         title: "Acabo de llegar",
         artist: "Fito y Fitipaldis",
@@ -20298,7 +19776,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2005,
+        id: 1926,
         spotifyId: "15RAXEkBCh62ZB6xddv0wO",
         title: "Nada Fue Un Error",
         artist: "Coti;Paulina Rubio;Julieta Venegas",
@@ -20308,7 +19786,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2006,
+        id: 1927,
         spotifyId: "6pWeJvzpQR1ihiUSJklOzD",
         title: "Paseo",
         artist: "Estopa",
@@ -20318,18 +19796,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2007,
-        spotifyId: "467JNZWcg0rpOFoDrVeyfV",
-        title: "La Revolución Sexual",
-        artist: "La Casa Azul",
-        year: "2007",
-        playlists: [
-            "spotify_spain",
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 2008,
+        id: 1928,
         spotifyId: "7dITAq1YP5e0kTcaDq4YWI",
         title: "Limón y Sal",
         artist: "Julieta Venegas",
@@ -20339,27 +19806,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2009,
+        id: 1929,
         spotifyId: "4bZEZhCq2kqUxnMacXVl5x",
         title: "Copenhague",
         artist: "Vetusta Morla",
         year: "2008",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 2010,
-        spotifyId: "4UtREbGYnd1nZLckEb5y8J",
-        title: "Carolina",
-        artist: "M-Clan",
-        year: "2001",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 2011,
+        id: 1930,
         spotifyId: "0rX7mbNXYmAolFCY2TYVPH",
         title: "Como un lobo (Dueto 2007)",
         artist: "Miguel Bosé;Bimba Bosé",
@@ -20369,7 +19827,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2012,
+        id: 1931,
         spotifyId: "3Aj18tBmQKLTGU3KEpbZ40",
         title: "Vacaciones",
         artist: "Estopa",
@@ -20379,7 +19837,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2013,
+        id: 1932,
         spotifyId: "2HKTMtMM6aXnCq8kUHXm0J",
         title: "Me Quedaré",
         artist: "Estopa",
@@ -20389,7 +19847,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2014,
+        id: 1933,
         spotifyId: "4PHX6bpHDxiR9RGzAKWcyk",
         title: "Cuando Me Enamoro",
         artist: "Enrique Iglesias;Juan Luis Guerra 4.40",
@@ -20399,7 +19857,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2015,
+        id: 1934,
         spotifyId: "5FMPWjgWG5Rl6PNtQYk1ek",
         title: "Antes de Morirme",
         artist: "C. Tangana;ROSALÍA",
@@ -20409,17 +19867,19 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2016,
-        spotifyId: "6De0lHrwBfPfrhorm9q1Xl",
+        id: 1935,
+        spotifyId: "6ifUES3keWjwXgae8pXI3o",
         title: "Me Rehúso",
         artist: "Danny Ocean",
         year: "2016",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40",
+            "batalla"
         ]
     },
     {
-        id: 2017,
+        id: 1936,
         spotifyId: "1mlGScrDQqHqmhdIqE8MmA",
         title: "Besos En Guerra",
         artist: "Morat;Juanes",
@@ -20429,17 +19889,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2018,
-        spotifyId: "3eoZdfIaTawNFYSBuLdlTG",
-        title: "Buscando El Sol",
-        artist: "David Otero",
-        year: "2010",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 2019,
+        id: 1937,
         spotifyId: "01XfZZz4TAYbSDIIWdawzT",
         title: "No Pide Tanto, Idiota",
         artist: "Maldita Nerea",
@@ -20449,7 +19899,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2020,
+        id: 1938,
         spotifyId: "1LQ7CX91iniEXCasBSiKrd",
         title: "Cometas por el Cielo",
         artist: "La Oreja de Van Gogh",
@@ -20459,7 +19909,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2021,
+        id: 1939,
         spotifyId: "0srf60K7I8vK7iVCv4oGZj",
         title: "Esclavo De Sus Besos",
         artist: "David Bisbal",
@@ -20469,7 +19919,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2022,
+        id: 1940,
         spotifyId: "1Cxd4ZJJ9VOQQpNcpdcZEQ",
         title: "Cuando Nadie Ve",
         artist: "Morat",
@@ -20479,7 +19929,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2023,
+        id: 1941,
         spotifyId: "2OsQUeMvXZmJeoA7tdN5T0",
         title: "Emocional",
         artist: "Dani Martín",
@@ -20489,7 +19939,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2024,
+        id: 1942,
         spotifyId: "25bdVEqLdunmDjysmI7n1P",
         title: "Solo Tú",
         artist: "Paula Rojo",
@@ -20499,7 +19949,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2025,
+        id: 1943,
         spotifyId: "3QQOaFHJPTcQJfVj2u27NK",
         title: "No Digas Nada",
         artist: "Cali Y El Dandee",
@@ -20509,7 +19959,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2026,
+        id: 1944,
         spotifyId: "2FhLn92NDtRW6hKJvj9yX5",
         title: "Cheque al portamor",
         artist: "Melendi",
@@ -20519,7 +19969,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2027,
+        id: 1945,
         spotifyId: "0bozYJjedwJwsvg7WWrWnX",
         title: "Diez Mil Maneras",
         artist: "David Bisbal",
@@ -20529,17 +19979,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2028,
-        spotifyId: "3IqlVU6AunWVMcGmfgiDLF",
-        title: "Sirenas",
-        artist: "Taburete",
-        year: "2016",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 2029,
+        id: 1946,
         spotifyId: "3ljr9ATeLs2BY9gNp7vm62",
         title: "Corazón En La Maleta",
         artist: "Luis Fonsi",
@@ -20549,27 +19989,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2030,
-        spotifyId: "1e1CigqWGhv9Cd9K3mgFti",
-        title: "Sonrisa",
-        artist: "Ana Torroja",
-        year: "2010",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 2031,
+        id: 1947,
         spotifyId: "02FKjeU8CrA2ckppBa5RJg",
         title: "Comiendote a Besos",
         artist: "Rozalén",
-        year: "2012",
+        year: "2013",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 2032,
+        id: 1948,
         spotifyId: "2WWLoX6L5TJ2xvm2DRcK6B",
         title: "Que Bonita la Vida",
         artist: "Dani Martín",
@@ -20579,7 +20010,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2033,
+        id: 1949,
         spotifyId: "0JXRA6bYdnwkHYAlIwEWb8",
         title: "En el Mundo Genial de las Cosas Que Dices",
         artist: "Maldita Nerea",
@@ -20589,7 +20020,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2034,
+        id: 1950,
         spotifyId: "5h8VHxOBK1VWWj46T8fSly",
         title: "TELÉFONO",
         artist: "Aitana",
@@ -20599,7 +20030,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2035,
+        id: 1951,
         spotifyId: "01lHZ5GmTQ5vsXmRIuDWzP",
         title: "No Amanece",
         artist: "David Bisbal",
@@ -20609,7 +20040,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2036,
+        id: 1952,
         spotifyId: "72iOihHEQp0LA0hZcjfLaA",
         title: "He Llorado (Como Un Niño)",
         artist: "Juan Magán;Gente De Zona",
@@ -20619,7 +20050,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2037,
+        id: 1953,
         spotifyId: "1dp62fHaXUP0Zh45voegpI",
         title: "Lágrimas desordenadas",
         artist: "Melendi",
@@ -20629,7 +20060,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2038,
+        id: 1954,
         spotifyId: "0NbBNLrvQKooffdK2jsSFU",
         title: "Deshazte de Mi",
         artist: "Malú",
@@ -20639,7 +20070,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2039,
+        id: 1955,
         spotifyId: "5ZZuokF4h1FlfTlSQhLCmG",
         title: "Quién",
         artist: "Pablo Alborán",
@@ -20649,7 +20080,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2040,
+        id: 1956,
         spotifyId: "2BSe0bFhNhDUXqyQbcGyFJ",
         title: "Quédate conmigo - Eurovisión",
         artist: "Pastora Soler",
@@ -20659,7 +20090,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2041,
+        id: 1957,
         spotifyId: "7z9IbN0D245JG5iokzkbDk",
         title: "Ahora Tu",
         artist: "Malú",
@@ -20669,7 +20100,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2042,
+        id: 1958,
         spotifyId: "75K7Mczlt0zxANo8MEOaAu",
         title: "Uno X Uno",
         artist: "Manuel Carrasco",
@@ -20679,7 +20110,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2043,
+        id: 1959,
         spotifyId: "476qF2YsjlF2pBNgbn0Q4E",
         title: "Estoy Hecho De Pedacitos De Ti",
         artist: "Antonio Orozco",
@@ -20689,17 +20120,18 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2044,
+        id: 1960,
         spotifyId: "16kJ8NqNdHbwJe9kf1TJLe",
         title: "Mi Princesa",
         artist: "David Bisbal",
         year: "2009",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 2045,
+        id: 1961,
         spotifyId: "4SIEs2WaSF0D1UH3b5WJBa",
         title: "Vuelvo a Verte (with Pablo Alborán)",
         artist: "Malú;Pablo Alborán",
@@ -20709,7 +20141,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2046,
+        id: 1962,
         spotifyId: "4lWnNqKJmhxrgzidQmXB94",
         title: "Ya No",
         artist: "Manuel Carrasco",
@@ -20719,7 +20151,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2047,
+        id: 1963,
         spotifyId: "7u5VepytGlGtIHI3e5Hnfv",
         title: "Temblando",
         artist: "Antonio Orozco",
@@ -20729,7 +20161,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2048,
+        id: 1964,
         spotifyId: "2Q443xy0yMQNR3i4NlCrnH",
         title: "¡Corre!",
         artist: "Jesse & Joy",
@@ -20739,27 +20171,29 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2049,
-        spotifyId: "38EI0NudWZT1qFuhEafIHh",
+        id: 1965,
+        spotifyId: "0axkqaAtzVAmIY3qb1gTLa",
         title: "Desde cuando",
         artist: "Alejandro Sanz",
         year: "2009",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "los40"
         ]
     },
     {
-        id: 2050,
+        id: 1966,
         spotifyId: "0JcNysfWVWaMS7R6vzGB2k",
         title: "Robarte un Beso",
         artist: "Carlos Vives;Sebastian Yatra",
         year: "2017",
         playlists: [
-            "spotify_spain"
+            "spotify_spain",
+            "batalla"
         ]
     },
     {
-        id: 2051,
+        id: 1967,
         spotifyId: "7bp62Lo0nOBcfB70iUoibE",
         title: "Barbie de extrarradio",
         artist: "Melendi",
@@ -20769,7 +20203,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2052,
+        id: 1968,
         spotifyId: "2yptV8t4OH935km6IZWt1l",
         title: "Cosas Que Suenan A...",
         artist: "Maldita Nerea",
@@ -20779,7 +20213,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2053,
+        id: 1969,
         spotifyId: "0yyZN5ASdrYu0XYWFzfxUu",
         title: "3 A.M.",
         artist: "Jesse & Joy;Gente De Zona",
@@ -20789,7 +20223,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2054,
+        id: 1970,
         spotifyId: "5FrtmkTTf45HUlP9mwSAYZ",
         title: "Copacabana",
         artist: "IZAL",
@@ -20799,7 +20233,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2055,
+        id: 1971,
         spotifyId: "0EmkcjXJkHw1fEZ2CTz9VC",
         title: "Mi Lamento",
         artist: "Dani Martín",
@@ -20809,7 +20243,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2056,
+        id: 1972,
         spotifyId: "2eqDUxbd0JPEhNrJdPlHLs",
         title: "Adrenalina",
         artist: "Wisin;Jennifer Lopez;Ricky Martin",
@@ -20819,7 +20253,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2057,
+        id: 1973,
         spotifyId: "23WI5V2eD4EyGKxSl7Pyeq",
         title: "Andas En Mi Cabeza",
         artist: "Chino & Nacho;Daddy Yankee",
@@ -20829,17 +20263,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2058,
-        spotifyId: "4Dnb5yRDXmCpcMMOQSrqOT",
-        title: "Cuatro elementos",
-        artist: "La Musicalité;El Sueño de Morfeo",
-        year: "2009",
-        playlists: [
-            "spotify_spain"
-        ]
-    },
-    {
-        id: 2059,
+        id: 1974,
         spotifyId: "6gOvclmBqBdMOSbgHe8grM",
         title: "Quién te quiere como yo",
         artist: "Carlos Baute",
@@ -20849,7 +20273,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2060,
+        id: 1975,
         spotifyId: "3AEZUABDXNtecAOSC1qTfo",
         title: "Reggaetón Lento (Bailemos)",
         artist: "CNCO",
@@ -20859,7 +20283,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2061,
+        id: 1976,
         spotifyId: "3az0yfYkbGOUE0yMkgBCNx",
         title: "Pequeña Gran Revolución",
         artist: "IZAL",
@@ -20869,7 +20293,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2062,
+        id: 1977,
         spotifyId: "0w68w9Fjn8iF3YX7HyULb3",
         title: "Llegará",
         artist: "Antonio Orozco",
@@ -20879,7 +20303,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2063,
+        id: 1978,
         spotifyId: "3e4EFbKbdLvnW42xGB6tIx",
         title: "Fiebre - Prod. King DouDou",
         artist: "Bad Gyal",
@@ -20889,7 +20313,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2064,
+        id: 1979,
         spotifyId: "0x6UyfOikAQ7GpiGaYaPey",
         title: "Ella No Sigue Modas",
         artist: "Juan Magán;Don Omar",
@@ -20899,7 +20323,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2065,
+        id: 1980,
         spotifyId: "5bhDL4GgUvr5LBrpjqyrte",
         title: "Lo Malo",
         artist: "Aitana;Ana Guerra",
@@ -20909,7 +20333,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2066,
+        id: 1981,
         spotifyId: "1ntOYOoGOutpWhCSQTn8KJ",
         title: "Los Gatos No Ladran",
         artist: "India Martinez",
@@ -20919,7 +20343,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2067,
+        id: 1982,
         spotifyId: "3KEGMp2mXdoavzQSf9zWwX",
         title: "Mira Dentro",
         artist: "Maldita Nerea",
@@ -20929,7 +20353,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2068,
+        id: 1983,
         spotifyId: "3XVqHF3B6WLt0VZh7fscxi",
         title: "Hoy",
         artist: "India Martinez",
@@ -20939,7 +20363,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2069,
+        id: 1984,
         spotifyId: "4A3zrMMrH9R4Gj8H5Z2Y80",
         title: "Palabras",
         artist: "Amaia Montero",
@@ -20949,7 +20373,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2070,
+        id: 1985,
         spotifyId: "39PX4B5GjiF4sfIukPOxBm",
         title: "Lo que sobra de mí",
         artist: "Fito y Fitipaldis",
@@ -20959,7 +20383,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2071,
+        id: 1986,
         spotifyId: "5GGQ4wZeVj26tkUnRA6jgC",
         title: "Tú Me Obligaste",
         artist: "Antonio José;Cali Y El Dandee",
@@ -20969,7 +20393,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2072,
+        id: 1987,
         spotifyId: "0tgiIdA7BEKOM6nSdBX84T",
         title: "16 Añitos",
         artist: "Dani Martín",
@@ -20979,7 +20403,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2073,
+        id: 1988,
         spotifyId: "1OJkKHmXsZVKtWlECdpDAe",
         title: "Sé Que Te Duele",
         artist: "Alejandro Fernández;Morat",
@@ -20989,7 +20413,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2074,
+        id: 1989,
         spotifyId: "5ZCamgcqvkckdf2FdfYuth",
         title: "La Llamada",
         artist: "Leiva",
@@ -20999,7 +20423,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2075,
+        id: 1990,
         spotifyId: "7FXZbH91wnIsipIl6LDwkU",
         title: "El Run Run (with Rosario)",
         artist: "Estopa;Rosario",
@@ -21009,7 +20433,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2076,
+        id: 1991,
         spotifyId: "1hI1st8dvPmr1S55XDkavG",
         title: "Yo no te pido la luna",
         artist: "Sergio Dalma",
@@ -21019,7 +20443,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2077,
+        id: 1992,
         spotifyId: "5yGc2fIy4KQn92f9d2K5gv",
         title: "Y Ahora",
         artist: "Manuel Carrasco",
@@ -21029,7 +20453,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2078,
+        id: 1993,
         spotifyId: "0q26YkYooQjbNyNXzGcHGP",
         title: "Mira cómo vuelo",
         artist: "Miss Caffeina",
@@ -21039,7 +20463,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2079,
+        id: 1994,
         spotifyId: "23CfGZgeDJkBxuObB6KmmQ",
         title: "Tanto",
         artist: "Pablo Alborán",
@@ -21049,7 +20473,7 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2080,
+        id: 1995,
         spotifyId: "0NWocO15aoLCom3Zu2yBZh",
         title: "Qué Bien",
         artist: "IZAL",
@@ -21059,13 +20483,5208 @@ export const musicDatabase = [
         ]
     },
     {
-        id: 2081,
+        id: 1996,
         spotifyId: "4Ft0391aLVNtCPPseh98lp",
         title: "Traicionera",
         artist: "Sebastian Yatra",
         year: "2016",
         playlists: [
             "spotify_spain"
+        ]
+    },
+    {
+        id: 1997,
+        spotifyId: "0T71AvVXY4RB65tvdIyzdO",
+        title: "SloMo",
+        artist: "Chanel",
+        year: "2021",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 1998,
+        spotifyId: "6T5GTy1l6dRmagqpNPjdoc",
+        title: "Too Much Heaven",
+        artist: "Bee Gees",
+        year: "1978",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 1999,
+        spotifyId: "3x4yV0hW5Ve3TKhFkXSqFn",
+        title: "If You Had My Love",
+        artist: "Jennifer Lopez",
+        year: "1999",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2000,
+        spotifyId: "6dugx9WBSS8TDxbKqp9zmj",
+        title: "Scatman's World",
+        artist: "Scatman John",
+        year: "1995",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2001,
+        spotifyId: "5UOmGqpIdJfh5hbUo8KHUy",
+        title: "No Sé Qué Me Das",
+        artist: "Fangoria",
+        year: "2001",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2002,
+        spotifyId: "7iUtQNMRB8ZkKC4AmEuCJC",
+        title: "LA FALDA",
+        artist: "Myke Towers",
+        year: "2023",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2003,
+        spotifyId: "57ct8jKi6trntXiRV0NnXi",
+        title: "If You Could Read My Mind",
+        artist: "Gordon Lightfoot",
+        year: "1970",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2004,
+        spotifyId: "4iJyoBOLtHqaGxP12qzhQI",
+        title: "Peaches",
+        artist: "Justin Bieber, Daniel Caesar, GIVĒON",
+        year: "2021",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2005,
+        spotifyId: "471HeGJPKw07MObixON0Um",
+        title: "Tabú",
+        artist: "Pablo Alborán, Ava Max",
+        year: "2019",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2006,
+        spotifyId: "3xl7PsO7Hzuig6To9FgDm6",
+        title: "Left Outside Alone",
+        artist: "Anastacia",
+        year: "2004",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2007,
+        spotifyId: "71Luyp0ZmwIQIfyR8vCuwa",
+        title: "Te Voy A Esperar - BSO Tadeo Jones",
+        artist: "Juan Magán, Belinda",
+        year: "2012",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2008,
+        spotifyId: "5luOvrlnzfvJQdQjrScVj4",
+        title: "Live Is Life",
+        artist: "Opus",
+        year: "1984",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2009,
+        spotifyId: "1j41o4au1RfkOe7Mw9UsCx",
+        title: "Una Paloma Blanca",
+        artist: "George Baker, George Baker Selection",
+        year: "1975",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2010,
+        spotifyId: "7ha009e63DOGuysDmaqMFA",
+        title: "China Girl",
+        artist: "David Bowie",
+        year: "1983",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2011,
+        spotifyId: "5WAAN3MdyF3NiFHtQLIhPc",
+        title: "Amor No Me Ignores",
+        artist: "Camilo Sesto",
+        year: "1980",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2012,
+        spotifyId: "2MOOJh1xUgND4rLjB6h4jY",
+        title: "Get Up (Before The Night Is Over)",
+        artist: "Technotronic",
+        year: "1989",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2013,
+        spotifyId: "5I4xjdu4DeKUNMiufzQLoA",
+        title: "Big Big World",
+        artist: "Emilia",
+        year: "1998",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2014,
+        spotifyId: "5ccl3EjhKtJ35hd5joumTi",
+        title: "La Abuela",
+        artist: "Wilfred y La Ganga",
+        year: "1989",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2015,
+        spotifyId: "3jAshemiRYWukWLtT3Ivrb",
+        title: "SOLEAO",
+        artist: "Myke Towers, Quevedo",
+        year: "2024",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2016,
+        spotifyId: "7q1bQd1HYqeZ0QGM8VeBtD",
+        title: "I Think I'm Paranoid",
+        artist: "Garbage",
+        year: "1998",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2017,
+        spotifyId: "01GkZgsAJH7vYvkI0a7nC5",
+        title: "Qué dolor",
+        artist: "Raffaella Carrà",
+        year: "1982",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2018,
+        spotifyId: "3CVDronuSnhguSUguPoseM",
+        title: "Thank U",
+        artist: "Alanis Morissette",
+        year: "1998",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2019,
+        spotifyId: "6aU6a9tdn2vHhnPGlboFZX",
+        title: "Good Vibrations",
+        artist: "The Beach Boys",
+        year: "1966",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2020,
+        spotifyId: "5vNRhkKd0yEAg8suGBpjeY",
+        title: "APT.",
+        artist: "ROSÉ, Bruno Mars",
+        year: "2024",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2021,
+        spotifyId: "7DnAm9FOTWE3cUvso43HhI",
+        title: "Sweet but Psycho",
+        artist: "Ava Max",
+        year: "2018",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2022,
+        spotifyId: "2n5QEt0eEG5vY7tYUsLjsA",
+        title: "A este lado de la carretera",
+        artist: "Danza Invisible",
+        year: "1990",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2023,
+        spotifyId: "2vgUijXOTRMnWXDtvgMp2b",
+        title: "Take My Breath",
+        artist: "The Weeknd",
+        year: "2021",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2024,
+        spotifyId: "0ldTcpmFsxEASGiBBIfVLW",
+        title: "Johnny And Mary",
+        artist: "Robert Palmer",
+        year: "1980",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2025,
+        spotifyId: "3IAfUEeaXRX9s9UdKOJrFI",
+        title: "Envolver",
+        artist: "Anitta",
+        year: "2021",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2026,
+        spotifyId: "6ZZOdrcqRZzTCwGlsy00SU",
+        title: "No vaya a ser",
+        artist: "Pablo Alborán",
+        year: "2017",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2027,
+        spotifyId: "734t1GgKDg0Nc19tqxlJ0s",
+        title: "Patience",
+        artist: "Take That",
+        year: "2006",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2028,
+        spotifyId: "3dISHe66tFlOKqmom5Qr2n",
+        title: "Suicide Blonde",
+        artist: "INXS",
+        year: "1990",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2029,
+        spotifyId: "6V1bu6o1Yo5ZXnsCJU8Ovk",
+        title: "Girls Like You",
+        artist: "Maroon 5, Cardi B",
+        year: "2018",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2030,
+        spotifyId: "3EFb1qDgIqf9MegIryKtDj",
+        title: "Monday, Monday",
+        artist: "The Mamas & The Papas",
+        year: "1966",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2031,
+        spotifyId: "2plbrEY59IikOBgBGLjaoe",
+        title: "Die With A Smile",
+        artist: "Lady Gaga, Bruno Mars",
+        year: "2024",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2032,
+        spotifyId: "09OpntwPHuNICsyEt1ETpE",
+        title: "Lullaby",
+        artist: "The Cure",
+        year: "1989",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2033,
+        spotifyId: "6kvoHl80mfCVTv7XnZkjQn",
+        title: "It Must Have Been Love - From the Film \"Pretty Woman\"",
+        artist: "Roxette",
+        year: "1987",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2034,
+        spotifyId: "0odIT9B9BvOCnXfS0e4lB5",
+        title: "Bette Davis Eyes",
+        artist: "Kim Carnes",
+        year: "1981",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2035,
+        spotifyId: "7jGzYUZ2Bgg8BDfYlQRfn8",
+        title: "Wild Thing",
+        artist: "The Troggs",
+        year: "1966",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2036,
+        spotifyId: "4rQu72zFJz3qne1bnEkVSt",
+        title: "Todo Contigo",
+        artist: "Álvaro De Luna",
+        year: "2023",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2037,
+        spotifyId: "7FNIEfhhBlzsZFxCwI5Nwh",
+        title: "A Little Less Conversation",
+        artist: "Elvis Presley, Junkie XL",
+        year: "2002",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2038,
+        spotifyId: "31esQirEGdvn863oHh6YCu",
+        title: "Marionetas En La Cuerda",
+        artist: "Sandie Shaw",
+        year: "1967",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2039,
+        spotifyId: "0kQ3skI5DXDHcI2FXq101I",
+        title: "Tú sigue así",
+        artist: "OBK",
+        year: "2000",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2040,
+        spotifyId: "7cQ7axcCXsa963OluHTWlS",
+        title: "Sin ti no soy nada",
+        artist: "Amaral",
+        year: "2002",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2041,
+        spotifyId: "6usohdchdzW9oML7VC4Uhk",
+        title: "Lose Control",
+        artist: "Teddy Swims",
+        year: "2023",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2042,
+        spotifyId: "2D2GISPz94aFg526x54sfH",
+        title: "El Amor de Mi Vida",
+        artist: "Camilo Sesto",
+        year: "1978",
+        playlists: [
+            "los40",
+            "batalla"
+        ]
+    },
+    {
+        id: 2043,
+        spotifyId: "6mICuAdrwEjh6Y6lroV2Kg",
+        title: "Chantaje",
+        artist: "Shakira, Maluma",
+        year: "2016",
+        playlists: [
+            "los40",
+            "batalla"
+        ]
+    },
+    {
+        id: 2044,
+        spotifyId: "6O20JhBJPePEkBdrB5sqRx",
+        title: "Diamonds",
+        artist: "Rihanna",
+        year: "2012",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2045,
+        spotifyId: "3reCcj2BzaDnnrlnZ0aq2X",
+        title: "Entre tú y mil mares",
+        artist: "Laura Pausini",
+        year: "2000",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2046,
+        spotifyId: "4uGIJG1jYFonGc4LGp5uQL",
+        title: "Somebody to Love",
+        artist: "Jefferson Airplane",
+        year: "1967",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2047,
+        spotifyId: "37TcCbtkvz2Vd4mfMTDlvY",
+        title: "Dejad que las niñas se acerquen a mí",
+        artist: "Hombres G",
+        year: "1985",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2048,
+        spotifyId: "5UJ2tDiwYwoUGWSySx5l8L",
+        title: "Eloise",
+        artist: "Barry Ryan",
+        year: "1968",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2049,
+        spotifyId: "1L9fzw2pXprOqtemTwtxXF",
+        title: "Candle In The Wind",
+        artist: "Elton John",
+        year: "1973",
+        playlists: [
+            "los40",
+            "batalla"
+        ]
+    },
+    {
+        id: 2050,
+        spotifyId: "4qmNeOovGFdhsiBgPKxlTQ",
+        title: "NEXO 01. Me acuerdo de ti",
+        artist: "Nil Moliner",
+        year: "2026",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2051,
+        spotifyId: "1eT2CjXwFXNx6oY5ydvzKU",
+        title: "Hey Jude",
+        artist: "The Beatles",
+        year: "1968",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2052,
+        spotifyId: "1LX9Kq7JFcEINO2a04WI2M",
+        title: "LA REINA - REMIX",
+        artist: "Lola Indigo, Maria Becerra, Villano Antillano",
+        year: "2024",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2053,
+        spotifyId: "7HLZEgQ5ShGYrcKS8Iv3u5",
+        title: "Get Down",
+        artist: "Gilbert O'Sullivan",
+        year: "1973",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2054,
+        spotifyId: "1FctcqfLUnpEAj9xEukqnc",
+        title: "Everybody's Got to Learn Sometime",
+        artist: "The Korgis",
+        year: "1980",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2055,
+        spotifyId: "2MlOUXmcofMackX3bxfSwi",
+        title: "Jerusalema",
+        artist: "Master KG, Nomcebo Zikode",
+        year: "2019",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2056,
+        spotifyId: "1eN42Q7IWRzRBq8eW2Y2TE",
+        title: "El Condor Pasa (If I Could)",
+        artist: "Simon & Garfunkel",
+        year: "1970",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2057,
+        spotifyId: "2DWO9x9rhszjJsabuPqp8P",
+        title: "Happy",
+        artist: "Leona Lewis",
+        year: "2009",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2058,
+        spotifyId: "2U8NXPTXZWG2O0ye2sYRiH",
+        title: "I Love It",
+        artist: "Icona Pop, Charli xcx",
+        year: "2012",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2059,
+        spotifyId: "7GHKA8GIMcND6c5nN1sFnD",
+        title: "Sexbomb",
+        artist: "Tom Jones, Mousse T.",
+        year: "1999",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2060,
+        spotifyId: "2EoIt9vdgFRNW03u5IvFsQ",
+        title: "Achy Breaky Heart",
+        artist: "Billy Ray Cyrus",
+        year: "1992",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2061,
+        spotifyId: "2bGtRhJdSGIjxrBtewOJqV",
+        title: "Apambichao",
+        artist: "Manuel Turizo, Maluma",
+        year: "2026",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2062,
+        spotifyId: "0aPaGIX2QIMAH5SMp0VEMe",
+        title: "The Most Beautiful Girl In the World",
+        artist: "Prince",
+        year: "1994",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2063,
+        spotifyId: "3aQz0z86zrKjd1mcZlonxE",
+        title: "Infinity",
+        artist: "Guru Josh Project, Klaas",
+        year: "2008",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2064,
+        spotifyId: "6dNSWqBXdY75pLWou8llut",
+        title: "Quiero Aprender de Ti",
+        artist: "El Canto Del Loco",
+        year: "2009",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2065,
+        spotifyId: "1dzQoRqT5ucxXVaAhTcT0J",
+        title: "Just Dance",
+        artist: "Lady Gaga, Colby O'Donis",
+        year: "2008",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2066,
+        spotifyId: "68lbSrXDORS51pmyjZv712",
+        title: "SWIM",
+        artist: "BTS",
+        year: "2026",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2067,
+        spotifyId: "5SudOD9R1Of6CsJVWZy6CQ",
+        title: "Dardos",
+        artist: "Romeo Santos, Prince Royce",
+        year: "2025",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2068,
+        spotifyId: "6N4ioa3XSbvjmwdVEERl8F",
+        title: "Nunca Estoy",
+        artist: "C. Tangana",
+        year: "2020",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2069,
+        spotifyId: "1Og8U5KRel9D51h4bmznlE",
+        title: "With Or Without You",
+        artist: "U2",
+        year: "1987",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2070,
+        spotifyId: "0Me3GyNuLOa1YTIxhJPyCn",
+        title: "ASI ES LA VIDA",
+        artist: "Enrique Iglesias, Maria Becerra",
+        year: "2023",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2071,
+        spotifyId: "3PAB2wYt8Gg2q78jTRsnTC",
+        title: "Horny",
+        artist: "Hot 'N' Juicy, Mousse T.",
+        year: "1998",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2072,
+        spotifyId: "4IT6vDuKprKl6jyVndlY8V",
+        title: "The Girl Is Mine",
+        artist: "Michael Jackson, Paul McCartney",
+        year: "1982",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2073,
+        spotifyId: "6H0X43wq6os0JhNU4QvZVL",
+        title: "No Puedo Enamorarme de Ti",
+        artist: "Antonio Flores",
+        year: "1992",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2074,
+        spotifyId: "2loMPlz3JWjFGF6fPoiSoo",
+        title: "Losing My Mind",
+        artist: "Liza Minnelli",
+        year: "1989",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2075,
+        spotifyId: "5NXYUnjruvZd3mXiJNJVeA",
+        title: "El talismán",
+        artist: "Rosana",
+        year: "1996",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2076,
+        spotifyId: "2M0SsKN720GGXcCqhB96LX",
+        title: "I Feel You",
+        artist: "Depeche Mode",
+        year: "1993",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2077,
+        spotifyId: "1TX4h6MrIZ0K3r4OOG11WO",
+        title: "Flor de Lis",
+        artist: "Djavan",
+        year: "1976",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2078,
+        spotifyId: "2ekn2ttSfGqwhhate0LSR0",
+        title: "New Rules",
+        artist: "Dua Lipa",
+        year: "2017",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2079,
+        spotifyId: "3XKIUb7HzIF1Vu9usunMzc",
+        title: "Maria Maria",
+        artist: "Santana, The Product G&B",
+        year: "1999",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2080,
+        spotifyId: "0tgVpDi06FyKpA1z0VMD4v",
+        title: "Perfect",
+        artist: "Ed Sheeran",
+        year: "2017",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2081,
+        spotifyId: "5e4K5KMw5o13ZDLS6ONAEf",
+        title: "Maria",
+        artist: "US5",
+        year: "2005",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2082,
+        spotifyId: "2lwnmAQ7VLWmdHA17MHf9G",
+        title: "West End Girls",
+        artist: "Pet Shop Boys",
+        year: "1985",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2083,
+        spotifyId: "6IarMQSFxLwurxLYqjS7VW",
+        title: "Fuego",
+        artist: "Eleni Foureira",
+        year: "2018",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2084,
+        spotifyId: "5tE2kEW1Jom3Qc93UPBT79",
+        title: "All Right",
+        artist: "Christopher Cross",
+        year: "1983",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2085,
+        spotifyId: "2efbgTtEGNpsUZaOfgRTR6",
+        title: "blackout 🧊",
+        artist: "Emilia, TINI, Nicki Nicole",
+        year: "2025",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2086,
+        spotifyId: "6ucR4KfvsBFWCMVFDvyKKl",
+        title: "Apologize",
+        artist: "Timbaland, OneRepublic",
+        year: "2007",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2087,
+        spotifyId: "7IohFKIwrb75c4XaqX7WWo",
+        title: "This Is Love",
+        artist: "will.i.am, Eva Simons",
+        year: "2012",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2088,
+        spotifyId: "7IzbHY75UhGztauT7U5eKb",
+        title: "Lola Bunny",
+        artist: "Lola Indigo, Don Patricio",
+        year: "2019",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2089,
+        spotifyId: "6e0LjNPkRqxIAlmmdjWSV8",
+        title: "Moi... Lolita",
+        artist: "Alizée",
+        year: "2000",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2090,
+        spotifyId: "2jKJjtthmZ3qXmty3CGt4i",
+        title: "I Will Love Again",
+        artist: "Lara Fabian",
+        year: "1999",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2091,
+        spotifyId: "3wPPWcVuinAU7dXcJXtCID",
+        title: "La La La",
+        artist: "Naughty Boy, Sam Smith",
+        year: "2013",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2092,
+        spotifyId: "4k5Rb51qsUSMFg6oFdVC48",
+        title: "Love The Way You Lie",
+        artist: "Eminem, Rihanna",
+        year: "2010",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2093,
+        spotifyId: "3mSyf9cPXbxZGE6YU9YEtY",
+        title: "Cantares",
+        artist: "Miguel Ríos",
+        year: "1998",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2094,
+        spotifyId: "0g9ne3xgPwtCj4W7QR7RFY",
+        title: "Out Of Reach",
+        artist: "GABRIELLE",
+        year: "2001",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2095,
+        spotifyId: "2V65y3PX4DkRhy1djlxd9p",
+        title: "Don't You Worry Child",
+        artist: "Swedish House Mafia, John Martin",
+        year: "2012",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2096,
+        spotifyId: "5BhSZWrUa5xkZ2K7Ze5fVT",
+        title: "Me vas a ver",
+        artist: "Beret",
+        year: "2019",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2097,
+        spotifyId: "3bidbhpOYeV4knp8AIu8Xn",
+        title: "Can't Hold Us",
+        artist: "Macklemore, Ryan Lewis, Macklemore & Ryan Lewis, Ray Dalton",
+        year: "2011",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2098,
+        spotifyId: "7JFa80j5Cw6DMf8RISgd0t",
+        title: "Clima Tropical",
+        artist: "Dani Fernández",
+        year: "2021",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2099,
+        spotifyId: "6CU0zWIWVTEnmWpSjVHM93",
+        title: "You Gotta Be",
+        artist: "Des'ree",
+        year: "1994",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2100,
+        spotifyId: "6XSqqQIy7Lm7SnwxS4NrGx",
+        title: "CLASSY 101",
+        artist: "Feid, Young Miko",
+        year: "2023",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2101,
+        spotifyId: "05Ju057qGqn7Gzd41aAWSq",
+        title: "Come Into My Life",
+        artist: "Gala, Molella, Phil Jay",
+        year: "1997",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2102,
+        spotifyId: "2ECReVEeiSQk8zpC9TRAwx",
+        title: "A Whiter Shade of Pale",
+        artist: "Procol Harum",
+        year: "1967",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2103,
+        spotifyId: "20zQZVyUNPbq8kZACdgYrh",
+        title: "On The Floor",
+        artist: "Jennifer Lopez, Pitbull",
+        year: "2011",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2104,
+        spotifyId: "3NNM8rlskOvhul2y9PDl8u",
+        title: "Speak Softly Love,Andy Williams,1972\r\nspotify:track:5U4pDBaeq2Jl2dKuWWUSsh,Ave María,David Bisbal,2002\r\nspotify:track:4sCSUQnWQ6HJsOMjfPicdn,Danza Kuduro,Don Omar",
+        artist: " Lucenzo\"",
+        year: "2010",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2105,
+        spotifyId: "6Gbc24EJdvZgpY0b5pNxhA",
+        title: "Tu",
+        artist: "Umberto Tozzi",
+        year: "1978",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2106,
+        spotifyId: "4rPkN1FMzQyFNP9cLUGIIB",
+        title: "Love Again",
+        artist: "Dua Lipa",
+        year: "2020",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2107,
+        spotifyId: "6rovOdp3HgK1DeAMYDzoA7",
+        title: "Maggie May",
+        artist: "Rod Stewart",
+        year: "1971",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2108,
+        spotifyId: "3eeb7VfTYMC7i8cYGvJ9PS",
+        title: "Soldados del amor",
+        artist: "Ole Ole",
+        year: "1990",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2109,
+        spotifyId: "3FMwO7SOz9VTn9ii3Zkk0j",
+        title: "All Together Now",
+        artist: "The Farm",
+        year: "1990",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2110,
+        spotifyId: "3S2R0EVwBSAVMd5UMgKTL0",
+        title: "Thriller",
+        artist: "Michael Jackson",
+        year: "1982",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2111,
+        spotifyId: "0ELfmuIf68BQeGeHseSFjt",
+        title: "Woman To Woman",
+        artist: "Joe Cocker",
+        year: "1972",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2112,
+        spotifyId: "7fJzhcQYEa1NlmQiUcEDkd",
+        title: "Toda",
+        artist: "Malú",
+        year: "2001",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2113,
+        spotifyId: "7vFoFDWqTX0mHzLfrF1Cfy",
+        title: "Cheerleader",
+        artist: "OMI, felix jaehn",
+        year: "2014",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2114,
+        spotifyId: "4eHbdreAnSOrDDsFfc4Fpm",
+        title: "I Will Always Love You",
+        artist: "Whitney Houston",
+        year: "1992",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2115,
+        spotifyId: "5zqJlEJcn0EfnvAScH8swK",
+        title: "All You Need Is Love",
+        artist: "The Beatles",
+        year: "1967",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2116,
+        spotifyId: "5jsw9uXEGuKyJzs0boZ1bT",
+        title: "Stitches",
+        artist: "Shawn Mendes",
+        year: "2015",
+        playlists: [
+            "los40",
+            "batalla"
+        ]
+    },
+    {
+        id: 2117,
+        spotifyId: "55lijDD6OAjLFFUHU9tcDm",
+        title: "WHERE IS MY HUSBAND!",
+        artist: "RAYE",
+        year: "2025",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2118,
+        spotifyId: "3SfPCpeVqhtEka5KKP7Qcv",
+        title: "Problema",
+        artist: "Ketama",
+        year: "1995",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2119,
+        spotifyId: "7tICCrK3CcyRFKza7yrR0z",
+        title: "Homewrecker",
+        artist: "sombr",
+        year: "2026",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2120,
+        spotifyId: "6dbh2fgGhV5s8rxSOOsEMv",
+        title: "no tiene sentido",
+        artist: "Beéle",
+        year: "2025",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2121,
+        spotifyId: "73scB4Q4fcOmnsBVZPmk32",
+        title: "Si Antes Te Hubiera Conocido",
+        artist: "KAROL G",
+        year: "2024",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2122,
+        spotifyId: "7tqQI7nmRAqX0g8bIYDXmF",
+        title: "(Just Like) Starting Over",
+        artist: "John Lennon",
+        year: "1980",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2123,
+        spotifyId: "5uvosCdMlFdTXhoazkTI5R",
+        title: "Light My Fire",
+        artist: "The Doors",
+        year: "1967",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2124,
+        spotifyId: "6hpuesKPNa3WhV48O7Fa47",
+        title: "SUPERESTRELLA",
+        artist: "Aitana",
+        year: "2025",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2125,
+        spotifyId: "0KMGxYKeUzK9wc5DZCt3HT",
+        title: "If You Leave Me Now",
+        artist: "Chicago",
+        year: "1976",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2126,
+        spotifyId: "4fUKE8EULjQdHF4zb0M8FO",
+        title: "Sgt. Pepper's Lonely Hearts Club Band",
+        artist: "The Beatles",
+        year: "1967",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2127,
+        spotifyId: "11glwadtd8zwDamSDOX5cJ",
+        title: "Barco a Venus",
+        artist: "Mecano",
+        year: "1983",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2128,
+        spotifyId: "5ciT9I1gjvlZPmkrOgjt6Q",
+        title: "Tú, solo tú",
+        artist: "Bertin Osborne",
+        year: "1981",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2129,
+        spotifyId: "50SSJV9VPpvO7bZwK5ZjRa",
+        title: "Ayer La Vi (BPA26)",
+        artist: "Juan Magán, Omar Montes",
+        year: "2026",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2130,
+        spotifyId: "2Oea7REs6RrWsBbniOKIPm",
+        title: "Ibiza",
+        artist: "DePol",
+        year: "2023",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2131,
+        spotifyId: "3VPOZWtj8mM89IiRNygxgS",
+        title: "Se iluminaba",
+        artist: "Fred De Palma, Ana Mena",
+        year: "2019",
+        playlists: [
+            "los40",
+            "batalla"
+        ]
+    },
+    {
+        id: 2132,
+        spotifyId: "5MoDQWMDMaAGDEiWsJfeCi",
+        title: "Eternal Flame",
+        artist: "The Bangles, Susanna Hoffs",
+        year: "1988",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2133,
+        spotifyId: "40x5K8xyIWVmSeUrYjj0os",
+        title: "Lost on You",
+        artist: "LP",
+        year: "2015",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2134,
+        spotifyId: "4buDeg67vos7KP1yHrS9wl",
+        title: "You Got It (The Right Stuff)",
+        artist: "New Kids On The Block",
+        year: "1988",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2135,
+        spotifyId: "3Dy4xsff7c0fRaTJpA54yd",
+        title: "Gone Gone Gone",
+        artist: "David Guetta, Teddy Swims, Tones And I",
+        year: "2025",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2136,
+        spotifyId: "2dd3G3ZqEcG2cNS1tp3oEk",
+        title: "capaz (merengueton)",
+        artist: "Alleh, Yorghaki",
+        year: "2024",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2137,
+        spotifyId: "3qhlB30KknSejmIvZZLjOD",
+        title: "End of Beginning",
+        artist: "Djo",
+        year: "2022",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2138,
+        spotifyId: "6RyuoOJXNzlVWpfC5xQyeI",
+        title: "Alocao (With Bad Gyal)",
+        artist: "Omar Montes, Bad Gyal",
+        year: "2019",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2139,
+        spotifyId: "09CtPGIpYB4BrO8qb1RGsF",
+        title: "Sorry",
+        artist: "Justin Bieber",
+        year: "2015",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2140,
+        spotifyId: "08oQepkZQz0Xok74muJqeP",
+        title: "Márchate Ya",
+        artist: "Miguel Bosé",
+        year: "1981",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2141,
+        spotifyId: "57h06SZNL6LJ3YKZ1UGCeu",
+        title: "Sadeness",
+        artist: "Enigma",
+        year: "1990",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2142,
+        spotifyId: "2kQ1OvmMzs1xdlH020aJJh",
+        title: "GRAN VÍA",
+        artist: "Quevedo, Aitana",
+        year: "2024",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2143,
+        spotifyId: "6nq0cpZZoe3QtCidStFq3d",
+        title: "No llores por mí Argentina (Don't Cry for Me Argentina)",
+        artist: "Paloma San Basilio",
+        year: "1980",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2144,
+        spotifyId: "0qemIQjSxcKyf42VPfZnfa",
+        title: "Night Fever - From \"Saturday Night Fever\" Soundtrack",
+        artist: "Bee Gees",
+        year: "1977",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2145,
+        spotifyId: "2qG5sZ7Si6sdK74qLxedYM",
+        title: "Con Altura",
+        artist: "ROSALÍA, J Balvin, El Guincho",
+        year: "2019",
+        playlists: [
+            "los40"
+        ]
+    },
+    {
+        id: 2146,
+        spotifyId: "3mFzIFFFmEXTQs6BDAK2ZZ",
+        title: "Dance Me to the End of Love",
+        artist: "Leonard Cohen",
+        year: "1984",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2147,
+        spotifyId: "6zeE5tKyr8Nu882DQhhSQI",
+        title: "Dust in the Wind",
+        artist: "Kansas",
+        year: "1977",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2148,
+        spotifyId: "3fVSMbeq8tY3G85yxcJwRU",
+        title: "Ebony And Ivory",
+        artist: "Paul McCartney",
+        year: "1982",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2149,
+        spotifyId: "0Nux6Q8aJZ1i4vUpPDBvlX",
+        title: "What Is Life",
+        artist: "George Harrison",
+        year: "1970",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2150,
+        spotifyId: "7HrzErXq3TsKOY1gmdIShB",
+        title: "The River",
+        artist: "Bruce Springsteen",
+        year: "1980",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2151,
+        spotifyId: "2ZNTPtYmAhN9vCwnAgqKn1",
+        title: "Shout, Pts. 1 & 2",
+        artist: "The Isley Brothers",
+        year: "1959",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2152,
+        spotifyId: "4euAGZTszWPrriggYK0HG9",
+        title: "Lay All Your Love On Me",
+        artist: "ABBA",
+        year: "1980",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2153,
+        spotifyId: "5fKTkCOpnyJko7jZqpbJnX",
+        title: "Last Dance",
+        artist: "Donna Summer",
+        year: "1978",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2154,
+        spotifyId: "3koCCeSaVUyrRo3N2gHrd8",
+        title: "Let's Groove",
+        artist: "Earth\\, Wind & Fire",
+        year: "1981",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2155,
+        spotifyId: "1B5Tp2Ml9nLlmTSJx8xVfI",
+        title: "Always On My Mind",
+        artist: "Elvis Presley",
+        year: "1972",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2156,
+        spotifyId: "7HfCWnydoXXHYqaGowmF1W",
+        title: "Baby, I Love You",
+        artist: "The Ronettes",
+        year: "1963",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2157,
+        spotifyId: "6oJAAHOR84joXzckfF1OtZ",
+        title: "Limbo Rock",
+        artist: "Chubby Checker",
+        year: "1962",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2158,
+        spotifyId: "75Nlnd9AJ4CYrLXgWGsuTF",
+        title: "How Sweet It Is (To Be Loved By You)",
+        artist: "James Taylor",
+        year: "1975",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2159,
+        spotifyId: "7MtUIccNVRM3IfJzThvPQn",
+        title: "La mandanga",
+        artist: "El Fary",
+        year: "1979",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2160,
+        spotifyId: "2hitsKa8SthKhRJBXUHbIv",
+        title: "Our House",
+        artist: "Crosby\\, Stills\\, Nash & Young",
+        year: "1970",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2161,
+        spotifyId: "1GbyYL0B0Mjn3kSbrEwKKI",
+        title: "The Power Of Love",
+        artist: "Frankie Goes To Hollywood",
+        year: "1984",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2162,
+        spotifyId: "0gdmDP6xy3ZV7JNoHWAN9k",
+        title: "Town Called Malice",
+        artist: "The Jam",
+        year: "1982",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2163,
+        spotifyId: "3qt3ybU6MScMxMKL2TYBvt",
+        title: "No Particular Place To Go",
+        artist: "Chuck Berry",
+        year: "1964",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2164,
+        spotifyId: "6zbFTYeqNvZdms60HouEFT",
+        title: "Get Down Tonight",
+        artist: "KC & The Sunshine Band",
+        year: "1975",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2165,
+        spotifyId: "338PEefGpYb8FOHvztb3eu",
+        title: "Dónde Están Tus Ojos Negros",
+        artist: "Santabarbara",
+        year: "1976",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2166,
+        spotifyId: "0LrwgdLsFaWh9VXIjBRe8t",
+        title: "Changes",
+        artist: "David Bowie",
+        year: "1971",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2167,
+        spotifyId: "6zC0mpGYwbNTpk9SKwh08f",
+        title: "Wonderful Tonight",
+        artist: "Eric Clapton",
+        year: "1977",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2168,
+        spotifyId: "1pZn8AX1WulW8IO338hE5D",
+        title: "Blue Moon",
+        artist: "Billie Holiday",
+        year: "1952",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2169,
+        spotifyId: "7woFqgcnG5w6xBGHC2wlXY",
+        title: "La Mujer Que Yo Quiero",
+        artist: "Joan Manuel Serrat",
+        year: "1971",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2170,
+        spotifyId: "00meczE1jpLTX0BBzIGrAR",
+        title: "Big Girls Don't Cry",
+        artist: "Frankie Valli & The Four Seasons",
+        year: "1962",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2171,
+        spotifyId: "43h4FonpCeaaURpFpiQsf9",
+        title: "Hold Me Now",
+        artist: "Thompson Twins",
+        year: "1983",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2172,
+        spotifyId: "6PdZSO4EToXm2Wy6dZYN2D",
+        title: "Amor Primero",
+        artist: "Patxi Andion, Mocedades",
+        year: "1983",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2173,
+        spotifyId: "1WPqawIF9HCKfSOt7mN6X0",
+        title: "Nowhere To Run",
+        artist: "Martha Reeves & The Vandellas",
+        year: "1965",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2174,
+        spotifyId: "0WfA99QTuvAJOCgAyqwYsf",
+        title: "La estatua del jardín botánico",
+        artist: "Radio Futura",
+        year: "1982",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2175,
+        spotifyId: "5csdrJ0JtFn0qvwlvSh2EI",
+        title: "Love's Theme",
+        artist: "The Love Unlimited Orchestra",
+        year: "1973",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2176,
+        spotifyId: "2gE95JskwQ1pCACTpGe1Db",
+        title: "Down On The Corner",
+        artist: "Creedence Clearwater Revival",
+        year: "1969",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2177,
+        spotifyId: "52vA3CYKZqZVdQnzRrdZt6",
+        title: "The Times They Are A-Changin'",
+        artist: "Bob Dylan",
+        year: "1964",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2178,
+        spotifyId: "3KTxIOIZIE7UM6vwCX4Ofv",
+        title: "Somebody",
+        artist: "Bryan Adams",
+        year: "1984",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2179,
+        spotifyId: "3MMYxhWOv8UWQGYAFlV5eW",
+        title: "Tubular Bells",
+        artist: "Mike Oldfield",
+        year: "1973",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2180,
+        spotifyId: "7tql8W81VbjJGDi684npNA",
+        title: "Try Me",
+        artist: "James Brown",
+        year: "1958",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2181,
+        spotifyId: "0kVOor973ijVqOBhYqvaE8",
+        title: "Me Olvide De Vivir",
+        artist: "Julio Iglesias",
+        year: "1978",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2182,
+        spotifyId: "4zM6xmUvW8cuyMdvwnCtH3",
+        title: "(Theme From) The Monkees",
+        artist: "The Monkees",
+        year: "1966",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2183,
+        spotifyId: "668YgsnvdNBHfRscNIBS31",
+        title: "It's Only Rock'n'Roll (But I Like It)",
+        artist: "The Rolling Stones",
+        year: "1974",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2184,
+        spotifyId: "2VNfJpwdEQBLyXajaa6LWT",
+        title: "Burning Down the House",
+        artist: "Talking Heads",
+        year: "1983",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2185,
+        spotifyId: "6vZZtivPrtpggT5SSXsYTy",
+        title: "Solsbury Hill",
+        artist: "Peter Gabriel",
+        year: "1977",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2186,
+        spotifyId: "0mbS3VwRbO6HVBMPXnzOGA",
+        title: "To Love Somebody",
+        artist: "Bee Gees",
+        year: "1967",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2187,
+        spotifyId: "2M55R2A9IAhLdsCGFj8r8k",
+        title: "I'm Every Woman",
+        artist: "Chaka Khan",
+        year: "1978",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2188,
+        spotifyId: "4DR5MStkWtDYf17jBUOo0V",
+        title: "Little Green Bag",
+        artist: "George Baker Selection",
+        year: "1969",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2189,
+        spotifyId: "2zFdsAIk9r2Mi7Lmm1w3sM",
+        title: "That's All",
+        artist: "Genesis",
+        year: "1983",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2190,
+        spotifyId: "3b9Cpi8jW9jNoyx72QbfRO",
+        title: "Never Can Say Goodbye",
+        artist: "Gloria Gaynor",
+        year: "1974",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2191,
+        spotifyId: "4yugZvBYaoREkJKtbG08Qr",
+        title: "Take It Easy",
+        artist: "Eagles",
+        year: "1972",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2192,
+        spotifyId: "1Jmqubf9kGkWeYQXQKImL5",
+        title: "People Are Strange",
+        artist: "The Doors",
+        year: "1967",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2193,
+        spotifyId: "3gDPjU8URd9mtZhBBYwI2R",
+        title: "As Time Goes By",
+        artist: "Dooley Wilson",
+        year: "1942",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2194,
+        spotifyId: "5z161QQZMgQxSILnv3QoJk",
+        title: "Lullaby Of Birdland",
+        artist: "Sarah Vaughan",
+        year: "1954",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2195,
+        spotifyId: "6JluHeW26QJEjXtpl7GCqi",
+        title: "Bailarás Con Alegría",
+        artist: "Los Chichos",
+        year: "1981",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2196,
+        spotifyId: "1gJOqXpRjz9GeEEwQpcujK",
+        title: "You Are So Beautiful",
+        artist: "Joe Cocker",
+        year: "1974",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2197,
+        spotifyId: "0pNeVovbiZHkulpGeOx1Gj",
+        title: "Something",
+        artist: "The Beatles",
+        year: "1969",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2198,
+        spotifyId: "0VlxbRzdOyA56BviBK9vkc",
+        title: "Mission: Impossible",
+        artist: "Lalo Schifrin",
+        year: "1967",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2199,
+        spotifyId: "4gRA0i5sxx3jAhHaVjPnUN",
+        title: "Use Me",
+        artist: "Bill Withers",
+        year: "1972",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2200,
+        spotifyId: "3KzgdYUlqV6TOG7JCmx2Wg",
+        title: "Beyond the Sea",
+        artist: "Bobby Darin",
+        year: "1959",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2201,
+        spotifyId: "76ICmoJ4PcoMWoooaTxnQs",
+        title: "Land of 1000 Dances",
+        artist: "Wilson Pickett",
+        year: "1966",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2202,
+        spotifyId: "4gitetlGHZ9LfuJhwUhEhF",
+        title: "Physical",
+        artist: "Olivia Newton-John",
+        year: "1981",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2203,
+        spotifyId: "0Wh99eifNTNqDFRtzWhCE2",
+        title: "Corcovado (Quiet Nights Of Quiet Stars)",
+        artist: "Stan Getz, João Gilberto, Astrud Gilberto, Antônio Carlos Jobim",
+        year: "1964",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2204,
+        spotifyId: "6RANU8AS5ICU5PEHh8BYtH",
+        title: "Isn't She Lovely",
+        artist: "Stevie Wonder",
+        year: "1976",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2205,
+        spotifyId: "2vh3jeYAeR50YuigR7mGwo",
+        title: "Estar enamorado",
+        artist: "Raphael",
+        year: "1981",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2206,
+        spotifyId: "5I9sHwLDX28tLtzVgKLtpr",
+        title: "Everybody Loves Somebody",
+        artist: "Dean Martin",
+        year: "1964",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2207,
+        spotifyId: "4PRGxHpCpF2yoOHYKQIEwD",
+        title: "Rock and Roll",
+        artist: "Led Zeppelin",
+        year: "1971",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2208,
+        spotifyId: "05XkMS2YVNfPNXepMScPRJ",
+        title: "I Say a Little Prayer",
+        artist: "Dionne Warwick",
+        year: "1967",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2209,
+        spotifyId: "4YXKKnIZuk7UtXH5oC0ffa",
+        title: "Lucille",
+        artist: "Little Richard",
+        year: "1957",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2210,
+        spotifyId: "1qQ7pnHB4KCE6o2eNP8S87",
+        title: "Rags to Riches",
+        artist: "Tony Bennett",
+        year: "1953",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2211,
+        spotifyId: "2snFVTguRJ42e5bq1YiR58",
+        title: "Hard to Say I'm Sorry",
+        artist: "Chicago",
+        year: "1982",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2212,
+        spotifyId: "4kP69y3GKHi9tXckfgp4bK",
+        title: "For Once In My Life",
+        artist: "Stevie Wonder",
+        year: "1968",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2213,
+        spotifyId: "7gUMShP1l20tC0xf17Zplk",
+        title: "Ride Like the Wind",
+        artist: "Christopher Cross",
+        year: "1979",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2214,
+        spotifyId: "1hVXZoSAkZ3P5Lp6fKOcgx",
+        title: "Take Five",
+        artist: "The Dave Brubeck Quartet",
+        year: "1959",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2215,
+        spotifyId: "3aEJMh1cXKEjgh52claxQp",
+        title: "I've Got You Under My Skin",
+        artist: "Frank Sinatra",
+        year: "1956",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2216,
+        spotifyId: "1NwPdyjfYh2Fn8rp39H9kS",
+        title: "Blue Velvet",
+        artist: "Bobby Vinton",
+        year: "1963",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2217,
+        spotifyId: "5HQEmiV2lKnSO6qa2fsR7x",
+        title: "I'm Not In Love",
+        artist: "10cc",
+        year: "1975",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2218,
+        spotifyId: "3VbGCXWRiouAq8VyMYN2MI",
+        title: "Love Me Do",
+        artist: "The Beatles",
+        year: "1962",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2219,
+        spotifyId: "3CH8M5lB931faZDzjCTfVW",
+        title: "On Broadway",
+        artist: "The Drifters",
+        year: "1963",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2220,
+        spotifyId: "4o5GyaeGMgDsrclBsL3au7",
+        title: "Coconut",
+        artist: "Harry Nilsson",
+        year: "1971",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2221,
+        spotifyId: "7jIAttgQTpLDoNtykIQXjH",
+        title: "Blister In The Sun",
+        artist: "Violent Femmes",
+        year: "1983",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2222,
+        spotifyId: "63FVolyUoQiNKM9MaMly0c",
+        title: "Assumpta",
+        artist: "Siniestro Total",
+        year: "1984",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2223,
+        spotifyId: "6LbbHFEajG9e4m0G3L47c4",
+        title: "Pinball Wizard",
+        artist: "The Who",
+        year: "1969",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2224,
+        spotifyId: "55mKuESqpfgqe0kooIkTH2",
+        title: "Beat on the Brat",
+        artist: "Ramones",
+        year: "1976",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2225,
+        spotifyId: "2hdNya0b6Cc2YJ8IyaQIWp",
+        title: "Livin' Thing",
+        artist: "Electric Light Orchestra",
+        year: "1976",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2226,
+        spotifyId: "0B9x2BRHqj3Qer7biM3pU3",
+        title: "You're The One That I Want - From “Grease”",
+        artist: "John Travolta, Olivia Newton-John",
+        year: "1978",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2227,
+        spotifyId: "7nemcVsXVFZF01iqpIIo2Y",
+        title: "It's a Long Way to the Top (If You Wanna Rock 'N' Roll)",
+        artist: "AC/DC",
+        year: "1975",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2228,
+        spotifyId: "4frelkLhC4ATqJH9VGJztu",
+        title: "Spirits In The Material World",
+        artist: "The Police",
+        year: "1981",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2229,
+        spotifyId: "6FMGHBZaYQY7oFS7vyZx8a",
+        title: "Little Bitty Pretty One",
+        artist: "Thurston Harris, The Sharps",
+        year: "1957",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2230,
+        spotifyId: "5X7HaYdvc9Slc3D75kkkbl",
+        title: "No me hables",
+        artist: "Juan Pardo",
+        year: "1980",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2231,
+        spotifyId: "4Ys1exfeyv9AWigmLOckmo",
+        title: "Que Guapa Estás",
+        artist: "Manolo Escobar",
+        year: "1975",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2232,
+        spotifyId: "2HoShHOKiQZNdozXCa117r",
+        title: "You've Really Got A Hold On Me",
+        artist: "Smokey Robinson & The Miracles",
+        year: "1962",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2233,
+        spotifyId: "5qBqBdfTEIWJwAS0Jm2F5R",
+        title: "Turn! Turn! Turn! (To Everything There Is a Season)",
+        artist: "The Byrds",
+        year: "1965",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2234,
+        spotifyId: "4Cv6ongCvJy9JfSkWVnb5D",
+        title: "Get Down On It",
+        artist: "Kool & The Gang",
+        year: "1981",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2235,
+        spotifyId: "4R5qHNB2gdxBM2LDNaJZeO",
+        title: "Hot Love - A Side",
+        artist: "T. Rex",
+        year: "1971",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2236,
+        spotifyId: "4nBRYmCNpmF0MyPpXTKPbu",
+        title: "Clara",
+        artist: "Joan Baptista Humet",
+        year: "1980",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2237,
+        spotifyId: "0WNsDyndBS63qBMxbZ9OHR",
+        title: "Smile",
+        artist: "Nat King Cole",
+        year: "1954",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2238,
+        spotifyId: "15ifyO8wYntwyXAptfxhKr",
+        title: "Everybody Dance",
+        artist: "CHIC",
+        year: "1977",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2239,
+        spotifyId: "2nNdrstKD15nN3xR0KspgS",
+        title: "Brass in Pocket",
+        artist: "Pretenders",
+        year: "1979",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2240,
+        spotifyId: "3ix6K4wZY29bCujrSznwFZ",
+        title: "Let's Dance",
+        artist: "David Bowie",
+        year: "1983",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2241,
+        spotifyId: "4FmCUATNIarCQh72JYdvnm",
+        title: "That's Life",
+        artist: "Frank Sinatra",
+        year: "1966",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2242,
+        spotifyId: "2cdzutoqFK6sfW6exi7oXh",
+        title: "Return to Sender",
+        artist: "Elvis Presley",
+        year: "1962",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2243,
+        spotifyId: "0Jw3cPBXlGnA6DEJrZSTI0",
+        title: "Soul Bossa Nova",
+        artist: "Quincy Jones",
+        year: "1962",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2244,
+        spotifyId: "08mG3Y1vljYA6bvDt4Wqkj",
+        title: "Back In Black",
+        artist: "AC/DC",
+        year: "1980",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2245,
+        spotifyId: "1lCRw5FEZ1gPDNPzy1K4zW",
+        title: "We Are The Champions",
+        artist: "Queen",
+        year: "1977",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2246,
+        spotifyId: "4a5pNRjwmzYQuEY1E7O6pj",
+        title: "Breakfast In America",
+        artist: "Supertramp",
+        year: "1979",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2247,
+        spotifyId: "2wnsBaxrmkthIFAm6vqCuX",
+        title: "So Lonely",
+        artist: "The Police",
+        year: "1978",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2248,
+        spotifyId: "2BydLQAh7CUIFvSEqAMc4x",
+        title: "If You Want Me to Stay",
+        artist: "Sly & The Family Stone",
+        year: "1973",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2249,
+        spotifyId: "3e0FzZjTXOUtiJGSClOBrI",
+        title: "Fly Like An Eagle",
+        artist: "Steve Miller Band",
+        year: "1976",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2250,
+        spotifyId: "7Lx7whDrgzbZj6fYjqC3kt",
+        title: "Papa's Got A Brand New Bag - Pt. 1",
+        artist: "James Brown",
+        year: "1965",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2251,
+        spotifyId: "6wK7r5s3rMxb9Gyl6QzSaI",
+        title: "Esa Será Mi Casa",
+        artist: "Nino Bravo",
+        year: "1970",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2252,
+        spotifyId: "1RGyDTKRI8KA1Lyz1AUQw3",
+        title: "Cuando Salga La Luna",
+        artist: "Los Puntos",
+        year: "1976",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2253,
+        spotifyId: "5RdhBLmB4DyFHLglRrfx63",
+        title: "I'll Be There",
+        artist: "The Jackson 5",
+        year: "1970",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2254,
+        spotifyId: "5VSAonaAPhhGn0G7hMYwWK",
+        title: "Sister Golden Hair",
+        artist: "America",
+        year: "1975",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2255,
+        spotifyId: "1DndHckdH9m5rp6gYP086b",
+        title: "Runaround Sue",
+        artist: "Dion",
+        year: "1961",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2256,
+        spotifyId: "3TO7bbrUKrOSPGRTB5MeCz",
+        title: "Time",
+        artist: "Pink Floyd",
+        year: "1973",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2257,
+        spotifyId: "0UZFhlhUMrYyzzyOHkylM3",
+        title: "Let's Get Lost",
+        artist: "Chet Baker",
+        year: "1955",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2258,
+        spotifyId: "627teoJpK7qZOxRRY8TNnv",
+        title: "Let's Get It On",
+        artist: "Marvin Gaye",
+        year: "1973",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2259,
+        spotifyId: "2kyVQg00pphEufGT59M2XH",
+        title: "(They Long To Be) Close To You",
+        artist: "Carpenters",
+        year: "1970",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2260,
+        spotifyId: "54pvEYFocTlvIAQOfXSjqV",
+        title: "Alone Again (Naturally)",
+        artist: "Gilbert O'Sullivan",
+        year: "1972",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2261,
+        spotifyId: "5P11rW6aJErF37MTfRZS31",
+        title: "Hallelujah, I Love Her So",
+        artist: "Ray Charles",
+        year: "1956",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2262,
+        spotifyId: "56KqaFSGTb7ifpt16t5Y1N",
+        title: "Rock the Casbah",
+        artist: "The Clash",
+        year: "1982",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2263,
+        spotifyId: "0GGxVTb0UwDwdaKNjBdCn3",
+        title: "Woman",
+        artist: "John Lennon",
+        year: "1980",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2264,
+        spotifyId: "6mFkJmJqdDVQ1REhVfGgd1",
+        title: "Wish You Were Here",
+        artist: "Pink Floyd",
+        year: "1975",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2265,
+        spotifyId: "5TNpCThzzXHEipXGKgNG8T",
+        title: "Cheek To Cheek",
+        artist: "Ella Fitzgerald, Louis Armstrong",
+        year: "1956",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2266,
+        spotifyId: "6JRLFiX9NJSoRRKxowlBYr",
+        title: "Is This Love",
+        artist: "Bob Marley & The Wailers",
+        year: "1978",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2267,
+        spotifyId: "2EeVPGHq2I7fjeDfT6LEYX",
+        title: "I Wan'na Be Like You (The Monkey Song)",
+        artist: "Louis Prima, Phil Harris, Bruce Reitherman",
+        year: "1967",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2268,
+        spotifyId: "5WyuRWUcOOhAic0tj9Pl28",
+        title: "Satellite of Love",
+        artist: "Lou Reed",
+        year: "1972",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2269,
+        spotifyId: "5J7hyY0sNB0pIh4R7AkcRT",
+        title: "Soledad",
+        artist: "Emilio José",
+        year: "1973",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2270,
+        spotifyId: "58PSYdY0GFg0LFb2PxYk4T",
+        title: "Mannish Boy",
+        artist: "Muddy Waters",
+        year: "1955",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2271,
+        spotifyId: "7GRoC76NBaljj6vURAUNH8",
+        title: "La calle del olvido",
+        artist: "Los Secretos",
+        year: "1989",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2272,
+        spotifyId: "6QdwofpqDvvNxX88C9A0iQ",
+        title: "Nada Valgo Sin Tu Amor",
+        artist: "Juanes",
+        year: "2004",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2273,
+        spotifyId: "4mVLzFbc3gaCoWCEENLouc",
+        title: "Domino Dancing",
+        artist: "Pet Shop Boys",
+        year: "1988",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2274,
+        spotifyId: "5jSz894ljfWE0IcHBSM39i",
+        title: "Raspberry Beret",
+        artist: "Prince",
+        year: "1985",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2275,
+        spotifyId: "4VQNCzfZ3MdHEwwErNXpBo",
+        title: "All Eyez On Me",
+        artist: "2Pac, Big Syke",
+        year: "1996",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2276,
+        spotifyId: "2rBHnIxbhkMGLpqmsNX91M",
+        title: "Bombtrack",
+        artist: "Rage Against The Machine",
+        year: "1992",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2277,
+        spotifyId: "7nXq1vaZiz7PdbfojpPjW5",
+        title: "Fighter",
+        artist: "Christina Aguilera",
+        year: "2002",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2278,
+        spotifyId: "6MFQeWtk7kxWGydnJB2y36",
+        title: "These Words",
+        artist: "Natasha Bedingfield",
+        year: "2004",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2279,
+        spotifyId: "3Ch0HLsUMMcqSq6kVHi9wm",
+        title: "Are You That Somebody?",
+        artist: "Aaliyah",
+        year: "1998",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2280,
+        spotifyId: "4jDi62WJdDKoikLPsNsVeG",
+        title: "Marcha, Marcha",
+        artist: "Peret, Ramonet",
+        year: "1990",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2281,
+        spotifyId: "3RMeOetCdXttthQK0clPuz",
+        title: "How Am I Supposed to Live Without You",
+        artist: "Michael Bolton",
+        year: "1989",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2282,
+        spotifyId: "3SmPl0CGxvvkQCrTv7edEE",
+        title: "I'm Your Baby Tonight",
+        artist: "Whitney Houston",
+        year: "1990",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2283,
+        spotifyId: "6lRkdG1HurVS72F9GoBeWJ",
+        title: "Good Thing",
+        artist: "Fine Young Cannibals",
+        year: "1988",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2284,
+        spotifyId: "6FZy2C0zoB6VoWyEbTpNc6",
+        title: "Sí, sí",
+        artist: "Los Ronaldos",
+        year: "1987",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2285,
+        spotifyId: "4dVbhS6OiYvFikshyaQaCN",
+        title: "My Hero",
+        artist: "Foo Fighters",
+        year: "1997",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2286,
+        spotifyId: "1QhSB9L9M5eZQhW4RNOhXK",
+        title: "The Tide Is High",
+        artist: "Atomic Kitten",
+        year: "2002",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2287,
+        spotifyId: "1kiNatIrwDusOZfR29W0LJ",
+        title: "Man in the Mirror",
+        artist: "Michael Jackson",
+        year: "1987",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2288,
+        spotifyId: "6hy7ONYlFybtQ1bX6eoXlt",
+        title: "Take Your Mama",
+        artist: "Scissor Sisters",
+        year: "2004",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2289,
+        spotifyId: "7rQiW2mJDbP77h2RLlASTw",
+        title: "Supreme",
+        artist: "Robbie Williams",
+        year: "2000",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2290,
+        spotifyId: "2aBxt229cbLDOvtL7Xbb9x",
+        title: "Always Be My Baby",
+        artist: "Mariah Carey",
+        year: "1995",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2291,
+        spotifyId: "61fUmn6wYvU7qS62wNvQFN",
+        title: "Lovin' Each Day",
+        artist: "Ronan Keating",
+        year: "2001",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2292,
+        spotifyId: "4LwU4Vp6od3Sb08CsP99GC",
+        title: "The Next Episode",
+        artist: "Dr. Dre, Snoop Dogg",
+        year: "1999",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2293,
+        spotifyId: "4Fpsa3pYc3gozrxHRRPvR6",
+        title: "Ray of Light",
+        artist: "Madonna",
+        year: "1998",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2294,
+        spotifyId: "10nyNJ6zNy2YVYLrcwLccB",
+        title: "No Surprises",
+        artist: "Radiohead",
+        year: "1997",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2295,
+        spotifyId: "0en6SFmN4eaErErH126wbJ",
+        title: "What Have I Done to Deserve This?",
+        artist: "Pet Shop Boys, Dusty Springfield",
+        year: "1987",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2296,
+        spotifyId: "1xFliXOpcu7E89AsDAZ7JV",
+        title: "Breathe Again",
+        artist: "Toni Braxton",
+        year: "1993",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2297,
+        spotifyId: "3xxBAMUVusDLjLFwwL9qoY",
+        title: "Always On The Run",
+        artist: "Lenny Kravitz",
+        year: "1991",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2298,
+        spotifyId: "0jVo3e34A15l6MNu1O3cfa",
+        title: "Red Right Hand",
+        artist: "Nick Cave & The Bad Seeds",
+        year: "1994",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2299,
+        spotifyId: "1LPRt6MRT3rbr696ly5lUC",
+        title: "Odio",
+        artist: "Revolver",
+        year: "2002",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2300,
+        spotifyId: "254bXAqt3zP6P50BdQvEsq",
+        title: "Everywhere",
+        artist: "Fleetwood Mac",
+        year: "1987",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2301,
+        spotifyId: "17CPezzLWzvGfpZW6X8XT0",
+        title: "Say You, Say Me",
+        artist: "Lionel Richie",
+        year: "1985",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2302,
+        spotifyId: "5JsIknb4lyIKQCytjv0Uw5",
+        title: "Breakout",
+        artist: "Swing Out Sister",
+        year: "1986",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2303,
+        spotifyId: "4RXaCB8ClD3BCGYdLxO19B",
+        title: "Pisando fuerte",
+        artist: "Alejandro Sanz",
+        year: "1991",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2304,
+        spotifyId: "2N2yrmodOnVF10mKvItC9P",
+        title: "Don't Cry (Original)",
+        artist: "Guns N' Roses",
+        year: "1991",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2305,
+        spotifyId: "62vx6uOYO7PrqKqKTKg9RY",
+        title: "Sowing The Seeds Of Love",
+        artist: "Tears For Fears",
+        year: "1989",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2306,
+        spotifyId: "6wBMTv8yTiNh50fqTkT0JC",
+        title: "Everybody Everybody",
+        artist: "Black Box",
+        year: "1990",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2307,
+        spotifyId: "4xiyq1iRdsxuU1BPUJ490Z",
+        title: "Close To Me",
+        artist: "The Cure",
+        year: "1985",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2308,
+        spotifyId: "0f0k0OJ9VbaLHX4J1t2qUy",
+        title: "Just My Imagination",
+        artist: "The Cranberries",
+        year: "1999",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2309,
+        spotifyId: "2VCB1IOc2oLUkat0YCkTZ6",
+        title: "Living On My Own",
+        artist: "Freddie Mercury, Serge Ramaekers, Carl Ward, Colin Peter",
+        year: "1985",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2310,
+        spotifyId: "4XSKuMCUBdOnPohh1kwUUs",
+        title: "De Ley",
+        artist: "Rosario",
+        year: "1992",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2311,
+        spotifyId: "6liaHE9iHh23PLVvw7lK8V",
+        title: "Closing Time",
+        artist: "Semisonic",
+        year: "1998",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2312,
+        spotifyId: "3G69vJMWsX6ZohTykad2AU",
+        title: "One",
+        artist: "U2",
+        year: "1991",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2313,
+        spotifyId: "36AWdhZIGLUTkWpJDhe7va",
+        title: "2 Become 1",
+        artist: "Spice Girls",
+        year: "1996",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2314,
+        spotifyId: "2OErSh4oVVAUll0vHxdr6p",
+        title: "Bigmouth Strikes Again",
+        artist: "The Smiths",
+        year: "1986",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2315,
+        spotifyId: "1zNXF2svmdlNxfS5XeNUgr",
+        title: "Don't Know Why",
+        artist: "Norah Jones",
+        year: "2002",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2316,
+        spotifyId: "7dfl9X38RhIvB3oSmmneq3",
+        title: "I'll Make Love To You",
+        artist: "Boyz II Men",
+        year: "1994",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2317,
+        spotifyId: "7sJN693sYKEIEMu7fc5VnJ",
+        title: "Whatta Man",
+        artist: "Salt-N-Pepa, En Vogue",
+        year: "1993",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2318,
+        spotifyId: "0Ja4hLKiUSw01E01pJ1yGr",
+        title: "Breathe",
+        artist: "The Prodigy",
+        year: "1996",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2319,
+        spotifyId: "00isIFJWVpXIQ8HkGICSQp",
+        title: "Together Forever",
+        artist: "Rick Astley",
+        year: "1987",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2320,
+        spotifyId: "31v2AQlx4pDI7kmnLxBkem",
+        title: "Mmm Mmm Mmm Mmm",
+        artist: "Crash Test Dummies",
+        year: "1993",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2321,
+        spotifyId: "2NsMwNWumJXCdTg2IZCLZ5",
+        title: "Lento",
+        artist: "Julieta Venegas",
+        year: "2003",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2322,
+        spotifyId: "2wg6RV3N9GoUMURfhxMJ3P",
+        title: "Disappear",
+        artist: "INXS",
+        year: "1990",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2323,
+        spotifyId: "29rQJydAlO0uMyWvRIZxQg",
+        title: "That's The Way Love Goes",
+        artist: "Janet Jackson",
+        year: "1993",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2324,
+        spotifyId: "2MaBAGBIttgv86bYytdx1f",
+        title: "Listen To Your Heart",
+        artist: "Roxette",
+        year: "1988",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2325,
+        spotifyId: "0I1DJdLt9BKOb7GWmWxCjo",
+        title: "Fields Of Gold",
+        artist: "Sting",
+        year: "1993",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2326,
+        spotifyId: "0BCPKOYdS2jbQ8iyB56Zns",
+        title: "Clocks",
+        artist: "Coldplay",
+        year: "2002",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2327,
+        spotifyId: "4CcSw8wQAHYf4XNckayPoc",
+        title: "Walking on Broken Glass",
+        artist: "Annie Lennox",
+        year: "1992",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2328,
+        spotifyId: "1ffslNl0FbbFvorcEVLUFL",
+        title: "Waiting for Tonight",
+        artist: "Jennifer Lopez",
+        year: "1999",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2329,
+        spotifyId: "02UjN28wB5uyeqUhZTiuZ2",
+        title: "I Belong To You",
+        artist: "Lenny Kravitz",
+        year: "1998",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2330,
+        spotifyId: "3Cdlb91oUTuN2hOVNdhfQT",
+        title: "Tocar Madera",
+        artist: "Manolo Tena",
+        year: "1992",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2331,
+        spotifyId: "5fMwvrqujbQjUxcNPcYrUF",
+        title: "Janie's Got A Gun",
+        artist: "Aerosmith",
+        year: "1989",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2332,
+        spotifyId: "6TlQ5fbojNRuG0hPQMbxeW",
+        title: "Live Forever",
+        artist: "Oasis",
+        year: "1994",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2333,
+        spotifyId: "0U87auHx1iZTEFcq9KVdmO",
+        title: "Boulevard of Broken Dreams",
+        artist: "Green Day",
+        year: "2024",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2334,
+        spotifyId: "35o9a4iAfLl5jRmqMX9c1D",
+        title: "Shape of My Heart",
+        artist: "Backstreet Boys",
+        year: "2000",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2335,
+        spotifyId: "1t5nwfsb90IliczIhOMnpJ",
+        title: "In Your Eyes",
+        artist: "Kylie Minogue",
+        year: "2002",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2336,
+        spotifyId: "1jlG3KJ3gdYmhfuySFfpO1",
+        title: "I'm with You",
+        artist: "Avril Lavigne",
+        year: "2002",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2337,
+        spotifyId: "0S7Vv5am0xbAXgJ2RFQR8S",
+        title: "Where Does My Heart Beat Now",
+        artist: "Céline Dion",
+        year: "1990",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2338,
+        spotifyId: "47oZRFceogtlw8Kcu5UGaj",
+        title: "Miedo",
+        artist: "M-Clan",
+        year: "2004",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2339,
+        spotifyId: "2Pr1nZpt8A8WP7QYpyq6L3",
+        title: "Wildflowers",
+        artist: "Tom Petty",
+        year: "1994",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2340,
+        spotifyId: "2mvffzYUJ9Ld9xhsF5DUjU",
+        title: "In Bloom",
+        artist: "Nirvana",
+        year: "1991",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2341,
+        spotifyId: "5z7mYFfhw6N6f23VwrokJD",
+        title: "The Way You Move",
+        artist: "Outkast, Sleepy Brown",
+        year: "2003",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2342,
+        spotifyId: "2Mpj1Ul5OFPyyP4wB62Rvi",
+        title: "Survivor",
+        artist: "Destiny's Child",
+        year: "2001",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2343,
+        spotifyId: "1Jlt67b4oOhCoFW9GQwL9T",
+        title: "Point of View",
+        artist: "DB Boulevard",
+        year: "2001",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2344,
+        spotifyId: "257OBnRVtJ6b9rPxCBMGgm",
+        title: "The King of Rock 'N' Roll",
+        artist: "Prefab Sprout",
+        year: "1988",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2345,
+        spotifyId: "3AA8xNhDC0MpqwkGX3EP5V",
+        title: "If I Ever Feel Better",
+        artist: "Phoenix",
+        year: "2000",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2346,
+        spotifyId: "65RcvcnNgiCOQ0MBD16Up0",
+        title: "Runaway",
+        artist: "Bon Jovi",
+        year: "1984",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2347,
+        spotifyId: "4GbnjrrobeVLCl1FQ5C0OY",
+        title: "People Have the Power",
+        artist: "Patti Smith",
+        year: "1988",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2348,
+        spotifyId: "06DSI8L6IT8SizCw3JLckz",
+        title: "Cantaloop (Flip Fantasia)",
+        artist: "Us3, Rahsaan, Gerard Presencer",
+        year: "1992",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2349,
+        spotifyId: "56NkIxSZZiMpFP5ZNSxtnT",
+        title: "Someday",
+        artist: "The Strokes",
+        year: "2001",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2350,
+        spotifyId: "6IZWJhXyk1Z0rtWNxIi4o7",
+        title: "Happy Hour",
+        artist: "The Housemartins",
+        year: "1986",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2351,
+        spotifyId: "15m2Op4d1ZtX0ScPaDNKcd",
+        title: "Vino Tinto",
+        artist: "Estopa",
+        year: "2001",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2352,
+        spotifyId: "735rjks7kQgWCjTQlIHMuH",
+        title: "Head over Feet",
+        artist: "Alanis Morissette",
+        year: "1995",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2353,
+        spotifyId: "0TaT50ZZxT4ytZxuqkE3A9",
+        title: "Why Can't This Be Love",
+        artist: "Van Halen",
+        year: "1986",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2354,
+        spotifyId: "4UQDZlZhGUDoYMohwrY28v",
+        title: "Virtual Insanity",
+        artist: "Jamiroquai",
+        year: "1996",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2355,
+        spotifyId: "6zvh1pH7PwIib64b6uv7kT",
+        title: "Daría",
+        artist: "La Quinta Estacion",
+        year: "2004",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2356,
+        spotifyId: "7siMHyJyxIwMQkHc7EPi9D",
+        title: "Why Does My Heart Feel So Bad?",
+        artist: "Moby",
+        year: "1999",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2357,
+        spotifyId: "7COcoiWy4fuz0nH2v8BkRD",
+        title: "Crash",
+        artist: "The Primitives",
+        year: "1988",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2358,
+        spotifyId: "6L4fEE9awoUnSEy1bmQebb",
+        title: "Country House",
+        artist: "Blur",
+        year: "1995",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2359,
+        spotifyId: "4fT89rIpn1BOJh6hvdp3n7",
+        title: "Honey",
+        artist: "Mariah Carey, Mase, The LOX",
+        year: "1997",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2360,
+        spotifyId: "3SD11QnefCc3RNfKzxKMmJ",
+        title: "Black Coffee",
+        artist: "All Saints, Mark Stent",
+        year: "2000",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2361,
+        spotifyId: "2stkLJ0JNcXkIRDNF3ld6c",
+        title: "You've Got a Friend in Me",
+        artist: "Randy Newman",
+        year: "1995",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2362,
+        spotifyId: "6SaeXxdt0Id6ZzmX0ZGTQK",
+        title: "Fastlove, Pt. 1",
+        artist: "George Michael",
+        year: "1996",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2363,
+        spotifyId: "2TxWkdptNrm2Z0CZfMr3Iq",
+        title: "I Don't Wanna Lose You",
+        artist: "Tina Turner",
+        year: "1989",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2364,
+        spotifyId: "3XorCFmcupSm5QS6hA9g4N",
+        title: "I Want You",
+        artist: "Savage Garden",
+        year: "1996",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2365,
+        spotifyId: "0T57cTUpYpvSvZ3GowBuTP",
+        title: "Never Let Me Down Again",
+        artist: "Depeche Mode",
+        year: "1987",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2366,
+        spotifyId: "1rYcIDgY5K5qO1gTdEwSYK",
+        title: "The Real Thing",
+        artist: "Lisa Stansfield",
+        year: "1997",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2367,
+        spotifyId: "3G6hxSp260RzGw4sOiDOQ3",
+        title: "Case Of The Ex (Whatcha Gonna Do)",
+        artist: "Mýa",
+        year: "2000",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2368,
+        spotifyId: "0vB4Vd6PtkJSEnWsmqATnZ",
+        title: "Nothing's Gonna Change My Love for You",
+        artist: "George Benson",
+        year: "1985",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2369,
+        spotifyId: "7aOGFnnVDivtRO1PrYhx64",
+        title: "Crush",
+        artist: "Jennifer Paige",
+        year: "1998",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2370,
+        spotifyId: "4WY3HyGXsWqjFRCVD6gnTe",
+        title: "Baby Boy",
+        artist: "Beyoncé, Sean Paul",
+        year: "2003",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2371,
+        spotifyId: "503sFkc8Y2eyGnM6cu8kHm",
+        title: "It's Your Love",
+        artist: "Tim McGraw, Faith Hill",
+        year: "1997",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2372,
+        spotifyId: "3RmKpob8xzv1pzHEQrMJah",
+        title: "Let Me Blow Ya Mind",
+        artist: "Eve, Gwen Stefani",
+        year: "2001",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2373,
+        spotifyId: "5TSANSqPTD6nBG0NSJWmVB",
+        title: "Cradle Of Love",
+        artist: "Billy Idol",
+        year: "1990",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2374,
+        spotifyId: "7mS8RbJji2UZAaguRGsOCH",
+        title: "Me Against the Music",
+        artist: "Britney Spears, Madonna",
+        year: "2003",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2375,
+        spotifyId: "6nozDLxeL0TE4MS9GqYU1v",
+        title: "I Knew I Loved You",
+        artist: "Savage Garden",
+        year: "1999",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2376,
+        spotifyId: "0yac0FPhLRH9i9lOng3f81",
+        title: "Everybody's Changing",
+        artist: "Keane",
+        year: "2003",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2377,
+        spotifyId: "4pmc2AxSEq6g7hPVlJCPyP",
+        title: "Jumpin', Jumpin'",
+        artist: "Destiny's Child",
+        year: "1999",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2378,
+        spotifyId: "2cFl7utlqyZjCXN1G5nRvA",
+        title: "Stuck With You",
+        artist: "Huey Lewis & The News",
+        year: "1986",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2379,
+        spotifyId: "0tRQ7UZtDQtKUkFFRtyTyM",
+        title: "Too Lost In You",
+        artist: "Sugababes",
+        year: "2003",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2380,
+        spotifyId: "1c9dnQbOzw01ID7X2IsYOE",
+        title: "Slave To Love",
+        artist: "Bryan Ferry",
+        year: "1985",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2381,
+        spotifyId: "6h6Ccbgvhibl2XQ0SQNR70",
+        title: "Say What You Want",
+        artist: "Texas",
+        year: "1997",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2382,
+        spotifyId: "6IzmhQOhzgvo2tnRhYjAeO",
+        title: "Games People Play",
+        artist: "Inner Circle",
+        year: "1994",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2383,
+        spotifyId: "0uzZRnbynqDu8QSjVJSCTX",
+        title: "We've Got It Goin' On",
+        artist: "Backstreet Boys",
+        year: "1995",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2384,
+        spotifyId: "1XvfncS1t4BNkh37klHeqj",
+        title: "Marta tiene un marcapasos",
+        artist: "Hombres G",
+        year: "1983",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2385,
+        spotifyId: "3XVBdLihbNbxUwZosxcGuJ",
+        title: "If I Ain't Got You",
+        artist: "Alicia Keys",
+        year: "2003",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2386,
+        spotifyId: "19TYg1tkwLpOH2mxyE6X7u",
+        title: "Contamíname",
+        artist: "Ana Belén, Víctor Manuel",
+        year: "1994",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2387,
+        spotifyId: "41IShViF79gmulEkIHAjcb",
+        title: "The Game of Love",
+        artist: "Santana, Michelle Branch",
+        year: "2002",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2388,
+        spotifyId: "1ZoE2naC9ySlPLdBZhS1rM",
+        title: "Connected",
+        artist: "Stereo MC's",
+        year: "1992",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2389,
+        spotifyId: "23Llyuevgg4Dt5vNdZcEEf",
+        title: "Only Happy When It Rains",
+        artist: "Garbage",
+        year: "1995",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2390,
+        spotifyId: "51KKQAgYFoJHgVIuJWHdHb",
+        title: "Graceland",
+        artist: "Paul Simon",
+        year: "1986",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2391,
+        spotifyId: "3LUWWox8YYykohBbHUrrxd",
+        title: "We R Who We R",
+        artist: "Kesha",
+        year: "2010",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2392,
+        spotifyId: "2SOvWt6igzXViIjIiWNWEP",
+        title: "BABY HELLO",
+        artist: "Rauw Alejandro, Bizarrap",
+        year: "2023",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2393,
+        spotifyId: "3dhjNA0jGA8vHBQ1VdD6vV",
+        title: "I Feel It Coming",
+        artist: "The Weeknd, Daft Punk",
+        year: "2016",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2394,
+        spotifyId: "58w5J5yNWeGZ7a4cM1rO7Y",
+        title: "Swalla",
+        artist: "Jason Derulo, Nicki Minaj, Ty Dolla $ign",
+        year: "2017",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2395,
+        spotifyId: "0QHEIqNKsMoOY5urbzN48u",
+        title: "Made You Look",
+        artist: "Meghan Trainor",
+        year: "2022",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2396,
+        spotifyId: "34dx8DACTJsc3rsJdaEIQw",
+        title: "Papaoutai",
+        artist: "Stromae",
+        year: "2013",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2397,
+        spotifyId: "2Yy0FsAV2I5VXU4xpph2WN",
+        title: "Stay",
+        artist: "Rihanna, Mikky Ekko",
+        year: "2012",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2398,
+        spotifyId: "6SKwQghsR8AISlxhcwyA9R",
+        title: "Marry You",
+        artist: "Bruno Mars",
+        year: "2010",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2399,
+        spotifyId: "4T6HLdP6OcAtqC6tGnQelG",
+        title: "Everything",
+        artist: "Michael Bublé",
+        year: "2007",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2400,
+        spotifyId: "7ef4DlsgrMEH11cDZd32M6",
+        title: "One Kiss",
+        artist: "Calvin Harris, Dua Lipa",
+        year: "2018",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2401,
+        spotifyId: "30XU4suKzCeoCK9YFzdufg",
+        title: "Born This Way",
+        artist: "Lady Gaga",
+        year: "2011",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2402,
+        spotifyId: "5wANPM4fQCJwkGd4rN57mH",
+        title: "drivers license",
+        artist: "Olivia Rodrigo",
+        year: "2021",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2403,
+        spotifyId: "4v7DCN09hgXkKazefkznDQ",
+        title: "Lonely",
+        artist: "Akon",
+        year: "2004",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2404,
+        spotifyId: "3IQF4xCQUPicbA4hWfTxPo",
+        title: "I Lived",
+        artist: "OneRepublic",
+        year: "2013",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2405,
+        spotifyId: "5FEXPoPnzueFJQCPRIrC3c",
+        title: "Day 'N' Nite (nightmare)",
+        artist: "Kid Cudi",
+        year: "2008",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2406,
+        spotifyId: "0afhq8XCExXpqazXczTSve",
+        title: "Galway Girl",
+        artist: "Ed Sheeran",
+        year: "2017",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2407,
+        spotifyId: "6mmPpaltUZK7xjNlBPQQ0p",
+        title: "Desesperados",
+        artist: "Rauw Alejandro, Chencho Corleone",
+        year: "2021",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2408,
+        spotifyId: "0e8nrvls4Qqv5Rfa2UhqmO",
+        title: "THATS WHAT I WANT",
+        artist: "Lil Nas X",
+        year: "2021",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2409,
+        spotifyId: "5b5cPscqVEMChvDqscVw26",
+        title: "Training Season",
+        artist: "Dua Lipa",
+        year: "2024",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2410,
+        spotifyId: "609E1JCInJncactoMmkDon",
+        title: "BESO",
+        artist: "ROSALÍA, Rauw Alejandro",
+        year: "2023",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2411,
+        spotifyId: "39cmB3ZoTOLwOTq7tMNqKa",
+        title: "Hear Me Now",
+        artist: "Alok, Zeeba, Bruno Martini",
+        year: "2016",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2412,
+        spotifyId: "1fidCEsYlaVE3pHwKCvpFZ",
+        title: "Am I Wrong",
+        artist: "Nico & Vinz",
+        year: "2013",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2413,
+        spotifyId: "7MTdv6v3vsmQcVfh7eIaks",
+        title: "Tripping",
+        artist: "Robbie Williams",
+        year: "2005",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2414,
+        spotifyId: "5N3hjp1WNayUPZrA8kJmJP",
+        title: "Please Please Please",
+        artist: "Sabrina Carpenter",
+        year: "2024",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2415,
+        spotifyId: "5SxahezRlC0saXbCALfB7c",
+        title: "End of the World",
+        artist: "Miley Cyrus",
+        year: "2025",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2416,
+        spotifyId: "1Mys1gf9SkMBAVGGxpkJ7d",
+        title: "Reality",
+        artist: "Lost Frequencies, Janieck",
+        year: "2015",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2417,
+        spotifyId: "1XgpK29CGGjZnxPYkiRbh4",
+        title: "Hey DJ",
+        artist: "CNCO, Yandel",
+        year: "2017",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2418,
+        spotifyId: "31TmMW92lP0UoxtAaF89hU",
+        title: "Qué Bonita",
+        artist: "DePol",
+        year: "2022",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2419,
+        spotifyId: "3vv9phIu6Y1vX3jcqaGz5Z",
+        title: "Roses",
+        artist: "The Chainsmokers, ROZES",
+        year: "2015",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2420,
+        spotifyId: "2M9ULmQwTaTGmAdXaXpfz5",
+        title: "Billionaire",
+        artist: "Travie McCoy, Bruno Mars",
+        year: "2010",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2421,
+        spotifyId: "4h9wh7iOZ0GGn8QVp4RAOB",
+        title: "I Ain't Worried",
+        artist: "OneRepublic",
+        year: "2022",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2422,
+        spotifyId: "6cx06DFPPHchuUAcTxznu9",
+        title: "Head & Heart",
+        artist: "Joel Corry, MNEK",
+        year: "2020",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2423,
+        spotifyId: "7Feaw9WAEREY0DUOSXJLOM",
+        title: "Summer Days",
+        artist: "Martin Garrix, Macklemore, Fall Out Boy",
+        year: "2019",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2424,
+        spotifyId: "0ct6r3EGTcMLPtrXHDvVjc",
+        title: "The Nights",
+        artist: "Avicii",
+        year: "2014",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2425,
+        spotifyId: "1P17dC1amhFzptugyAO7Il",
+        title: "Look What You Made Me Do",
+        artist: "Taylor Swift",
+        year: "2017",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2426,
+        spotifyId: "0FpB2Hw5qx9SeMMQuw1G5P",
+        title: "Loba",
+        artist: "Shakira",
+        year: "2009",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2427,
+        spotifyId: "2NniAhAtkRACaMeYt48xlD",
+        title: "50 Ways to Say Goodbye",
+        artist: "Train",
+        year: "2012",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2428,
+        spotifyId: "208AoK3cBWQRUPkEr4RCwQ",
+        title: "Magia",
+        artist: "Alvaro Soler",
+        year: "2021",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2429,
+        spotifyId: "3H7ihDc1dqLriiWXwsc2po",
+        title: "Breaking Me",
+        artist: "Topic, A7S",
+        year: "2019",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2430,
+        spotifyId: "0vWUhCPxpJOJR5urYbZypB",
+        title: "Hypnotized",
+        artist: "Purple Disco Machine, Sophie and the Giants",
+        year: "2020",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2431,
+        spotifyId: "0DWdj2oZMBFSzRsi2Cvfzf",
+        title: "TQG",
+        artist: "KAROL G, Shakira",
+        year: "2023",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2432,
+        spotifyId: "3mfER4ORePHvN35cbZ3dkV",
+        title: "Where Are You Now",
+        artist: "Lost Frequencies, Calum Scott",
+        year: "2021",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2433,
+        spotifyId: "2IxoxL1FHw0RxN5r6y5mjF",
+        title: "Love Today",
+        artist: "MIKA",
+        year: "2007",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2434,
+        spotifyId: "5Z2OHghVzPn8qyCyIbDy4m",
+        title: "El Patio",
+        artist: "Pablo López",
+        year: "2017",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2435,
+        spotifyId: "4CYpaMXu4iyGdk8b0jCeYi",
+        title: "No Sigue Modas Aka Ella No Sigue Modas",
+        artist: "Don Omar, Juan Magán",
+        year: "2012",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2436,
+        spotifyId: "21jGcNKet2qwijlDFuPiPb",
+        title: "Circles",
+        artist: "Post Malone",
+        year: "2019",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2437,
+        spotifyId: "708fdZE13dtPS4kS3AfYo7",
+        title: "Mi Nuevo Vicio",
+        artist: "Paulina Rubio, Morat",
+        year: "2015",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2438,
+        spotifyId: "0nJW01T7XtvILxQgC5J7Wh",
+        title: "When I Was Your Man",
+        artist: "Bruno Mars",
+        year: "2012",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2439,
+        spotifyId: "6dOtVTDdiauQNBQEDOtlAB",
+        title: "BIRDS OF A FEATHER",
+        artist: "Billie Eilish",
+        year: "2024",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2440,
+        spotifyId: "5TFD2bmFKGhoCRbX61nXY5",
+        title: "NUEVAYoL",
+        artist: "Bad Bunny",
+        year: "2025",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2441,
+        spotifyId: "2qT1uLXPVPzGgFOx4jtEuo",
+        title: "no tears left to cry",
+        artist: "Ariana Grande",
+        year: "2018",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2442,
+        spotifyId: "3tMftGMXTPbQlmjh4FzXpZ",
+        title: "Me has invitado a bailar",
+        artist: "Dani Fernández",
+        year: "2024",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2443,
+        spotifyId: "6qqrTXSdwiJaq8SO0X2lSe",
+        title: "Ordinary",
+        artist: "Alex Warren",
+        year: "2025",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2444,
+        spotifyId: "7jk7gqyEonmVVYahZN5zhW",
+        title: "Circus",
+        artist: "Britney Spears",
+        year: "2008",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2445,
+        spotifyId: "01SoeJJ3ICXaWLBp1jnWk8",
+        title: "Mi Héroe",
+        artist: "Antonio Orozco",
+        year: "2015",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2446,
+        spotifyId: "7LHsRtiBsoAkLXhSqZDNm4",
+        title: "Broken Strings",
+        artist: "Nelly Furtado, James Morrison",
+        year: "2008",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2447,
+        spotifyId: "66TRwr5uJwPt15mfFkzhbi",
+        title: "Crank That (Soulja Boy)",
+        artist: "Soulja Boy",
+        year: "2007",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2448,
+        spotifyId: "0Qh38w01QRXK6KHIv0e3hb",
+        title: "What About Us",
+        artist: "P!nk",
+        year: "2017",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2449,
+        spotifyId: "4rKQ8daoK0aklVptea8A9E",
+        title: "EL TONTO",
+        artist: "Lola Indigo, Quevedo",
+        year: "2023",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2450,
+        spotifyId: "6Sq7ltF9Qa7SNFBsV5Cogx",
+        title: "Me Porto Bonito",
+        artist: "Bad Bunny, Chencho Corleone",
+        year: "2022",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2451,
+        spotifyId: "6bFsQ6yOp3z5mGNkhWP0P1",
+        title: "You Give Me Something",
+        artist: "James Morrison",
+        year: "2006",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2452,
+        spotifyId: "4356Typ82hUiFAynbLYbPn",
+        title: "DJ Got Us Fallin' In Love",
+        artist: "USHER, Pitbull",
+        year: "2010",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2453,
+        spotifyId: "08VceLSSJJ83Yz3NTCyxZC",
+        title: "Exotica",
+        artist: "Gabry Ponte, Greg Taro",
+        year: "2025",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2454,
+        spotifyId: "5KbBVSj6AJZ5662fO8EYFh",
+        title: "El Merengue",
+        artist: "Marshmello, Manuel Turizo",
+        year: "2023",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2455,
+        spotifyId: "5cepAtqnEQ6yVG6088zMMu",
+        title: "Corazón",
+        artist: "Maluma, Nego do Borel",
+        year: "2017",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2456,
+        spotifyId: "79z9QkhHePTFsSeVw9uyj0",
+        title: "Smile",
+        artist: "Lily Allen",
+        year: "2006",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2457,
+        spotifyId: "2i0AUcEnsDm3dsqLrFWUCq",
+        title: "Tonight Tonight",
+        artist: "Hot Chelle Rae",
+        year: "2011",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2458,
+        spotifyId: "0OPyDgTRuIdCJ9B4bYSths",
+        title: "Hotel Room Service",
+        artist: "Pitbull",
+        year: "2009",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2459,
+        spotifyId: "3GaGWoU1KfVqgl7vnRHP55",
+        title: "Demasiadas Mujeres",
+        artist: "C. Tangana",
+        year: "2020",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2460,
+        spotifyId: "0S5EEpFAHcT7cm5XOASc29",
+        title: "Love Never Felt So Good",
+        artist: "Michael Jackson",
+        year: "2014",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2461,
+        spotifyId: "0mUyMawtxj1CJ76kn9gIZK",
+        title: "Bad Day",
+        artist: "Daniel Powter",
+        year: "2005",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2462,
+        spotifyId: "3y33vvSSP8dNie0hDK4CvF",
+        title: "PLAYA DEL INGLÉS",
+        artist: "Quevedo, Myke Towers",
+        year: "2022",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2463,
+        spotifyId: "34xGLuxM0rkxhCVyMSqwJO",
+        title: "Stolen Dance",
+        artist: "Milky Chance",
+        year: "2013",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2464,
+        spotifyId: "737gzPI5VAmgUGWiJ9yXuu",
+        title: "1, 2, 3",
+        artist: "Sofía Reyes, Jason Derulo, De La Ghetto",
+        year: "2018",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2465,
+        spotifyId: "2XIc1pqjXV3Cr2BQUGNBck",
+        title: "LA NOCHE DE ANOCHE",
+        artist: "Bad Bunny, ROSALÍA",
+        year: "2020",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2466,
+        spotifyId: "5kqIPrATaCc2LqxVWzQGbk",
+        title: "7 Years",
+        artist: "Lukas Graham",
+        year: "2015",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2467,
+        spotifyId: "3G6hD9B2ZHOsgf4WfNu7X1",
+        title: "Team",
+        artist: "Lorde",
+        year: "2013",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2468,
+        spotifyId: "6xOEgzkMSZJKz6qtCJsQL5",
+        title: "La Plena - W Sound 05",
+        artist: "W Sound, Beéle, Ovy On The Drums",
+        year: "2025",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2469,
+        spotifyId: "3prOrWojlVzltxgK1vZrq6",
+        title: "Pa' Madrid",
+        artist: "El Barrio",
+        year: "2007",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2470,
+        spotifyId: "0iGckQFyv6svOfAbAY9aWJ",
+        title: "Hot N Cold",
+        artist: "Katy Perry",
+        year: "2008",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2471,
+        spotifyId: "3F9ByoUqu31xU0I3G5xfVg",
+        title: "Meet Me Halfway",
+        artist: "Black Eyed Peas",
+        year: "2009",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2472,
+        spotifyId: "5D2mYZuzcgjpchVY1pmTPh",
+        title: "Candy Shop",
+        artist: "50 Cent, Olivia",
+        year: "2005",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2473,
+        spotifyId: "4gbVRS8gloEluzf0GzDOFc",
+        title: "Maps",
+        artist: "Maroon 5",
+        year: "2014",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2474,
+        spotifyId: "5mFMb5OHI3cN0UjITVztCj",
+        title: "Rumour Has It",
+        artist: "Adele",
+        year: "2011",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2475,
+        spotifyId: "07nH4ifBxUB4lZcsf44Brn",
+        title: "Blame",
+        artist: "Calvin Harris, John Newman",
+        year: "2014",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2476,
+        spotifyId: "2iIBpwP4FyQ95xgVail3yr",
+        title: "No_se_ve.mp3",
+        artist: "Emilia, LUDMILLA, ZECCA",
+        year: "2023",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2477,
+        spotifyId: "6PDlkWmrq2ZKiUuFt2aQsH",
+        title: "Loco",
+        artist: "Justin Quiles, Chimbala, Zion & Lennox",
+        year: "2021",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2478,
+        spotifyId: "6UelLqGlWMcVH1E5c4H7lY",
+        title: "Watermelon Sugar",
+        artist: "Harry Styles",
+        year: "2019",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2479,
+        spotifyId: "2FY7b99s15jUprqC0M5NCT",
+        title: "Natural",
+        artist: "Imagine Dragons",
+        year: "2018",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2480,
+        spotifyId: "65hRZOQkVjmBdusz1N7aOv",
+        title: "Save The World",
+        artist: "Swedish House Mafia",
+        year: "2011",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2481,
+        spotifyId: "1Ej96GIBCTvgH7tNX1r3qr",
+        title: "Otro Trago",
+        artist: "Sech, Darell",
+        year: "2019",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2482,
+        spotifyId: "09QG9D1BI4TRvGq64NghRg",
+        title: "Todo",
+        artist: "Pereza",
+        year: "2005",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2483,
+        spotifyId: "2Z8WuEywRWYTKe1NybPQEW",
+        title: "Ride",
+        artist: "Twenty One Pilots",
+        year: "2015",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2484,
+        spotifyId: "3cw4Y2ziYYiJV49bWN5H1D",
+        title: "Thinking out Loud",
+        artist: "Ed Sheeran",
+        year: "2014",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2485,
+        spotifyId: "5S9Rlg9AF2C2imYS52J2vR",
+        title: "MENEITO",
+        artist: "Nil Moliner, Yera",
+        year: "2021",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2486,
+        spotifyId: "7f7nZdsvbedZq78JIx6wrj",
+        title: "Que yo no quiero problemas (con Chenoa)",
+        artist: "David DeMaría, Chenoa",
+        year: "2009",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2487,
+        spotifyId: "5itOtNx0WxtJmi1TQ3RuRd",
+        title: "Giant (with Rag'n'Bone Man)",
+        artist: "Calvin Harris, Rag'n'Bone Man",
+        year: "2019",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2488,
+        spotifyId: "2Uf9WTBWMA8S9Lh3k3Rui6",
+        title: "Ooh La",
+        artist: "The Kooks",
+        year: "2006",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2489,
+        spotifyId: "4pfhgOylRLcBll5JjUsJZj",
+        title: "Let's Fall in Love for the Night",
+        artist: "FINNEAS",
+        year: "2018",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2490,
+        spotifyId: "7FC9Lng8iXU081lbigu8m8",
+        title: "Heartbeat Song",
+        artist: "Kelly Clarkson",
+        year: "2015",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2491,
+        spotifyId: "0dvBxpL7aCjiKMFtsZRsFd",
+        title: "Love Generation",
+        artist: "Bob Sinclar, Gary Pine",
+        year: "2005",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2492,
+        spotifyId: "6cpk00i5TxCqSeqNi2HuIe",
+        title: "One More Night",
+        artist: "Maroon 5",
+        year: "2012",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2493,
+        spotifyId: "70eDxAyAraNTiD6lx2ZEnH",
+        title: "Ex's & Oh's",
+        artist: "Elle King",
+        year: "2014",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2494,
+        spotifyId: "3x3K1RP3Zfi2qeMR8kyrNO",
+        title: "Sorry I'm Here For Someone Else",
+        artist: "Benson Boone",
+        year: "2025",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2495,
+        spotifyId: "6dgWWAs5yhWPOtvE1zuoQ1",
+        title: "Big Girls Don't Cry (Personal)",
+        artist: "Fergie",
+        year: "2006",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2496,
+        spotifyId: "6ebkx7Q5tTxrCxKq4GYj0Y",
+        title: "Club Can't Handle Me",
+        artist: "Flo Rida, David Guetta",
+        year: "2010",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2497,
+        spotifyId: "2V4hc5gplg7EXlrRUvD4rp",
+        title: "Presiento",
+        artist: "Morat, Aitana",
+        year: "2019",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2498,
+        spotifyId: "2z9FUHRkbkV4BObNzbHsFU",
+        title: "Born With a Broken Heart",
+        artist: "Damiano David",
+        year: "2024",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2499,
+        spotifyId: "1EeyW21hFIylGaCMGfCtqR",
+        title: "Noche Y De Dia",
+        artist: "Enrique Iglesias, Yandel, Juan Magán",
+        year: "2014",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2500,
+        spotifyId: "7p86AB1S0CeNeYc7CfWvGR",
+        title: "La noche me resbala",
+        artist: "Señor Trepador",
+        year: "2006",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2501,
+        spotifyId: "3vjQt1znaFEnX3PBXsgtVc",
+        title: "Next To Me",
+        artist: "Emeli Sandé",
+        year: "2012",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2502,
+        spotifyId: "7ABLbnD53cQK00mhcaOUVG",
+        title: "LALA",
+        artist: "Myke Towers",
+        year: "2023",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2503,
+        spotifyId: "6KHxe3Yj8W8oq3zviUvJRe",
+        title: "Madrid City",
+        artist: "Ana Mena",
+        year: "2023",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2504,
+        spotifyId: "0IktbUcnAGrvD03AWnz3Q8",
+        title: "Lucky",
+        artist: "Jason Mraz, Colbie Caillat",
+        year: "2008",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2505,
+        spotifyId: "4hO4Y9WR9NL5L7XnqtbTyE",
+        title: "90 Minutos",
+        artist: "India Martinez",
+        year: "2011",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2506,
+        spotifyId: "6Bjtr3tPdto5nyuLYf61sN",
+        title: "Cold Water",
+        artist: "Major Lazer, Justin Bieber, MØ",
+        year: "2016",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2507,
+        spotifyId: "3BntzKsnLf2pc0dsvE3Zav",
+        title: "Bad Dreams",
+        artist: "Teddy Swims",
+        year: "2024",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2508,
+        spotifyId: "2009X8GyWTqyxIdzAEYW6N",
+        title: "The One That Got Away",
+        artist: "Katy Perry",
+        year: "2010",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2509,
+        spotifyId: "62pSYErgGri97X9aIyBzHm",
+        title: "Got 2 Luv U",
+        artist: "Sean Paul, Alexis Jordan",
+        year: "2011",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2510,
+        spotifyId: "5TbzAWWc5eJaANpA9kfGCd",
+        title: "Love Me Again",
+        artist: "John Newman",
+        year: "2013",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2511,
+        spotifyId: "7clUVcSOtkNWa58Gw5RfD4",
+        title: "Speed of Sound",
+        artist: "Coldplay",
+        year: "2005",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2512,
+        spotifyId: "2DrGEaqoruCSn0FffWCf5O",
+        title: "A-Punk",
+        artist: "Vampire Weekend",
+        year: "2007",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2513,
+        spotifyId: "4N5s8lPTsjI9EGP7K4SXzB",
+        title: "Green Green Grass",
+        artist: "George Ezra",
+        year: "2022",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2514,
+        spotifyId: "4NeOWqHmlrGRuBvsLJC9rL",
+        title: "My Love",
+        artist: "Justin Timberlake, T.I.",
+        year: "2006",
+        playlists: [
+            "batalla"
+        ]
+    },
+    {
+        id: 2515,
+        spotifyId: "45dGKmN6jw7PgK6Dw2rEp2",
+        title: "Real Gone",
+        artist: "Sheryl Crow",
+        year: "2006",
+        playlists: [
+            "batalla"
         ]
     }
 ]
