@@ -222,6 +222,48 @@
             box-shadow: 0 0 10px rgba(184, 63, 192, 0.4);
         }
 
+        /* Estilos para el Slider Dual */
+        .range-slider {
+            position: absolute;
+            width: 100%;
+            height: 0;
+            outline: none;
+            background: none;
+            -webkit-appearance: none;
+            pointer-events: none;
+            /* Permite hacer clic a través del fondo */
+            z-index: 10;
+        }
+
+        /* Permitir interactuar únicamente con los tiradores (bolas) */
+        .range-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--color-acento);
+            cursor: pointer;
+            pointer-events: auto;
+            /* Activa el arrastre solo en la bola */
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.1s ease;
+        }
+
+        .range-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.15);
+        }
+
+        .range-slider::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border: none;
+            border-radius: 50%;
+            background: var(--color-acento);
+            cursor: pointer;
+            pointer-events: auto;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+        }
+
         /* Reducimos el tamaño en móviles para que quepan más en pantalla */
         @media (max-width: 640px) {
             .card {
@@ -327,6 +369,32 @@
                             </div>
                             </p>
                         </div>
+
+                        <!-- Selector de Rango Dual con Un Solo Rail -->
+                        <div class="mt-4 mb-2 flex flex-col space-y-2">
+                            <div class="flex justify-between items-center text-xs font-mono">
+                                <span class="text-texto-gris uppercase">Período de Años:</span>
+                                <span class="text-acento font-bold"><span id="year-min-label">1950</span> - <span
+                                        id="year-max-label">2026</span></span>
+                                <span class="text-texto-gris font-normal ml-1">(<span id="song-count-label"
+                                        class="text-white font-bold">0</span> canciones)</span>
+                            </div>
+
+                            <!-- Contenedor del Doble Slider superpuesto -->
+                            <div class="relative w-full h-8 flex items-center justify-center">
+                                <!-- Pista/Barra visual de fondo -->
+                                <div class="absolute w-full h-2 bg-gray-700 rounded-lg pointer-events-none"></div>
+                                <!-- Rango activo destacado en color acento -->
+                                <div id="slider-range-fill"
+                                    class="absolute h-2 bg-[--color-acento] rounded-lg pointer-events-none"></div>
+
+                                <!-- Tirador Mínimo -->
+                                <input type="range" id="slider-year-min" class="range-slider">
+                                <!-- Tirador Máximo -->
+                                <input type="range" id="slider-year-max" class="range-slider">
+                            </div>
+                        </div>
+
                         <a href="https://da-caro.github.io/setup-and-play/cronotunes.html" target="_blank"
                             class="block">
                             <span class="mt-5 inline-block text-sm font-medium text-acento hover:underline">Ver
@@ -728,9 +796,105 @@
             });
 
             // 5. LÓGICA MODO DJ
+            // 1. DECLARAR PRIMERO LAS VARIABLES Y PLAYLISTS
             const playlistChips = document.querySelectorAll('#playlist-chips .chip');
             let selectedPlaylists = Array.from(document.querySelectorAll('#playlist-chips .chip.active'))
                 .map(chip => chip.dataset.value);
+
+            // Referencia al contador de canciones
+            const songCountLabel = document.getElementById('song-count-label');
+
+            // Función que calcula cuántas canciones cumplen los filtros actuales
+            function updateAvailableSongsCount() {
+                const matchingSongs = musicDatabase.filter(song => {
+                    if (!song.playlists) return false;
+
+                    // 1. Filtrar por Año
+                    const songYear = parseInt(song.year);
+                    if (isNaN(songYear) || songYear < selectedMinYear || songYear > selectedMaxYear) {
+                        return false;
+                    }
+
+                    // 2. Filtrar por Playlists
+                    const songPlaylists = Array.isArray(song.playlists)
+                        ? song.playlists
+                        : [song.playlists];
+
+                    return songPlaylists.some(p => selectedPlaylists.includes(p));
+                });
+
+                // Actualizar el texto en pantalla
+                songCountLabel.textContent = matchingSongs.length;
+            }
+
+            // ==========================================
+            // CONFIGURACIÓN DEL SLIDER DUAL
+            // ==========================================
+            const sliderMin = document.getElementById('slider-year-min');
+            const sliderMax = document.getElementById('slider-year-max');
+            const labelMin = document.getElementById('year-min-label');
+            const labelMax = document.getElementById('year-max-label');
+            const rangeFill = document.getElementById('slider-range-fill');
+
+            // 1. Obtener los años reales filtrando valores válidos
+            const allYears = musicDatabase
+                .map(s => parseInt(s.year))
+                .filter(y => !isNaN(y));
+
+            const absoluteMinYear = allYears.length > 0 ? Math.min(...allYears) : 1950;
+            const absoluteMaxYear = allYears.length > 0 ? Math.max(...allYears) : 2024;
+
+            // 2. Asignar los límites dinámicos a los inputs ANTES de leer sus valores
+            sliderMin.setAttribute('min', absoluteMinYear);
+            sliderMin.setAttribute('max', absoluteMaxYear);
+            sliderMin.value = absoluteMinYear;
+
+            sliderMax.setAttribute('min', absoluteMinYear);
+            sliderMax.setAttribute('max', absoluteMaxYear);
+            sliderMax.value = absoluteMaxYear;
+
+            let selectedMinYear = absoluteMinYear;
+            let selectedMaxYear = absoluteMaxYear;
+
+            function updateYearFilter(e) {
+                let minVal = parseInt(sliderMin.value);
+                let maxVal = parseInt(sliderMax.value);
+
+                // Evitar que las dos bolas se crucen
+                if (minVal > maxVal) {
+                    if (e && e.target === sliderMin) {
+                        sliderMin.value = maxVal;
+                        minVal = maxVal;
+                    } else {
+                        sliderMax.value = minVal;
+                        maxVal = minVal;
+                    }
+                }
+
+                selectedMinYear = minVal;
+                selectedMaxYear = maxVal;
+
+                // Actualizar etiquetas en pantalla con los años
+                labelMin.textContent = selectedMinYear;
+                labelMax.textContent = selectedMaxYear;
+
+                // Calcular el porcentaje de relleno de la barra
+                const rangeTotal = absoluteMaxYear - absoluteMinYear;
+                if (rangeTotal > 0) {
+                    const leftPercent = ((selectedMinYear - absoluteMinYear) / rangeTotal) * 100;
+                    const rightPercent = 100 - (((selectedMaxYear - absoluteMinYear) / rangeTotal) * 100);
+
+                    rangeFill.style.left = `${leftPercent}%`;
+                    rangeFill.style.right = `${rightPercent}%`;
+                }
+
+                // Actualizar el número de canciones al mover los sliders
+                updateAvailableSongsCount();
+            }
+
+            // Escuchar cambios
+            sliderMin.addEventListener('input', updateYearFilter);
+            sliderMax.addEventListener('input', updateYearFilter);
 
             playlistChips.forEach(chip => {
                 chip.addEventListener('click', () => {
@@ -747,20 +911,33 @@
                         chip.classList.add('active');
                         selectedPlaylists.push(val);
                     }
+
+                    // Actualizar el número de canciones al cambiar de playlist
+                    updateAvailableSongsCount();
+
                     console.log("Playlists activas:", selectedPlaylists); // Para depuración
                 });
             });
+
+            // Forzar la primera actualización visual
+            updateYearFilter();
 
             btnDrawDj.addEventListener('click', () => {
                 // 1. Obtener la lista de IDs ya usados del localStorage
                 let usedIds = JSON.parse(localStorage.getItem('cronotunes_used_songs')) || [];
 
-                // 1. FILTRAR POR PLAYLIST PRIMERO
+                // 1. FILTRAR POR PLAYLIST y AÑO PRIMERO
                 let pool = musicDatabase.filter(song => {
                     // Si la canción no tiene playlists definidas, no entra en el bombo
                     if (!song.playlists) return false;
 
-                    // Convertimos la propiedad a array si fuera un string por error
+                    // A) Filtro de Año
+                    const songYear = parseInt(song.year);
+                    if (isNaN(songYear) || songYear < selectedMinYear || songYear > selectedMaxYear) {
+                        return false;
+                    }
+
+                    // B) Filtro de Playlists
                     const songPlaylists = Array.isArray(song.playlists)
                         ? song.playlists
                         : [song.playlists];
