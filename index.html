@@ -222,6 +222,48 @@
             box-shadow: 0 0 10px rgba(184, 63, 192, 0.4);
         }
 
+        /* Estilos para el Slider Dual */
+        .range-slider {
+            position: absolute;
+            width: 100%;
+            height: 0;
+            outline: none;
+            background: none;
+            -webkit-appearance: none;
+            pointer-events: none;
+            /* Permite hacer clic a través del fondo */
+            z-index: 10;
+        }
+
+        /* Permitir interactuar únicamente con los tiradores (bolas) */
+        .range-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--color-acento);
+            cursor: pointer;
+            pointer-events: auto;
+            /* Activa el arrastre solo en la bola */
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.1s ease;
+        }
+
+        .range-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.15);
+        }
+
+        .range-slider::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border: none;
+            border-radius: 50%;
+            background: var(--color-acento);
+            cursor: pointer;
+            pointer-events: auto;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+        }
+
         /* Reducimos el tamaño en móviles para que quepan más en pantalla */
         @media (max-width: 640px) {
             .card {
@@ -296,6 +338,10 @@
                             </div>
                             </p>
                         </div>
+                        <a href="https://da-caro.github.io/setup-and-play/cronotunes.html" target="_blank"
+                            class="block">
+                            <span class="mt-5 inline-block text-sm font-medium text-acento hover:underline">Ver
+                                Instrucciones →</span></a>
                     </div>
 
                     <div
@@ -304,20 +350,10 @@
                             <div class="flex items-center space-x-3 mb-4">
                                 <span class="text-acento text-4xl block">🎧</span>
                                 <h3 class="text-4xl font-bold">DJ</h3>
-
                             </div>
                             <p class="text-s mt-1 mb-1 opacity-70 font-mono">Tú lanzas los hits</p>
                             <p class="text-tarjeta text-base">
                             <div class="flex flex-col space-y-2 mb-4">
-                                <div id="playlist-chips" class="flex flex-wrap gap-2">
-                                    <button data-value="original" class="chip active">Original</button>
-                                    <button data-value="bingo" class="chip">Expansion</button>
-                                    <button data-value="temazos" class="chip">Temazos</button>
-                                    <button data-value="summer" class="chip">Summer Party</button>
-                                    <button data-value="rock" class="chip">Rock</button>
-                                    <button data-value="espanol100" class="chip">100% Español</button>
-                                    <button data-value="spotify_spain" class="chip">Spotify Spain</button>
-                                </div>
                                 <button id="start-btn" onclick="switchMode('dj')"
                                     class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition duration-150">
                                     Empezar
@@ -325,10 +361,60 @@
                             </div>
                             </p>
                         </div>
-                        <a href="https://da-caro.github.io/setup-and-play/cronotunes.html" target="_blank"
-                            class="block">
-                            <span class="mt-5 inline-block text-sm font-medium text-acento hover:underline">Ver
-                                Instrucciones →</span></a>
+                    </div>
+
+                    <div
+                        class="bg-tarjeta p-6 rounded-lg shadow-xl border border-tarjeta transition duration-300 h-full flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-4">
+                                <span class="text-acento text-4xl block">🎛️​</span>
+                                <h3 class="text-4xl font-bold">Playlist</h3>
+                            </div>
+
+                            <p class="text-tarjeta text-base">
+                            <div class="flex flex-col space-y-2 mb-4">
+                                <div id="playlist-chips" class="flex flex-wrap gap-2">
+                                    <button data-value="original" class="chip active">Original</button>
+                                    <button data-value="bingo" class="chip">Expansion</button>
+                                    <button data-value="temazos" class="chip">Temazos</button>
+                                    <button data-value="summer" class="chip">Summer Party</button>
+                                    <button data-value="espanol100" class="chip">100% Español</button>
+                                    <button data-value="rock" class="chip">Rock</button>
+                                    <button data-value="los40" class="chip">Los 40</button>
+                                    <button data-value="spotify_spain" class="chip">Spotify Spain</button>
+                                    <button data-value="batalla" class="chip">Batalla entre Generaciones</button>
+                                </div>
+
+                            </div>
+                            </p>
+
+                            <!-- Selector de Rango Dual con Un Solo Rail -->
+                            <div class="flex flex-col space-y-2 mb-4">
+                                <div class="flex justify-between items-center text-xs font-mono">
+                                    <p class="text-s mt-1 mb-1 opacity-70 font-mono">Periodo</p>
+                                    <span class="text-acento font-bold"><span id="year-min-label">1950</span> - <span
+                                            id="year-max-label">2026</span></span>
+                                    <span class="text-texto-gris font-normal ml-1">(<span id="song-count-label"
+                                            class="text-white font-bold">0</span> canciones)</span>
+                                </div>
+
+                                <!-- Contenedor del Doble Slider superpuesto -->
+                                <div class="relative w-full h-8 flex items-center justify-center">
+                                    <!-- Pista/Barra visual de fondo -->
+                                    <div class="absolute w-full h-2 bg-gray-700 rounded-lg pointer-events-none"></div>
+                                    <!-- Rango activo destacado en color acento -->
+                                    <div id="slider-range-fill"
+                                        class="absolute h-2 bg-[--color-acento] rounded-lg pointer-events-none"></div>
+
+                                    <!-- Tirador Mínimo -->
+                                    <input type="range" id="slider-year-min" class="range-slider">
+                                    <!-- Tirador Máximo -->
+                                    <input type="range" id="slider-year-max" class="range-slider">
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
 
                 </div>
@@ -726,10 +812,134 @@
             });
 
             // 5. LÓGICA MODO DJ
-            const playlistChips = document.querySelectorAll('#playlist-chips .chip');
-            let selectedPlaylists = Array.from(document.querySelectorAll('#playlist-chips .chip.active'))
-                .map(chip => chip.dataset.value);
 
+            // 1. DECLARAR PRIMERO LAS VARIABLES Y PLAYLISTS
+            // A) CONFIGURACIÓN DE PLAYLISTS
+            const playlistChips = document.querySelectorAll('#playlist-chips .chip');
+
+            // Cargar playlists guardadas o usar 'original' por defecto
+            const savedPlaylists = JSON.parse(localStorage.getItem('cronotunes_dj_playlists'));
+            let selectedPlaylists = savedPlaylists || ['original'];
+
+            // Aplicar la clase 'active' a las playlists guardadas en el HTML
+            playlistChips.forEach(chip => {
+                const val = chip.dataset.value;
+                if (selectedPlaylists.includes(val)) {
+                    chip.classList.add('active');
+                } else {
+                    chip.classList.remove('active');
+                }
+            });
+
+            // Función para guardar las playlists en localStorage
+            function savePlaylistsState() {
+                localStorage.setItem('cronotunes_dj_playlists', JSON.stringify(selectedPlaylists));
+            }
+
+            // Referencia al contador de canciones
+            const songCountLabel = document.getElementById('song-count-label');
+
+            // Función que calcula cuántas canciones cumplen los filtros actuales
+            function updateAvailableSongsCount() {
+                const matchingSongs = musicDatabase.filter(song => {
+                    if (!song.playlists) return false;
+
+                    // 1. Filtrar por Año
+                    const songYear = parseInt(song.year);
+                    if (isNaN(songYear) || songYear < selectedMinYear || songYear > selectedMaxYear) {
+                        return false;
+                    }
+
+                    // 2. Filtrar por Playlists
+                    const songPlaylists = Array.isArray(song.playlists)
+                        ? song.playlists
+                        : [song.playlists];
+
+                    return songPlaylists.some(p => selectedPlaylists.includes(p));
+                });
+
+                // Actualizar el texto en pantalla
+                if (songCountLabel) {
+                    songCountLabel.textContent = matchingSongs.length;
+                }
+            }
+
+            // B) CONFIGURACIÓN DEL SLIDER DUAL Y AÑOS
+            const sliderMin = document.getElementById('slider-year-min');
+            const sliderMax = document.getElementById('slider-year-max');
+            const labelMin = document.getElementById('year-min-label');
+            const labelMax = document.getElementById('year-max-label');
+            const rangeFill = document.getElementById('slider-range-fill');
+
+            // 1. Obtener los años límites de la base de datos
+            const allYears = musicDatabase
+                .map(s => parseInt(s.year))
+                .filter(y => !isNaN(y));
+
+            const absoluteMinYear = allYears.length > 0 ? Math.min(...allYears) : 1950;
+            const absoluteMaxYear = allYears.length > 0 ? Math.max(...allYears) : 2024;
+
+            // 2. Cargar años guardados en localStorage (o los límites por defecto)
+            const savedMinYear = parseInt(localStorage.getItem('cronotunes_dj_min_year'));
+            const savedMaxYear = parseInt(localStorage.getItem('cronotunes_dj_max_year'));
+
+            let selectedMinYear = !isNaN(savedMinYear) ? Math.max(savedMinYear, absoluteMinYear) : absoluteMinYear;
+            let selectedMaxYear = !isNaN(savedMaxYear) ? Math.min(savedMaxYear, absoluteMaxYear) : absoluteMaxYear;
+
+            // 3. Asignar atributos y valores a los inputs
+            sliderMin.setAttribute('min', absoluteMinYear);
+            sliderMin.setAttribute('max', absoluteMaxYear);
+            sliderMin.value = selectedMinYear;
+
+            sliderMax.setAttribute('min', absoluteMinYear);
+            sliderMax.setAttribute('max', absoluteMaxYear);
+            sliderMax.value = selectedMaxYear;
+
+            function updateYearFilter(e) {
+                let minVal = parseInt(sliderMin.value);
+                let maxVal = parseInt(sliderMax.value);
+
+                // Evitar que las dos bolas se crucen
+                if (minVal > maxVal) {
+                    if (e && e.target === sliderMin) {
+                        sliderMin.value = maxVal;
+                        minVal = maxVal;
+                    } else {
+                        sliderMax.value = minVal;
+                        maxVal = minVal;
+                    }
+                }
+
+                selectedMinYear = minVal;
+                selectedMaxYear = maxVal;
+
+                // Guardar los años en localStorage
+                localStorage.setItem('cronotunes_dj_min_year', selectedMinYear);
+                localStorage.setItem('cronotunes_dj_max_year', selectedMaxYear);
+
+                // Actualizar etiquetas en pantalla
+                if (labelMin) labelMin.textContent = selectedMinYear;
+                if (labelMax) labelMax.textContent = selectedMaxYear;
+
+                // Calcular el porcentaje de relleno de la barra
+                const rangeTotal = absoluteMaxYear - absoluteMinYear;
+                if (rangeTotal > 0 && rangeFill) {
+                    const leftPercent = ((selectedMinYear - absoluteMinYear) / rangeTotal) * 100;
+                    const rightPercent = 100 - (((selectedMaxYear - absoluteMinYear) / rangeTotal) * 100);
+
+                    rangeFill.style.left = `${leftPercent}%`;
+                    rangeFill.style.right = `${rightPercent}%`;
+                }
+
+                // Actualizar el número de canciones
+                updateAvailableSongsCount();
+            }
+
+            // Escuchar cambios en los sliders
+            sliderMin.addEventListener('input', updateYearFilter);
+            sliderMax.addEventListener('input', updateYearFilter);
+
+            // Escuchar cambios en los chips de playlist
             playlistChips.forEach(chip => {
                 chip.addEventListener('click', () => {
                     const val = chip.dataset.value;
@@ -741,24 +951,35 @@
                             selectedPlaylists = selectedPlaylists.filter(p => p !== val);
                         }
                     } else {
-                        // Seleccionar: añadir a la lista
                         chip.classList.add('active');
                         selectedPlaylists.push(val);
                     }
-                    console.log("Playlists activas:", selectedPlaylists); // Para depuración
+
+                    // Guardar playlists y actualizar contador
+                    savePlaylistsState();
+                    updateAvailableSongsCount();
                 });
             });
+
+            // Actualización inicial
+            updateYearFilter();
 
             btnDrawDj.addEventListener('click', () => {
                 // 1. Obtener la lista de IDs ya usados del localStorage
                 let usedIds = JSON.parse(localStorage.getItem('cronotunes_used_songs')) || [];
 
-                // 1. FILTRAR POR PLAYLIST PRIMERO
+                // 1. FILTRAR POR PLAYLIST y AÑO PRIMERO
                 let pool = musicDatabase.filter(song => {
                     // Si la canción no tiene playlists definidas, no entra en el bombo
                     if (!song.playlists) return false;
 
-                    // Convertimos la propiedad a array si fuera un string por error
+                    // A) Filtro de Año
+                    const songYear = parseInt(song.year);
+                    if (isNaN(songYear) || songYear < selectedMinYear || songYear > selectedMaxYear) {
+                        return false;
+                    }
+
+                    // B) Filtro de Playlists
                     const songPlaylists = Array.isArray(song.playlists)
                         ? song.playlists
                         : [song.playlists];
